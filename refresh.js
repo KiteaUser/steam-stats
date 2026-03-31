@@ -15,8 +15,7 @@ async function run() {
   let payload;
   try {
     payload = JSON.parse(text);
-  } catch (e) {
-    console.error("SHEET_URL did not return valid JSON");
+  } catch {
     console.error(text);
     process.exit(1);
   }
@@ -24,7 +23,6 @@ async function run() {
   const games = Array.isArray(payload) ? payload : payload.data;
 
   if (!Array.isArray(games)) {
-    console.error("Expected array from SHEET_URL, got:");
     console.error(JSON.stringify(payload, null, 2));
     process.exit(1);
   }
@@ -45,7 +43,7 @@ async function run() {
     const steamJson = await steamRes.json();
     const players = Number(steamJson?.response?.player_count) || 0;
 
-    const stored = await redis.get(`steam:${appid}`);
+    const stored = await redis.get(`tag:${tagId}`);
 
     const existingPeak = Number(stored?.allTimePeak) || Number(game.all_time_peak) || 0;
     const allTimePeak = Math.max(existingPeak, players);
@@ -73,7 +71,6 @@ async function run() {
     };
 
     await redis.set(`tag:${tagId}`, record);
-    await redis.set(`steam:${appid}`, record);
 
     results.push(record);
   }
