@@ -10,7 +10,24 @@ const SHEET_URL = process.env.SHEET_URL;
 
 async function run() {
   const res = await fetch(SHEET_URL);
-  const games = await res.json();
+  const text = await res.text();
+
+  let payload;
+  try {
+    payload = JSON.parse(text);
+  } catch (e) {
+    console.error("SHEET_URL did not return valid JSON");
+    console.error(text);
+    process.exit(1);
+  }
+
+  const games = Array.isArray(payload) ? payload : payload.data;
+
+  if (!Array.isArray(games)) {
+    console.error("Expected array from SHEET_URL, got:");
+    console.error(JSON.stringify(payload, null, 2));
+    process.exit(1);
+  }
 
   const results = [];
   const now = new Date().toISOString();
@@ -30,7 +47,7 @@ async function run() {
 
     const stored = await redis.get(`steam:${appid}`);
 
-    const existingPeak = Number(stored?.allTimePeak) || game.all_time_peak || 0;
+    const existingPeak = Number(stored?.allTimePeak) || Number(game.all_time_peak) || 0;
     const allTimePeak = Math.max(existingPeak, players);
 
     let peak24h = Number(stored?.peak24h) || players;
