@@ -1,9 +1,16 @@
 name: Refresh Steam Data
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
+
+concurrency:
+  group: steam-refresh
+  cancel-in-progress: true
+
+permissions:
+  contents: write
 
 jobs:
   refresh:
@@ -15,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install deps
         run: npm install
@@ -23,6 +30,12 @@ jobs:
       - name: Run refresh
         run: node refresh.js
         env:
-          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
-          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
           SHEET_URL: ${{ secrets.SHEET_URL }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Update Steam data"
+          git push
