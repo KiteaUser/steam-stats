@@ -3,7 +3,7 @@ name: Refresh Steam Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
+    - cron: "8,18,28,38,48,58 * * * *"
 
 concurrency:
   group: steam-refresh
@@ -15,7 +15,6 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -23,6 +22,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
+
+      - name: Log trigger info
+        run: |
+          echo "event=$GITHUB_EVENT_NAME"
+          echo "schedule=${{ github.event.schedule }}"
+          date -u
 
       - name: Install deps
         run: npm install
