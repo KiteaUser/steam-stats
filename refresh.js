@@ -114,7 +114,8 @@ async function run() {
       allTimePeak,
       peak24h,
       peak24hAt,
-      updatedAt: now
+      updatedAt: now,
+      img_url: game.img_url || ""
     };
 
     results.push(record);
