@@ -61,13 +61,14 @@ async function run() {
     } catch {}
   }
 
-  const steamRequests = games.map((game) =>
-    fetch(
+  const steamRequests = games.map((game) => {
+    const steamAppid = String(game.steam_appid).replace(/[^\d]/g, "");
+    return fetch(
       `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=${encodeURIComponent(
-        String(game.steam_appid)
+        steamAppid
       )}`
-    )
-  );
+    );
+  });
 
   const steamResponses = await Promise.all(steamRequests);
   const steamPayloads = await Promise.all(
@@ -108,7 +109,7 @@ async function run() {
 
     const record = {
       tagId: Number(tagId),
-      appid: Number(appid),
+      appid: appid,
       name: game.clean_game_name,
       players,
       allTimePeak,
