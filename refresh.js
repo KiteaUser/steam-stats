@@ -62,7 +62,9 @@ async function run() {
   }
 
   const steamRequests = games.map((game) => {
-    const steamAppid = String(game.steam_appid).replace(/[^\d]/g, "");
+    const rawAppid = String(game.steam_appid);
+    const steamAppid = rawAppid.replace(/[^\d]/g, "");
+
     return fetch(
       `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=${encodeURIComponent(
         steamAppid
@@ -90,6 +92,7 @@ async function run() {
     const game = games[i];
     const tagId = String(game.gr_tag_id);
     const appid = String(game.steam_appid);
+    const steamAppid = Number(appid.replace(/[^\d]/g, "")) || 0;
     const players = Number(steamPayloads[i]?.response?.player_count) || 0;
     const stored = previousByTagId.get(tagId) || {};
 
@@ -109,7 +112,8 @@ async function run() {
 
     const record = {
       tagId: Number(tagId),
-      appid: appid,
+      appid,
+      steamAppid,
       name: game.clean_game_name,
       players,
       allTimePeak,
@@ -127,7 +131,14 @@ async function run() {
   );
   await Promise.all(writes);
 
-  const top10 = [...results].sort((a, b) => b.players - a.players).slice(0, 10);
+  const top10 = [...results]
+    .sort((a, b) => b.players - a.players)
+    .slice(0, 10)
+    .map((record) => ({
+      ...record,
+      appid: record.steamAppid
+    }));
+
   await writeJson(path.join(DATA_DIR, "top10.json"), top10);
 
   console.log("Done:", results.length);
