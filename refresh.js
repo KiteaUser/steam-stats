@@ -104,9 +104,50 @@ function getPeakSince(chartData, cutoffTs) {
   );
 }
 
-function getChartAllTimePeak(chartData) {
-  const peak = peakFromPoints(getAllChartPoints(chartData));
-  return Array.isArray(peak) ? peak[1] : 0;
+function findHighestChartPoint(chartData) {
+  const seriesNames = ["monthlyPeak", "dailyPeak", "hourlyPeak", "raw5m"];
+  let best = null;
+
+  for (const seriesName of seriesNames) {
+    const points = chartData?.series?.[seriesName] || [];
+
+    for (let index = 0; index < points.length; index++) {
+      const point = points[index];
+
+      if (!Array.isArray(point) || point.length < 2) continue;
+
+      const timestamp = Number(point[0]);
+      const players = Number(point[1]);
+
+      if (!Number.isFinite(timestamp) || !Number.isFinite(players)) continue;
+
+      if (!best || players > best.players) {
+        best = {
+          seriesName,
+          index,
+          timestamp,
+          players
+        };
+      }
+    }
+  }
+
+  return best;
+}
+
+function unifyAllTimePeak(chartData, provisionalAllTimePeak, players) {
+  const chartPeak = findHighestChartPoint(chartData);
+  const highestValue = Math.max(
+    Number(provisionalAllTimePeak) || 0,
+    Number(players) || 0,
+    chartPeak?.players || 0
+  );
+
+  if (chartPeak && highestValue > 0) {
+    chartData.series[chartPeak.seriesName][chartPeak.index][1] = highestValue;
+  }
+
+  return highestValue;
 }
 
 function initChartData(stored, now, nowTs, players) {
@@ -207,8 +248,7 @@ function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak) {
   chartData.series.dailyPeak.sort((a, b) => a[0] - b[0]);
   chartData.series.monthlyPeak.sort((a, b) => a[0] - b[0]);
 
-  const chartAllTimePeak = getChartAllTimePeak(chartData);
-  const allTimePeak = Math.max(Number(provisionalAllTimePeak) || 0, chartAllTimePeak, players);
+  const allTimePeak = unifyAllTimePeak(chartData, provisionalAllTimePeak, players);
 
   chartData.summary.current = [nowTs, players];
   chartData.summary.peak24h = getPeakSince(chartData, nowTs - 24 * 60 * 60);
