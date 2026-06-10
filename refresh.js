@@ -109,6 +109,45 @@ function getChartAllTimePeak(chartData) {
   return Array.isArray(peak) ? peak[1] : 0;
 }
 
+function isSuspiciousZero(fetchedPlayers, stored) {
+  const fetched = Number(fetchedPlayers);
+  const previous = Number(stored?.players) || 0;
+  const peak24h = Number(stored?.peak24h) || 0;
+  const peak48h = Number(stored?.peak48h) || 0;
+  const allTimePeak = Number(stored?.allTimePeak) || 0;
+
+  return fetched === 0 && (
+    previous > 100 ||
+    peak24h > 100 ||
+    peak48h > 100 ||
+    allTimePeak > 100
+  );
+}
+
+function getValidatedPlayers(fetchedPlayers, stored) {
+  const fetched = Number(fetchedPlayers);
+  const previous = Number(stored?.players) || 0;
+
+  if (!Number.isFinite(fetched)) {
+    return {
+      players: previous,
+      shouldRecordPoint: false
+    };
+  }
+
+  if (isSuspiciousZero(fetchedPlayers, stored)) {
+    return {
+      players: previous,
+      shouldRecordPoint: false
+    };
+  }
+
+  return {
+    players: fetched,
+    shouldRecordPoint: true
+  };
+}
+
 function initChartData(stored, now, nowTs, players) {
   const peak24hTs = stored?.peak24hAt ? toUnixSeconds(stored.peak24hAt) : null;
 
@@ -138,7 +177,7 @@ function initChartData(stored, now, nowTs, players) {
   };
 }
 
-function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak) {
+function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak, shouldRecordPoint) {
   const nowTs = Math.floor(nowMs / SECOND);
   const chartData = stored?.chartData || initChartData(stored, now, nowTs, players);
 
@@ -161,8 +200,10 @@ function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak) {
   chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak || []);
   chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak || []);
 
-  chartData.series.raw5m.push([nowTs, players]);
-  chartData.series.raw5m = dedupeByTimestamp(chartData.series.raw5m);
+  if (shouldRecordPoint) {
+    chartData.series.raw5m.push([nowTs, players]);
+    chartData.series.raw5m = dedupeByTimestamp(chartData.series.raw5m);
+  }
 
   const rawKeep = [];
   const rawToRollup = [];
@@ -309,10 +350,9 @@ async function run() {
     const steamAppid = Number(appid.replace(/[^\d]/g, "")) || 0;
     const fetchedPlayers = steamPayloads[i]?.response?.player_count;
     const stored = previousByTagId.get(tagId) || {};
-
-    const players = Number.isFinite(Number(fetchedPlayers))
-      ? Number(fetchedPlayers)
-      : Number(stored.players) || 0;
+    const validated = getValidatedPlayers(fetchedPlayers, stored);
+    const players = validated.players;
+    const shouldRecordPoint = validated.shouldRecordPoint;
 
     const existingPeak = Number(stored?.allTimePeak) || Number(game.all_time_peak) || 0;
     const provisionalAllTimePeak = Math.max(existingPeak, players);
@@ -322,7 +362,8 @@ async function run() {
       now,
       nowMs,
       players,
-      provisionalAllTimePeak
+      provisionalAllTimePeak,
+      shouldRecordPoint
     );
 
     const allTimePeak = Array.isArray(chartData.summary.allTimePeak)
