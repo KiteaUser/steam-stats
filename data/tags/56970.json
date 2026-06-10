@@ -3,10 +3,52 @@
   "appid": "637650",
   "steamAppid": 637650,
   "name": "FINAL FANTASY 15",
-  "players": 317,
+  "players": 312,
   "allTimePeak": 29498,
-  "peak24h": 509,
-  "peak24hAt": "2026-06-09T15:05:49.009Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-25-dec-2024-12-04-am-1755.jpg"
+  "peak24h": 312,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-25-dec-2024-12-04-am-1755.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        312
+      ],
+      "peak24h": [
+        1781079638,
+        312
+      ],
+      "peak48h": [
+        1781079638,
+        312
+      ],
+      "allTimePeak": [
+        null,
+        29498
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          312
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 312,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

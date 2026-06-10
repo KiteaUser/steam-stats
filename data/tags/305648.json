@@ -3,10 +3,52 @@
   "appid": "413420",
   "steamAppid": 413420,
   "name": "Danganronpa 2: Goodbye Despair",
-  "players": 505,
+  "players": 518,
   "allTimePeak": 3344,
-  "peak24h": 818,
-  "peak24hAt": "2026-06-09T15:15:41.451Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-30-nov-2024-02-20-pm-6875.jpg"
+  "peak24h": 518,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-30-nov-2024-02-20-pm-6875.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        518
+      ],
+      "peak24h": [
+        1781079638,
+        518
+      ],
+      "peak48h": [
+        1781079638,
+        518
+      ],
+      "allTimePeak": [
+        null,
+        3344
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          518
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 518,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

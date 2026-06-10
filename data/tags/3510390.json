@@ -3,10 +3,52 @@
   "appid": "207890",
   "steamAppid": 207890,
   "name": "Football Manager 2013",
-  "players": 95,
+  "players": 102,
   "allTimePeak": 87719,
-  "peak24h": 224,
-  "peak24hAt": "2026-06-09T20:15:42.594Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2025/07/football-manager-2013.jpg"
+  "peak24h": 102,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2025/07/football-manager-2013.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        102
+      ],
+      "peak24h": [
+        1781079638,
+        102
+      ],
+      "peak48h": [
+        1781079638,
+        102
+      ],
+      "allTimePeak": [
+        null,
+        87719
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          102
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 102,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

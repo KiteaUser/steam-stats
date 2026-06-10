@@ -3,10 +3,52 @@
   "appid": "2186680",
   "steamAppid": 2186680,
   "name": "Warhammer 40000: Rogue Trader",
-  "players": 2303,
+  "players": 2360,
   "allTimePeak": 45405,
-  "peak24h": 5419,
-  "peak24hAt": "2026-06-09T19:55:36.649Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-04-dec-2024-01-28-pm-9923.jpg"
+  "peak24h": 2360,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-04-dec-2024-01-28-pm-9923.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        2360
+      ],
+      "peak24h": [
+        1781079638,
+        2360
+      ],
+      "peak48h": [
+        1781079638,
+        2360
+      ],
+      "allTimePeak": [
+        null,
+        45405
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          2360
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 2360,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

@@ -3,10 +3,52 @@
   "appid": "2420510",
   "steamAppid": 2420510,
   "name": "HoloCure - Save the Fans",
-  "players": 436,
+  "players": 424,
   "allTimePeak": 46155,
-  "peak24h": 596,
-  "peak24hAt": "2026-06-09T15:05:49.009Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-04-dec-2024-03-32-pm-7510.jpg"
+  "peak24h": 424,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-04-dec-2024-03-32-pm-7510.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        424
+      ],
+      "peak24h": [
+        1781079638,
+        424
+      ],
+      "peak48h": [
+        1781079638,
+        424
+      ],
+      "allTimePeak": [
+        null,
+        46155
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          424
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 424,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

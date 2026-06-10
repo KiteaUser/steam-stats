@@ -3,10 +3,52 @@
   "appid": "28050",
   "steamAppid": 28050,
   "name": "Deus Ex: Human Revolution",
-  "players": 16,
+  "players": 15,
   "allTimePeak": 56010,
-  "peak24h": 41,
-  "peak24hAt": "2026-06-09T20:40:41.557Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-13-dec-2024-05-30-pm-1579.jpg"
+  "peak24h": 15,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-13-dec-2024-05-30-pm-1579.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        15
+      ],
+      "peak24h": [
+        1781079638,
+        15
+      ],
+      "peak48h": [
+        1781079638,
+        15
+      ],
+      "allTimePeak": [
+        null,
+        56010
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          15
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 15,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

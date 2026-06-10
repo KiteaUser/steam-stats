@@ -5,8 +5,50 @@
   "name": "The King is Watching",
   "players": 393,
   "allTimePeak": 17988,
-  "peak24h": 634,
-  "peak24hAt": "2026-06-09T14:40:39.859Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2025/07/the-king-is-watching-tag-imae.jpeg"
+  "peak24h": 393,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2025/07/the-king-is-watching-tag-imae.jpeg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        393
+      ],
+      "peak24h": [
+        1781079638,
+        393
+      ],
+      "peak48h": [
+        1781079638,
+        393
+      ],
+      "allTimePeak": [
+        null,
+        17988
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          393
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 393,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

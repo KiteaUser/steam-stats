@@ -3,10 +3,52 @@
   "appid": "1942280",
   "steamAppid": 1942280,
   "name": "Brotato",
-  "players": 7920,
+  "players": 7872,
   "allTimePeak": 38905,
-  "peak24h": 13185,
-  "peak24hAt": "2026-06-09T14:15:37.383Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-18-nov-2024-02-17-pm-492.jpg"
+  "peak24h": 7872,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-18-nov-2024-02-17-pm-492.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        7872
+      ],
+      "peak24h": [
+        1781079638,
+        7872
+      ],
+      "peak48h": [
+        1781079638,
+        7872
+      ],
+      "allTimePeak": [
+        null,
+        38905
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          7872
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 7872,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

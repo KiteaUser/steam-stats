@@ -3,10 +3,52 @@
   "appid": "1817070",
   "steamAppid": 1817070,
   "name": "Marvels Spider-Man Remastered",
-  "players": 1073,
+  "players": 1070,
   "allTimePeak": 66436,
-  "peak24h": 1912,
-  "peak24hAt": "2026-06-09T20:00:50.098Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-23-nov-2024-10-55-am-7624.jpg"
+  "peak24h": 1070,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-23-nov-2024-10-55-am-7624.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        1070
+      ],
+      "peak24h": [
+        1781079638,
+        1070
+      ],
+      "peak48h": [
+        1781079638,
+        1070
+      ],
+      "allTimePeak": [
+        null,
+        66436
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          1070
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 1070,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

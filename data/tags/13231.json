@@ -3,10 +3,52 @@
   "appid": "91310",
   "steamAppid": 91310,
   "name": "Dead Island",
-  "players": 16,
+  "players": 13,
   "allTimePeak": 35906,
-  "peak24h": 42,
-  "peak24hAt": "2026-06-09T20:00:50.098Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-06-dec-2024-02-54-pm-9392.jpg"
+  "peak24h": 13,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-06-dec-2024-02-54-pm-9392.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        13
+      ],
+      "peak24h": [
+        1781079638,
+        13
+      ],
+      "peak48h": [
+        1781079638,
+        13
+      ],
+      "allTimePeak": [
+        null,
+        35906
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          13
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 13,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

@@ -3,10 +3,52 @@
   "appid": "215790",
   "steamAppid": 215790,
   "name": "Dream Pinball 3D",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 11060,
-  "peak24h": 3,
-  "peak24hAt": "2026-06-10T02:35:29.918Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2026/02/dream-pinball-3d-tag-page-cover-art_upscayl_2x_ultramix_balanced.png"
+  "peak24h": 2,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2026/02/dream-pinball-3d-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        2
+      ],
+      "peak24h": [
+        1781079638,
+        2
+      ],
+      "peak48h": [
+        1781079638,
+        2
+      ],
+      "allTimePeak": [
+        null,
+        11060
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          2
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 2,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

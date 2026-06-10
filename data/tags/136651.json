@@ -3,10 +3,52 @@
   "appid": "601150",
   "steamAppid": 601150,
   "name": "Devil May Cry 5",
-  "players": 1620,
+  "players": 1681,
   "allTimePeak": 88894,
-  "peak24h": 3116,
-  "peak24hAt": "2026-06-09T14:20:38.034Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2025/02/devil-may-cry-5-cover.jpg"
+  "peak24h": 1681,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2025/02/devil-may-cry-5-cover.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        1681
+      ],
+      "peak24h": [
+        1781079638,
+        1681
+      ],
+      "peak48h": [
+        1781079638,
+        1681
+      ],
+      "allTimePeak": [
+        null,
+        88894
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          1681
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 1681,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

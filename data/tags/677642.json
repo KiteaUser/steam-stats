@@ -5,8 +5,50 @@
   "name": "GUNTOUCHABLES",
   "players": 15,
   "allTimePeak": 16284,
-  "peak24h": 43,
-  "peak24hAt": "2026-06-09T18:40:38.214Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-26-nov-2024-01-30-pm-837.jpg"
+  "peak24h": 15,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-26-nov-2024-01-30-pm-837.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        15
+      ],
+      "peak24h": [
+        1781079638,
+        15
+      ],
+      "peak48h": [
+        1781079638,
+        15
+      ],
+      "allTimePeak": [
+        null,
+        16284
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          15
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 15,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

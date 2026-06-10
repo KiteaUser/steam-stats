@@ -5,8 +5,50 @@
   "name": "Sonic Mania",
   "players": 40,
   "allTimePeak": 11937,
-  "peak24h": 110,
-  "peak24hAt": "2026-06-09T22:05:29.943Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-13-dec-2024-08-22-am-5133.jpg"
+  "peak24h": 40,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-13-dec-2024-08-22-am-5133.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        40
+      ],
+      "peak24h": [
+        1781079638,
+        40
+      ],
+      "peak48h": [
+        1781079638,
+        40
+      ],
+      "allTimePeak": [
+        null,
+        11937
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          40
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 40,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

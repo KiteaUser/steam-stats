@@ -3,10 +3,52 @@
   "appid": "740130",
   "steamAppid": 740130,
   "name": "Tales of ARISE",
-  "players": 133,
+  "players": 142,
   "allTimePeak": 60274,
-  "peak24h": 267,
-  "peak24hAt": "2026-06-09T15:20:38.078Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-06-dec-2024-07-51-am-315.jpg"
+  "peak24h": 142,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-06-dec-2024-07-51-am-315.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        142
+      ],
+      "peak24h": [
+        1781079638,
+        142
+      ],
+      "peak48h": [
+        1781079638,
+        142
+      ],
+      "allTimePeak": [
+        null,
+        60274
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          142
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 142,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

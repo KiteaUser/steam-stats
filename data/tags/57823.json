@@ -3,10 +3,52 @@
   "appid": "356190",
   "steamAppid": 356190,
   "name": "Middle-earth: Shadow of War",
-  "players": 1373,
+  "players": 1381,
   "allTimePeak": 68183,
-  "peak24h": 2536,
-  "peak24hAt": "2026-06-09T19:00:55.122Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-04-dec-2024-06-33-pm-7696.jpg"
+  "peak24h": 1381,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-04-dec-2024-06-33-pm-7696.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        1381
+      ],
+      "peak24h": [
+        1781079638,
+        1381
+      ],
+      "peak48h": [
+        1781079638,
+        1381
+      ],
+      "allTimePeak": [
+        null,
+        68183
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          1381
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 1381,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

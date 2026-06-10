@@ -3,10 +3,52 @@
   "appid": "2507950",
   "steamAppid": 2507950,
   "name": "Delta Force",
-  "players": 61220,
+  "players": 63161,
   "allTimePeak": 247028,
-  "peak24h": 121981,
-  "peak24hAt": "2026-06-09T14:20:38.034Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2025/09/delta-force-tag-page-cover-art.jpg"
+  "peak24h": 63161,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2025/09/delta-force-tag-page-cover-art.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        63161
+      ],
+      "peak24h": [
+        1781079638,
+        63161
+      ],
+      "peak48h": [
+        1781079638,
+        63161
+      ],
+      "allTimePeak": [
+        null,
+        247028
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          63161
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 63161,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

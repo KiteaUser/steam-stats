@@ -3,10 +3,52 @@
   "appid": "1659420",
   "steamAppid": 1659420,
   "name": "UNCHARTED: Legacy of Thieves Collection",
-  "players": 731,
+  "players": 735,
   "allTimePeak": 10851,
-  "peak24h": 1567,
-  "peak24hAt": "2026-06-09T15:25:34.615Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-28-nov-2024-09-21-am-9647.jpg"
+  "peak24h": 735,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-28-nov-2024-09-21-am-9647.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        735
+      ],
+      "peak24h": [
+        1781079638,
+        735
+      ],
+      "peak48h": [
+        1781079638,
+        735
+      ],
+      "allTimePeak": [
+        null,
+        10851
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          735
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 735,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

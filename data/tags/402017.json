@@ -3,10 +3,52 @@
   "appid": "799600",
   "steamAppid": 799600,
   "name": "Cosmoteer: Starship Architect & Commander",
-  "players": 314,
+  "players": 329,
   "allTimePeak": 13794,
-  "peak24h": 663,
-  "peak24hAt": "2026-06-09T18:45:37.391Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-18-nov-2024-02-19-pm-9370.jpg"
+  "peak24h": 329,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-18-nov-2024-02-19-pm-9370.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        329
+      ],
+      "peak24h": [
+        1781079638,
+        329
+      ],
+      "peak48h": [
+        1781079638,
+        329
+      ],
+      "allTimePeak": [
+        null,
+        13794
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          329
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 329,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

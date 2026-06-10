@@ -5,8 +5,50 @@
   "name": "Trove",
   "players": 472,
   "allTimePeak": 58949,
-  "peak24h": 784,
-  "peak24hAt": "2026-06-09T14:20:38.034Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-26-nov-2024-12-13-pm-7444.jpg"
+  "peak24h": 472,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-26-nov-2024-12-13-pm-7444.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        472
+      ],
+      "peak24h": [
+        1781079638,
+        472
+      ],
+      "peak48h": [
+        1781079638,
+        472
+      ],
+      "allTimePeak": [
+        null,
+        58949
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          472
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 472,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

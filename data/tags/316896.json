@@ -5,8 +5,50 @@
   "name": "Vampire: The Masquerade - Bloodhunt",
   "players": 8,
   "allTimePeak": 29475,
-  "peak24h": 9,
-  "peak24hAt": "2026-06-10T07:00:56.025Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/11/mixcollage-22-nov-2024-02-18-am-3879.jpg"
+  "peak24h": 8,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/11/mixcollage-22-nov-2024-02-18-am-3879.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        8
+      ],
+      "peak24h": [
+        1781079638,
+        8
+      ],
+      "peak48h": [
+        1781079638,
+        8
+      ],
+      "allTimePeak": [
+        null,
+        29475
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          8
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 8,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }

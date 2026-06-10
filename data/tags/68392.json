@@ -5,8 +5,50 @@
   "name": "Splitgate",
   "players": 14,
   "allTimePeak": 67724,
-  "peak24h": 32,
-  "peak24hAt": "2026-06-09T10:05:32.106Z",
-  "updatedAt": "2026-06-10T08:15:35.650Z",
-  "img_url": "2024/12/mixcollage-09-dec-2024-11-08-am-7611.jpg"
+  "peak24h": 14,
+  "peak24hAt": "2026-06-10T08:20:38.000Z",
+  "updatedAt": "2026-06-10T08:20:38.116Z",
+  "img_url": "2024/12/mixcollage-09-dec-2024-11-08-am-7611.jpg",
+  "chartData": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-06-10T08:20:38.116Z",
+    "updatedAtTs": 1781079638,
+    "source": "steam",
+    "sourceIntervalSeconds": 300,
+    "retention": {
+      "raw5mSeconds": 172800,
+      "hourlyPeakSeconds": 2592000,
+      "dailyPeakAfterSeconds": 2592000
+    },
+    "summary": {
+      "current": [
+        1781079638,
+        14
+      ],
+      "peak24h": [
+        1781079638,
+        14
+      ],
+      "peak48h": [
+        1781079638,
+        14
+      ],
+      "allTimePeak": [
+        null,
+        67724
+      ]
+    },
+    "series": {
+      "raw5m": [
+        [
+          1781079638,
+          14
+        ]
+      ],
+      "hourlyPeak": [],
+      "dailyPeak": []
+    }
+  },
+  "peak48h": 14,
+  "peak48hAt": "2026-06-10T08:20:38.000Z"
 }
