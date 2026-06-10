@@ -7,8 +7,7 @@ const DATA_DIR = "data";
 const TAGS_DIR = path.join(DATA_DIR, "tags");
 
 const SECOND = 1000;
-const MINUTE = 60 * SECOND;
-const HOUR = 60 * MINUTE;
+const HOUR = 60 * 60 * SECOND;
 const DAY = 24 * HOUR;
 
 const RAW_5M_MS = 48 * HOUR;
@@ -64,64 +63,6 @@ function mergePeakPoints(existingPoints, incomingPoints) {
   }
 
   return [...map.entries()].sort((a, b) => a[0] - b[0]);
-}
-
-function normalizePointArray(value) {
-  if (!value) return [];
-
-  let points = value;
-
-  if (typeof points === "string") {
-    try {
-      points = JSON.parse(points);
-    } catch {
-      return [];
-    }
-  }
-
-  if (!Array.isArray(points)) return [];
-
-  return points
-    .filter((point) => Array.isArray(point) && point.length >= 2)
-    .map(([timestamp, players]) => [Number(timestamp), Number(players)])
-    .filter(([timestamp, players]) => Number.isFinite(timestamp) && Number.isFinite(players));
-}
-
-function getIncomingHourlyPeak(game) {
-  return normalizePointArray(
-    game.historicHourlyPeak ||
-      game.historic_hourly_peak ||
-      game.hourlyPeak ||
-      game.hourly_peak ||
-      game.steamchartsHourlyPeak ||
-      game.steamcharts_hourly_peak
-  );
-}
-
-function getIncomingDailyPeak(game) {
-  return normalizePointArray(
-    game.historicDailyPeak ||
-      game.historic_daily_peak ||
-      game.dailyPeak ||
-      game.daily_peak ||
-      game.steamchartsDailyPeak ||
-      game.steamcharts_daily_peak ||
-      game.steamdbDailyPeak ||
-      game.steamdb_daily_peak
-  );
-}
-
-function getIncomingMonthlyPeak(game) {
-  return normalizePointArray(
-    game.historicMonthlyPeak ||
-      game.historic_monthly_peak ||
-      game.monthlyPeak ||
-      game.monthly_peak ||
-      game.steamchartsMonthlyPeak ||
-      game.steamcharts_monthly_peak ||
-      game.steamdbMonthlyPeak ||
-      game.steamdb_monthly_peak
-  );
 }
 
 function upsertPeak(points, timestamp, value) {
@@ -197,7 +138,7 @@ function initChartData(stored, now, nowTs, players) {
   };
 }
 
-function updateChartData(stored, game, now, nowMs, players, provisionalAllTimePeak) {
+function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak) {
   const nowTs = Math.floor(nowMs / SECOND);
   const chartData = stored?.chartData || initChartData(stored, now, nowTs, players);
 
@@ -219,14 +160,6 @@ function updateChartData(stored, game, now, nowMs, players, provisionalAllTimePe
   chartData.series.hourlyPeak = mergePeakPoints(chartData.series.hourlyPeak || []);
   chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak || []);
   chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak || []);
-
-  const incomingHourlyPeak = getIncomingHourlyPeak(game);
-  const incomingDailyPeak = getIncomingDailyPeak(game);
-  const incomingMonthlyPeak = getIncomingMonthlyPeak(game);
-
-  chartData.series.hourlyPeak = mergePeakPoints(chartData.series.hourlyPeak, incomingHourlyPeak);
-  chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak, incomingDailyPeak);
-  chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak, incomingMonthlyPeak);
 
   chartData.series.raw5m.push([nowTs, players]);
   chartData.series.raw5m = dedupeByTimestamp(chartData.series.raw5m);
@@ -386,7 +319,6 @@ async function run() {
 
     const chartData = updateChartData(
       stored,
-      game,
       now,
       nowMs,
       players,
