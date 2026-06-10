@@ -48,6 +48,67 @@ function dedupeByTimestamp(points) {
   return [...map.entries()].sort((a, b) => a[0] - b[0]);
 }
 
+function mergePeakPoints(existingPoints, incomingPoints) {
+  const map = new Map();
+
+  for (const point of [...(existingPoints || []), ...(incomingPoints || [])]) {
+    if (!Array.isArray(point) || point.length < 2) continue;
+
+    const t = Number(point[0]);
+    const v = Number(point[1]);
+
+    if (!Number.isFinite(t) || !Number.isFinite(v)) continue;
+
+    const existing = map.get(t);
+    map.set(t, existing == null ? v : Math.max(existing, v));
+  }
+
+  return [...map.entries()].sort((a, b) => a[0] - b[0]);
+}
+
+function normalizePointArray(value) {
+  if (!value) return [];
+
+  let points = value;
+
+  if (typeof points === "string") {
+    try {
+      points = JSON.parse(points);
+    } catch {
+      return [];
+    }
+  }
+
+  if (!Array.isArray(points)) return [];
+
+  return points
+    .filter((point) => Array.isArray(point) && point.length >= 2)
+    .map(([timestamp, players]) => [Number(timestamp), Number(players)])
+    .filter(([timestamp, players]) => Number.isFinite(timestamp) && Number.isFinite(players));
+}
+
+function getIncomingDailyPeak(game) {
+  return normalizePointArray(
+    game.historicDailyPeak ||
+      game.historic_daily_peak ||
+      game.dailyPeak ||
+      game.daily_peak ||
+      game.steamdbDailyPeak ||
+      game.steamdb_daily_peak
+  );
+}
+
+function getIncomingMonthlyPeak(game) {
+  return normalizePointArray(
+    game.historicMonthlyPeak ||
+      game.historic_monthly_peak ||
+      game.monthlyPeak ||
+      game.monthly_peak ||
+      game.steamdbMonthlyPeak ||
+      game.steamdb_monthly_peak
+  );
+}
+
 function upsertPeak(points, timestamp, value) {
   const existing = points.find((point) => point[0] === timestamp);
 
@@ -74,6 +135,7 @@ function peakFromPoints(points) {
 
 function getAllChartPoints(chartData) {
   return [
+    ...(chartData?.series?.monthlyPeak || []),
     ...(chartData?.series?.dailyPeak || []),
     ...(chartData?.series?.hourlyPeak || []),
     ...(chartData?.series?.raw5m || [])
@@ -109,12 +171,13 @@ function initChartData(stored, now, nowTs, players) {
     series: {
       raw5m: [],
       hourlyPeak: [],
-      dailyPeak: []
+      dailyPeak: [],
+      monthlyPeak: []
     }
   };
 }
 
-function updateChartData(stored, now, nowMs, players, allTimePeak) {
+function updateChartData(stored, game, now, nowMs, players, allTimePeak) {
   const nowTs = Math.floor(nowMs / SECOND);
   const chartData = stored?.chartData || initChartData(stored, now, nowTs, players);
 
@@ -133,8 +196,15 @@ function updateChartData(stored, now, nowMs, players, allTimePeak) {
   chartData.summary ||= {};
   chartData.series ||= {};
   chartData.series.raw5m = dedupeByTimestamp(chartData.series.raw5m || []);
-  chartData.series.hourlyPeak = dedupeByTimestamp(chartData.series.hourlyPeak || []);
-  chartData.series.dailyPeak = dedupeByTimestamp(chartData.series.dailyPeak || []);
+  chartData.series.hourlyPeak = mergePeakPoints(chartData.series.hourlyPeak || []);
+  chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak || []);
+  chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak || []);
+
+  const incomingDailyPeak = getIncomingDailyPeak(game);
+  const incomingMonthlyPeak = getIncomingMonthlyPeak(game);
+
+  chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak, incomingDailyPeak);
+  chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak, incomingMonthlyPeak);
 
   chartData.series.raw5m.push([nowTs, players]);
   chartData.series.raw5m = dedupeByTimestamp(chartData.series.raw5m);
@@ -180,6 +250,7 @@ function updateChartData(stored, now, nowMs, players, allTimePeak) {
   chartData.series.raw5m.sort((a, b) => a[0] - b[0]);
   chartData.series.hourlyPeak.sort((a, b) => a[0] - b[0]);
   chartData.series.dailyPeak.sort((a, b) => a[0] - b[0]);
+  chartData.series.monthlyPeak.sort((a, b) => a[0] - b[0]);
 
   chartData.summary.current = [nowTs, players];
   chartData.summary.peak24h = getPeakSince(chartData, nowTs - 24 * 60 * 60);
@@ -287,7 +358,7 @@ async function run() {
     const existingPeak = Number(stored?.allTimePeak) || Number(game.all_time_peak) || 0;
     const allTimePeak = Math.max(existingPeak, players);
 
-    const chartData = updateChartData(stored, now, nowMs, players, allTimePeak);
+    const chartData = updateChartData(stored, game, now, nowMs, players, allTimePeak);
 
     const peak24hTuple = chartData.summary.peak24h;
     const peak48hTuple = chartData.summary.peak48h;
