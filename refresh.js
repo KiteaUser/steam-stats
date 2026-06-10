@@ -87,12 +87,25 @@ function normalizePointArray(value) {
     .filter(([timestamp, players]) => Number.isFinite(timestamp) && Number.isFinite(players));
 }
 
+function getIncomingHourlyPeak(game) {
+  return normalizePointArray(
+    game.historicHourlyPeak ||
+      game.historic_hourly_peak ||
+      game.hourlyPeak ||
+      game.hourly_peak ||
+      game.steamchartsHourlyPeak ||
+      game.steamcharts_hourly_peak
+  );
+}
+
 function getIncomingDailyPeak(game) {
   return normalizePointArray(
     game.historicDailyPeak ||
       game.historic_daily_peak ||
       game.dailyPeak ||
       game.daily_peak ||
+      game.steamchartsDailyPeak ||
+      game.steamcharts_daily_peak ||
       game.steamdbDailyPeak ||
       game.steamdb_daily_peak
   );
@@ -104,6 +117,8 @@ function getIncomingMonthlyPeak(game) {
       game.historic_monthly_peak ||
       game.monthlyPeak ||
       game.monthly_peak ||
+      game.steamchartsMonthlyPeak ||
+      game.steamcharts_monthly_peak ||
       game.steamdbMonthlyPeak ||
       game.steamdb_monthly_peak
   );
@@ -148,6 +163,11 @@ function getPeakSince(chartData, cutoffTs) {
   );
 }
 
+function getChartAllTimePeak(chartData) {
+  const peak = peakFromPoints(getAllChartPoints(chartData));
+  return Array.isArray(peak) ? peak[1] : 0;
+}
+
 function initChartData(stored, now, nowTs, players) {
   const peak24hTs = stored?.peak24hAt ? toUnixSeconds(stored.peak24hAt) : null;
 
@@ -177,7 +197,7 @@ function initChartData(stored, now, nowTs, players) {
   };
 }
 
-function updateChartData(stored, game, now, nowMs, players, allTimePeak) {
+function updateChartData(stored, game, now, nowMs, players, provisionalAllTimePeak) {
   const nowTs = Math.floor(nowMs / SECOND);
   const chartData = stored?.chartData || initChartData(stored, now, nowTs, players);
 
@@ -200,9 +220,11 @@ function updateChartData(stored, game, now, nowMs, players, allTimePeak) {
   chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak || []);
   chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak || []);
 
+  const incomingHourlyPeak = getIncomingHourlyPeak(game);
   const incomingDailyPeak = getIncomingDailyPeak(game);
   const incomingMonthlyPeak = getIncomingMonthlyPeak(game);
 
+  chartData.series.hourlyPeak = mergePeakPoints(chartData.series.hourlyPeak, incomingHourlyPeak);
   chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak, incomingDailyPeak);
   chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak, incomingMonthlyPeak);
 
@@ -251,6 +273,9 @@ function updateChartData(stored, game, now, nowMs, players, allTimePeak) {
   chartData.series.hourlyPeak.sort((a, b) => a[0] - b[0]);
   chartData.series.dailyPeak.sort((a, b) => a[0] - b[0]);
   chartData.series.monthlyPeak.sort((a, b) => a[0] - b[0]);
+
+  const chartAllTimePeak = getChartAllTimePeak(chartData);
+  const allTimePeak = Math.max(Number(provisionalAllTimePeak) || 0, chartAllTimePeak, players);
 
   chartData.summary.current = [nowTs, players];
   chartData.summary.peak24h = getPeakSince(chartData, nowTs - 24 * 60 * 60);
@@ -351,14 +376,26 @@ async function run() {
     const steamAppid = Number(appid.replace(/[^\d]/g, "")) || 0;
     const fetchedPlayers = steamPayloads[i]?.response?.player_count;
     const stored = previousByTagId.get(tagId) || {};
+
     const players = Number.isFinite(Number(fetchedPlayers))
       ? Number(fetchedPlayers)
       : Number(stored.players) || 0;
 
     const existingPeak = Number(stored?.allTimePeak) || Number(game.all_time_peak) || 0;
-    const allTimePeak = Math.max(existingPeak, players);
+    const provisionalAllTimePeak = Math.max(existingPeak, players);
 
-    const chartData = updateChartData(stored, game, now, nowMs, players, allTimePeak);
+    const chartData = updateChartData(
+      stored,
+      game,
+      now,
+      nowMs,
+      players,
+      provisionalAllTimePeak
+    );
+
+    const allTimePeak = Array.isArray(chartData.summary.allTimePeak)
+      ? Number(chartData.summary.allTimePeak[1]) || provisionalAllTimePeak
+      : provisionalAllTimePeak;
 
     const peak24hTuple = chartData.summary.peak24h;
     const peak48hTuple = chartData.summary.peak48h;
