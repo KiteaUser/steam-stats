@@ -13,6 +13,10 @@ const DAY = 24 * HOUR;
 const RAW_5M_MS = 48 * HOUR;
 const HOURLY_PEAK_MS = 30 * DAY;
 
+// Keep current month + previous 3 full months in dailyPeak.
+// Anything before that rolls into monthlyPeak.
+const DAILY_PEAK_MONTHS_TO_KEEP = 3;
+
 async function ensureDir(dir) {
   await fs.mkdir(dir, { recursive: true });
 }
@@ -28,6 +32,36 @@ function toUnixSeconds(dateLike) {
 
 function bucketUnix(timestamp, bucketSeconds) {
   return Math.floor(timestamp / bucketSeconds) * bucketSeconds;
+}
+
+function bucketUnixMonth(timestamp) {
+  const date = new Date(timestamp * SECOND);
+
+  return Math.floor(
+    Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), 1) / SECOND
+  );
+}
+
+function startOfUtcMonthMs(dateLike) {
+  const date = new Date(dateLike);
+
+  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), 1);
+}
+
+function addUtcMonthsMs(monthStartMs, months) {
+  const date = new Date(monthStartMs);
+
+  return Date.UTC(date.getUTCFullYear(), date.getUTCMonth() + months, 1);
+}
+
+function getDailyPeakCutoffTs(nowMs) {
+  const currentMonthStartMs = startOfUtcMonthMs(nowMs);
+  const cutoffMs = addUtcMonthsMs(
+    currentMonthStartMs,
+    -DAILY_PEAK_MONTHS_TO_KEEP
+  );
+
+  return Math.floor(cutoffMs / SECOND);
 }
 
 function dedupeByTimestamp(points) {
@@ -160,11 +194,14 @@ function initChartData(stored, now, nowTs, players) {
     retention: {
       raw5mSeconds: RAW_5M_MS / SECOND,
       hourlyPeakSeconds: HOURLY_PEAK_MS / SECOND,
-      dailyPeakAfterSeconds: HOURLY_PEAK_MS / SECOND
+      dailyPeakAfterSeconds: HOURLY_PEAK_MS / SECOND,
+      dailyPeakMonthsToKeep: DAILY_PEAK_MONTHS_TO_KEEP
     },
     summary: {
       current: [nowTs, players],
-      peak24h: peak24hTs && stored?.peak24h ? [peak24hTs, Number(stored.peak24h)] : null,
+      peak24h: peak24hTs && stored?.peak24h
+        ? [peak24hTs, Number(stored.peak24h)]
+        : null,
       peak48h: null,
       allTimePeak: stored?.allTimePeak ? [null, Number(stored.allTimePeak)] : null
     },
@@ -177,7 +214,14 @@ function initChartData(stored, now, nowTs, players) {
   };
 }
 
-function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak, shouldRecordPoint) {
+function updateChartData(
+  stored,
+  now,
+  nowMs,
+  players,
+  provisionalAllTimePeak,
+  shouldRecordPoint
+) {
   const nowTs = Math.floor(nowMs / SECOND);
   const chartData = stored?.chartData || initChartData(stored, now, nowTs, players);
 
@@ -190,7 +234,8 @@ function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak, sh
   chartData.retention = {
     raw5mSeconds: RAW_5M_MS / SECOND,
     hourlyPeakSeconds: HOURLY_PEAK_MS / SECOND,
-    dailyPeakAfterSeconds: HOURLY_PEAK_MS / SECOND
+    dailyPeakAfterSeconds: HOURLY_PEAK_MS / SECOND,
+    dailyPeakMonthsToKeep: DAILY_PEAK_MONTHS_TO_KEEP
   };
 
   chartData.summary ||= {};
@@ -221,7 +266,11 @@ function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak, sh
   chartData.series.raw5m = rawKeep;
 
   for (const [timestamp, value] of rawToRollup) {
-    upsertPeak(chartData.series.hourlyPeak, bucketUnix(timestamp, 60 * 60), value);
+    upsertPeak(
+      chartData.series.hourlyPeak,
+      bucketUnix(timestamp, 60 * 60),
+      value
+    );
   }
 
   const hourlyKeep = [];
@@ -240,7 +289,38 @@ function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak, sh
   chartData.series.hourlyPeak = hourlyKeep;
 
   for (const [timestamp, value] of hourlyToRollup) {
-    upsertPeak(chartData.series.dailyPeak, bucketUnix(timestamp, 24 * 60 * 60), value);
+    upsertPeak(
+      chartData.series.dailyPeak,
+      bucketUnix(timestamp, 24 * 60 * 60),
+      value
+    );
+  }
+
+  const dailyKeepCutoffTs = getDailyPeakCutoffTs(nowMs);
+  const dailyKeep = [];
+  const dailyToRollup = [];
+
+  for (const point of chartData.series.dailyPeak) {
+    const timestamp = Number(point[0]);
+    const value = Number(point[1]);
+
+    if (!Number.isFinite(timestamp) || !Number.isFinite(value)) continue;
+
+    if (timestamp >= dailyKeepCutoffTs) {
+      dailyKeep.push([timestamp, value]);
+    } else {
+      dailyToRollup.push([timestamp, value]);
+    }
+  }
+
+  chartData.series.dailyPeak = dailyKeep;
+
+  for (const [timestamp, value] of dailyToRollup) {
+    upsertPeak(
+      chartData.series.monthlyPeak,
+      bucketUnixMonth(timestamp),
+      value
+    );
   }
 
   chartData.series.raw5m.sort((a, b) => a[0] - b[0]);
@@ -249,7 +329,11 @@ function updateChartData(stored, now, nowMs, players, provisionalAllTimePeak, sh
   chartData.series.monthlyPeak.sort((a, b) => a[0] - b[0]);
 
   const chartAllTimePeak = getChartAllTimePeak(chartData);
-  const allTimePeak = Math.max(Number(provisionalAllTimePeak) || 0, chartAllTimePeak, players);
+  const allTimePeak = Math.max(
+    Number(provisionalAllTimePeak) || 0,
+    chartAllTimePeak,
+    players
+  );
 
   chartData.summary.current = [nowTs, players];
   chartData.summary.peak24h = getPeakSince(chartData, nowTs - 24 * 60 * 60);
