@@ -7,22 +7,23 @@
   "allTimePeak": 14046,
   "peak24h": 394,
   "peak24hAt": "2026-06-10T14:17:37.000Z",
-  "updatedAt": "2026-06-11T11:11:14.447Z",
+  "updatedAt": "2026-06-11T11:16:04.078Z",
   "img_url": "2025/08/octopath-traveler-0-tag-type-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-11T11:11:14.447Z",
-    "updatedAtTs": 1781176274,
+    "updatedAt": "2026-06-11T11:16:04.078Z",
+    "updatedAtTs": 1781176564,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
       "raw5mSeconds": 172800,
       "hourlyPeakSeconds": 2592000,
-      "dailyPeakAfterSeconds": 2592000
+      "dailyPeakAfterSeconds": 2592000,
+      "dailyPeakMonthsToKeep": 3
     },
     "summary": {
       "current": [
-        1781176274,
+        1781176564,
         257
       ],
       "peak24h": [
@@ -1315,13 +1316,13 @@
         [
           1781176274,
           257
+        ],
+        [
+          1781176564,
+          257
         ]
       ],
       "hourlyPeak": [
-        [
-          1778584321,
-          373
-        ],
         [
           1778587918,
           464
@@ -4350,7 +4351,7 @@
         ],
         [
           1778544000,
-          351
+          373
         ]
       ],
       "monthlyPeak": [

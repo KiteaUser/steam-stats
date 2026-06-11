@@ -7,22 +7,23 @@
   "allTimePeak": 12898,
   "peak24h": 627,
   "peak24hAt": "2026-06-10T13:56:04.000Z",
-  "updatedAt": "2026-06-11T11:11:14.447Z",
+  "updatedAt": "2026-06-11T11:16:04.078Z",
   "img_url": "2025/03/story-of-seasons-grand-bazaar-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-11T11:11:14.447Z",
-    "updatedAtTs": 1781176274,
+    "updatedAt": "2026-06-11T11:16:04.078Z",
+    "updatedAtTs": 1781176564,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
       "raw5mSeconds": 172800,
       "hourlyPeakSeconds": 2592000,
-      "dailyPeakAfterSeconds": 2592000
+      "dailyPeakAfterSeconds": 2592000,
+      "dailyPeakMonthsToKeep": 3
     },
     "summary": {
       "current": [
-        1781176274,
+        1781176564,
         396
       ],
       "peak24h": [
@@ -1315,13 +1316,13 @@
         [
           1781176274,
           396
+        ],
+        [
+          1781176564,
+          396
         ]
       ],
       "hourlyPeak": [
-        [
-          1778584416,
-          358
-        ],
         [
           1778587925,
           413
@@ -4350,7 +4351,7 @@
         ],
         [
           1778544000,
-          332
+          358
         ]
       ],
       "monthlyPeak": [
