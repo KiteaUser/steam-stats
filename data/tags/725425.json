@@ -7,12 +7,12 @@
   "allTimePeak": 3021,
   "peak24h": 186,
   "peak24hAt": "2026-06-10T20:11:07.000Z",
-  "updatedAt": "2026-06-11T19:51:09.990Z",
+  "updatedAt": "2026-06-11T19:56:00.071Z",
   "img_url": "2025/02/directive-8020-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-11T19:51:09.990Z",
-    "updatedAtTs": 1781207469,
+    "updatedAt": "2026-06-11T19:56:00.071Z",
+    "updatedAtTs": 1781207760,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1781207469,
+        1781207760,
         132
       ],
       "peak24h": [
@@ -1728,13 +1728,13 @@
         [
           1781207469,
           132
+        ],
+        [
+          1781207760,
+          132
         ]
       ],
       "hourlyPeak": [
-        [
-          1778615582,
-          3021
-        ],
         [
           1778616208,
           3021
@@ -4484,7 +4484,12 @@
           53
         ]
       ],
-      "dailyPeak": [],
+      "dailyPeak": [
+        [
+          1778544000,
+          3021
+        ]
+      ],
       "monthlyPeak": []
     }
   },
