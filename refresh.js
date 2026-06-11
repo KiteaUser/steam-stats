@@ -12,9 +12,6 @@ const DAY = 24 * HOUR;
 
 const RAW_5M_MS = 48 * HOUR;
 const HOURLY_PEAK_MS = 30 * DAY;
-
-// Keep current month + previous 3 full months in dailyPeak.
-// Anything before that rolls into monthlyPeak.
 const DAILY_PEAK_MONTHS_TO_KEEP = 3;
 
 async function ensureDir(dir) {
