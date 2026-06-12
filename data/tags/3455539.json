@@ -3,16 +3,16 @@
   "appid": "1150080",
   "steamAppid": 1150080,
   "name": "Azur Lane: Crosswave",
-  "players": 2,
+  "players": 3,
   "allTimePeak": 10413,
   "peak24h": 5,
   "peak24hAt": "2026-06-12T01:41:02.000Z",
-  "updatedAt": "2026-06-12T18:15:54.543Z",
+  "updatedAt": "2026-06-12T18:21:03.483Z",
   "img_url": "2025/08/azur-lane-crosswave-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-12T18:15:54.543Z",
-    "updatedAtTs": 1781288154,
+    "updatedAt": "2026-06-12T18:21:03.483Z",
+    "updatedAtTs": 1781288463,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781288154,
-        2
+        1781288463,
+        3
       ],
       "peak24h": [
         1781228462,
         5
       ],
       "peak48h": [
-        1781115362,
+        1781115668,
         5
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781115362,
-          5
-        ],
         [
           1781115668,
           5
@@ -2068,6 +2064,10 @@
         [
           1781288154,
           2
+        ],
+        [
+          1781288463,
+          3
         ]
       ],
       "hourlyPeak": [
@@ -3077,7 +3077,7 @@
         ],
         [
           1781114400,
-          3
+          5
         ]
       ],
       "dailyPeak": [
@@ -3635,5 +3635,5 @@
     }
   },
   "peak48h": 5,
-  "peak48hAt": "2026-06-10T18:16:02.000Z"
+  "peak48hAt": "2026-06-10T18:21:08.000Z"
 }
