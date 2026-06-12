@@ -3,16 +3,16 @@
   "appid": "209670",
   "steamAppid": 209670,
   "name": "Cortex Command",
-  "players": 9,
+  "players": 10,
   "allTimePeak": 62839,
-  "peak24h": 9,
-  "peak24hAt": "2026-06-11T17:16:04.000Z",
-  "updatedAt": "2026-06-12T11:21:02.014Z",
+  "peak24h": 10,
+  "peak24hAt": "2026-06-12T11:25:55.000Z",
+  "updatedAt": "2026-06-12T11:25:55.669Z",
   "img_url": "2025/01/mixcollage-04-jan-2025-02-56-am-6452.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-12T11:21:02.014Z",
-    "updatedAtTs": 1781263262,
+    "updatedAt": "2026-06-12T11:25:55.669Z",
+    "updatedAtTs": 1781263555,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781263262,
-        9
+        1781263555,
+        10
       ],
       "peak24h": [
-        1781198164,
-        9
+        1781263555,
+        10
       ],
       "peak48h": [
-        1781118069,
-        9
+        1781263555,
+        10
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781090751,
-          3
-        ],
         [
           1781091073,
           3
@@ -2328,6 +2324,10 @@
         [
           1781263262,
           9
+        ],
+        [
+          1781263555,
+          10
         ]
       ],
       "hourlyPeak": [
@@ -4346,6 +4346,6 @@
       ]
     }
   },
-  "peak48h": 9,
-  "peak48hAt": "2026-06-10T19:01:09.000Z"
+  "peak48h": 10,
+  "peak48hAt": "2026-06-12T11:25:55.000Z"
 }
