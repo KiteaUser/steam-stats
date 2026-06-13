@@ -3,16 +3,16 @@
   "appid": "2647230",
   "steamAppid": 2647230,
   "name": "HoloParade",
-  "players": 2,
+  "players": 3,
   "allTimePeak": 11729,
   "peak24h": 8,
   "peak24hAt": "2026-06-13T08:36:05.000Z",
-  "updatedAt": "2026-06-13T18:46:09.583Z",
+  "updatedAt": "2026-06-13T18:51:00.618Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-09-23-am-6767.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-13T18:46:09.583Z",
-    "updatedAtTs": 1781376369,
+    "updatedAt": "2026-06-13T18:51:00.618Z",
+    "updatedAtTs": 1781376660,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1781376369,
-        2
+        1781376660,
+        3
       ],
       "peak24h": [
         1781339765,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781203574,
-          1
-        ],
         [
           1781203866,
           1
@@ -1848,6 +1844,10 @@
         [
           1781376369,
           2
+        ],
+        [
+          1781376660,
+          3
         ]
       ],
       "hourlyPeak": [
