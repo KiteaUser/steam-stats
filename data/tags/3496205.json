@@ -7,12 +7,12 @@
   "allTimePeak": 71073,
   "peak24h": 18519,
   "peak24hAt": "2026-06-13T13:01:18.000Z",
-  "updatedAt": "2026-06-13T13:01:18.731Z",
+  "updatedAt": "2026-06-13T13:06:00.493Z",
   "img_url": "2025/06/007-first-light-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-13T13:01:18.731Z",
-    "updatedAtTs": 1781355678,
+    "updatedAt": "2026-06-13T13:06:00.493Z",
+    "updatedAtTs": 1781355960,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1781355678,
+        1781355960,
         18519
       ],
       "peak24h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781183160,
-          13506
-        ],
         [
           1781183461,
           13506
@@ -2336,6 +2332,10 @@
         [
           1781355678,
           18519
+        ],
+        [
+          1781355960,
+          18519
         ]
       ],
       "hourlyPeak": [
@@ -3249,7 +3249,7 @@
         ],
         [
           1781182800,
-          13039
+          13506
         ]
       ],
       "dailyPeak": [],
