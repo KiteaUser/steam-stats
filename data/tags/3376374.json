@@ -3,16 +3,16 @@
   "appid": "210770",
   "steamAppid": 210770,
   "name": "Sanctum 2",
-  "players": 27,
+  "players": 34,
   "allTimePeak": 13621,
   "peak24h": 34,
   "peak24hAt": "2026-06-14T16:15:58.000Z",
-  "updatedAt": "2026-06-14T18:10:59.526Z",
+  "updatedAt": "2026-06-14T18:16:06.902Z",
   "img_url": "2025/01/sanctum-2-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-14T18:10:59.526Z",
-    "updatedAtTs": 1781460659,
+    "updatedAt": "2026-06-14T18:16:06.902Z",
+    "updatedAtTs": 1781460966,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781460659,
-        27
+        1781460966,
+        34
       ],
       "peak24h": [
         1781453758,
         34
       ],
       "peak48h": [
-        1781288154,
+        1781288463,
         39
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781287863,
-          33
-        ],
-        [
-          1781288154,
-          39
-        ],
         [
           1781288463,
           39
@@ -2344,6 +2336,10 @@
         [
           1781460659,
           27
+        ],
+        [
+          1781460966,
+          34
         ]
       ],
       "hourlyPeak": [
@@ -3881,7 +3877,7 @@
         ],
         [
           1781287200,
-          33
+          39
         ]
       ],
       "dailyPeak": [
@@ -4767,5 +4763,5 @@
     }
   },
   "peak48h": 39,
-  "peak48hAt": "2026-06-12T18:15:54.000Z"
+  "peak48hAt": "2026-06-12T18:21:03.000Z"
 }
