@@ -6,13 +6,13 @@
   "players": 6,
   "allTimePeak": 120,
   "peak24h": 8,
-  "peak24hAt": "2026-06-14T21:51:07.000Z",
-  "updatedAt": "2026-06-15T21:47:18.459Z",
+  "peak24hAt": "2026-06-14T21:56:07.000Z",
+  "updatedAt": "2026-06-15T21:51:53.001Z",
   "img_url": "2026/02/aphelion-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-15T21:47:18.459Z",
-    "updatedAtTs": 1781560038,
+    "updatedAt": "2026-06-15T21:51:53.001Z",
+    "updatedAtTs": 1781560313,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781560038,
+        1781560313,
         6
       ],
       "peak24h": [
-        1781473867,
+        1781474167,
         8
       ],
       "peak48h": [
-        1781387459,
+        1781387757,
         16
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781387459,
-          16
-        ],
         [
           1781387757,
           16
@@ -2304,6 +2300,10 @@
         [
           1781560038,
           6
+        ],
+        [
+          1781560313,
+          6
         ]
       ],
       "hourlyPeak": [
@@ -3806,5 +3806,5 @@
     }
   },
   "peak48h": 16,
-  "peak48hAt": "2026-06-13T21:50:59.000Z"
+  "peak48hAt": "2026-06-13T21:55:57.000Z"
 }
