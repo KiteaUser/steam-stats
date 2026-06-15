@@ -3,16 +3,16 @@
   "appid": "503560",
   "steamAppid": 503560,
   "name": "911 Operator",
-  "players": 256,
+  "players": 255,
   "allTimePeak": 10019,
-  "peak24h": 485,
-  "peak24hAt": "2026-06-14T18:46:00.000Z",
-  "updatedAt": "2026-06-15T18:41:20.222Z",
+  "peak24h": 451,
+  "peak24hAt": "2026-06-14T18:51:07.000Z",
+  "updatedAt": "2026-06-15T18:46:20.932Z",
   "img_url": "2025/08/911-operator-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-15T18:41:20.222Z",
-    "updatedAtTs": 1781548880,
+    "updatedAt": "2026-06-15T18:46:20.932Z",
+    "updatedAtTs": 1781549180,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1781548880,
-        256
+        1781549180,
+        255
       ],
       "peak24h": [
-        1781462760,
-        485
+        1781463067,
+        451
       ],
       "peak48h": [
         1781452555,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781376369,
-          249
-        ],
         [
           1781376660,
           274
@@ -2340,6 +2336,10 @@
         [
           1781548880,
           256
+        ],
+        [
+          1781549180,
+          255
         ]
       ],
       "hourlyPeak": [
