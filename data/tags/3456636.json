@@ -5,14 +5,14 @@
   "name": "Hacknet",
   "players": 42,
   "allTimePeak": 127640,
-  "peak24h": 67,
-  "peak24hAt": "2026-06-14T18:21:04.000Z",
-  "updatedAt": "2026-06-15T18:16:18.795Z",
+  "peak24h": 64,
+  "peak24hAt": "2026-06-14T18:41:07.000Z",
+  "updatedAt": "2026-06-15T18:21:13.526Z",
   "img_url": "2025/04/mixcollage-05-apr-2025-09-45-am-920.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-15T18:16:18.795Z",
-    "updatedAtTs": 1781547378,
+    "updatedAt": "2026-06-15T18:21:13.526Z",
+    "updatedAtTs": 1781547673,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1781547378,
+        1781547673,
         42
       ],
       "peak24h": [
-        1781461264,
-        67
+        1781462467,
+        64
       ],
       "peak48h": [
         1781450160,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781374868,
-          61
-        ],
         [
           1781375162,
           58
@@ -2339,6 +2335,10 @@
         ],
         [
           1781547378,
+          42
+        ],
+        [
+          1781547673,
           42
         ]
       ],
