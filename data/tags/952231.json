@@ -3,16 +3,16 @@
   "appid": "346900",
   "steamAppid": 346900,
   "name": "AdVenture Capitalist",
-  "players": 1000,
+  "players": 1024,
   "allTimePeak": 22998,
   "peak24h": 1283,
   "peak24hAt": "2026-06-14T19:31:06.000Z",
-  "updatedAt": "2026-06-15T14:16:09.746Z",
+  "updatedAt": "2026-06-15T14:21:28.161Z",
   "img_url": "2024/10/adventure-capitalist-tag-image.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-15T14:16:09.746Z",
-    "updatedAtTs": 1781532969,
+    "updatedAt": "2026-06-15T14:21:28.161Z",
+    "updatedAtTs": 1781533288,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1781532969,
-        1000
+        1781533288,
+        1024
       ],
       "peak24h": [
         1781465466,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781360464,
-          943
-        ],
         [
           1781360755,
           943
@@ -2332,6 +2328,10 @@
         [
           1781532969,
           1000
+        ],
+        [
+          1781533288,
+          1024
         ]
       ],
       "hourlyPeak": [
@@ -5033,7 +5033,7 @@
         ],
         [
           1781359200,
-          912
+          943
         ]
       ],
       "dailyPeak": [
