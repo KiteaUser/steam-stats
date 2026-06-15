@@ -3,16 +3,16 @@
   "appid": "224260",
   "steamAppid": 224260,
   "name": "No More Room in Hell",
-  "players": 641,
+  "players": 652,
   "allTimePeak": 10922,
   "peak24h": 782,
   "peak24hAt": "2026-06-14T14:21:00.000Z",
-  "updatedAt": "2026-06-15T14:06:06.575Z",
+  "updatedAt": "2026-06-15T14:11:14.604Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-09-10-am-2483.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-15T14:06:06.575Z",
-    "updatedAtTs": 1781532366,
+    "updatedAt": "2026-06-15T14:11:14.604Z",
+    "updatedAtTs": 1781532674,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781532366,
-        641
+        1781532674,
+        652
       ],
       "peak24h": [
         1781446860,
         782
       ],
       "peak48h": [
-        1781359866,
-        826
+        1781360163,
+        806
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781359866,
-          826
-        ],
         [
           1781360163,
           806
@@ -2336,13 +2332,13 @@
         [
           1781532366,
           641
+        ],
+        [
+          1781532674,
+          652
         ]
       ],
       "hourlyPeak": [
-        [
-          1778940521,
-          863
-        ],
         [
           1778944160,
           772
@@ -5307,7 +5303,7 @@
         ],
         [
           1778889600,
-          855
+          863
         ]
       ],
       "monthlyPeak": [
@@ -5910,6 +5906,6 @@
       ]
     }
   },
-  "peak48h": 826,
-  "peak48hAt": "2026-06-13T14:11:06.000Z"
+  "peak48h": 806,
+  "peak48hAt": "2026-06-13T14:16:03.000Z"
 }
