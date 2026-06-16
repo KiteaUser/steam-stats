@@ -3,16 +3,16 @@
   "appid": "3065800",
   "steamAppid": 3065800,
   "name": "Marathon",
-  "players": 10423,
+  "players": 10419,
   "allTimePeak": 88337,
   "peak24h": 12753,
   "peak24hAt": "2026-06-16T01:56:01.000Z",
-  "updatedAt": "2026-06-16T21:41:04.603Z",
+  "updatedAt": "2026-06-16T21:46:01.190Z",
   "img_url": "2024/12/mixcollage-27-dec-2024-10-55-am-4700.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T21:41:04.603Z",
-    "updatedAtTs": 1781646064,
+    "updatedAt": "2026-06-16T21:46:01.190Z",
+    "updatedAtTs": 1781646361,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781646064,
-        10423
+        1781646361,
+        10419
       ],
       "peak24h": [
         1781574961,
         12753
       ],
       "peak48h": [
-        1781473267,
-        14171
+        1781473867,
+        14015
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781473267,
-          14171
-        ],
-        [
-          1781473557,
-          14171
-        ],
         [
           1781473867,
           14015
@@ -2324,6 +2316,10 @@
         [
           1781646064,
           10423
+        ],
+        [
+          1781646361,
+          10419
         ]
       ],
       "hourlyPeak": [
@@ -5301,6 +5297,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 14171,
-  "peak48hAt": "2026-06-14T21:41:07.000Z"
+  "peak48h": 14015,
+  "peak48hAt": "2026-06-14T21:51:07.000Z"
 }
