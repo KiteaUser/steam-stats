@@ -3,16 +3,16 @@
   "appid": "1938090",
   "steamAppid": 1938090,
   "name": "Call of Duty",
-  "players": 33104,
+  "players": 33148,
   "allTimePeak": 491670,
   "peak24h": 36713,
   "peak24hAt": "2026-06-16T18:51:11.000Z",
-  "updatedAt": "2026-06-16T23:36:00.981Z",
+  "updatedAt": "2026-06-16T23:41:14.532Z",
   "img_url": "2024/11/mixcollage-20-nov-2024-12-05-pm-3234.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T23:36:00.981Z",
-    "updatedAtTs": 1781652960,
+    "updatedAt": "2026-06-16T23:41:14.532Z",
+    "updatedAtTs": 1781653274,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781652960,
-        33104
+        1781653274,
+        33148
       ],
       "peak24h": [
         1781635871,
         36713
       ],
       "peak48h": [
-        1781480464,
-        40520
+        1781480760,
+        40091
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781480464,
-          40520
-        ],
         [
           1781480760,
           40091
@@ -2320,6 +2316,10 @@
         [
           1781652960,
           33104
+        ],
+        [
+          1781653274,
+          33148
         ]
       ],
       "hourlyPeak": [
@@ -5462,6 +5462,6 @@
       ]
     }
   },
-  "peak48h": 40520,
-  "peak48hAt": "2026-06-14T23:41:04.000Z"
+  "peak48h": 40091,
+  "peak48hAt": "2026-06-14T23:46:00.000Z"
 }
