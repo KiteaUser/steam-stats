@@ -3,16 +3,16 @@
   "appid": "48240",
   "steamAppid": 48240,
   "name": "Anno 2070",
-  "players": 67,
+  "players": 65,
   "allTimePeak": 11217,
   "peak24h": 81,
   "peak24hAt": "2026-06-15T17:53:25.000Z",
-  "updatedAt": "2026-06-16T17:31:11.412Z",
+  "updatedAt": "2026-06-16T17:36:09.030Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-12-58-pm-5692.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T17:31:11.412Z",
-    "updatedAtTs": 1781631071,
+    "updatedAt": "2026-06-16T17:36:09.030Z",
+    "updatedAtTs": 1781631369,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781631071,
-        67
+        1781631369,
+        65
       ],
       "peak24h": [
         1781546005,
         81
       ],
       "peak48h": [
-        1781458276,
+        1781459154,
         101
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781458276,
-          101
-        ],
-        [
-          1781458560,
-          99
-        ],
         [
           1781458865,
           95
@@ -2332,6 +2324,10 @@
         [
           1781631071,
           67
+        ],
+        [
+          1781631369,
+          65
         ]
       ],
       "hourlyPeak": [
@@ -5963,5 +5959,5 @@
     }
   },
   "peak48h": 101,
-  "peak48hAt": "2026-06-14T17:31:16.000Z"
+  "peak48hAt": "2026-06-14T17:45:54.000Z"
 }
