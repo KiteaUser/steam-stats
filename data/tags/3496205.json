@@ -3,16 +3,16 @@
   "appid": "3768760",
   "steamAppid": 3768760,
   "name": "007 First Light",
-  "players": 11804,
+  "players": 11755,
   "allTimePeak": 71073,
   "peak24h": 12941,
   "peak24hAt": "2026-06-15T19:51:13.000Z",
-  "updatedAt": "2026-06-16T15:51:20.907Z",
+  "updatedAt": "2026-06-16T15:56:02.518Z",
   "img_url": "2025/06/007-first-light-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T15:51:20.907Z",
-    "updatedAtTs": 1781625080,
+    "updatedAt": "2026-06-16T15:56:02.518Z",
+    "updatedAtTs": 1781625362,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781625080,
-        11804
+        1781625362,
+        11755
       ],
       "peak24h": [
         1781553073,
         12941
       ],
       "peak48h": [
-        1781452555,
-        20996
+        1781452869,
+        20841
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781452555,
-          20996
-        ],
         [
           1781452869,
           20841
@@ -2324,6 +2320,10 @@
         [
           1781625080,
           11804
+        ],
+        [
+          1781625362,
+          11755
         ]
       ],
       "hourlyPeak": [
@@ -3540,6 +3540,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 20996,
-  "peak48hAt": "2026-06-14T15:55:55.000Z"
+  "peak48h": 20841,
+  "peak48hAt": "2026-06-14T16:01:09.000Z"
 }
