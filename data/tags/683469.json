@@ -3,16 +3,16 @@
   "appid": "1283700",
   "steamAppid": 1283700,
   "name": "SUPERVIVE",
-  "players": 2,
+  "players": 5,
   "allTimePeak": 47913,
   "peak24h": 7,
   "peak24hAt": "2026-06-15T01:21:13.000Z",
-  "updatedAt": "2026-06-15T23:56:39.150Z",
+  "updatedAt": "2026-06-16T00:01:27.523Z",
   "img_url": "2024/11/mixcollage-27-nov-2024-09-30-pm-1031-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-15T23:56:39.150Z",
-    "updatedAtTs": 1781567799,
+    "updatedAt": "2026-06-16T00:01:27.523Z",
+    "updatedAtTs": 1781568087,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1781567799,
-        2
+        1781568087,
+        5
       ],
       "peak24h": [
         1781486473,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781395272,
-          2
-        ],
         [
           1781395574,
           2
@@ -2228,6 +2224,10 @@
         [
           1781567799,
           2
+        ],
+        [
+          1781568087,
+          5
         ]
       ],
       "hourlyPeak": [
@@ -3614,6 +3614,10 @@
         [
           1781391600,
           3
+        ],
+        [
+          1781395200,
+          2
         ]
       ],
       "dailyPeak": [
