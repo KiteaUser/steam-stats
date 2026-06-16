@@ -3,16 +3,16 @@
   "appid": "1928980",
   "steamAppid": 1928980,
   "name": "Nightingale",
-  "players": 126,
+  "players": 122,
   "allTimePeak": 47569,
   "peak24h": 142,
   "peak24hAt": "2026-06-16T18:46:08.000Z",
-  "updatedAt": "2026-06-16T20:26:04.773Z",
+  "updatedAt": "2026-06-16T20:31:22.851Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-08-43-am-475.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T20:26:04.773Z",
-    "updatedAtTs": 1781641564,
+    "updatedAt": "2026-06-16T20:31:22.851Z",
+    "updatedAtTs": 1781641882,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781641564,
-        126
+        1781641882,
+        122
       ],
       "peak24h": [
         1781635568,
         142
       ],
       "peak48h": [
-        1781469073,
+        1781469354,
         165
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781469073,
-          165
-        ],
         [
           1781469354,
           165
@@ -2328,6 +2324,10 @@
         [
           1781641564,
           126
+        ],
+        [
+          1781641882,
+          122
         ]
       ],
       "hourlyPeak": [
@@ -5403,5 +5403,5 @@
     }
   },
   "peak48h": 165,
-  "peak48hAt": "2026-06-14T20:31:13.000Z"
+  "peak48hAt": "2026-06-14T20:35:54.000Z"
 }
