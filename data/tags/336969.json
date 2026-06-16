@@ -3,16 +3,16 @@
   "appid": "219990",
   "steamAppid": 219990,
   "name": "Grim Dawn",
-  "players": 3099,
+  "players": 3001,
   "allTimePeak": 61458,
   "peak24h": 3630,
   "peak24hAt": "2026-06-16T14:31:37.000Z",
-  "updatedAt": "2026-06-16T17:06:06.763Z",
+  "updatedAt": "2026-06-16T17:11:20.812Z",
   "img_url": "2024/11/mixcollage-20-nov-2024-12-37-pm-5484.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T17:06:06.763Z",
-    "updatedAtTs": 1781629566,
+    "updatedAt": "2026-06-16T17:11:20.812Z",
+    "updatedAtTs": 1781629880,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781629566,
-        3099
+        1781629880,
+        3001
       ],
       "peak24h": [
         1781620297,
         3630
       ],
       "peak48h": [
-        1781457062,
-        4005
+        1781457961,
+        3925
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781457062,
-          4005
-        ],
         [
           1781457366,
           3914
@@ -2332,6 +2328,10 @@
         [
           1781629566,
           3099
+        ],
+        [
+          1781629880,
+          3001
         ]
       ],
       "hourlyPeak": [
@@ -5902,6 +5902,6 @@
       ]
     }
   },
-  "peak48h": 4005,
-  "peak48hAt": "2026-06-14T17:11:02.000Z"
+  "peak48h": 3925,
+  "peak48hAt": "2026-06-14T17:26:01.000Z"
 }
