@@ -3,16 +3,16 @@
   "appid": "1361210",
   "steamAppid": 1361210,
   "name": "Warhammer 40000: Darktide",
-  "players": 8016,
+  "players": 7855,
   "allTimePeak": 108395,
-  "peak24h": 8621,
-  "peak24hAt": "2026-06-15T21:06:09.000Z",
-  "updatedAt": "2026-06-16T21:01:26.058Z",
+  "peak24h": 8564,
+  "peak24hAt": "2026-06-16T20:11:15.000Z",
+  "updatedAt": "2026-06-16T21:06:10.806Z",
   "img_url": "2025/07/warhammer-40-000-darktide-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T21:01:26.058Z",
-    "updatedAtTs": 1781643686,
+    "updatedAt": "2026-06-16T21:06:10.806Z",
+    "updatedAtTs": 1781643970,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781643686,
-        8016
+        1781643970,
+        7855
       ],
       "peak24h": [
-        1781557569,
-        8621
+        1781640675,
+        8564
       ],
       "peak48h": [
-        1781471161,
+        1781471463,
         10627
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781471161,
-          10627
-        ],
         [
           1781471463,
           10627
@@ -2332,13 +2328,13 @@
         [
           1781643686,
           8016
+        ],
+        [
+          1781643970,
+          7855
         ]
       ],
       "hourlyPeak": [
-        [
-          1779051865,
-          4777
-        ],
         [
           1779055465,
           4212
@@ -5475,5 +5471,5 @@
     }
   },
   "peak48h": 10627,
-  "peak48hAt": "2026-06-14T21:06:01.000Z"
+  "peak48hAt": "2026-06-14T21:11:03.000Z"
 }

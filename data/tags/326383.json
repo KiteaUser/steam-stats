@@ -3,16 +3,16 @@
   "appid": "758330b",
   "steamAppid": 758330,
   "name": "Shenmue 2",
-  "players": 25,
+  "players": 29,
   "allTimePeak": 1554,
-  "peak24h": 27,
-  "peak24hAt": "2026-06-15T21:16:02.000Z",
-  "updatedAt": "2026-06-16T21:01:26.058Z",
+  "peak24h": 29,
+  "peak24hAt": "2026-06-16T21:06:10.000Z",
+  "updatedAt": "2026-06-16T21:06:10.806Z",
   "img_url": "2024/12/shenmue-2-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T21:01:26.058Z",
-    "updatedAtTs": 1781643686,
+    "updatedAt": "2026-06-16T21:06:10.806Z",
+    "updatedAtTs": 1781643970,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781643686,
-        25
+        1781643970,
+        29
       ],
       "peak24h": [
-        1781558162,
-        27
+        1781643970,
+        29
       ],
       "peak48h": [
-        1781471161,
+        1781477756,
         31
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781471161,
-          31
-        ],
         [
           1781471463,
           28
@@ -2324,6 +2320,10 @@
         [
           1781643686,
           25
+        ],
+        [
+          1781643970,
+          29
         ]
       ],
       "hourlyPeak": [
@@ -2765,7 +2765,7 @@
         ],
         [
           1781470800,
-          29
+          31
         ]
       ],
       "dailyPeak": [],
@@ -2773,5 +2773,5 @@
     }
   },
   "peak48h": 31,
-  "peak48hAt": "2026-06-14T21:06:01.000Z"
+  "peak48hAt": "2026-06-14T22:55:56.000Z"
 }
