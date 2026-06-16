@@ -3,16 +3,16 @@
   "appid": "774171",
   "steamAppid": 774171,
   "name": "Muse Dash",
-  "players": 958,
+  "players": 1060,
   "allTimePeak": 11478,
-  "peak24h": 1011,
-  "peak24hAt": "2026-06-15T14:11:14.000Z",
-  "updatedAt": "2026-06-16T13:56:12.276Z",
+  "peak24h": 1060,
+  "peak24hAt": "2026-06-16T14:01:31.000Z",
+  "updatedAt": "2026-06-16T14:01:31.623Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-11-50-am-9505.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T13:56:12.276Z",
-    "updatedAtTs": 1781618172,
+    "updatedAt": "2026-06-16T14:01:31.623Z",
+    "updatedAtTs": 1781618491,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781618172,
-        958
+        1781618491,
+        1060
       ],
       "peak24h": [
-        1781532674,
-        1011
+        1781618491,
+        1060
       ],
       "peak48h": [
-        1781531770,
-        1044
+        1781618491,
+        1060
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781445674,
-          985
-        ],
         [
           1781445957,
           985
@@ -2336,6 +2332,10 @@
         [
           1781618172,
           958
+        ],
+        [
+          1781618491,
+          1060
         ]
       ],
       "hourlyPeak": [
@@ -2746,12 +2746,16 @@
         [
           1781442000,
           998
+        ],
+        [
+          1781445600,
+          985
         ]
       ],
       "dailyPeak": [],
       "monthlyPeak": []
     }
   },
-  "peak48h": 1044,
-  "peak48hAt": "2026-06-15T13:56:10.000Z"
+  "peak48h": 1060,
+  "peak48hAt": "2026-06-16T14:01:31.000Z"
 }
