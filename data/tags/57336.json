@@ -3,16 +3,16 @@
   "appid": "241540",
   "steamAppid": 241540,
   "name": "State of Decay",
-  "players": 10,
+  "players": 8,
   "allTimePeak": 10079,
   "peak24h": 15,
   "peak24hAt": "2026-06-15T21:01:25.000Z",
-  "updatedAt": "2026-06-16T19:25:59.087Z",
+  "updatedAt": "2026-06-16T19:31:20.485Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-11-57-pm-1263.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T19:25:59.087Z",
-    "updatedAtTs": 1781637959,
+    "updatedAt": "2026-06-16T19:31:20.485Z",
+    "updatedAtTs": 1781638280,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781637959,
-        10
+        1781638280,
+        8
       ],
       "peak24h": [
         1781557285,
         15
       ],
       "peak48h": [
-        1781465466,
+        1781465755,
         23
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781465160,
-          21
-        ],
-        [
-          1781465466,
-          23
-        ],
         [
           1781465755,
           23
@@ -2332,6 +2324,10 @@
         [
           1781637959,
           10
+        ],
+        [
+          1781638280,
+          8
         ]
       ],
       "hourlyPeak": [
@@ -4575,5 +4571,5 @@
     }
   },
   "peak48h": 23,
-  "peak48hAt": "2026-06-14T19:31:06.000Z"
+  "peak48hAt": "2026-06-14T19:35:55.000Z"
 }

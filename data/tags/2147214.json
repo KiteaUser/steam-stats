@@ -3,16 +3,16 @@
   "appid": "80",
   "steamAppid": 80,
   "name": "Counter-Strike: Condition Zero",
-  "players": 419,
+  "players": 396,
   "allTimePeak": 32748,
   "peak24h": 462,
   "peak24hAt": "2026-06-16T18:51:11.000Z",
-  "updatedAt": "2026-06-16T19:25:59.087Z",
+  "updatedAt": "2026-06-16T19:31:20.485Z",
   "img_url": "2024/12/counter-strike-condition-zero-tag-page-cover-art-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T19:25:59.087Z",
-    "updatedAtTs": 1781637959,
+    "updatedAt": "2026-06-16T19:31:20.485Z",
+    "updatedAtTs": 1781638280,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781637959,
-        419
+        1781638280,
+        396
       ],
       "peak24h": [
         1781635871,
         462
       ],
       "peak48h": [
-        1781465466,
-        515
+        1781465755,
+        511
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781465160,
-          512
-        ],
-        [
-          1781465466,
-          515
-        ],
         [
           1781465755,
           511
@@ -2328,6 +2320,10 @@
         [
           1781637959,
           419
+        ],
+        [
+          1781638280,
+          396
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5025,7 @@
         ],
         [
           1781463600,
-          512
+          515
         ]
       ],
       "dailyPeak": [
@@ -5962,6 +5958,6 @@
       ]
     }
   },
-  "peak48h": 515,
-  "peak48hAt": "2026-06-14T19:31:06.000Z"
+  "peak48h": 511,
+  "peak48hAt": "2026-06-14T19:35:55.000Z"
 }
