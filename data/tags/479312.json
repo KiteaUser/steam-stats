@@ -3,16 +3,16 @@
   "appid": "1742020",
   "steamAppid": 1742020,
   "name": "Idol Showdown",
-  "players": 62,
+  "players": 65,
   "allTimePeak": 10901,
   "peak24h": 81,
   "peak24hAt": "2026-06-16T14:31:37.000Z",
-  "updatedAt": "2026-06-16T15:56:02.518Z",
+  "updatedAt": "2026-06-16T16:01:45.419Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-01-23-pm-3129.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T15:56:02.518Z",
-    "updatedAtTs": 1781625362,
+    "updatedAt": "2026-06-16T16:01:45.419Z",
+    "updatedAtTs": 1781625705,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781625362,
-        62
+        1781625705,
+        65
       ],
       "peak24h": [
         1781620297,
         81
       ],
       "peak48h": [
-        1781452869,
+        1781453157,
         95
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781452869,
-          95
-        ],
         [
           1781453157,
           95
@@ -2324,6 +2320,10 @@
         [
           1781625362,
           62
+        ],
+        [
+          1781625705,
+          65
         ]
       ],
       "hourlyPeak": [
@@ -5018,6 +5018,10 @@
         [
           1781449200,
           99
+        ],
+        [
+          1781452800,
+          95
         ]
       ],
       "dailyPeak": [
@@ -5431,5 +5435,5 @@
     }
   },
   "peak48h": 95,
-  "peak48hAt": "2026-06-14T16:01:09.000Z"
+  "peak48hAt": "2026-06-14T16:05:57.000Z"
 }
