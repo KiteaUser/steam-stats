@@ -3,16 +3,16 @@
   "appid": "644930",
   "steamAppid": 644930,
   "name": "They Are Billions",
-  "players": 2906,
+  "players": 2907,
   "allTimePeak": 22395,
   "peak24h": 3128,
   "peak24hAt": "2026-06-15T13:56:10.000Z",
-  "updatedAt": "2026-06-16T13:06:16.599Z",
+  "updatedAt": "2026-06-16T13:11:10.020Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-07-20-am-1568.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T13:06:16.599Z",
-    "updatedAtTs": 1781615176,
+    "updatedAt": "2026-06-16T13:11:10.020Z",
+    "updatedAtTs": 1781615470,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781615176,
-        2906
+        1781615470,
+        2907
       ],
       "peak24h": [
         1781531770,
         3128
       ],
       "peak48h": [
-        1781442669,
-        3655
+        1781442963,
+        3623
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781442669,
-          3655
-        ],
         [
           1781442963,
           3623
@@ -2340,6 +2336,10 @@
         [
           1781615176,
           2906
+        ],
+        [
+          1781615470,
+          2907
         ]
       ],
       "hourlyPeak": [
@@ -5041,7 +5041,7 @@
         ],
         [
           1781442000,
-          3634
+          3655
         ]
       ],
       "dailyPeak": [
@@ -5742,6 +5742,6 @@
       ]
     }
   },
-  "peak48h": 3655,
-  "peak48hAt": "2026-06-14T13:11:09.000Z"
+  "peak48h": 3623,
+  "peak48hAt": "2026-06-14T13:16:03.000Z"
 }
