@@ -7,12 +7,12 @@
   "allTimePeak": 10019,
   "peak24h": 269,
   "peak24hAt": "2026-06-15T17:53:25.000Z",
-  "updatedAt": "2026-06-16T17:11:20.812Z",
+  "updatedAt": "2026-06-16T17:17:23.750Z",
   "img_url": "2025/08/911-operator-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T17:11:20.812Z",
-    "updatedAtTs": 1781629880,
+    "updatedAt": "2026-06-16T17:17:23.750Z",
+    "updatedAtTs": 1781630243,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1781629880,
+        1781630243,
         237
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         269
       ],
       "peak48h": [
-        1781457366,
-        540
+        1781457664,
+        528
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781457366,
-          540
-        ],
         [
           1781457664,
           528
@@ -2327,6 +2323,10 @@
         ],
         [
           1781629880,
+          237
+        ],
+        [
+          1781630243,
           237
         ]
       ],
@@ -5770,6 +5770,6 @@
       ]
     }
   },
-  "peak48h": 540,
-  "peak48hAt": "2026-06-14T17:16:06.000Z"
+  "peak48h": 528,
+  "peak48hAt": "2026-06-14T17:21:04.000Z"
 }
