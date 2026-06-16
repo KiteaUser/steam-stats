@@ -3,16 +3,16 @@
   "appid": "513710",
   "steamAppid": 513710,
   "name": "SCUM",
-  "players": 5651,
+  "players": 5568,
   "allTimePeak": 68322,
   "peak24h": 14112,
   "peak24hAt": "2026-06-16T14:36:03.000Z",
-  "updatedAt": "2026-06-16T23:05:59.731Z",
+  "updatedAt": "2026-06-16T23:11:02.822Z",
   "img_url": "2025/02/scum-tag-page.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T23:05:59.731Z",
-    "updatedAtTs": 1781651159,
+    "updatedAt": "2026-06-16T23:11:02.822Z",
+    "updatedAtTs": 1781651462,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1781651159,
-        5651
+        1781651462,
+        5568
       ],
       "peak24h": [
         1781620563,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781478361,
-          6801
-        ],
         [
           1781478663,
           6668
@@ -2336,6 +2332,10 @@
         [
           1781651159,
           5651
+        ],
+        [
+          1781651462,
+          5568
         ]
       ],
       "hourlyPeak": [
