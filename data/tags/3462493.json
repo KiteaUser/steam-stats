@@ -3,16 +3,16 @@
   "appid": "3314790",
   "steamAppid": 3314790,
   "name": "CloverPit",
-  "players": 1102,
+  "players": 1081,
   "allTimePeak": 25190,
   "peak24h": 1112,
   "peak24hAt": "2026-06-16T18:36:09.000Z",
-  "updatedAt": "2026-06-16T19:31:20.485Z",
+  "updatedAt": "2026-06-16T19:36:07.334Z",
   "img_url": "2025/04/clover-pit-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-16T19:31:20.485Z",
-    "updatedAtTs": 1781638280,
+    "updatedAt": "2026-06-16T19:36:07.334Z",
+    "updatedAtTs": 1781638567,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781638280,
-        1102
+        1781638567,
+        1081
       ],
       "peak24h": [
         1781634969,
         1112
       ],
       "peak48h": [
-        1781465755,
+        1781466073,
         1348
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781465755,
-          1348
-        ],
         [
           1781466073,
           1348
@@ -2328,6 +2324,10 @@
         [
           1781638280,
           1102
+        ],
+        [
+          1781638567,
+          1081
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5029,7 @@
         ],
         [
           1781463600,
-          1315
+          1348
         ]
       ],
       "dailyPeak": [
@@ -5331,5 +5331,5 @@
     }
   },
   "peak48h": 1348,
-  "peak48hAt": "2026-06-14T19:35:55.000Z"
+  "peak48hAt": "2026-06-14T19:41:13.000Z"
 }
