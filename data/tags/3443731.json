@@ -3,16 +3,16 @@
   "appid": "1149620",
   "steamAppid": 1149620,
   "name": "Gas Station Simulator",
-  "players": 280,
+  "players": 283,
   "allTimePeak": 12229,
-  "peak24h": 280,
-  "peak24hAt": "2026-06-16T19:31:20.000Z",
-  "updatedAt": "2026-06-17T18:31:09.016Z",
+  "peak24h": 283,
+  "peak24hAt": "2026-06-17T18:36:08.000Z",
+  "updatedAt": "2026-06-17T18:36:08.715Z",
   "img_url": "2025/03/gas-station-simulator-tag-image.jpeg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-17T18:31:09.016Z",
-    "updatedAtTs": 1781721069,
+    "updatedAt": "2026-06-17T18:36:08.715Z",
+    "updatedAtTs": 1781721368,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781721069,
-        280
+        1781721368,
+        283
       ],
       "peak24h": [
-        1781638280,
-        280
+        1781721368,
+        283
       ],
       "peak48h": [
-        1781548275,
+        1781549180,
         325
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781548275,
-          325
-        ],
         [
           1781548572,
           309
@@ -2316,6 +2312,10 @@
         [
           1781721069,
           280
+        ],
+        [
+          1781721368,
+          283
         ]
       ],
       "hourlyPeak": [
@@ -5017,7 +5017,7 @@
         ],
         [
           1781546400,
-          318
+          325
         ]
       ],
       "dailyPeak": [
@@ -5515,5 +5515,5 @@
     }
   },
   "peak48h": 325,
-  "peak48hAt": "2026-06-15T18:31:15.000Z"
+  "peak48hAt": "2026-06-15T18:46:20.000Z"
 }
