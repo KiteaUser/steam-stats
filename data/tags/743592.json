@@ -3,16 +3,16 @@
   "appid": "1273400",
   "steamAppid": 1273400,
   "name": "Construction Simulator",
-  "players": 1425,
+  "players": 1401,
   "allTimePeak": 17365,
-  "peak24h": 1644,
-  "peak24hAt": "2026-06-16T19:31:20.000Z",
-  "updatedAt": "2026-06-17T19:31:17.165Z",
+  "peak24h": 1590,
+  "peak24hAt": "2026-06-16T19:41:21.000Z",
+  "updatedAt": "2026-06-17T19:36:13.379Z",
   "img_url": "2025/02/mixcollage-08-feb-2025-09-20-am-6411.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-17T19:31:17.165Z",
-    "updatedAtTs": 1781724677,
+    "updatedAt": "2026-06-17T19:36:13.379Z",
+    "updatedAtTs": 1781724973,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781724677,
-        1425
+        1781724973,
+        1401
       ],
       "peak24h": [
-        1781638280,
-        1644
+        1781638881,
+        1590
       ],
       "peak48h": [
-        1781551880,
-        1867
+        1781552458,
+        1855
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781551880,
-          1867
-        ],
-        [
-          1781552162,
-          1867
-        ],
         [
           1781552458,
           1855
@@ -2320,6 +2312,10 @@
         [
           1781724677,
           1425
+        ],
+        [
+          1781724973,
+          1401
         ]
       ],
       "hourlyPeak": [
@@ -5470,6 +5466,6 @@
       ]
     }
   },
-  "peak48h": 1867,
-  "peak48hAt": "2026-06-15T19:31:20.000Z"
+  "peak48h": 1855,
+  "peak48hAt": "2026-06-15T19:40:58.000Z"
 }
