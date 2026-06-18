@@ -3,16 +3,16 @@
   "appid": "1568590",
   "steamAppid": 1568590,
   "name": "Goose Goose Duck",
-  "players": 8273,
+  "players": 8200,
   "allTimePeak": 702845,
   "peak24h": 8362,
   "peak24hAt": "2026-06-18T15:01:15.000Z",
-  "updatedAt": "2026-06-18T15:06:08.546Z",
+  "updatedAt": "2026-06-18T15:16:23.880Z",
   "img_url": "2024/11/mixcollage-29-nov-2024-11-29-pm-1684.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-18T15:06:08.546Z",
-    "updatedAtTs": 1781795168,
+    "updatedAt": "2026-06-18T15:16:23.880Z",
+    "updatedAtTs": 1781795783,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781795168,
-        8273
+        1781795783,
+        8200
       ],
       "peak24h": [
         1781794875,
         8362
       ],
       "peak48h": [
-        1781622380,
-        8624
+        1781794875,
+        8362
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781622380,
-          8624
-        ],
-        [
-          1781622973,
-          8325
-        ],
         [
           1781623279,
           8174
@@ -2312,6 +2304,10 @@
         [
           1781795168,
           8273
+        ],
+        [
+          1781795783,
+          8200
         ]
       ],
       "hourlyPeak": [
@@ -5534,6 +5530,6 @@
       ]
     }
   },
-  "peak48h": 8624,
-  "peak48hAt": "2026-06-16T15:06:20.000Z"
+  "peak48h": 8362,
+  "peak48hAt": "2026-06-18T15:01:15.000Z"
 }
