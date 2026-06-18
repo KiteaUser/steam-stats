@@ -3,16 +3,16 @@
   "appid": "224600",
   "steamAppid": 224600,
   "name": "Defiance",
-  "players": 2,
+  "players": 1,
   "allTimePeak": 12690,
   "peak24h": 2,
-  "peak24hAt": "2026-06-17T13:46:19.000Z",
-  "updatedAt": "2026-06-18T13:46:03.075Z",
+  "peak24hAt": "2026-06-18T04:11:00.000Z",
+  "updatedAt": "2026-06-18T13:51:11.307Z",
   "img_url": "sharedimages/2024/08/defiance-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-18T13:46:03.075Z",
-    "updatedAtTs": 1781790363,
+    "updatedAt": "2026-06-18T13:51:11.307Z",
+    "updatedAtTs": 1781790671,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,11 +23,11 @@
     },
     "summary": {
       "current": [
-        1781790363,
-        2
+        1781790671,
+        1
       ],
       "peak24h": [
-        1781703979,
+        1781755860,
         2
       ],
       "peak48h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781617575,
-          1
-        ],
         [
           1781617875,
           1
@@ -1680,6 +1676,10 @@
         [
           1781790363,
           2
+        ],
+        [
+          1781790671,
+          1
         ]
       ],
       "hourlyPeak": [
