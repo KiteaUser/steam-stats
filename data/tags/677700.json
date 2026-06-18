@@ -3,16 +3,16 @@
   "appid": "3017860",
   "steamAppid": 3017860,
   "name": "DOOM: The Dark Ages",
-  "players": 1016,
+  "players": 1030,
   "allTimePeak": 31470,
-  "peak24h": 1022,
-  "peak24hAt": "2026-06-18T19:11:03.000Z",
-  "updatedAt": "2026-06-18T19:51:04.444Z",
+  "peak24h": 1030,
+  "peak24hAt": "2026-06-18T19:55:58.000Z",
+  "updatedAt": "2026-06-18T19:55:58.790Z",
   "img_url": "2025/02/doom-the-dark-ages-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-18T19:51:04.444Z",
-    "updatedAtTs": 1781812264,
+    "updatedAt": "2026-06-18T19:55:58.790Z",
+    "updatedAtTs": 1781812558,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781812264,
-        1016
+        1781812558,
+        1030
       ],
       "peak24h": [
-        1781809863,
-        1022
+        1781812558,
+        1030
       ],
       "peak48h": [
-        1781639477,
+        1781639775,
         1036
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781639477,
-          1036
-        ],
         [
           1781639775,
           1036
@@ -2316,6 +2312,10 @@
         [
           1781812264,
           1016
+        ],
+        [
+          1781812558,
+          1030
         ]
       ],
       "hourlyPeak": [
@@ -5017,7 +5017,7 @@
         ],
         [
           1781636400,
-          1035
+          1036
         ]
       ],
       "dailyPeak": [
@@ -5343,5 +5343,5 @@
     }
   },
   "peak48h": 1036,
-  "peak48hAt": "2026-06-16T19:51:17.000Z"
+  "peak48hAt": "2026-06-16T19:56:15.000Z"
 }
