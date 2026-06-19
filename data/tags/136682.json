@@ -3,16 +3,16 @@
   "appid": "546560",
   "steamAppid": 546560,
   "name": "Half-Life: Alyx",
-  "players": 257,
+  "players": 280,
   "allTimePeak": 42858,
   "peak24h": 316,
   "peak24hAt": "2026-06-19T17:05:57.000Z",
-  "updatedAt": "2026-06-19T19:15:58.998Z",
+  "updatedAt": "2026-06-19T19:21:02.630Z",
   "img_url": "2024/12/mixcollage-03-dec-2024-10-36-pm-2145.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-19T19:15:58.998Z",
-    "updatedAtTs": 1781896558,
+    "updatedAt": "2026-06-19T19:21:02.630Z",
+    "updatedAtTs": 1781896862,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1781896558,
-        257
+        1781896862,
+        280
       ],
       "peak24h": [
         1781888757,
         316
       ],
       "peak48h": [
-        1781723761,
+        1781888757,
         316
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781723761,
-          316
-        ],
         [
           1781724068,
           305
@@ -2336,6 +2332,10 @@
         [
           1781896558,
           257
+        ],
+        [
+          1781896862,
+          280
         ]
       ],
       "hourlyPeak": [
@@ -5615,5 +5615,5 @@
     }
   },
   "peak48h": 316,
-  "peak48hAt": "2026-06-17T19:16:01.000Z"
+  "peak48hAt": "2026-06-19T17:05:57.000Z"
 }
