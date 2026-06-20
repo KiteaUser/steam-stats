@@ -3,16 +3,16 @@
   "appid": "1304930",
   "steamAppid": 1304930,
   "name": "The Outlast Trials",
-  "players": 5880,
+  "players": 5802,
   "allTimePeak": 36689,
   "peak24h": 5880,
   "peak24hAt": "2026-06-20T14:55:57.000Z",
-  "updatedAt": "2026-06-20T15:05:58.355Z",
+  "updatedAt": "2026-06-20T15:11:17.102Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-02-15-am-8426.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-20T15:05:58.355Z",
-    "updatedAtTs": 1781967958,
+    "updatedAt": "2026-06-20T15:11:17.102Z",
+    "updatedAtTs": 1781968277,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1781967958,
-        5880
+        1781968277,
+        5802
       ],
       "peak24h": [
         1781967357,
         5880
       ],
       "peak48h": [
-        1781795168,
-        6070
+        1781795783,
+        6004
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781795168,
-          6070
-        ],
         [
           1781795783,
           6004
@@ -2344,6 +2340,10 @@
         [
           1781967958,
           5880
+        ],
+        [
+          1781968277,
+          5802
         ]
       ],
       "hourlyPeak": [
@@ -5045,7 +5045,7 @@
         ],
         [
           1781794800,
-          6004
+          6070
         ]
       ],
       "dailyPeak": [
@@ -5474,6 +5474,6 @@
       ]
     }
   },
-  "peak48h": 6070,
-  "peak48hAt": "2026-06-18T15:06:08.000Z"
+  "peak48h": 6004,
+  "peak48hAt": "2026-06-18T15:16:23.000Z"
 }
