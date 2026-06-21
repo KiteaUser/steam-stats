@@ -3,16 +3,16 @@
   "appid": "209080",
   "steamAppid": 209080,
   "name": "Guns of Icarus Online",
-  "players": 3,
+  "players": 12,
   "allTimePeak": 107883,
-  "peak24h": 7,
-  "peak24hAt": "2026-06-21T05:01:13.000Z",
-  "updatedAt": "2026-06-21T18:06:00.617Z",
+  "peak24h": 12,
+  "peak24hAt": "2026-06-21T18:11:06.000Z",
+  "updatedAt": "2026-06-21T18:11:06.333Z",
   "img_url": "2025/01/mixcollage-04-jan-2025-03-51-am-4107.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-21T18:06:00.617Z",
-    "updatedAtTs": 1782065160,
+    "updatedAt": "2026-06-21T18:11:06.333Z",
+    "updatedAtTs": 1782065466,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782065160,
-        3
+        1782065466,
+        12
       ],
       "peak24h": [
-        1782018073,
-        7
+        1782065466,
+        12
       ],
       "peak48h": [
-        1781898093,
-        10
+        1782065466,
+        12
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1781892361,
-          2
-        ],
         [
           1781892668,
           2
@@ -1832,6 +1828,10 @@
         [
           1782065160,
           3
+        ],
+        [
+          1782065466,
+          12
         ]
       ],
       "hourlyPeak": [
@@ -3842,6 +3842,6 @@
       ]
     }
   },
-  "peak48h": 10,
-  "peak48hAt": "2026-06-19T19:41:33.000Z"
+  "peak48h": 12,
+  "peak48hAt": "2026-06-21T18:11:06.000Z"
 }
