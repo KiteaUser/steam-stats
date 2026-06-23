@@ -3,16 +3,16 @@
   "appid": "1818750",
   "steamAppid": 1818750,
   "name": "MultiVersus",
-  "players": 38,
+  "players": 40,
   "allTimePeak": 153433,
   "peak24h": 55,
   "peak24hAt": "2026-06-23T01:41:03.000Z",
-  "updatedAt": "2026-06-23T21:11:03.312Z",
+  "updatedAt": "2026-06-23T21:16:03.841Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-08-01-am-3721.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23T21:11:03.312Z",
-    "updatedAtTs": 1782249063,
+    "updatedAt": "2026-06-23T21:16:03.841Z",
+    "updatedAtTs": 1782249363,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782249063,
-        38
+        1782249363,
+        40
       ],
       "peak24h": [
         1782178863,
         55
       ],
       "peak48h": [
-        1782076555,
-        69
+        1782161158,
+        61
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782076270,
-          64
-        ],
-        [
-          1782076555,
-          69
-        ],
         [
           1782076869,
           55
@@ -2252,6 +2244,10 @@
         [
           1782249063,
           38
+        ],
+        [
+          1782249363,
+          40
         ]
       ],
       "hourlyPeak": [
@@ -5434,6 +5430,6 @@
       ]
     }
   },
-  "peak48h": 69,
-  "peak48hAt": "2026-06-21T21:15:55.000Z"
+  "peak48h": 61,
+  "peak48hAt": "2026-06-22T20:45:58.000Z"
 }
