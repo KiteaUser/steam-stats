@@ -3,16 +3,16 @@
   "appid": "464920",
   "steamAppid": 464920,
   "name": "Surviving Mars",
-  "players": 255,
+  "players": 251,
   "allTimePeak": 23744,
   "peak24h": 305,
   "peak24hAt": "2026-06-23T15:11:25.000Z",
-  "updatedAt": "2026-06-23T21:51:10.314Z",
+  "updatedAt": "2026-06-23T21:55:58.602Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-02-06-pm-8334.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23T21:51:10.314Z",
-    "updatedAtTs": 1782251470,
+    "updatedAt": "2026-06-23T21:55:58.602Z",
+    "updatedAtTs": 1782251758,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782251470,
-        255
+        1782251758,
+        251
       ],
       "peak24h": [
         1782227485,
         305
       ],
       "peak48h": [
-        1782078951,
-        363
+        1782079274,
+        357
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782078951,
-          363
-        ],
         [
           1782079274,
           357
@@ -2240,6 +2236,10 @@
         [
           1782251470,
           255
+        ],
+        [
+          1782251758,
+          251
         ]
       ],
       "hourlyPeak": [
@@ -5670,6 +5670,6 @@
       ]
     }
   },
-  "peak48h": 363,
-  "peak48hAt": "2026-06-21T21:55:51.000Z"
+  "peak48h": 357,
+  "peak48hAt": "2026-06-21T22:01:14.000Z"
 }
