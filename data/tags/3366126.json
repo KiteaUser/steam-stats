@@ -3,16 +3,16 @@
   "appid": "382120",
   "steamAppid": 382120,
   "name": "Journey To The Center Of The Earth",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 13027,
   "peak24h": 4,
   "peak24hAt": "2026-06-22T18:56:10.000Z",
-  "updatedAt": "2026-06-23T17:26:18.521Z",
+  "updatedAt": "2026-06-23T17:36:20.489Z",
   "img_url": "2025/10/journey-to-the-center-of-the-earth-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23T17:26:18.521Z",
-    "updatedAtTs": 1782235578,
+    "updatedAt": "2026-06-23T17:36:20.489Z",
+    "updatedAtTs": 1782236180,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782235578,
-        1
+        1782236180,
+        2
       ],
       "peak24h": [
         1782154570,
         4
       ],
       "peak48h": [
-        1782063064,
+        1782063661,
         16
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782063064,
-          16
-        ],
-        [
-          1782063358,
-          16
-        ],
         [
           1782063661,
           16
@@ -656,6 +648,10 @@
         [
           1782235578,
           1
+        ],
+        [
+          1782236180,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -2035,5 +2031,5 @@
     }
   },
   "peak48h": 16,
-  "peak48hAt": "2026-06-21T17:31:04.000Z"
+  "peak48hAt": "2026-06-21T17:41:01.000Z"
 }
