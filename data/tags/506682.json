@@ -7,12 +7,12 @@
   "allTimePeak": 264708,
   "peak24h": 1262,
   "peak24hAt": "2026-06-23T13:51:17.000Z",
-  "updatedAt": "2026-06-23T14:06:09.210Z",
+  "updatedAt": "2026-06-23T14:11:06.325Z",
   "img_url": "2025/09/last-epoch-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23T14:06:09.210Z",
-    "updatedAtTs": 1782223569,
+    "updatedAt": "2026-06-23T14:11:06.325Z",
+    "updatedAtTs": 1782223866,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1782223569,
+        1782223866,
         1262
       ],
       "peak24h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782051065,
-          1605
-        ],
         [
           1782051410,
           1644
@@ -2311,6 +2307,10 @@
         ],
         [
           1782223569,
+          1262
+        ],
+        [
+          1782223866,
           1262
         ]
       ],
@@ -5013,7 +5013,7 @@
         ],
         [
           1782050400,
-          1587
+          1605
         ]
       ],
       "dailyPeak": [
