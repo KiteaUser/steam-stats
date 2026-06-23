@@ -3,16 +3,16 @@
   "appid": "2273430",
   "steamAppid": 2273430,
   "name": "BlazBlue Entropy Effect",
-  "players": 1010,
+  "players": 992,
   "allTimePeak": 11918,
   "peak24h": 1010,
   "peak24hAt": "2026-06-23T14:26:09.000Z",
-  "updatedAt": "2026-06-23T14:26:09.787Z",
+  "updatedAt": "2026-06-23T14:31:18.141Z",
   "img_url": "2025/09/blazblue-entropy-effect-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23T14:26:09.787Z",
-    "updatedAtTs": 1782224769,
+    "updatedAt": "2026-06-23T14:31:18.141Z",
+    "updatedAtTs": 1782225078,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782224769,
-        1010
+        1782225078,
+        992
       ],
       "peak24h": [
         1782224769,
         1010
       ],
       "peak48h": [
-        1782052271,
-        1086
+        1782052559,
+        1057
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782052271,
-          1086
-        ],
         [
           1782052559,
           1057
@@ -2312,6 +2308,10 @@
         [
           1782224769,
           1010
+        ],
+        [
+          1782225078,
+          992
         ]
       ],
       "hourlyPeak": [
@@ -5442,6 +5442,6 @@
       ]
     }
   },
-  "peak48h": 1086,
-  "peak48hAt": "2026-06-21T14:31:11.000Z"
+  "peak48h": 1057,
+  "peak48hAt": "2026-06-21T14:35:59.000Z"
 }
