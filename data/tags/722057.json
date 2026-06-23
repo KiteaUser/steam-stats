@@ -3,16 +3,16 @@
   "appid": "2185060",
   "steamAppid": 2185060,
   "name": "Two Point Museum",
-  "players": 4201,
+  "players": 4043,
   "allTimePeak": 19439,
   "peak24h": 7781,
   "peak24hAt": "2026-06-22T16:26:08.000Z",
-  "updatedAt": "2026-06-23T16:21:23.790Z",
+  "updatedAt": "2026-06-23T16:26:05.091Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-11-19-am-4275.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23T16:21:23.790Z",
-    "updatedAtTs": 1782231683,
+    "updatedAt": "2026-06-23T16:26:05.091Z",
+    "updatedAtTs": 1782231965,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782231683,
-        4201
+        1782231965,
+        4043
       ],
       "peak24h": [
         1782145568,
         7781
       ],
       "peak48h": [
-        1782059154,
+        1782059469,
         9856
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782059154,
-          9856
-        ],
         [
           1782059469,
           9856
@@ -2308,6 +2304,10 @@
         [
           1782231683,
           4201
+        ],
+        [
+          1782231965,
+          4043
         ]
       ],
       "hourlyPeak": [
@@ -5363,5 +5363,5 @@
     }
   },
   "peak48h": 9856,
-  "peak48hAt": "2026-06-21T16:25:54.000Z"
+  "peak48hAt": "2026-06-21T16:31:09.000Z"
 }
