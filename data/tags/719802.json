@@ -3,16 +3,16 @@
   "appid": "2709570",
   "steamAppid": 2709570,
   "name": "Supermarket Together",
-  "players": 9418,
+  "players": 9308,
   "allTimePeak": 47836,
   "peak24h": 9843,
   "peak24hAt": "2026-06-23T14:46:06.000Z",
-  "updatedAt": "2026-06-23T15:31:20.577Z",
+  "updatedAt": "2026-06-23T15:36:08.150Z",
   "img_url": "2024/11/mixcollage-29-nov-2024-03-05-am-2650.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-23T15:31:20.577Z",
-    "updatedAtTs": 1782228680,
+    "updatedAt": "2026-06-23T15:36:08.150Z",
+    "updatedAtTs": 1782228968,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782228680,
-        9418
+        1782228968,
+        9308
       ],
       "peak24h": [
         1782225966,
         9843
       ],
       "peak48h": [
-        1782056161,
-        9973
+        1782225966,
+        9843
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782056161,
-          9973
-        ],
         [
           1782056471,
           9754
@@ -2308,6 +2304,10 @@
         [
           1782228680,
           9418
+        ],
+        [
+          1782228968,
+          9308
         ]
       ],
       "hourlyPeak": [
@@ -5390,6 +5390,6 @@
       ]
     }
   },
-  "peak48h": 9973,
-  "peak48hAt": "2026-06-21T15:36:01.000Z"
+  "peak48h": 9843,
+  "peak48hAt": "2026-06-23T14:46:06.000Z"
 }
