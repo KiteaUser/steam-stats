@@ -5,14 +5,14 @@
   "name": "BLOODSTRIKE",
   "players": 5432,
   "allTimePeak": 7765,
-  "peak24h": 5546,
-  "peak24hAt": "2026-06-23T01:21:13.000Z",
-  "updatedAt": "2026-06-24T01:21:05.514Z",
+  "peak24h": 5505,
+  "peak24hAt": "2026-06-23T17:06:07.000Z",
+  "updatedAt": "2026-06-24T01:26:01.186Z",
   "img_url": "2024/11/mixcollage-18-nov-2024-01-06-pm-4341-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-24T01:21:05.514Z",
-    "updatedAtTs": 1782264065,
+    "updatedAt": "2026-06-24T01:26:01.186Z",
+    "updatedAtTs": 1782264361,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1782264065,
+        1782264361,
         5432
       ],
       "peak24h": [
-        1782177673,
-        5546
+        1782234367,
+        5505
       ],
       "peak48h": [
         1782091866,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782091558,
-          5737
-        ],
         [
           1782091866,
           5772
@@ -2207,6 +2203,10 @@
         ],
         [
           1782264065,
+          5432
+        ],
+        [
+          1782264361,
           5432
         ]
       ],
