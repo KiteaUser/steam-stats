@@ -3,16 +3,16 @@
   "appid": "1102190",
   "steamAppid": 1102190,
   "name": "Monster Train",
-  "players": 100,
+  "players": 99,
   "allTimePeak": 14073,
   "peak24h": 162,
   "peak24hAt": "2026-06-24T14:11:13.000Z",
-  "updatedAt": "2026-06-24T23:06:14.645Z",
+  "updatedAt": "2026-06-24T23:11:03.462Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-06-11-pm-3015.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-24T23:06:14.645Z",
-    "updatedAtTs": 1782342374,
+    "updatedAt": "2026-06-24T23:11:03.462Z",
+    "updatedAtTs": 1782342663,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1782342374,
-        100
+        1782342663,
+        99
       ],
       "peak24h": [
         1782310273,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782169863,
-          100
-        ],
         [
           1782170163,
           100
@@ -2088,6 +2084,10 @@
         [
           1782342374,
           100
+        ],
+        [
+          1782342663,
+          99
         ]
       ],
       "hourlyPeak": [
@@ -4793,7 +4793,7 @@
         ],
         [
           1782169200,
-          90
+          100
         ]
       ],
       "dailyPeak": [
