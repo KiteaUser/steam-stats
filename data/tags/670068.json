@@ -7,12 +7,12 @@
   "allTimePeak": 138627,
   "peak24h": 3,
   "peak24hAt": "2026-06-23T19:51:04.000Z",
-  "updatedAt": "2026-06-24T18:01:21.152Z",
+  "updatedAt": "2026-06-24T18:11:12.275Z",
   "img_url": "2025/03/fortified-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-24T18:01:21.152Z",
-    "updatedAtTs": 1782324081,
+    "updatedAt": "2026-06-24T18:11:12.275Z",
+    "updatedAtTs": 1782324672,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1782324081,
+        1782324672,
         1
       ],
       "peak24h": [
@@ -31,7 +31,7 @@
         3
       ],
       "peak48h": [
-        1782151282,
+        1782210392,
         3
       ],
       "allTimePeak": [
@@ -41,18 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782151282,
-          3
-        ],
-        [
-          1782151554,
-          3
-        ],
-        [
-          1782151868,
-          2
-        ],
         [
           1782152167,
           2
@@ -1858,6 +1846,10 @@
         [
           1782147600,
           3
+        ],
+        [
+          1782151200,
+          3
         ]
       ],
       "dailyPeak": [
@@ -2631,5 +2623,5 @@
     }
   },
   "peak48h": 3,
-  "peak48hAt": "2026-06-22T18:01:22.000Z"
+  "peak48hAt": "2026-06-23T10:26:32.000Z"
 }
