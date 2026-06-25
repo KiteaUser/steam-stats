@@ -3,16 +3,16 @@
   "appid": "1162520",
   "steamAppid": 1162520,
   "name": "10Richman 10",
-  "players": 603,
+  "players": 595,
   "allTimePeak": 10791,
   "peak24h": 645,
   "peak24hAt": "2026-06-24T14:46:21.000Z",
-  "updatedAt": "2026-06-25T14:41:10.225Z",
+  "updatedAt": "2026-06-25T14:46:08.203Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-25T14:41:10.225Z",
-    "updatedAtTs": 1782398470,
+    "updatedAt": "2026-06-25T14:46:08.203Z",
+    "updatedAtTs": 1782398768,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782398470,
-        603
+        1782398768,
+        595
       ],
       "peak24h": [
         1782312381,
         645
       ],
       "peak48h": [
-        1782225966,
-        692
+        1782226270,
+        656
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782225675,
-          675
-        ],
-        [
-          1782225966,
-          692
-        ],
         [
           1782226270,
           656
@@ -2080,6 +2072,10 @@
         [
           1782398470,
           603
+        ],
+        [
+          1782398768,
+          595
         ]
       ],
       "hourlyPeak": [
@@ -5402,6 +5398,6 @@
       ]
     }
   },
-  "peak48h": 692,
-  "peak48hAt": "2026-06-23T14:46:06.000Z"
+  "peak48h": 656,
+  "peak48hAt": "2026-06-23T14:51:10.000Z"
 }
