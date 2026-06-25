@@ -3,16 +3,16 @@
   "appid": "203160",
   "steamAppid": 203160,
   "name": "Tomb Raider",
-  "players": 851,
+  "players": 853,
   "allTimePeak": 89538,
   "peak24h": 1384,
   "peak24hAt": "2026-06-25T14:21:25.000Z",
-  "updatedAt": "2026-06-25T20:46:02.225Z",
+  "updatedAt": "2026-06-25T20:51:07.855Z",
   "img_url": "2025/01/tomb-raider.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-25T20:46:02.225Z",
-    "updatedAtTs": 1782420362,
+    "updatedAt": "2026-06-25T20:51:07.855Z",
+    "updatedAtTs": 1782420667,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1782420362,
-        851
+        1782420667,
+        853
       ],
       "peak24h": [
         1782397285,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782247590,
-          966
-        ],
         [
           1782248000,
           954
@@ -2128,6 +2124,10 @@
         [
           1782420362,
           851
+        ],
+        [
+          1782420667,
+          853
         ]
       ],
       "hourlyPeak": [
