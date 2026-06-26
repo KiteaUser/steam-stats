@@ -3,16 +3,16 @@
   "appid": "386180",
   "steamAppid": 386180,
   "name": "Crossout",
-  "players": 1000,
+  "players": 960,
   "allTimePeak": 12170,
   "peak24h": 1596,
   "peak24hAt": "2026-06-26T16:26:10.000Z",
-  "updatedAt": "2026-06-26T22:21:08.299Z",
+  "updatedAt": "2026-06-26T22:26:01.095Z",
   "img_url": "2025/02/mixcollage-07-feb-2025-07-47-am-8645.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-26T22:21:08.299Z",
-    "updatedAtTs": 1782512468,
+    "updatedAt": "2026-06-26T22:26:01.095Z",
+    "updatedAtTs": 1782512761,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1782512468,
-        1000
+        1782512761,
+        960
       ],
       "peak24h": [
         1782491170,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782339958,
-          872
-        ],
         [
           1782340272,
           842
@@ -2308,6 +2304,10 @@
         [
           1782512468,
           1000
+        ],
+        [
+          1782512761,
+          960
         ]
       ],
       "hourlyPeak": [
