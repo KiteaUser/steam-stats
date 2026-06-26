@@ -3,16 +3,16 @@
   "appid": "269710",
   "steamAppid": 269710,
   "name": "Tumblestone",
-  "players": 2,
+  "players": 4,
   "allTimePeak": 13239,
-  "peak24h": 3,
-  "peak24hAt": "2026-06-25T05:51:11.000Z",
-  "updatedAt": "2026-06-26T01:16:05.297Z",
+  "peak24h": 4,
+  "peak24hAt": "2026-06-26T01:21:09.000Z",
+  "updatedAt": "2026-06-26T01:21:09.556Z",
   "img_url": "2025/04/mixcollage-08-apr-2025-01-44-pm-1509.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-26T01:16:05.297Z",
-    "updatedAtTs": 1782436565,
+    "updatedAt": "2026-06-26T01:21:09.556Z",
+    "updatedAtTs": 1782436869,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782436565,
-        2
+        1782436869,
+        4
       ],
       "peak24h": [
-        1782366671,
-        3
+        1782436869,
+        4
       ],
       "peak48h": [
-        1782366671,
-        3
+        1782436869,
+        4
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782263815,
-          1
-        ],
-        [
-          1782264065,
-          1
-        ],
         [
           1782264361,
           1
@@ -848,6 +840,10 @@
         [
           1782436565,
           2
+        ],
+        [
+          1782436869,
+          4
         ]
       ],
       "hourlyPeak": [
@@ -2554,6 +2550,10 @@
         [
           1782259200,
           1
+        ],
+        [
+          1782262800,
+          1
         ]
       ],
       "dailyPeak": [
@@ -3414,6 +3414,6 @@
       ]
     }
   },
-  "peak48h": 3,
-  "peak48hAt": "2026-06-25T05:51:11.000Z"
+  "peak48h": 4,
+  "peak48hAt": "2026-06-26T01:21:09.000Z"
 }
