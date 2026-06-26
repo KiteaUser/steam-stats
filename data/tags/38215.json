@@ -3,16 +3,16 @@
   "appid": "232770",
   "steamAppid": 232770,
   "name": "POSTAL",
-  "players": 41,
+  "players": 48,
   "allTimePeak": 412063,
-  "peak24h": 45,
-  "peak24hAt": "2026-06-25T19:26:06.000Z",
-  "updatedAt": "2026-06-26T16:21:26.497Z",
+  "peak24h": 48,
+  "peak24hAt": "2026-06-26T16:26:10.000Z",
+  "updatedAt": "2026-06-26T16:26:10.150Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-10-52-am-3723.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-26T16:21:26.497Z",
-    "updatedAtTs": 1782490886,
+    "updatedAt": "2026-06-26T16:26:10.150Z",
+    "updatedAtTs": 1782491170,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782490886,
-        41
+        1782491170,
+        48
       ],
       "peak24h": [
-        1782415566,
-        45
+        1782491170,
+        48
       ],
       "peak48h": [
-        1782318364,
-        55
+        1782328564,
+        53
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782318364,
-          55
-        ],
         [
           1782318678,
           40
@@ -2304,6 +2300,10 @@
         [
           1782490886,
           41
+        ],
+        [
+          1782491170,
+          48
         ]
       ],
       "hourlyPeak": [
@@ -5950,6 +5950,6 @@
       ]
     }
   },
-  "peak48h": 55,
-  "peak48hAt": "2026-06-24T16:26:04.000Z"
+  "peak48h": 53,
+  "peak48hAt": "2026-06-24T19:16:04.000Z"
 }
