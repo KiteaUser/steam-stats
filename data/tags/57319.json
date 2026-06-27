@@ -3,16 +3,16 @@
   "appid": "241560",
   "steamAppid": 241560,
   "name": "The Crew",
-  "players": 4,
+  "players": 2,
   "allTimePeak": 12236,
   "peak24h": 9,
   "peak24hAt": "2026-06-26T15:20:59.000Z",
-  "updatedAt": "2026-06-27T02:11:01.307Z",
+  "updatedAt": "2026-06-27T02:16:10.672Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-04-51-pm-2171.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-27T02:11:01.307Z",
-    "updatedAtTs": 1782526261,
+    "updatedAt": "2026-06-27T02:16:10.672Z",
+    "updatedAtTs": 1782526570,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782526261,
-        4
+        1782526570,
+        2
       ],
       "peak24h": [
         1782487259,
         9
       ],
       "peak48h": [
-        1782353487,
+        1782354068,
         12
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782353487,
-          12
-        ],
-        [
-          1782353761,
-          11
-        ],
         [
           1782354068,
           12
@@ -2264,6 +2256,10 @@
         [
           1782526261,
           4
+        ],
+        [
+          1782526570,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -4213,7 +4209,7 @@
         ],
         [
           1782352800,
-          11
+          12
         ]
       ],
       "dailyPeak": [
@@ -5091,5 +5087,5 @@
     }
   },
   "peak48h": 12,
-  "peak48hAt": "2026-06-25T02:11:27.000Z"
+  "peak48hAt": "2026-06-25T02:21:08.000Z"
 }
