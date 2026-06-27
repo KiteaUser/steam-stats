@@ -3,16 +3,16 @@
   "appid": "8500",
   "steamAppid": 8500,
   "name": "EVE Online",
-  "players": 5010,
+  "players": 5061,
   "allTimePeak": 10627,
   "peak24h": 5109,
   "peak24hAt": "2026-06-26T19:14:34.000Z",
-  "updatedAt": "2026-06-27T13:31:14.872Z",
+  "updatedAt": "2026-06-27T13:35:53.483Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-07-28-am-8986.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-27T13:31:14.872Z",
-    "updatedAtTs": 1782567074,
+    "updatedAt": "2026-06-27T13:35:53.483Z",
+    "updatedAtTs": 1782567353,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1782567074,
-        5010
+        1782567353,
+        5061
       ],
       "peak24h": [
         1782501274,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782394276,
-          4594
-        ],
         [
           1782394568,
           4634
@@ -2308,6 +2304,10 @@
         [
           1782567074,
           5010
+        ],
+        [
+          1782567353,
+          5061
         ]
       ],
       "hourlyPeak": [
