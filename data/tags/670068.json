@@ -3,16 +3,16 @@
   "appid": "334210",
   "steamAppid": 334210,
   "name": "Fortified",
-  "players": 2,
+  "players": 1,
   "allTimePeak": 138627,
   "peak24h": 5,
   "peak24hAt": "2026-06-27T21:51:07.000Z",
-  "updatedAt": "2026-06-28T12:01:07.682Z",
+  "updatedAt": "2026-06-28T12:05:53.062Z",
   "img_url": "2025/03/fortified-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-28T12:01:07.682Z",
-    "updatedAtTs": 1782648067,
+    "updatedAt": "2026-06-28T12:05:53.062Z",
+    "updatedAtTs": 1782648353,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1782648067,
-        2
+        1782648353,
+        1
       ],
       "peak24h": [
         1782597067,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782475281,
-          1
-        ],
         [
           1782475563,
           1
@@ -1060,6 +1056,10 @@
         [
           1782648067,
           2
+        ],
+        [
+          1782648353,
+          1
         ]
       ],
       "hourlyPeak": [
@@ -2313,6 +2313,10 @@
         ],
         [
           1782471600,
+          1
+        ],
+        [
+          1782475200,
           1
         ]
       ],
