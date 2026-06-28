@@ -3,16 +3,16 @@
   "appid": "1675900",
   "steamAppid": 1675900,
   "name": "Warlander",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 23428,
-  "peak24h": 1,
-  "peak24hAt": "2026-06-27T13:15:59.000Z",
-  "updatedAt": "2026-06-28T10:25:53.605Z",
+  "peak24h": 2,
+  "peak24hAt": "2026-06-28T10:31:11.000Z",
+  "updatedAt": "2026-06-28T10:31:11.548Z",
   "img_url": "2025/05/warlander-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-28T10:25:53.605Z",
-    "updatedAtTs": 1782642353,
+    "updatedAt": "2026-06-28T10:31:11.548Z",
+    "updatedAtTs": 1782642671,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782642353,
-        1
+        1782642671,
+        2
       ],
       "peak24h": [
-        1782566159,
-        1
+        1782642671,
+        2
       ],
       "peak48h": [
-        1782469869,
-        1
+        1782642671,
+        2
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782469869,
-          1
-        ],
         [
           1782487564,
           1
@@ -216,6 +212,10 @@
         [
           1782642353,
           1
+        ],
+        [
+          1782642671,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -1022,6 +1022,10 @@
         [
           1782464400,
           2
+        ],
+        [
+          1782468000,
+          1
         ]
       ],
       "dailyPeak": [
@@ -1334,6 +1338,6 @@
       ]
     }
   },
-  "peak48h": 1,
-  "peak48hAt": "2026-06-26T10:31:09.000Z"
+  "peak48h": 2,
+  "peak48hAt": "2026-06-28T10:31:11.000Z"
 }
