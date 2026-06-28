@@ -3,16 +3,16 @@
   "appid": "294040",
   "steamAppid": 294040,
   "name": "Loot Hero DX",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 14306,
   "peak24h": 2,
   "peak24hAt": "2026-06-27T09:55:56.000Z",
-  "updatedAt": "2026-06-28T09:46:02.828Z",
+  "updatedAt": "2026-06-28T09:51:06.622Z",
   "img_url": "2025/04/mixcollage-04-apr-2025-12-13-pm-1617.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-28T09:46:02.828Z",
-    "updatedAtTs": 1782639962,
+    "updatedAt": "2026-06-28T09:51:06.622Z",
+    "updatedAtTs": 1782640266,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782639962,
-        1
+        1782640266,
+        2
       ],
       "peak24h": [
         1782554156,
         2
       ],
       "peak48h": [
-        1782467463,
+        1782467759,
         3
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782467169,
-          2
-        ],
-        [
-          1782467463,
-          3
-        ],
         [
           1782467759,
           3
@@ -1164,6 +1156,10 @@
         [
           1782639962,
           1
+        ],
+        [
+          1782640266,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -1821,7 +1817,7 @@
         ],
         [
           1782464400,
-          2
+          3
         ]
       ],
       "dailyPeak": [
@@ -2583,5 +2579,5 @@
     }
   },
   "peak48h": 3,
-  "peak48hAt": "2026-06-26T09:51:03.000Z"
+  "peak48hAt": "2026-06-26T09:55:59.000Z"
 }
