@@ -3,16 +3,16 @@
   "appid": "2129530",
   "steamAppid": 2129530,
   "name": "REANIMAL",
-  "players": 684,
+  "players": 660,
   "allTimePeak": 24309,
   "peak24h": 933,
   "peak24hAt": "2026-06-30T15:06:08.000Z",
-  "updatedAt": "2026-06-30T21:31:05.513Z",
+  "updatedAt": "2026-06-30T21:36:07.259Z",
   "img_url": "2024/10/reanimal-tag-cover.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T21:31:05.513Z",
-    "updatedAtTs": 1782855065,
+    "updatedAt": "2026-06-30T21:36:07.259Z",
+    "updatedAtTs": 1782855367,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782855065,
-        684
+        1782855367,
+        660
       ],
       "peak24h": [
         1782831968,
         933
       ],
       "peak48h": [
-        1782682560,
-        995
+        1782682865,
+        966
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782682266,
-          977
-        ],
-        [
-          1782682560,
-          995
-        ],
         [
           1782682865,
           966
@@ -2236,6 +2228,10 @@
         [
           1782855065,
           684
+        ],
+        [
+          1782855367,
+          660
         ]
       ],
       "hourlyPeak": [
@@ -5274,6 +5270,6 @@
       ]
     }
   },
-  "peak48h": 995,
-  "peak48hAt": "2026-06-28T21:36:00.000Z"
+  "peak48h": 966,
+  "peak48hAt": "2026-06-28T21:41:05.000Z"
 }
