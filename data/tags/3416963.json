@@ -7,12 +7,12 @@
   "allTimePeak": 221,
   "peak24h": 46,
   "peak24hAt": "2026-06-30T19:11:09.000Z",
-  "updatedAt": "2026-06-30T19:32:01.563Z",
+  "updatedAt": "2026-06-30T19:35:54.970Z",
   "img_url": "2025/02/darwin-s-paradox-cover-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T19:32:01.563Z",
-    "updatedAtTs": 1782847921,
+    "updatedAt": "2026-06-30T19:35:54.970Z",
+    "updatedAtTs": 1782848154,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1782847921,
+        1782848154,
         35
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         46
       ],
       "peak48h": [
-        1782675353,
-        55
+        1782676864,
+        53
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782675353,
-          55
-        ],
         [
           1782675660,
           46
@@ -2263,6 +2259,10 @@
         ],
         [
           1782847921,
+          35
+        ],
+        [
+          1782848154,
           35
         ]
       ],
@@ -5089,6 +5089,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 55,
-  "peak48hAt": "2026-06-28T19:35:53.000Z"
+  "peak48h": 53,
+  "peak48hAt": "2026-06-28T20:01:04.000Z"
 }
