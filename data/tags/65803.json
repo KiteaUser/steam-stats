@@ -3,16 +3,16 @@
   "appid": "581320",
   "steamAppid": 581320,
   "name": "Insurgency: Sandstorm",
-  "players": 1492,
+  "players": 1440,
   "allTimePeak": 14606,
   "peak24h": 1526,
   "peak24hAt": "2026-06-30T20:13:49.000Z",
-  "updatedAt": "2026-06-30T20:41:11.224Z",
+  "updatedAt": "2026-06-30T20:50:58.652Z",
   "img_url": "2025/02/insurgency-sandstorm-tag-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T20:41:11.224Z",
-    "updatedAtTs": 1782852071,
+    "updatedAt": "2026-06-30T20:50:58.652Z",
+    "updatedAtTs": 1782852658,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782852071,
-        1492
+        1782852658,
+        1440
       ],
       "peak24h": [
         1782850429,
         1526
       ],
       "peak48h": [
-        1782679561,
-        1860
+        1782679866,
+        1835
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782679278,
-          1835
-        ],
-        [
-          1782679561,
-          1860
-        ],
         [
           1782679866,
           1835
@@ -2256,6 +2248,10 @@
         [
           1782852071,
           1492
+        ],
+        [
+          1782852658,
+          1440
         ]
       ],
       "hourlyPeak": [
@@ -5638,6 +5634,6 @@
       ]
     }
   },
-  "peak48h": 1860,
-  "peak48hAt": "2026-06-28T20:46:01.000Z"
+  "peak48h": 1835,
+  "peak48hAt": "2026-06-28T20:51:06.000Z"
 }
