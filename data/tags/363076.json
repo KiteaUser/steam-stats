@@ -3,16 +3,16 @@
   "appid": "1583230",
   "steamAppid": 1583230,
   "name": "High On Life",
-  "players": 295,
+  "players": 301,
   "allTimePeak": 11608,
   "peak24h": 355,
   "peak24hAt": "2026-06-30T19:51:09.000Z",
-  "updatedAt": "2026-06-30T23:11:00.796Z",
+  "updatedAt": "2026-06-30T23:15:59.347Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-04-05-pm-551.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T23:11:00.796Z",
-    "updatedAtTs": 1782861060,
+    "updatedAt": "2026-06-30T23:15:59.347Z",
+    "updatedAtTs": 1782861359,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782861060,
-        295
+        1782861359,
+        301
       ],
       "peak24h": [
         1782849069,
         355
       ],
       "peak48h": [
-        1782688267,
-        402
+        1782763861,
+        396
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782688267,
-          402
-        ],
         [
           1782688566,
           394
@@ -2248,6 +2244,10 @@
         [
           1782861060,
           295
+        ],
+        [
+          1782861359,
+          301
         ]
       ],
       "hourlyPeak": [
@@ -5442,6 +5442,6 @@
       ]
     }
   },
-  "peak48h": 402,
-  "peak48hAt": "2026-06-28T23:11:07.000Z"
+  "peak48h": 396,
+  "peak48hAt": "2026-06-29T20:11:01.000Z"
 }
