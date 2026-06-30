@@ -3,16 +3,16 @@
   "appid": "47890",
   "steamAppid": 47890,
   "name": "The Sims 3",
-  "players": 1387,
+  "players": 1373,
   "allTimePeak": 10505,
-  "peak24h": 1388,
-  "peak24hAt": "2026-06-29T20:05:54.000Z",
-  "updatedAt": "2026-06-30T20:01:38.635Z",
+  "peak24h": 1387,
+  "peak24hAt": "2026-06-30T20:01:38.000Z",
+  "updatedAt": "2026-06-30T20:05:56.339Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-01-47-pm-7349.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T20:01:38.635Z",
-    "updatedAtTs": 1782849698,
+    "updatedAt": "2026-06-30T20:05:56.339Z",
+    "updatedAtTs": 1782849956,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
+        1782849956,
+        1373
+      ],
+      "peak24h": [
         1782849698,
         1387
       ],
-      "peak24h": [
-        1782763554,
-        1388
-      ],
       "peak48h": [
-        1782677155,
-        1650
+        1782678352,
+        1645
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782677155,
-          1650
-        ],
         [
           1782677462,
           1627
@@ -2260,6 +2256,10 @@
         [
           1782849698,
           1387
+        ],
+        [
+          1782849956,
+          1373
         ]
       ],
       "hourlyPeak": [
@@ -5954,6 +5954,6 @@
       ]
     }
   },
-  "peak48h": 1650,
-  "peak48hAt": "2026-06-28T20:05:55.000Z"
+  "peak48h": 1645,
+  "peak48hAt": "2026-06-28T20:25:52.000Z"
 }
