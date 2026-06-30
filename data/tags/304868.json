@@ -3,16 +3,16 @@
   "appid": "637090",
   "steamAppid": 637090,
   "name": "BATTLETECH",
-  "players": 1443,
+  "players": 1448,
   "allTimePeak": 35767,
   "peak24h": 1616,
   "peak24hAt": "2026-06-30T20:16:07.000Z",
-  "updatedAt": "2026-06-30T22:45:52.659Z",
+  "updatedAt": "2026-06-30T22:51:04.708Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-08-55-am-5587.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T22:45:52.659Z",
-    "updatedAtTs": 1782859552,
+    "updatedAt": "2026-06-30T22:51:04.708Z",
+    "updatedAtTs": 1782859864,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782859552,
-        1443
+        1782859864,
+        1448
       ],
       "peak24h": [
         1782850567,
         1616
       ],
       "peak48h": [
-        1782686764,
-        1785
+        1782687065,
+        1762
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782686764,
-          1785
-        ],
         [
           1782687065,
           1762
@@ -2252,6 +2248,10 @@
         [
           1782859552,
           1443
+        ],
+        [
+          1782859864,
+          1448
         ]
       ],
       "hourlyPeak": [
@@ -5710,6 +5710,6 @@
       ]
     }
   },
-  "peak48h": 1785,
-  "peak48hAt": "2026-06-28T22:46:04.000Z"
+  "peak48h": 1762,
+  "peak48hAt": "2026-06-28T22:51:05.000Z"
 }
