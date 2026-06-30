@@ -3,16 +3,16 @@
   "appid": "3167020",
   "steamAppid": 3167020,
   "name": "Escape from Duckov",
-  "players": 7725,
+  "players": 7678,
   "allTimePeak": 301322,
   "peak24h": 7743,
-  "peak24hAt": "2026-06-29T14:15:55.000Z",
-  "updatedAt": "2026-06-30T14:11:09.572Z",
+  "peak24hAt": "2026-06-29T14:21:00.000Z",
+  "updatedAt": "2026-06-30T14:16:22.635Z",
   "img_url": "2025/10/escape-from-duckov-tag-image.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T14:11:09.572Z",
-    "updatedAtTs": 1782828669,
+    "updatedAt": "2026-06-30T14:16:22.635Z",
+    "updatedAtTs": 1782828982,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782828669,
-        7725
+        1782828982,
+        7678
       ],
       "peak24h": [
-        1782742555,
+        1782742860,
         7743
       ],
       "peak48h": [
-        1782656158,
-        8121
+        1782656458,
+        8075
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782656158,
-          8121
-        ],
         [
           1782656458,
           8075
@@ -2288,6 +2284,10 @@
         [
           1782828669,
           7725
+        ],
+        [
+          1782828982,
+          7678
         ]
       ],
       "hourlyPeak": [
@@ -5342,6 +5342,6 @@
       ]
     }
   },
-  "peak48h": 8121,
-  "peak48hAt": "2026-06-28T14:15:58.000Z"
+  "peak48h": 8075,
+  "peak48hAt": "2026-06-28T14:20:58.000Z"
 }
