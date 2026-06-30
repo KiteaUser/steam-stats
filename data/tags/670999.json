@@ -3,16 +3,16 @@
   "appid": "2646460",
   "steamAppid": 2646460,
   "name": "Soulmask",
-  "players": 3106,
+  "players": 3065,
   "allTimePeak": 46833,
   "peak24h": 3276,
   "peak24hAt": "2026-06-29T15:51:10.000Z",
-  "updatedAt": "2026-06-30T15:41:05.464Z",
+  "updatedAt": "2026-06-30T15:46:06.204Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-02-13-am-4424.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T15:41:05.464Z",
-    "updatedAtTs": 1782834065,
+    "updatedAt": "2026-06-30T15:46:06.204Z",
+    "updatedAtTs": 1782834366,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782834065,
-        3106
+        1782834366,
+        3065
       ],
       "peak24h": [
         1782748270,
         3276
       ],
       "peak48h": [
-        1782661562,
-        4475
+        1782661864,
+        4358
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782661562,
-          4475
-        ],
         [
           1782661864,
           4358
@@ -2288,6 +2284,10 @@
         [
           1782834065,
           3106
+        ],
+        [
+          1782834366,
+          3065
         ]
       ],
       "hourlyPeak": [
@@ -5406,6 +5406,6 @@
       ]
     }
   },
-  "peak48h": 4475,
-  "peak48hAt": "2026-06-28T15:46:02.000Z"
+  "peak48h": 4358,
+  "peak48hAt": "2026-06-28T15:51:04.000Z"
 }
