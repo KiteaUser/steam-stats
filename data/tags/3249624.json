@@ -6,13 +6,13 @@
   "players": 1,
   "allTimePeak": 29424,
   "peak24h": 1,
-  "peak24hAt": "2026-06-29T03:16:03.000Z",
-  "updatedAt": "2026-06-30T16:56:02.057Z",
+  "peak24hAt": "2026-06-30T17:07:59.000Z",
+  "updatedAt": "2026-06-30T17:07:59.338Z",
   "img_url": "2024/12/mixcollage-29-dec-2024-11-45-am-6905.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T16:56:02.057Z",
-    "updatedAtTs": 1782838562,
+    "updatedAt": "2026-06-30T17:07:59.338Z",
+    "updatedAtTs": 1782839279,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,10 +23,13 @@
     },
     "summary": {
       "current": [
-        1782838562,
+        1782839279,
         1
       ],
-      "peak24h": null,
+      "peak24h": [
+        1782839279,
+        1
+      ],
       "peak48h": [
         1782682865,
         6
@@ -112,6 +115,10 @@
         ],
         [
           1782702963,
+          1
+        ],
+        [
+          1782839279,
           1
         ]
       ],
