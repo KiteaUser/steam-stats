@@ -3,16 +3,16 @@
   "appid": "2591280",
   "steamAppid": 2591280,
   "name": "F1 Manager 2024",
-  "players": 1099,
+  "players": 1084,
   "allTimePeak": 12066,
   "peak24h": 1108,
   "peak24hAt": "2026-06-30T15:41:05.000Z",
-  "updatedAt": "2026-06-30T16:47:13.854Z",
+  "updatedAt": "2026-06-30T16:52:12.121Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-09-51-am-3767-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-06-30T16:47:13.854Z",
-    "updatedAtTs": 1782838033,
+    "updatedAt": "2026-06-30T16:52:12.121Z",
+    "updatedAtTs": 1782838332,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782838033,
-        1099
+        1782838332,
+        1084
       ],
       "peak24h": [
         1782834065,
         1108
       ],
       "peak48h": [
-        1782665463,
+        1782665760,
         1163
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782665463,
-          1163
-        ],
         [
           1782665760,
           1163
@@ -2280,6 +2276,10 @@
         [
           1782838033,
           1099
+        ],
+        [
+          1782838332,
+          1084
         ]
       ],
       "hourlyPeak": [
@@ -5395,5 +5395,5 @@
     }
   },
   "peak48h": 1163,
-  "peak48hAt": "2026-06-28T16:51:03.000Z"
+  "peak48hAt": "2026-06-28T16:56:00.000Z"
 }
