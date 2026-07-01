@@ -3,16 +3,16 @@
   "appid": "1757300",
   "steamAppid": 1757300,
   "name": "Jump Space",
-  "players": 858,
+  "players": 797,
   "allTimePeak": 22365,
   "peak24h": 2109,
   "peak24hAt": "2026-07-01T02:20:57.000Z",
-  "updatedAt": "2026-07-01T07:51:08.032Z",
+  "updatedAt": "2026-07-01T07:56:04.183Z",
   "img_url": "2025/08/jump-space-tag-image.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T07:51:08.032Z",
-    "updatedAtTs": 1782892268,
+    "updatedAt": "2026-07-01T07:56:04.183Z",
+    "updatedAtTs": 1782892564,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1782892268,
-        858
+        1782892564,
+        797
       ],
       "peak24h": [
         1782872457,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782719762,
-          790
-        ],
         [
           1782720094,
           768
@@ -2248,6 +2244,10 @@
         [
           1782892268,
           858
+        ],
+        [
+          1782892564,
+          797
         ]
       ],
       "hourlyPeak": [
