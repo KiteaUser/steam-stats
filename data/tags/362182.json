@@ -3,16 +3,16 @@
   "appid": "3659280",
   "steamAppid": 3659280,
   "name": "Off The Grid",
-  "players": 10141,
+  "players": 10029,
   "allTimePeak": 15247,
   "peak24h": 10966,
   "peak24hAt": "2026-07-01T19:46:42.000Z",
-  "updatedAt": "2026-07-01T21:05:58.796Z",
+  "updatedAt": "2026-07-01T21:11:19.026Z",
   "img_url": "2024/12/mixcollage-03-dec-2024-11-30-am-2899.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T21:05:58.796Z",
-    "updatedAtTs": 1782939958,
+    "updatedAt": "2026-07-01T21:11:19.026Z",
+    "updatedAtTs": 1782940279,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782939958,
-        10141
+        1782940279,
+        10029
       ],
       "peak24h": [
         1782935202,
         10966
       ],
       "peak48h": [
-        1782767460,
-        11103
+        1782935202,
+        10966
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782767460,
-          11103
-        ],
         [
           1782767762,
           10948
@@ -2252,6 +2248,10 @@
         [
           1782939958,
           10141
+        ],
+        [
+          1782940279,
+          10029
         ]
       ],
       "hourlyPeak": [
@@ -5246,6 +5246,6 @@
       ]
     }
   },
-  "peak48h": 11103,
-  "peak48hAt": "2026-06-29T21:11:00.000Z"
+  "peak48h": 10966,
+  "peak48hAt": "2026-07-01T19:46:42.000Z"
 }
