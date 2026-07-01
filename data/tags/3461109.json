@@ -3,16 +3,16 @@
   "appid": "2529790",
   "steamAppid": 2529790,
   "name": "GRIME II",
-  "players": 89,
+  "players": 91,
   "allTimePeak": 1755,
   "peak24h": 110,
   "peak24hAt": "2026-06-30T16:26:12.000Z",
-  "updatedAt": "2026-07-01T14:01:20.654Z",
+  "updatedAt": "2026-07-01T14:11:13.693Z",
   "img_url": "2025/04/grime-ii-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T14:01:20.654Z",
-    "updatedAtTs": 1782914480,
+    "updatedAt": "2026-07-01T14:11:13.693Z",
+    "updatedAtTs": 1782915073,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782914480,
-        89
+        1782915073,
+        91
       ],
       "peak24h": [
         1782836772,
         110
       ],
       "peak48h": [
-        1782741960,
+        1782836772,
         110
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782741960,
-          110
-        ],
-        [
-          1782742265,
-          110
-        ],
         [
           1782742555,
           104
@@ -2252,6 +2244,10 @@
         [
           1782914480,
           89
+        ],
+        [
+          1782915073,
+          91
         ]
       ],
       "hourlyPeak": [
@@ -4957,7 +4953,7 @@
         ],
         [
           1782741600,
-          108
+          110
         ]
       ],
       "dailyPeak": [
@@ -5214,5 +5210,5 @@
     }
   },
   "peak48h": 110,
-  "peak48hAt": "2026-06-29T14:06:00.000Z"
+  "peak48hAt": "2026-06-30T16:26:12.000Z"
 }
