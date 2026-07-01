@@ -3,16 +3,16 @@
   "appid": "585420",
   "steamAppid": 585420,
   "name": "Trailmakers",
-  "players": 3052,
+  "players": 3050,
   "allTimePeak": 8113,
-  "peak24h": 3150,
-  "peak24hAt": "2026-06-30T19:46:18.000Z",
-  "updatedAt": "2026-07-01T19:41:23.810Z",
+  "peak24h": 3115,
+  "peak24hAt": "2026-07-01T18:35:54.000Z",
+  "updatedAt": "2026-07-01T19:46:42.839Z",
   "img_url": "2024/11/mixcollage-23-nov-2024-02-57-am-6622.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T19:41:23.810Z",
-    "updatedAtTs": 1782934883,
+    "updatedAt": "2026-07-01T19:46:42.839Z",
+    "updatedAtTs": 1782935202,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782934883,
-        3052
+        1782935202,
+        3050
       ],
       "peak24h": [
-        1782848778,
-        3150
+        1782930954,
+        3115
       ],
       "peak48h": [
-        1782762356,
+        1782762659,
         3306
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782762356,
-          3306
-        ],
         [
           1782762659,
           3306
@@ -2256,6 +2252,10 @@
         [
           1782934883,
           3052
+        ],
+        [
+          1782935202,
+          3050
         ]
       ],
       "hourlyPeak": [
@@ -5647,5 +5647,5 @@
     }
   },
   "peak48h": 3306,
-  "peak48hAt": "2026-06-29T19:45:56.000Z"
+  "peak48hAt": "2026-06-29T19:50:59.000Z"
 }
