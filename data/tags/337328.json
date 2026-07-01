@@ -3,16 +3,16 @@
   "appid": "392160",
   "steamAppid": 392160,
   "name": "X4: Foundations",
-  "players": 6544,
+  "players": 6353,
   "allTimePeak": 15198,
   "peak24h": 6601,
   "peak24hAt": "2026-07-01T19:11:00.000Z",
-  "updatedAt": "2026-07-01T20:10:58.795Z",
+  "updatedAt": "2026-07-01T20:16:02.557Z",
   "img_url": "2024/12/mixcollage-01-dec-2024-12-07-pm-1808.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T20:10:58.795Z",
-    "updatedAtTs": 1782936658,
+    "updatedAt": "2026-07-01T20:16:02.557Z",
+    "updatedAtTs": 1782936962,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782936658,
-        6544
+        1782936962,
+        6353
       ],
       "peak24h": [
         1782933060,
         6601
       ],
       "peak48h": [
-        1782763861,
-        6609
+        1782847921,
+        6608
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782763861,
-          6609
-        ],
         [
           1782764170,
           6542
@@ -2260,6 +2256,10 @@
         [
           1782936658,
           6544
+        ],
+        [
+          1782936962,
+          6353
         ]
       ],
       "hourlyPeak": [
@@ -5606,6 +5606,6 @@
       ]
     }
   },
-  "peak48h": 6609,
-  "peak48hAt": "2026-06-29T20:11:01.000Z"
+  "peak48h": 6608,
+  "peak48hAt": "2026-06-30T19:32:01.000Z"
 }
