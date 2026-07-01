@@ -3,16 +3,16 @@
   "appid": "1145360",
   "steamAppid": 1145360,
   "name": "Hades",
-  "players": 7101,
+  "players": 7042,
   "allTimePeak": 54240,
   "peak24h": 7197,
   "peak24hAt": "2026-06-30T14:55:58.000Z",
-  "updatedAt": "2026-07-01T14:46:00.908Z",
+  "updatedAt": "2026-07-01T14:52:01.180Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-08-21-am-6673.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T14:46:00.908Z",
-    "updatedAtTs": 1782917160,
+    "updatedAt": "2026-07-01T14:52:01.180Z",
+    "updatedAtTs": 1782917521,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1782917160,
-        7101
+        1782917521,
+        7042
       ],
       "peak24h": [
         1782831358,
         7197
       ],
       "peak48h": [
-        1782744654,
+        1782831358,
         7197
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782744654,
-          7197
-        ],
         [
           1782744947,
           7169
@@ -2248,6 +2244,10 @@
         [
           1782917160,
           7101
+        ],
+        [
+          1782917521,
+          7042
         ]
       ],
       "hourlyPeak": [
@@ -5511,5 +5511,5 @@
     }
   },
   "peak48h": 7197,
-  "peak48hAt": "2026-06-29T14:50:54.000Z"
+  "peak48hAt": "2026-06-30T14:55:58.000Z"
 }
