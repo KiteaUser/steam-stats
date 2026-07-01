@@ -7,12 +7,12 @@
   "allTimePeak": 68322,
   "peak24h": 12089,
   "peak24hAt": "2026-06-30T16:01:10.000Z",
-  "updatedAt": "2026-07-01T05:55:53.401Z",
+  "updatedAt": "2026-07-01T06:01:05.225Z",
   "img_url": "2025/02/scum-tag-page.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T05:55:53.401Z",
-    "updatedAtTs": 1782885353,
+    "updatedAt": "2026-07-01T06:01:05.225Z",
+    "updatedAtTs": 1782885665,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1782885353,
+        1782885665,
         7101
       ],
       "peak24h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782712557,
-          5677
-        ],
         [
           1782712902,
           5654
@@ -2251,6 +2247,10 @@
         ],
         [
           1782885353,
+          7101
+        ],
+        [
+          1782885665,
           7101
         ]
       ],
@@ -4953,7 +4953,7 @@
         ],
         [
           1782709200,
-          5654
+          5677
         ]
       ],
       "dailyPeak": [
