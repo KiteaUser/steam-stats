@@ -3,16 +3,16 @@
   "appid": "1216060",
   "steamAppid": 1216060,
   "name": "DNF DUEL",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 12331,
   "peak24h": 8,
   "peak24hAt": "2026-07-01T08:10:55.000Z",
-  "updatedAt": "2026-07-01T17:16:03.401Z",
+  "updatedAt": "2026-07-01T17:21:05.403Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-01-23-am-2863.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-01T17:16:03.401Z",
-    "updatedAtTs": 1782926163,
+    "updatedAt": "2026-07-01T17:21:05.403Z",
+    "updatedAtTs": 1782926465,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1782926163,
-        1
+        1782926465,
+        2
       ],
       "peak24h": [
         1782893455,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782753659,
-          6
-        ],
         [
           1782753951,
           6
@@ -2184,6 +2180,10 @@
         [
           1782926163,
           1
+        ],
+        [
+          1782926465,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -4353,7 +4353,7 @@
         ],
         [
           1782752400,
-          5
+          6
         ]
       ],
       "dailyPeak": [
