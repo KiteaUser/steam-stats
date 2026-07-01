@@ -22,6 +22,87 @@ async function writeJson(filePath, data) {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2) + "\n", "utf8");
 }
 
+async function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchJsonWithRetry(url, attempts = 3) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    const startedAt = Date.now();
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 45000);
+
+    try {
+      const res = await fetch(url, {
+        redirect: "follow",
+        signal: controller.signal,
+        headers: {
+          Accept: "application/json,text/plain,*/*",
+          "User-Agent": "steam-stats-refresh/1.0"
+        }
+      });
+
+      const text = await res.text();
+
+      console.log(`SHEET_URL attempt ${attempt}:`, {
+        status: res.status,
+        finalUrl: res.url,
+        contentType: res.headers.get("content-type"),
+        bytes: Buffer.byteLength(text, "utf8"),
+        elapsedMs: Date.now() - startedAt
+      });
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}: ${text.slice(0, 300)}`);
+      }
+
+      if (/^\s*<!doctype html/i.test(text) || /^\s*<html/i.test(text)) {
+        throw new Error(`Expected JSON but got HTML: ${text.slice(0, 300)}`);
+      }
+
+      return JSON.parse(text);
+    } catch (err) {
+      lastError = err;
+      console.error(`SHEET_URL attempt ${attempt} failed:`, err.message);
+
+      if (attempt < attempts) {
+        await sleep(5000 * attempt);
+      }
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  throw lastError;
+}
+
+async function mapLimit(items, limit, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+
+      try {
+        results[index] = await mapper(items[index], index);
+      } catch {
+        results[index] = {};
+      }
+    }
+  }
+
+  const workers = Array.from(
+    { length: Math.min(limit, items.length) },
+    () => worker()
+  );
+
+  await Promise.all(workers);
+  return results;
+}
+
 function toUnixSeconds(dateLike) {
   const ms = new Date(dateLike).getTime();
   return Number.isFinite(ms) ? Math.floor(ms / 1000) : null;
@@ -78,7 +159,7 @@ function dedupeByTimestamp(points) {
   return [...map.entries()].sort((a, b) => a[0] - b[0]);
 }
 
-function mergePeakPoints(existingPoints, incomingPoints) {
+function mergePeakPoints(existingPoints, incomingPoints = []) {
   const map = new Map();
 
   for (const point of [...(existingPoints || []), ...(incomingPoints || [])]) {
@@ -340,20 +421,56 @@ function updateChartData(
   return chartData;
 }
 
+async function fetchSteamPlayerCount(game) {
+  const rawAppid = String(game.steam_appid);
+  const steamAppid = rawAppid.replace(/[^\d]/g, "");
+
+  if (!steamAppid) {
+    return {};
+  }
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 20000);
+
+  try {
+    const res = await fetch(
+      `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=${encodeURIComponent(
+        steamAppid
+      )}`,
+      {
+        signal: controller.signal,
+        headers: {
+          Accept: "application/json",
+          "User-Agent": "steam-stats-refresh/1.0"
+        }
+      }
+    );
+
+    if (!res.ok) {
+      return {};
+    }
+
+    return await res.json();
+  } catch {
+    return {};
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function run() {
   if (!SHEET_URL) {
     console.error("Missing SHEET_URL");
     process.exit(1);
   }
 
-  const res = await fetch(SHEET_URL);
-  const text = await res.text();
-
   let payload;
+
   try {
-    payload = JSON.parse(text);
-  } catch {
-    console.error(text);
+    payload = await fetchJsonWithRetry(SHEET_URL, 3);
+  } catch (err) {
+    console.error("Failed to load SHEET_URL after retries.");
+    console.error(err.message);
     process.exit(1);
   }
 
@@ -368,6 +485,7 @@ async function run() {
   await ensureDir(TAGS_DIR);
 
   let previousTop10 = [];
+
   try {
     const existingTop10 = await fs.readFile(path.join(DATA_DIR, "top10.json"), "utf8");
     previousTop10 = JSON.parse(existingTop10);
@@ -395,30 +513,9 @@ async function run() {
     } catch {}
   }
 
-  const steamRequests = games.map((game) => {
-    const rawAppid = String(game.steam_appid);
-    const steamAppid = rawAppid.replace(/[^\d]/g, "");
-
-    return fetch(
-      `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=${encodeURIComponent(
-        steamAppid
-      )}`
-    );
+  const steamPayloads = await mapLimit(games, 10, async (game) => {
+    return fetchSteamPlayerCount(game);
   });
-
-  const steamResponses = await Promise.allSettled(steamRequests);
-
-  const steamPayloads = await Promise.all(
-    steamResponses.map(async (result) => {
-      if (result.status !== "fulfilled") return {};
-
-      try {
-        return await result.value.json();
-      } catch {
-        return {};
-      }
-    })
-  );
 
   const now = new Date().toISOString();
   const nowMs = Date.now();
