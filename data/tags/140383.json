@@ -3,16 +3,16 @@
   "appid": "1332010",
   "steamAppid": 1332010,
   "name": "Stray",
-  "players": 841,
+  "players": 831,
   "allTimePeak": 62963,
   "peak24h": 926,
   "peak24hAt": "2026-07-01T19:31:17.000Z",
-  "updatedAt": "2026-07-02T15:06:00.563Z",
+  "updatedAt": "2026-07-02T15:10:59.894Z",
   "img_url": "2022/09/stray-game.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-02T15:06:00.563Z",
-    "updatedAtTs": 1783004760,
+    "updatedAt": "2026-07-02T15:10:59.894Z",
+    "updatedAtTs": 1783005059,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1783004760,
-        841
+        1783005059,
+        831
       ],
       "peak24h": [
         1782934277,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782831968,
-          865
-        ],
         [
           1782832329,
           889
@@ -2292,6 +2288,10 @@
         [
           1783004760,
           841
+        ],
+        [
+          1783005059,
+          831
         ]
       ],
       "hourlyPeak": [
