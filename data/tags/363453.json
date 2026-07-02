@@ -3,16 +3,16 @@
   "appid": "1708520",
   "steamAppid": 1708520,
   "name": "F1 Manager 2022",
-  "players": 30,
+  "players": 31,
   "allTimePeak": 25575,
   "peak24h": 37,
   "peak24hAt": "2026-07-01T20:01:24.000Z",
-  "updatedAt": "2026-07-02T18:06:02.598Z",
+  "updatedAt": "2026-07-02T18:11:05.371Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-08-13-am-2170.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-02T18:06:02.598Z",
-    "updatedAtTs": 1783015562,
+    "updatedAt": "2026-07-02T18:11:05.371Z",
+    "updatedAtTs": 1783015865,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783015562,
-        30
+        1783015865,
+        31
       ],
       "peak24h": [
         1782936084,
         37
       ],
       "peak48h": [
-        1782842772,
-        49
+        1782843067,
+        44
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782842772,
-          49
-        ],
         [
           1782843067,
           44
@@ -2308,6 +2304,10 @@
         [
           1783015562,
           30
+        ],
+        [
+          1783015865,
+          31
         ]
       ],
       "hourlyPeak": [
@@ -5006,6 +5006,10 @@
         [
           1782838800,
           49
+        ],
+        [
+          1782842400,
+          49
         ]
       ],
       "dailyPeak": [
@@ -5442,6 +5446,6 @@
       ]
     }
   },
-  "peak48h": 49,
-  "peak48hAt": "2026-06-30T18:06:12.000Z"
+  "peak48h": 44,
+  "peak48hAt": "2026-06-30T18:11:07.000Z"
 }
