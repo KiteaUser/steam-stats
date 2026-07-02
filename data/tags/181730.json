@@ -3,16 +3,16 @@
   "appid": "835570",
   "steamAppid": 835570,
   "name": "Conqueror's Blade",
-  "players": 5155,
+  "players": 5011,
   "allTimePeak": 19178,
   "peak24h": 5324,
   "peak24hAt": "2026-07-02T13:51:11.000Z",
-  "updatedAt": "2026-07-02T14:25:49.668Z",
+  "updatedAt": "2026-07-02T14:31:21.009Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-08-47-pm-5974.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-02T14:25:49.668Z",
-    "updatedAtTs": 1783002349,
+    "updatedAt": "2026-07-02T14:31:21.009Z",
+    "updatedAtTs": 1783002681,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783002349,
-        5155
+        1783002681,
+        5011
       ],
       "peak24h": [
         1783000271,
         5324
       ],
       "peak48h": [
-        1782829552,
-        5543
+        1782913865,
+        5503
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782829552,
-          5543
-        ],
-        [
-          1782829873,
-          5543
-        ],
         [
           1782830191,
           5483
@@ -2288,6 +2280,10 @@
         [
           1783002349,
           5155
+        ],
+        [
+          1783002681,
+          5011
         ]
       ],
       "hourlyPeak": [
@@ -5574,6 +5570,6 @@
       ]
     }
   },
-  "peak48h": 5543,
-  "peak48hAt": "2026-06-30T14:25:52.000Z"
+  "peak48h": 5503,
+  "peak48hAt": "2026-07-01T13:51:05.000Z"
 }
