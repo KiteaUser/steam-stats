@@ -3,16 +3,16 @@
   "appid": "413410",
   "steamAppid": 413410,
   "name": "Danganronpa: Trigger Happy Havoc",
-  "players": 810,
+  "players": 828,
   "allTimePeak": 10958,
-  "peak24h": 832,
-  "peak24hAt": "2026-07-01T14:56:02.000Z",
-  "updatedAt": "2026-07-02T14:51:03.068Z",
+  "peak24h": 828,
+  "peak24hAt": "2026-07-02T14:56:09.000Z",
+  "updatedAt": "2026-07-02T14:56:09.253Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-07-23-pm-7640-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-02T14:51:03.068Z",
-    "updatedAtTs": 1783003863,
+    "updatedAt": "2026-07-02T14:56:09.253Z",
+    "updatedAtTs": 1783004169,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783003863,
-        810
+        1783004169,
+        828
       ],
       "peak24h": [
-        1782917762,
-        832
+        1783004169,
+        828
       ],
       "peak48h": [
-        1782831070,
-        880
+        1782831683,
+        860
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782831070,
-          880
-        ],
-        [
-          1782831358,
-          860
-        ],
         [
           1782831683,
           860
@@ -2292,6 +2284,10 @@
         [
           1783003863,
           810
+        ],
+        [
+          1783004169,
+          828
         ]
       ],
       "hourlyPeak": [
@@ -5746,6 +5742,6 @@
       ]
     }
   },
-  "peak48h": 880,
-  "peak48hAt": "2026-06-30T14:51:10.000Z"
+  "peak48h": 860,
+  "peak48hAt": "2026-06-30T15:01:23.000Z"
 }
