@@ -3,16 +3,16 @@
   "appid": "2768430",
   "steamAppid": 2768430,
   "name": "ATLYSS",
-  "players": 515,
+  "players": 514,
   "allTimePeak": 10803,
   "peak24h": 552,
   "peak24hAt": "2026-07-02T02:11:06.000Z",
-  "updatedAt": "2026-07-02T04:05:52.321Z",
+  "updatedAt": "2026-07-02T04:11:04.903Z",
   "img_url": "2025/02/mixcollage-02-feb-2025-07-07-pm-6016.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-02T04:05:52.321Z",
-    "updatedAtTs": 1782965152,
+    "updatedAt": "2026-07-02T04:11:04.903Z",
+    "updatedAtTs": 1782965464,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1782965152,
-        515
+        1782965464,
+        514
       ],
       "peak24h": [
         1782958266,
         552
       ],
       "peak48h": [
-        1782792358,
-        589
+        1782792959,
+        572
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782792358,
-          589
-        ],
-        [
-          1782792660,
-          589
-        ],
         [
           1782792959,
           572
@@ -2256,6 +2248,10 @@
         [
           1782965152,
           515
+        ],
+        [
+          1782965464,
+          514
         ]
       ],
       "hourlyPeak": [
@@ -5290,6 +5286,6 @@
       ]
     }
   },
-  "peak48h": 589,
-  "peak48hAt": "2026-06-30T04:05:58.000Z"
+  "peak48h": 572,
+  "peak48hAt": "2026-06-30T04:15:59.000Z"
 }
