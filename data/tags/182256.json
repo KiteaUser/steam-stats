@@ -3,16 +3,16 @@
   "appid": "1113560",
   "steamAppid": 1113560,
   "name": "NieR Replicant ver122474487139",
-  "players": 360,
+  "players": 355,
   "allTimePeak": 28684,
   "peak24h": 360,
   "peak24hAt": "2026-07-03T19:55:50.000Z",
-  "updatedAt": "2026-07-03T19:55:50.346Z",
+  "updatedAt": "2026-07-03T20:01:14.180Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-08-27-am-2553.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-03T19:55:50.346Z",
-    "updatedAtTs": 1783108550,
+    "updatedAt": "2026-07-03T20:01:14.180Z",
+    "updatedAtTs": 1783108874,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783108550,
-        360
+        1783108874,
+        355
       ],
       "peak24h": [
         1783108550,
         360
       ],
       "peak48h": [
-        1782935765,
-        364
+        1783108550,
+        360
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1782935765,
-          364
-        ],
         [
           1782936084,
           354
@@ -2300,6 +2296,10 @@
         [
           1783108550,
           360
+        ],
+        [
+          1783108874,
+          355
         ]
       ],
       "hourlyPeak": [
@@ -5506,6 +5506,6 @@
       ]
     }
   },
-  "peak48h": 364,
-  "peak48hAt": "2026-07-01T19:56:05.000Z"
+  "peak48h": 360,
+  "peak48hAt": "2026-07-03T19:55:50.000Z"
 }
