@@ -7,12 +7,12 @@
   "allTimePeak": 10930,
   "peak24h": 3,
   "peak24hAt": "2026-07-03T12:18:00.000Z",
-  "updatedAt": "2026-07-04T08:41:00.899Z",
+  "updatedAt": "2026-07-04T08:46:00.111Z",
   "img_url": "2025/07/nether.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-04T08:41:00.899Z",
-    "updatedAtTs": 1783154460,
+    "updatedAt": "2026-07-04T08:46:00.111Z",
+    "updatedAtTs": 1783154760,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1783154460,
+        1783154760,
         1
       ],
       "peak24h": [
@@ -779,6 +779,10 @@
         ],
         [
           1783153878,
+          1
+        ],
+        [
+          1783154760,
           1
         ]
       ],
