@@ -3,16 +3,16 @@
   "appid": "1789480",
   "steamAppid": 1789480,
   "name": "Marauders",
-  "players": 2,
+  "players": 3,
   "allTimePeak": 14332,
   "peak24h": 17,
   "peak24hAt": "2026-07-05T00:05:54.000Z",
-  "updatedAt": "2026-07-05T10:01:12.926Z",
+  "updatedAt": "2026-07-05T10:06:05.792Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-05-36-pm-7216.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05T10:01:12.926Z",
-    "updatedAtTs": 1783245672,
+    "updatedAt": "2026-07-05T10:06:05.792Z",
+    "updatedAtTs": 1783245965,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1783245672,
-        2
+        1783245965,
+        3
       ],
       "peak24h": [
         1783209954,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783072880,
-          6
-        ],
         [
           1783073482,
           6
@@ -2308,6 +2304,10 @@
         [
           1783245672,
           2
+        ],
+        [
+          1783245965,
+          3
         ]
       ],
       "hourlyPeak": [
@@ -4749,6 +4749,10 @@
         ],
         [
           1783069200,
+          6
+        ],
+        [
+          1783072800,
           6
         ]
       ],
