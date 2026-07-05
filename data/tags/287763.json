@@ -3,16 +3,16 @@
   "appid": "234630",
   "steamAppid": 234630,
   "name": "Project CARS",
-  "players": 37,
+  "players": 40,
   "allTimePeak": 10688,
   "peak24h": 58,
   "peak24hAt": "2026-07-04T20:06:01.000Z",
-  "updatedAt": "2026-07-05T19:51:12.017Z",
+  "updatedAt": "2026-07-05T19:56:01.479Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-01-09-am-2014.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-05T19:51:12.017Z",
-    "updatedAtTs": 1783281072,
+    "updatedAt": "2026-07-05T19:56:01.479Z",
+    "updatedAtTs": 1783281361,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783281072,
-        37
+        1783281361,
+        40
       ],
       "peak24h": [
         1783195561,
         58
       ],
       "peak48h": [
-        1783108351,
-        61
+        1783194664,
+        59
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783108351,
-          61
-        ],
-        [
-          1783108550,
-          53
-        ],
         [
           1783108874,
           53
@@ -2324,6 +2316,10 @@
         [
           1783281072,
           37
+        ],
+        [
+          1783281361,
+          40
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5017,7 @@
         ],
         [
           1783105200,
-          55
+          61
         ]
       ],
       "dailyPeak": [
@@ -5922,6 +5918,6 @@
       ]
     }
   },
-  "peak48h": 61,
-  "peak48hAt": "2026-07-03T19:52:31.000Z"
+  "peak48h": 59,
+  "peak48hAt": "2026-07-04T19:51:04.000Z"
 }
