@@ -3,16 +3,16 @@
   "appid": "466240",
   "steamAppid": 466240,
   "name": "Deceit",
-  "players": 18,
+  "players": 19,
   "allTimePeak": 16923,
   "peak24h": 48,
   "peak24hAt": "2026-07-05T20:26:02.000Z",
-  "updatedAt": "2026-07-06T15:21:13.903Z",
+  "updatedAt": "2026-07-06T15:26:49.277Z",
   "img_url": "2025/02/mixcollage-24-feb-2025-12-53-am-2211.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-06T15:21:13.903Z",
-    "updatedAtTs": 1783351273,
+    "updatedAt": "2026-07-06T15:26:49.277Z",
+    "updatedAtTs": 1783351609,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783351273,
-        18
+        1783351609,
+        19
       ],
       "peak24h": [
         1783283162,
         48
       ],
       "peak48h": [
-        1783178492,
-        49
+        1783283162,
+        48
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783178492,
-          49
-        ],
-        [
-          1783178759,
-          40
-        ],
         [
           1783179098,
           41
@@ -2320,6 +2312,10 @@
         [
           1783351273,
           18
+        ],
+        [
+          1783351609,
+          19
         ]
       ],
       "hourlyPeak": [
@@ -5013,7 +5009,7 @@
         ],
         [
           1783177200,
-          40
+          49
         ]
       ],
       "dailyPeak": [
@@ -5750,6 +5746,6 @@
       ]
     }
   },
-  "peak48h": 49,
-  "peak48hAt": "2026-07-04T15:21:32.000Z"
+  "peak48h": 48,
+  "peak48hAt": "2026-07-05T20:26:02.000Z"
 }
