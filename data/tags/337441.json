@@ -3,16 +3,16 @@
   "appid": "312520",
   "steamAppid": 312520,
   "name": "Rain World",
-  "players": 5192,
+  "players": 5132,
   "allTimePeak": 10884,
   "peak24h": 5672,
   "peak24hAt": "2026-07-05T15:16:09.000Z",
-  "updatedAt": "2026-07-06T15:11:06.722Z",
+  "updatedAt": "2026-07-06T15:15:55.096Z",
   "img_url": "2024/12/mixcollage-06-dec-2024-09-00-pm-5720.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-06T15:11:06.722Z",
-    "updatedAtTs": 1783350666,
+    "updatedAt": "2026-07-06T15:15:55.096Z",
+    "updatedAtTs": 1783350955,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783350666,
-        5192
+        1783350955,
+        5132
       ],
       "peak24h": [
         1783264569,
         5672
       ],
       "peak48h": [
-        1783178154,
-        6150
+        1783178759,
+        6049
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783178154,
-          6150
-        ],
         [
           1783178492,
           6041
@@ -2336,6 +2332,10 @@
         [
           1783350666,
           5192
+        ],
+        [
+          1783350955,
+          5132
         ]
       ],
       "hourlyPeak": [
@@ -5846,6 +5846,6 @@
       ]
     }
   },
-  "peak48h": 6150,
-  "peak48hAt": "2026-07-04T15:15:54.000Z"
+  "peak48h": 6049,
+  "peak48hAt": "2026-07-04T15:25:59.000Z"
 }
