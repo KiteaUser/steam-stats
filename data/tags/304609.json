@@ -3,16 +3,16 @@
   "appid": "1062520",
   "steamAppid": 1062520,
   "name": "Dinkum",
-  "players": 1865,
+  "players": 1844,
   "allTimePeak": 13412,
   "peak24h": 1923,
   "peak24hAt": "2026-07-07T14:06:47.000Z",
-  "updatedAt": "2026-07-07T14:41:18.104Z",
+  "updatedAt": "2026-07-07T14:45:56.444Z",
   "img_url": "2025/07/dinkum-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T14:41:18.104Z",
-    "updatedAtTs": 1783435278,
+    "updatedAt": "2026-07-07T14:45:56.444Z",
+    "updatedAtTs": 1783435556,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783435278,
-        1865
+        1783435556,
+        1844
       ],
       "peak24h": [
         1783433207,
         1923
       ],
       "peak48h": [
-        1783262755,
-        2256
+        1783263071,
+        2217
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783262755,
-          2256
-        ],
         [
           1783263071,
           2217
@@ -2328,6 +2324,10 @@
         [
           1783435278,
           1865
+        ],
+        [
+          1783435556,
+          1844
         ]
       ],
       "hourlyPeak": [
@@ -5490,6 +5490,6 @@
       ]
     }
   },
-  "peak48h": 2256,
-  "peak48hAt": "2026-07-05T14:45:55.000Z"
+  "peak48h": 2217,
+  "peak48hAt": "2026-07-05T14:51:11.000Z"
 }
