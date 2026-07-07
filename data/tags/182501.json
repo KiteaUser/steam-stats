@@ -3,16 +3,16 @@
   "appid": "613100",
   "steamAppid": 613100,
   "name": "House Flipper",
-  "players": 3080,
+  "players": 3046,
   "allTimePeak": 90483,
   "peak24h": 3237,
   "peak24hAt": "2026-07-07T14:41:18.000Z",
-  "updatedAt": "2026-07-07T16:11:18.613Z",
+  "updatedAt": "2026-07-07T16:16:07.078Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-09-32-pm-2968.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T16:11:18.613Z",
-    "updatedAtTs": 1783440678,
+    "updatedAt": "2026-07-07T16:16:07.078Z",
+    "updatedAtTs": 1783440967,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783440678,
-        3080
+        1783440967,
+        3046
       ],
       "peak24h": [
         1783435278,
         3237
       ],
       "peak48h": [
-        1783268162,
+        1783268460,
         3404
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783268162,
-          3404
-        ],
         [
           1783268460,
           3404
@@ -2320,6 +2316,10 @@
         [
           1783440678,
           3080
+        ],
+        [
+          1783440967,
+          3046
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5021,7 @@
         ],
         [
           1783267200,
-          3397
+          3404
         ]
       ],
       "dailyPeak": [
@@ -5735,5 +5735,5 @@
     }
   },
   "peak48h": 3404,
-  "peak48hAt": "2026-07-05T16:16:02.000Z"
+  "peak48hAt": "2026-07-05T16:21:00.000Z"
 }
