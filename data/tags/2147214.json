@@ -7,12 +7,12 @@
   "allTimePeak": 32748,
   "peak24h": 554,
   "peak24hAt": "2026-07-07T19:21:15.000Z",
-  "updatedAt": "2026-07-07T19:21:15.595Z",
+  "updatedAt": "2026-07-07T19:25:59.064Z",
   "img_url": "2024/12/counter-strike-condition-zero-tag-page-cover-art-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T19:21:15.595Z",
-    "updatedAtTs": 1783452075,
+    "updatedAt": "2026-07-07T19:25:59.064Z",
+    "updatedAtTs": 1783452359,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1783452075,
+        1783452359,
         554
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         554
       ],
       "peak48h": [
-        1783279554,
-        578
+        1783452075,
+        554
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783279554,
-          578
-        ],
         [
           1783279881,
           535
@@ -2287,6 +2283,10 @@
         ],
         [
           1783452075,
+          554
+        ],
+        [
+          1783452359,
           554
         ]
       ],
@@ -5930,6 +5930,6 @@
       ]
     }
   },
-  "peak48h": 578,
-  "peak48hAt": "2026-07-05T19:25:54.000Z"
+  "peak48h": 554,
+  "peak48hAt": "2026-07-07T19:21:15.000Z"
 }
