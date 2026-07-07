@@ -3,16 +3,16 @@
   "appid": "3948120",
   "steamAppid": 3948120,
   "name": "Scritchy Scratchy",
-  "players": 3927,
+  "players": 3906,
   "allTimePeak": 23881,
-  "peak24h": 4318,
-  "peak24hAt": "2026-07-06T21:31:20.000Z",
-  "updatedAt": "2026-07-07T21:31:13.548Z",
+  "peak24h": 4298,
+  "peak24hAt": "2026-07-06T21:41:15.000Z",
+  "updatedAt": "2026-07-07T21:36:17.941Z",
   "img_url": "2026/03/scritchy-scratchy-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T21:31:13.548Z",
-    "updatedAtTs": 1783459873,
+    "updatedAt": "2026-07-07T21:36:17.941Z",
+    "updatedAtTs": 1783460177,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783459873,
-        3927
+        1783460177,
+        3906
       ],
       "peak24h": [
-        1783373480,
-        4318
+        1783374075,
+        4298
       ],
       "peak48h": [
-        1783287075,
-        5121
+        1783287673,
+        5110
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783287075,
-          5121
-        ],
-        [
-          1783287365,
-          5110
-        ],
         [
           1783287673,
           5110
@@ -2288,6 +2280,10 @@
         [
           1783459873,
           3927
+        ],
+        [
+          1783460177,
+          3906
         ]
       ],
       "hourlyPeak": [
@@ -5274,6 +5270,6 @@
       ]
     }
   },
-  "peak48h": 5121,
-  "peak48hAt": "2026-07-05T21:31:15.000Z"
+  "peak48h": 5110,
+  "peak48hAt": "2026-07-05T21:41:13.000Z"
 }
