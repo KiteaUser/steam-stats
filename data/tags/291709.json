@@ -3,16 +3,16 @@
   "appid": "412020",
   "steamAppid": 412020,
   "name": "Metro Exodus",
-  "players": 2100,
+  "players": 2110,
   "allTimePeak": 15375,
   "peak24h": 2355,
   "peak24hAt": "2026-07-07T15:06:03.000Z",
-  "updatedAt": "2026-07-07T16:36:04.088Z",
+  "updatedAt": "2026-07-07T16:41:33.584Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-10-08-am-7059.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T16:36:04.088Z",
-    "updatedAtTs": 1783442164,
+    "updatedAt": "2026-07-07T16:41:33.584Z",
+    "updatedAtTs": 1783442493,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783442164,
-        2100
+        1783442493,
+        2110
       ],
       "peak24h": [
         1783436763,
         2355
       ],
       "peak48h": [
-        1783269672,
+        1783269960,
         2614
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783269672,
-          2614
-        ],
         [
           1783269960,
           2614
@@ -2328,6 +2324,10 @@
         [
           1783442164,
           2100
+        ],
+        [
+          1783442493,
+          2110
         ]
       ],
       "hourlyPeak": [
@@ -5695,5 +5695,5 @@
     }
   },
   "peak48h": 2614,
-  "peak48hAt": "2026-07-05T16:41:12.000Z"
+  "peak48hAt": "2026-07-05T16:46:00.000Z"
 }
