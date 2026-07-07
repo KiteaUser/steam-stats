@@ -3,16 +3,16 @@
   "appid": "205100",
   "steamAppid": 205100,
   "name": "Dishonored",
-  "players": 2188,
+  "players": 2145,
   "allTimePeak": 19938,
   "peak24h": 2221,
   "peak24hAt": "2026-07-07T19:56:34.000Z",
-  "updatedAt": "2026-07-07T20:32:57.189Z",
+  "updatedAt": "2026-07-07T20:35:52.570Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-07-04-pm-4062-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T20:32:57.189Z",
-    "updatedAtTs": 1783456377,
+    "updatedAt": "2026-07-07T20:35:52.570Z",
+    "updatedAtTs": 1783456552,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783456377,
-        2188
+        1783456552,
+        2145
       ],
       "peak24h": [
         1783454194,
         2221
       ],
       "peak48h": [
-        1783283752,
+        1783284065,
         2594
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783283752,
-          2594
-        ],
         [
           1783284065,
           2594
@@ -2292,6 +2288,10 @@
         [
           1783456377,
           2188
+        ],
+        [
+          1783456552,
+          2145
         ]
       ],
       "hourlyPeak": [
@@ -5923,5 +5923,5 @@
     }
   },
   "peak48h": 2594,
-  "peak48hAt": "2026-07-05T20:35:52.000Z"
+  "peak48hAt": "2026-07-05T20:41:05.000Z"
 }
