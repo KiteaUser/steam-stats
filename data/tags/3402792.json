@@ -3,16 +3,16 @@
   "appid": "1169040",
   "steamAppid": 1169040,
   "name": "Necesse",
-  "players": 1025,
+  "players": 1014,
   "allTimePeak": 29440,
   "peak24h": 1102,
   "peak24hAt": "2026-07-07T14:56:03.000Z",
-  "updatedAt": "2026-07-07T15:51:05.766Z",
+  "updatedAt": "2026-07-07T15:56:29.963Z",
   "img_url": "2025/02/mixcollage-14-feb-2025-09-20-am-5939.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T15:51:05.766Z",
-    "updatedAtTs": 1783439465,
+    "updatedAt": "2026-07-07T15:56:29.963Z",
+    "updatedAtTs": 1783439789,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783439465,
-        1025
+        1783439789,
+        1014
       ],
       "peak24h": [
         1783436163,
         1102
       ],
       "peak48h": [
-        1783266961,
-        1320
+        1783267277,
+        1315
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783266961,
-          1320
-        ],
         [
           1783267277,
           1315
@@ -2328,6 +2324,10 @@
         [
           1783439465,
           1025
+        ],
+        [
+          1783439789,
+          1014
         ]
       ],
       "hourlyPeak": [
@@ -5614,6 +5614,6 @@
       ]
     }
   },
-  "peak48h": 1320,
-  "peak48hAt": "2026-07-05T15:56:01.000Z"
+  "peak48h": 1315,
+  "peak48hAt": "2026-07-05T16:01:17.000Z"
 }
