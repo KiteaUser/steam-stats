@@ -3,16 +3,16 @@
   "appid": "444200",
   "steamAppid": 444200,
   "name": "World of Tanks Blitz",
-  "players": 6832,
+  "players": 6748,
   "allTimePeak": 56669,
   "peak24h": 7291,
   "peak24hAt": "2026-07-06T18:31:20.000Z",
-  "updatedAt": "2026-07-07T18:16:54.103Z",
+  "updatedAt": "2026-07-07T18:22:09.791Z",
   "img_url": "2024/11/mixcollage-30-nov-2024-02-08-pm-2821.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T18:16:54.103Z",
-    "updatedAtTs": 1783448214,
+    "updatedAt": "2026-07-07T18:22:09.791Z",
+    "updatedAtTs": 1783448529,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783448214,
-        6832
+        1783448529,
+        6748
       ],
       "peak24h": [
         1783362680,
         7291
       ],
       "peak48h": [
-        1783275671,
+        1783276264,
         7799
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783275671,
-          7799
-        ],
         [
           1783275957,
           7771
@@ -2292,6 +2288,10 @@
         [
           1783448214,
           6832
+        ],
+        [
+          1783448529,
+          6748
         ]
       ],
       "hourlyPeak": [
@@ -5731,5 +5731,5 @@
     }
   },
   "peak48h": 7799,
-  "peak48hAt": "2026-07-05T18:21:11.000Z"
+  "peak48hAt": "2026-07-05T18:31:04.000Z"
 }
