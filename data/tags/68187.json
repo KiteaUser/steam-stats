@@ -3,16 +3,16 @@
   "appid": "411300",
   "steamAppid": 411300,
   "name": "ELEX",
-  "players": 162,
+  "players": 161,
   "allTimePeak": 22969,
   "peak24h": 234,
   "peak24hAt": "2026-07-06T18:31:20.000Z",
-  "updatedAt": "2026-07-07T16:51:00.079Z",
+  "updatedAt": "2026-07-07T16:56:12.246Z",
   "img_url": "2025/04/elex-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T16:51:00.079Z",
-    "updatedAtTs": 1783443060,
+    "updatedAt": "2026-07-07T16:56:12.246Z",
+    "updatedAtTs": 1783443372,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783443060,
-        162
+        1783443372,
+        161
       ],
       "peak24h": [
         1783362680,
         234
       ],
       "peak48h": [
-        1783270270,
-        261
+        1783275371,
+        253
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783270270,
-          261
-        ],
-        [
-          1783270570,
-          261
-        ],
         [
           1783270880,
           243
@@ -2328,6 +2320,10 @@
         [
           1783443060,
           162
+        ],
+        [
+          1783443372,
+          161
         ]
       ],
       "hourlyPeak": [
@@ -5806,6 +5802,6 @@
       ]
     }
   },
-  "peak48h": 261,
-  "peak48hAt": "2026-07-05T16:51:10.000Z"
+  "peak48h": 253,
+  "peak48hAt": "2026-07-05T18:16:11.000Z"
 }

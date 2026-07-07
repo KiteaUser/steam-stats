@@ -3,16 +3,16 @@
   "appid": "2870",
   "steamAppid": 2870,
   "name": "X Rebirth",
-  "players": 10,
+  "players": 9,
   "allTimePeak": 14732,
   "peak24h": 14,
   "peak24hAt": "2026-07-07T14:26:03.000Z",
-  "updatedAt": "2026-07-07T16:51:00.079Z",
+  "updatedAt": "2026-07-07T16:56:12.246Z",
   "img_url": "2025/01/mixcollage-06-jan-2025-12-02-am-1687.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T16:51:00.079Z",
-    "updatedAtTs": 1783443060,
+    "updatedAt": "2026-07-07T16:56:12.246Z",
+    "updatedAtTs": 1783443372,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783443060,
-        10
+        1783443372,
+        9
       ],
       "peak24h": [
         1783434363,
         14
       ],
       "peak48h": [
-        1783270270,
+        1783270880,
         21
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783270270,
-          21
-        ],
-        [
-          1783270570,
-          19
-        ],
         [
           1783270880,
           21
@@ -2328,6 +2320,10 @@
         [
           1783443060,
           10
+        ],
+        [
+          1783443372,
+          9
         ]
       ],
       "hourlyPeak": [
@@ -5791,5 +5787,5 @@
     }
   },
   "peak48h": 21,
-  "peak48hAt": "2026-07-05T16:51:10.000Z"
+  "peak48hAt": "2026-07-05T17:01:20.000Z"
 }
