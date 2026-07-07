@@ -3,16 +3,16 @@
   "appid": "1509960",
   "steamAppid": 1509960,
   "name": "PICO PARK",
-  "players": 493,
+  "players": 509,
   "allTimePeak": 16802,
   "peak24h": 532,
   "peak24hAt": "2026-07-07T14:41:18.000Z",
-  "updatedAt": "2026-07-07T15:11:03.838Z",
+  "updatedAt": "2026-07-07T15:16:13.584Z",
   "img_url": "2024/11/mixcollage-29-nov-2024-09-31-am-6517.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-07T15:11:03.838Z",
-    "updatedAtTs": 1783437063,
+    "updatedAt": "2026-07-07T15:16:13.584Z",
+    "updatedAtTs": 1783437373,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783437063,
-        493
+        1783437373,
+        509
       ],
       "peak24h": [
         1783435278,
         532
       ],
       "peak48h": [
-        1783264569,
-        565
+        1783435278,
+        532
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783264569,
-          565
-        ],
         [
           1783264870,
           519
@@ -2328,13 +2324,13 @@
         [
           1783437063,
           493
+        ],
+        [
+          1783437373,
+          509
         ]
       ],
       "hourlyPeak": [
-        [
-          1780845146,
-          440
-        ],
         [
           1780848750,
           302
@@ -5550,6 +5546,6 @@
       ]
     }
   },
-  "peak48h": 565,
-  "peak48hAt": "2026-07-05T15:16:09.000Z"
+  "peak48h": 532,
+  "peak48hAt": "2026-07-07T14:41:18.000Z"
 }
