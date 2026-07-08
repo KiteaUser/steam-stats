@@ -3,16 +3,16 @@
   "appid": "2343650",
   "steamAppid": 2343650,
   "name": "Waven",
-  "players": 58,
+  "players": 56,
   "allTimePeak": 16084,
   "peak24h": 62,
   "peak24hAt": "2026-07-07T20:13:18.000Z",
-  "updatedAt": "2026-07-08T19:56:20.993Z",
+  "updatedAt": "2026-07-08T20:01:22.330Z",
   "img_url": "2025/02/mixcollage-23-feb-2025-11-28-pm-3312.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08T19:56:20.993Z",
-    "updatedAtTs": 1783540580,
+    "updatedAt": "2026-07-08T20:01:22.330Z",
+    "updatedAtTs": 1783540882,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783540580,
-        58
+        1783540882,
+        56
       ],
       "peak24h": [
         1783455198,
         62
       ],
       "peak48h": [
-        1783368073,
+        1783368359,
         67
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783368073,
-          67
-        ],
         [
           1783368359,
           67
@@ -2248,6 +2244,10 @@
         [
           1783540580,
           58
+        ],
+        [
+          1783540882,
+          56
         ]
       ],
       "hourlyPeak": [
@@ -4946,6 +4946,10 @@
         [
           1783364400,
           74
+        ],
+        [
+          1783368000,
+          67
         ]
       ],
       "dailyPeak": [
@@ -5359,5 +5363,5 @@
     }
   },
   "peak48h": 67,
-  "peak48hAt": "2026-07-06T20:01:13.000Z"
+  "peak48hAt": "2026-07-06T20:05:59.000Z"
 }
