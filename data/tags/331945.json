@@ -3,16 +3,16 @@
   "appid": "286690",
   "steamAppid": 286690,
   "name": "Metro 2033 Redux",
-  "players": 3176,
+  "players": 3152,
   "allTimePeak": 50317,
   "peak24h": 3212,
   "peak24hAt": "2026-07-07T19:01:26.000Z",
-  "updatedAt": "2026-07-08T18:26:07.969Z",
+  "updatedAt": "2026-07-08T18:31:20.851Z",
   "img_url": "2024/11/mixcollage-28-nov-2024-12-25-am-808.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-08T18:26:07.969Z",
-    "updatedAtTs": 1783535167,
+    "updatedAt": "2026-07-08T18:31:20.851Z",
+    "updatedAtTs": 1783535480,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783535167,
-        3176
+        1783535480,
+        3152
       ],
       "peak24h": [
         1783450886,
         3212
       ],
       "peak48h": [
-        1783362680,
-        3262
+        1783450886,
+        3212
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783362680,
-          3262
-        ],
         [
           1783362967,
           3201
@@ -2252,6 +2248,10 @@
         [
           1783535167,
           3176
+        ],
+        [
+          1783535480,
+          3152
         ]
       ],
       "hourlyPeak": [
@@ -4953,7 +4953,7 @@
         ],
         [
           1783360800,
-          3219
+          3262
         ]
       ],
       "dailyPeak": [
@@ -5798,6 +5798,6 @@
       ]
     }
   },
-  "peak48h": 3262,
-  "peak48hAt": "2026-07-06T18:31:20.000Z"
+  "peak48h": 3212,
+  "peak48hAt": "2026-07-07T19:01:26.000Z"
 }
