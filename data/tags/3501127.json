@@ -3,16 +3,16 @@
   "appid": "200110",
   "steamAppid": 200110,
   "name": "Nosgoth",
-  "players": 10,
+  "players": 11,
   "allTimePeak": 11921,
   "peak24h": 14,
   "peak24hAt": "2026-07-08T22:21:03.000Z",
-  "updatedAt": "2026-07-09T21:45:55.361Z",
+  "updatedAt": "2026-07-09T21:51:09.210Z",
   "img_url": "2025/06/nosgoth-video-game-cover-art-tag.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-09T21:45:55.361Z",
-    "updatedAtTs": 1783633555,
+    "updatedAt": "2026-07-09T21:51:09.210Z",
+    "updatedAtTs": 1783633869,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783633555,
-        10
+        1783633869,
+        11
       ],
       "peak24h": [
         1783549263,
         14
       ],
       "peak48h": [
-        1783460767,
+        1783461361,
         15
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783460767,
-          15
-        ],
         [
           1783461361,
           15
@@ -2172,6 +2168,10 @@
         [
           1783633555,
           10
+        ],
+        [
+          1783633869,
+          11
         ]
       ],
       "hourlyPeak": [
@@ -5719,5 +5719,5 @@
     }
   },
   "peak48h": 15,
-  "peak48hAt": "2026-07-07T21:46:07.000Z"
+  "peak48hAt": "2026-07-07T21:56:01.000Z"
 }
