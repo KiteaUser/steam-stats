@@ -7,12 +7,12 @@
   "allTimePeak": 18585,
   "peak24h": 979,
   "peak24hAt": "2026-07-09T19:11:11.000Z",
-  "updatedAt": "2026-07-09T23:01:26.802Z",
+  "updatedAt": "2026-07-09T23:05:59.370Z",
   "img_url": "2025/07/misery-tag-image.jpeg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-09T23:01:26.802Z",
-    "updatedAtTs": 1783638086,
+    "updatedAt": "2026-07-09T23:05:59.370Z",
+    "updatedAtTs": 1783638359,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1783638086,
+        1783638359,
         700
       ],
       "peak24h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783465350,
-          713
-        ],
         [
           1783465564,
           713
@@ -2179,6 +2175,10 @@
         ],
         [
           1783638086,
+          700
+        ],
+        [
+          1783638359,
           700
         ]
       ],
@@ -4882,6 +4882,10 @@
         [
           1783461600,
           871
+        ],
+        [
+          1783465200,
+          713
         ]
       ],
       "dailyPeak": [
