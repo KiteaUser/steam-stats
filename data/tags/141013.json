@@ -3,16 +3,16 @@
   "appid": "250320",
   "steamAppid": 250320,
   "name": "The Wolf Among Us",
-  "players": 251,
+  "players": 247,
   "allTimePeak": 14321,
   "peak24h": 255,
   "peak24hAt": "2026-07-09T19:46:08.000Z",
-  "updatedAt": "2026-07-09T20:02:09.509Z",
+  "updatedAt": "2026-07-09T20:06:00.815Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-09-17-am-6127.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-09T20:02:09.509Z",
-    "updatedAtTs": 1783627329,
+    "updatedAt": "2026-07-09T20:06:00.815Z",
+    "updatedAtTs": 1783627560,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783627329,
-        251
+        1783627560,
+        247
       ],
       "peak24h": [
         1783626368,
         255
       ],
       "peak48h": [
-        1783454753,
+        1783626368,
         255
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783454753,
-          255
-        ],
         [
           1783455198,
           250
@@ -2168,6 +2164,10 @@
         [
           1783627329,
           251
+        ],
+        [
+          1783627560,
+          247
         ]
       ],
       "hourlyPeak": [
@@ -5763,5 +5763,5 @@
     }
   },
   "peak48h": 255,
-  "peak48hAt": "2026-07-07T20:05:53.000Z"
+  "peak48hAt": "2026-07-09T19:46:08.000Z"
 }
