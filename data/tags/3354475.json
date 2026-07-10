@@ -3,16 +3,16 @@
   "appid": "99900",
   "steamAppid": 99900,
   "name": "Spiral Knights",
-  "players": 482,
+  "players": 475,
   "allTimePeak": 13143,
   "peak24h": 521,
   "peak24hAt": "2026-07-10T02:35:54.000Z",
-  "updatedAt": "2026-07-10T23:21:14.861Z",
+  "updatedAt": "2026-07-10T23:25:59.994Z",
   "img_url": "2025/01/mixcollage-02-jan-2025-06-48-pm-6256.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-10T23:21:14.861Z",
-    "updatedAtTs": 1783725674,
+    "updatedAt": "2026-07-10T23:25:59.994Z",
+    "updatedAtTs": 1783725959,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783725674,
-        482
+        1783725959,
+        475
       ],
       "peak24h": [
         1783650954,
         521
       ],
       "peak48h": [
-        1783553159,
-        530
+        1783553475,
+        529
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783553159,
-          530
-        ],
         [
           1783553475,
           529
@@ -2224,6 +2220,10 @@
         [
           1783725674,
           482
+        ],
+        [
+          1783725959,
+          475
         ]
       ],
       "hourlyPeak": [
@@ -5866,6 +5866,6 @@
       ]
     }
   },
-  "peak48h": 530,
-  "peak48hAt": "2026-07-08T23:25:59.000Z"
+  "peak48h": 529,
+  "peak48hAt": "2026-07-08T23:31:15.000Z"
 }
