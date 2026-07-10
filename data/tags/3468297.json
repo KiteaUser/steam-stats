@@ -7,12 +7,12 @@
   "allTimePeak": 0,
   "peak24h": 0,
   "peak24hAt": "2026-06-10T22:47:21.000Z",
-  "updatedAt": "2026-07-10T07:55:55.860Z",
+  "updatedAt": "2026-07-10T08:01:18.927Z",
   "img_url": "2025/04/star-wars-zero-company-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-10T07:55:55.860Z",
-    "updatedAtTs": 1783670155,
+    "updatedAt": "2026-07-10T08:01:18.927Z",
+    "updatedAtTs": 1783670478,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1783670155,
+        1783670478,
         0
       ],
       "peak24h": null,
@@ -36,10 +36,6 @@
     "series": {
       "raw5m": [],
       "hourlyPeak": [
-        [
-          1781078400,
-          0
-        ],
         [
           1781082000,
           0
@@ -97,7 +93,12 @@
           0
         ]
       ],
-      "dailyPeak": [],
+      "dailyPeak": [
+        [
+          1781049600,
+          0
+        ]
+      ],
       "monthlyPeak": []
     }
   }
