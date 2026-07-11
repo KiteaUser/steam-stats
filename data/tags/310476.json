@@ -7,12 +7,12 @@
   "allTimePeak": 24910,
   "peak24h": 3266,
   "peak24hAt": "2026-07-11T13:26:01.000Z",
-  "updatedAt": "2026-07-11T13:26:01.599Z",
+  "updatedAt": "2026-07-11T13:31:18.979Z",
   "img_url": "2025/02/farthest-frontier-cover-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11T13:26:01.599Z",
-    "updatedAtTs": 1783776361,
+    "updatedAt": "2026-07-11T13:31:18.979Z",
+    "updatedAtTs": 1783776678,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1783776361,
+        1783776678,
         3266
       ],
       "peak24h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783603652,
-          2692
-        ],
         [
           1783603882,
           2692
@@ -2343,6 +2339,10 @@
         ],
         [
           1783776361,
+          3266
+        ],
+        [
+          1783776678,
           3266
         ]
       ],
@@ -5033,7 +5033,7 @@
         ],
         [
           1783602000,
-          2684
+          2692
         ]
       ],
       "dailyPeak": [
