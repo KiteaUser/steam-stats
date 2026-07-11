@@ -3,16 +3,16 @@
   "appid": "4465480",
   "steamAppid": 4465480,
   "name": "Counter-Strike:Global Offensive",
-  "players": 9257,
+  "players": 9255,
   "allTimePeak": 68231,
-  "peak24h": 21252,
-  "peak24hAt": "2026-07-10T19:46:16.000Z",
-  "updatedAt": "2026-07-11T19:46:01.417Z",
+  "peak24h": 19282,
+  "peak24hAt": "2026-07-10T19:56:14.000Z",
+  "updatedAt": "2026-07-11T19:51:23.419Z",
   "img_url": "2024/12/mixcollage-25-dec-2024-07-28-am-3495.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11T19:46:01.417Z",
-    "updatedAtTs": 1783799161,
+    "updatedAt": "2026-07-11T19:51:23.419Z",
+    "updatedAtTs": 1783799483,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783799161,
-        9257
+        1783799483,
+        9255
       ],
       "peak24h": [
-        1783712776,
-        21252
+        1783713374,
+        19282
       ],
       "peak48h": [
-        1783626368,
+        1783626964,
         43543
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783626368,
-          43543
-        ],
-        [
-          1783626664,
-          43408
-        ],
         [
           1783626964,
           43543
@@ -2348,6 +2340,10 @@
         [
           1783799161,
           9257
+        ],
+        [
+          1783799483,
+          9255
         ]
       ],
       "hourlyPeak": [
@@ -5054,5 +5050,5 @@
     }
   },
   "peak48h": 43543,
-  "peak48hAt": "2026-07-09T19:46:08.000Z"
+  "peak48hAt": "2026-07-09T19:56:04.000Z"
 }
