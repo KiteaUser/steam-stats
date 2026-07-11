@@ -7,12 +7,12 @@
   "allTimePeak": 12624,
   "peak24h": 1704,
   "peak24hAt": "2026-07-11T20:31:21.000Z",
-  "updatedAt": "2026-07-11T20:36:11.436Z",
+  "updatedAt": "2026-07-11T20:41:06.690Z",
   "img_url": "2025/02/ranch-simulator-tag-page-cover-art-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11T20:36:11.436Z",
-    "updatedAtTs": 1783802171,
+    "updatedAt": "2026-07-11T20:41:06.690Z",
+    "updatedAtTs": 1783802466,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1783802171,
+        1783802466,
         1675
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         1704
       ],
       "peak48h": [
-        1783629436,
-        1843
+        1783629678,
+        1834
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783629436,
-          1843
-        ],
         [
           1783629678,
           1834
@@ -2339,6 +2335,10 @@
         ],
         [
           1783802171,
+          1675
+        ],
+        [
+          1783802466,
           1675
         ]
       ],
@@ -5570,6 +5570,6 @@
       ]
     }
   },
-  "peak48h": 1843,
-  "peak48hAt": "2026-07-09T20:37:16.000Z"
+  "peak48h": 1834,
+  "peak48hAt": "2026-07-09T20:41:18.000Z"
 }
