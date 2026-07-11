@@ -7,12 +7,12 @@
   "allTimePeak": 17988,
   "peak24h": 1175,
   "peak24hAt": "2026-07-11T14:15:56.000Z",
-  "updatedAt": "2026-07-11T14:31:19.469Z",
+  "updatedAt": "2026-07-11T14:35:59.028Z",
   "img_url": "2025/07/the-king-is-watching-tag-imae.jpeg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11T14:31:19.469Z",
-    "updatedAtTs": 1783780279,
+    "updatedAt": "2026-07-11T14:35:59.028Z",
+    "updatedAtTs": 1783780559,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1783780279,
+        1783780559,
         1159
       ],
       "peak24h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783607480,
-          1086
-        ],
         [
           1783607763,
           1086
@@ -2347,6 +2343,10 @@
         ],
         [
           1783780279,
+          1159
+        ],
+        [
+          1783780559,
           1159
         ]
       ],
@@ -5037,7 +5037,7 @@
         ],
         [
           1783605600,
-          1069
+          1086
         ]
       ],
       "dailyPeak": [
