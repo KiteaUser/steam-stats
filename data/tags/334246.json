@@ -3,16 +3,16 @@
   "appid": "201790",
   "steamAppid": 201790,
   "name": "Orcs Must Die 2",
-  "players": 44,
+  "players": 46,
   "allTimePeak": 16119,
   "peak24h": 68,
   "peak24hAt": "2026-07-11T15:21:03.000Z",
-  "updatedAt": "2026-07-11T18:10:58.890Z",
+  "updatedAt": "2026-07-11T18:16:08.714Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-06-43-pm-3089.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11T18:10:58.890Z",
-    "updatedAtTs": 1783793458,
+    "updatedAt": "2026-07-11T18:16:08.714Z",
+    "updatedAtTs": 1783793768,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783793458,
-        44
+        1783793768,
+        46
       ],
       "peak24h": [
         1783783263,
         68
       ],
       "peak48h": [
-        1783620663,
-        70
+        1783783263,
+        68
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783620663,
-          70
-        ],
         [
           1783620975,
           61
@@ -2344,6 +2340,10 @@
         [
           1783793458,
           44
+        ],
+        [
+          1783793768,
+          46
         ]
       ],
       "hourlyPeak": [
@@ -5990,6 +5990,6 @@
       ]
     }
   },
-  "peak48h": 70,
-  "peak48hAt": "2026-07-09T18:11:03.000Z"
+  "peak48h": 68,
+  "peak48hAt": "2026-07-11T15:21:03.000Z"
 }
