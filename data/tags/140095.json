@@ -3,16 +3,16 @@
   "appid": "1178830",
   "steamAppid": 1178830,
   "name": "Bright Memory: Infinite",
-  "players": 19,
+  "players": 22,
   "allTimePeak": 22076,
   "peak24h": 36,
   "peak24hAt": "2026-07-11T14:21:09.000Z",
-  "updatedAt": "2026-07-11T15:45:59.469Z",
+  "updatedAt": "2026-07-11T15:51:11.668Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-12-45-am-3315.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-11T15:45:59.469Z",
-    "updatedAtTs": 1783784759,
+    "updatedAt": "2026-07-11T15:51:11.668Z",
+    "updatedAtTs": 1783785071,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783784759,
-        19
+        1783785071,
+        22
       ],
       "peak24h": [
         1783779669,
         36
       ],
       "peak48h": [
-        1783611973,
-        37
+        1783779669,
+        36
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783611973,
-          37
-        ],
         [
           1783612274,
           26
@@ -2348,6 +2344,10 @@
         [
           1783784759,
           19
+        ],
+        [
+          1783785071,
+          22
         ]
       ],
       "hourlyPeak": [
@@ -5546,6 +5546,6 @@
       ]
     }
   },
-  "peak48h": 37,
-  "peak48hAt": "2026-07-09T15:46:13.000Z"
+  "peak48h": 36,
+  "peak48hAt": "2026-07-11T14:21:09.000Z"
 }
