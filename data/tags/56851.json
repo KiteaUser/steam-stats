@@ -3,16 +3,16 @@
   "appid": "4465480",
   "steamAppid": 4465480,
   "name": "Counter-Strike:Global Offensive",
-  "players": 9144,
+  "players": 9026,
   "allTimePeak": 68231,
   "peak24h": 9340,
   "peak24hAt": "2026-07-12T17:56:10.000Z",
-  "updatedAt": "2026-07-12T19:31:18.810Z",
+  "updatedAt": "2026-07-12T19:36:03.055Z",
   "img_url": "2024/12/mixcollage-25-dec-2024-07-28-am-3495.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-12T19:31:18.810Z",
-    "updatedAtTs": 1783884678,
+    "updatedAt": "2026-07-12T19:36:03.055Z",
+    "updatedAtTs": 1783884963,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783884678,
-        9144
+        1783884963,
+        9026
       ],
       "peak24h": [
         1783878970,
         9340
       ],
       "peak48h": [
-        1783711880,
+        1783712164,
         21288
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783711880,
-          21288
-        ],
         [
           1783712164,
           21288
@@ -2344,6 +2340,10 @@
         [
           1783884678,
           9144
+        ],
+        [
+          1783884963,
+          9026
         ]
       ],
       "hourlyPeak": [
@@ -5054,5 +5054,5 @@
     }
   },
   "peak48h": 21288,
-  "peak48hAt": "2026-07-10T19:31:20.000Z"
+  "peak48hAt": "2026-07-10T19:36:04.000Z"
 }
