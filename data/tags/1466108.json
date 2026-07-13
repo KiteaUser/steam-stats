@@ -3,16 +3,16 @@
   "appid": "473690",
   "steamAppid": 473690,
   "name": "Absolver",
-  "players": 29,
+  "players": 23,
   "allTimePeak": 18921,
   "peak24h": 45,
   "peak24hAt": "2026-07-12T23:16:08.000Z",
-  "updatedAt": "2026-07-13T22:05:53.667Z",
+  "updatedAt": "2026-07-13T22:11:23.161Z",
   "img_url": "2024/12/mixcollage-15-dec-2024-03-38-pm-2652.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13T22:05:53.667Z",
-    "updatedAtTs": 1783980353,
+    "updatedAt": "2026-07-13T22:11:23.161Z",
+    "updatedAtTs": 1783980683,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783980353,
-        29
+        1783980683,
+        23
       ],
       "peak24h": [
         1783898168,
         45
       ],
       "peak48h": [
-        1783807876,
+        1783808153,
         50
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783807556,
-          46
-        ],
-        [
-          1783807876,
-          50
-        ],
         [
           1783808153,
           50
@@ -2316,6 +2308,10 @@
         [
           1783980353,
           29
+        ],
+        [
+          1783980683,
+          23
         ]
       ],
       "hourlyPeak": [
@@ -5005,7 +5001,7 @@
         ],
         [
           1783807200,
-          46
+          50
         ]
       ],
       "dailyPeak": [
@@ -5787,5 +5783,5 @@
     }
   },
   "peak48h": 50,
-  "peak48hAt": "2026-07-11T22:11:16.000Z"
+  "peak48hAt": "2026-07-11T22:15:53.000Z"
 }
