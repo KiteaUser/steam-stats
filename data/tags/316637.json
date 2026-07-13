@@ -3,16 +3,16 @@
   "appid": "360430",
   "steamAppid": 360430,
   "name": "Mafia 3",
-  "players": 999,
+  "players": 1013,
   "allTimePeak": 47822,
   "peak24h": 1439,
   "peak24hAt": "2026-07-12T16:45:55.000Z",
-  "updatedAt": "2026-07-13T14:01:22.026Z",
+  "updatedAt": "2026-07-13T14:06:00.759Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-11-49-pm-8080.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13T14:01:22.026Z",
-    "updatedAtTs": 1783951282,
+    "updatedAt": "2026-07-13T14:06:00.759Z",
+    "updatedAtTs": 1783951560,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1783951282,
-        999
+        1783951560,
+        1013
       ],
       "peak24h": [
         1783874755,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783778493,
-          1215
-        ],
         [
           1783778773,
           1239
@@ -2328,6 +2324,10 @@
         [
           1783951282,
           999
+        ],
+        [
+          1783951560,
+          1013
         ]
       ],
       "hourlyPeak": [
@@ -5013,6 +5013,10 @@
         ],
         [
           1783774800,
+          1215
+        ],
+        [
+          1783778400,
           1215
         ]
       ],
