@@ -3,16 +3,16 @@
   "appid": "385760",
   "steamAppid": 385760,
   "name": "NBA 2K17",
-  "players": 60,
+  "players": 63,
   "allTimePeak": 14905,
   "peak24h": 86,
   "peak24hAt": "2026-07-13T13:41:20.000Z",
-  "updatedAt": "2026-07-13T16:01:43.292Z",
+  "updatedAt": "2026-07-13T16:06:56.009Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-12-03-pm-2513.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13T16:01:43.292Z",
-    "updatedAtTs": 1783958503,
+    "updatedAt": "2026-07-13T16:06:56.009Z",
+    "updatedAtTs": 1783958816,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783958503,
-        60
+        1783958816,
+        63
       ],
       "peak24h": [
         1783950080,
         86
       ],
       "peak48h": [
-        1783785965,
-        87
+        1783950080,
+        86
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783785965,
-          87
-        ],
         [
           1783786269,
           83
@@ -2320,6 +2316,10 @@
         [
           1783958503,
           60
+        ],
+        [
+          1783958816,
+          63
         ]
       ],
       "hourlyPeak": [
@@ -5009,7 +5009,7 @@
         ],
         [
           1783785600,
-          83
+          87
         ]
       ],
       "dailyPeak": [
@@ -5774,6 +5774,6 @@
       ]
     }
   },
-  "peak48h": 87,
-  "peak48hAt": "2026-07-11T16:06:05.000Z"
+  "peak48h": 86,
+  "peak48hAt": "2026-07-13T13:41:20.000Z"
 }
