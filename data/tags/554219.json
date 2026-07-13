@@ -3,16 +3,16 @@
   "appid": "630",
   "steamAppid": 630,
   "name": "Alien Swarm",
-  "players": 27,
+  "players": 26,
   "allTimePeak": 60467,
   "peak24h": 30,
   "peak24hAt": "2026-07-13T20:01:29.000Z",
-  "updatedAt": "2026-07-13T20:25:59.017Z",
+  "updatedAt": "2026-07-13T20:31:27.153Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-02-51-am-6506.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13T20:25:59.017Z",
-    "updatedAtTs": 1783974359,
+    "updatedAt": "2026-07-13T20:31:27.153Z",
+    "updatedAtTs": 1783974687,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783974359,
-        27
+        1783974687,
+        26
       ],
       "peak24h": [
         1783972889,
         30
       ],
       "peak48h": [
-        1783801881,
-        34
+        1783802171,
+        31
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783801881,
-          34
-        ],
         [
           1783802171,
           31
@@ -2312,6 +2308,10 @@
         [
           1783974359,
           27
+        ],
+        [
+          1783974687,
+          26
         ]
       ],
       "hourlyPeak": [
@@ -5966,6 +5966,6 @@
       ]
     }
   },
-  "peak48h": 34,
-  "peak48hAt": "2026-07-11T20:31:21.000Z"
+  "peak48h": 31,
+  "peak48hAt": "2026-07-11T20:36:11.000Z"
 }
