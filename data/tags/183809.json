@@ -3,16 +3,16 @@
   "appid": "1680880",
   "steamAppid": 1680880,
   "name": "Forspoken",
-  "players": 17,
+  "players": 19,
   "allTimePeak": 12579,
-  "peak24h": 32,
-  "peak24hAt": "2026-07-12T21:51:15.000Z",
-  "updatedAt": "2026-07-13T21:46:06.735Z",
+  "peak24h": 31,
+  "peak24hAt": "2026-07-12T21:56:00.000Z",
+  "updatedAt": "2026-07-13T21:51:26.018Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-07-07-am-8430.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13T21:46:06.735Z",
-    "updatedAtTs": 1783979166,
+    "updatedAt": "2026-07-13T21:51:26.018Z",
+    "updatedAtTs": 1783979486,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783979166,
-        17
+        1783979486,
+        19
       ],
       "peak24h": [
-        1783893075,
-        32
+        1783893360,
+        31
       ],
       "peak48h": [
-        1783806666,
+        1783806956,
         35
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783806666,
-          35
-        ],
         [
           1783806956,
           35
@@ -2320,6 +2316,10 @@
         [
           1783979166,
           17
+        ],
+        [
+          1783979486,
+          19
         ]
       ],
       "hourlyPeak": [
@@ -5471,5 +5471,5 @@
     }
   },
   "peak48h": 35,
-  "peak48hAt": "2026-07-11T21:51:06.000Z"
+  "peak48hAt": "2026-07-11T21:55:56.000Z"
 }
