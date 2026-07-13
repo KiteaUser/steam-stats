@@ -3,16 +3,16 @@
   "appid": "291480",
   "steamAppid": 291480,
   "name": "Warface: Clutch",
-  "players": 10,
+  "players": 11,
   "allTimePeak": 13867,
   "peak24h": 14,
   "peak24hAt": "2026-07-12T01:25:57.000Z",
-  "updatedAt": "2026-07-13T00:35:53.239Z",
+  "updatedAt": "2026-07-13T00:41:18.913Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-11-29-pm-7989.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13T00:35:53.239Z",
-    "updatedAtTs": 1783902953,
+    "updatedAt": "2026-07-13T00:41:18.913Z",
+    "updatedAtTs": 1783903278,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1783902953,
-        10
+        1783903278,
+        11
       ],
       "peak24h": [
         1783819557,
         14
       ],
       "peak48h": [
-        1783730160,
+        1783819557,
         14
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783730160,
-          14
-        ],
-        [
-          1783730468,
-          13
-        ],
         [
           1783730767,
           13
@@ -2344,6 +2336,10 @@
         [
           1783902953,
           10
+        ],
+        [
+          1783903278,
+          11
         ]
       ],
       "hourlyPeak": [
@@ -5033,7 +5029,7 @@
         ],
         [
           1783728000,
-          13
+          14
         ]
       ],
       "dailyPeak": [
@@ -5903,5 +5899,5 @@
     }
   },
   "peak48h": 14,
-  "peak48hAt": "2026-07-11T00:36:00.000Z"
+  "peak48hAt": "2026-07-12T01:25:57.000Z"
 }
