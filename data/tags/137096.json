@@ -3,16 +3,16 @@
   "appid": "751780",
   "steamAppid": 751780,
   "name": "Forager",
-  "players": 465,
+  "players": 475,
   "allTimePeak": 13438,
   "peak24h": 512,
   "peak24hAt": "2026-07-12T19:21:16.000Z",
-  "updatedAt": "2026-07-13T18:46:12.108Z",
+  "updatedAt": "2026-07-13T18:51:28.452Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-06-44-pm-9848.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-13T18:46:12.108Z",
-    "updatedAtTs": 1783968372,
+    "updatedAt": "2026-07-13T18:51:28.452Z",
+    "updatedAtTs": 1783968688,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1783968372,
-        465
+        1783968688,
+        475
       ],
       "peak24h": [
         1783884076,
         512
       ],
       "peak48h": [
-        1783795874,
-        559
+        1783868154,
+        558
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783795874,
-          559
-        ],
         [
           1783796150,
           537
@@ -2320,6 +2316,10 @@
         [
           1783968372,
           465
+        ],
+        [
+          1783968688,
+          475
         ]
       ],
       "hourlyPeak": [
@@ -5654,6 +5654,6 @@
       ]
     }
   },
-  "peak48h": 559,
-  "peak48hAt": "2026-07-11T18:51:14.000Z"
+  "peak48h": 558,
+  "peak48hAt": "2026-07-12T14:55:54.000Z"
 }
