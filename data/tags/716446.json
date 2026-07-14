@@ -6,13 +6,13 @@
   "players": 1,
   "allTimePeak": 12690,
   "peak24h": 2,
-  "peak24hAt": "2026-07-13T11:05:59.000Z",
-  "updatedAt": "2026-07-14T11:05:59.049Z",
+  "peak24hAt": "2026-07-13T11:16:03.000Z",
+  "updatedAt": "2026-07-14T11:11:14.135Z",
   "img_url": "sharedimages/2024/08/defiance-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-14T11:05:59.049Z",
-    "updatedAtTs": 1784027159,
+    "updatedAt": "2026-07-14T11:11:14.135Z",
+    "updatedAtTs": 1784027474,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1784027159,
+        1784027474,
         1
       ],
       "peak24h": [
-        1783940759,
+        1783941363,
         2
       ],
       "peak48h": [
-        1783854666,
+        1783862475,
         3
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783854666,
-          3
-        ],
         [
           1783854957,
           2
@@ -2299,6 +2295,10 @@
         ],
         [
           1784027159,
+          1
+        ],
+        [
+          1784027474,
           1
         ]
       ],
@@ -5411,5 +5411,5 @@
     }
   },
   "peak48h": 3,
-  "peak48hAt": "2026-07-12T11:11:06.000Z"
+  "peak48hAt": "2026-07-12T13:21:15.000Z"
 }
