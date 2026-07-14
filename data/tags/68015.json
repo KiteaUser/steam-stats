@@ -3,16 +3,16 @@
   "appid": "466240",
   "steamAppid": 466240,
   "name": "Deceit",
-  "players": 16,
+  "players": 21,
   "allTimePeak": 16923,
   "peak24h": 38,
   "peak24hAt": "2026-07-14T18:36:08.000Z",
-  "updatedAt": "2026-07-14T20:11:13.441Z",
+  "updatedAt": "2026-07-14T20:16:02.239Z",
   "img_url": "2025/02/mixcollage-24-feb-2025-12-53-am-2211.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-14T20:11:13.441Z",
-    "updatedAtTs": 1784059873,
+    "updatedAt": "2026-07-14T20:16:02.239Z",
+    "updatedAtTs": 1784060162,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784059873,
-        16
+        1784060162,
+        21
       ],
       "peak24h": [
         1784054168,
         38
       ],
       "peak48h": [
-        1783887356,
-        42
+        1784054168,
+        38
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783887080,
-          38
-        ],
-        [
-          1783887356,
-          42
-        ],
         [
           1783887675,
           25
@@ -2300,6 +2292,10 @@
         [
           1784059873,
           16
+        ],
+        [
+          1784060162,
+          21
         ]
       ],
       "hourlyPeak": [
@@ -5758,6 +5754,6 @@
       ]
     }
   },
-  "peak48h": 42,
-  "peak48hAt": "2026-07-12T20:15:56.000Z"
+  "peak48h": 38,
+  "peak48hAt": "2026-07-14T18:36:08.000Z"
 }
