@@ -3,16 +3,16 @@
   "appid": "233130",
   "steamAppid": 233130,
   "name": "Shadow Warrior",
-  "players": 26,
+  "players": 23,
   "allTimePeak": 25890,
   "peak24h": 32,
   "peak24hAt": "2026-07-15T16:56:15.000Z",
-  "updatedAt": "2026-07-15T20:51:04.944Z",
+  "updatedAt": "2026-07-15T20:56:09.909Z",
   "img_url": "2024/11/mixcollage-26-nov-2024-09-57-pm-7654-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-15T20:51:04.944Z",
-    "updatedAtTs": 1784148664,
+    "updatedAt": "2026-07-15T20:56:09.909Z",
+    "updatedAtTs": 1784148969,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1784148664,
-        26
+        1784148969,
+        23
       ],
       "peak24h": [
         1784134575,
         32
       ],
       "peak48h": [
-        1783976162,
+        1783976492,
         39
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1783975880,
-          38
-        ],
-        [
-          1783976162,
-          39
-        ],
         [
           1783976492,
           39
@@ -2336,6 +2328,10 @@
         [
           1784148664,
           26
+        ],
+        [
+          1784148969,
+          23
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5021,7 @@
         ],
         [
           1783972800,
-          38
+          39
         ]
       ],
       "dailyPeak": [
@@ -5971,5 +5967,5 @@
     }
   },
   "peak48h": 39,
-  "peak48hAt": "2026-07-13T20:56:02.000Z"
+  "peak48hAt": "2026-07-13T21:01:32.000Z"
 }
