@@ -3,16 +3,16 @@
   "appid": "666140",
   "steamAppid": 666140,
   "name": "My Time at Portia",
-  "players": 375,
+  "players": 394,
   "allTimePeak": 13299,
   "peak24h": 486,
   "peak24hAt": "2026-07-15T14:26:06.000Z",
-  "updatedAt": "2026-07-16T14:16:16.383Z",
+  "updatedAt": "2026-07-16T14:21:20.571Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-10-05-am-7441.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-16T14:16:16.383Z",
-    "updatedAtTs": 1784211376,
+    "updatedAt": "2026-07-16T14:21:20.571Z",
+    "updatedAtTs": 1784211680,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1784211376,
-        375
+        1784211680,
+        394
       ],
       "peak24h": [
         1784125566,
         486
       ],
       "peak48h": [
-        1784038868,
+        1784039171,
         512
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784038868,
-          512
-        ],
         [
           1784039171,
           512
@@ -2324,6 +2320,10 @@
         [
           1784211376,
           375
+        ],
+        [
+          1784211680,
+          394
         ]
       ],
       "hourlyPeak": [
@@ -5013,7 +5013,7 @@
         ],
         [
           1784037600,
-          502
+          512
         ]
       ],
       "dailyPeak": [
@@ -5755,5 +5755,5 @@
     }
   },
   "peak48h": 512,
-  "peak48hAt": "2026-07-14T14:21:08.000Z"
+  "peak48hAt": "2026-07-14T14:26:11.000Z"
 }
