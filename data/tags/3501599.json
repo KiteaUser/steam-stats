@@ -7,12 +7,12 @@
   "allTimePeak": 40335,
   "peak24h": 2,
   "peak24hAt": "2026-07-15T19:41:10.000Z",
-  "updatedAt": "2026-07-16T18:41:20.760Z",
+  "updatedAt": "2026-07-16T18:46:01.671Z",
   "img_url": "2025/06/just-survive.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-16T18:41:20.760Z",
-    "updatedAtTs": 1784227280,
+    "updatedAt": "2026-07-16T18:46:01.671Z",
+    "updatedAtTs": 1784227561,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1784227280,
+        1784227561,
         1
       ],
       "peak24h": [
@@ -31,7 +31,7 @@
         2
       ],
       "peak48h": [
-        1784054483,
+        1784055970,
         2
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784054483,
-          2
-        ],
         [
           1784054775,
           1
@@ -879,6 +875,10 @@
         ],
         [
           1784227280,
+          1
+        ],
+        [
+          1784227561,
           1
         ]
       ],
@@ -2879,5 +2879,5 @@
     }
   },
   "peak48h": 2,
-  "peak48hAt": "2026-07-14T18:41:23.000Z"
+  "peak48hAt": "2026-07-14T19:06:10.000Z"
 }
