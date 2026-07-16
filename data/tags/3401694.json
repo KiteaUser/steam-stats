@@ -3,16 +3,16 @@
   "appid": "1631270",
   "steamAppid": 1631270,
   "name": "StarRupture",
-  "players": 1025,
+  "players": 1024,
   "allTimePeak": 42864,
   "peak24h": 1512,
   "peak24hAt": "2026-07-15T19:21:24.000Z",
-  "updatedAt": "2026-07-16T13:46:09.978Z",
+  "updatedAt": "2026-07-16T13:51:17.117Z",
   "img_url": "2025/01/starrupture-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-16T13:46:09.978Z",
-    "updatedAtTs": 1784209569,
+    "updatedAt": "2026-07-16T13:51:17.117Z",
+    "updatedAtTs": 1784209877,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1784209569,
-        1025
+        1784209877,
+        1024
       ],
       "peak24h": [
         1784143284,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784036774,
-          1154
-        ],
-        [
-          1784037073,
-          1176
-        ],
         [
           1784037377,
           1176
@@ -2324,6 +2316,10 @@
         [
           1784209569,
           1025
+        ],
+        [
+          1784209877,
+          1024
         ]
       ],
       "hourlyPeak": [
@@ -5013,7 +5009,7 @@
         ],
         [
           1784034000,
-          1154
+          1176
         ]
       ],
       "dailyPeak": [
