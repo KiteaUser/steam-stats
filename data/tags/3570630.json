@@ -3,16 +3,16 @@
   "appid": "4124950",
   "steamAppid": 4124950,
   "name": "Ashes of Creation",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 31882,
   "peak24h": 2,
   "peak24hAt": "2026-07-18T23:05:59.000Z",
-  "updatedAt": "2026-07-19T15:06:08.711Z",
+  "updatedAt": "2026-07-19T15:11:02.225Z",
   "img_url": "2025/11/ashes-of-creation-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-19T15:06:08.711Z",
-    "updatedAtTs": 1784473568,
+    "updatedAt": "2026-07-19T15:11:02.225Z",
+    "updatedAtTs": 1784473862,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1784473568,
-        1
+        1784473862,
+        2
       ],
       "peak24h": [
         1784415959,
         2
       ],
       "peak48h": [
-        1784301062,
+        1784371567,
         3
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784300805,
-          2
-        ],
-        [
-          1784301062,
-          3
-        ],
         [
           1784301382,
           2
@@ -2336,6 +2328,10 @@
         [
           1784473568,
           1
+        ],
+        [
+          1784473862,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5021,7 @@
         ],
         [
           1784300400,
-          2
+          3
         ]
       ],
       "dailyPeak": [
@@ -5367,5 +5363,5 @@
     }
   },
   "peak48h": 3,
-  "peak48hAt": "2026-07-17T15:11:02.000Z"
+  "peak48hAt": "2026-07-18T10:46:07.000Z"
 }
