@@ -3,16 +3,16 @@
   "appid": "2407300",
   "steamAppid": 2407300,
   "name": "Asteroids",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 14467,
-  "peak24h": 1,
-  "peak24hAt": "2026-07-19T03:16:13.000Z",
-  "updatedAt": "2026-07-19T23:36:00.098Z",
+  "peak24h": 2,
+  "peak24hAt": "2026-07-19T23:41:00.000Z",
+  "updatedAt": "2026-07-19T23:41:00.854Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-12-48-am-9382.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-19T23:36:00.098Z",
-    "updatedAtTs": 1784504160,
+    "updatedAt": "2026-07-19T23:41:00.854Z",
+    "updatedAtTs": 1784504460,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1784504160,
-        1
+        1784504460,
+        2
       ],
       "peak24h": [
-        1784430973,
-        1
+        1784504460,
+        2
       ],
       "peak48h": [
         1784368565,
@@ -364,6 +364,10 @@
         [
           1784504160,
           1
+        ],
+        [
+          1784504460,
+          2
         ]
       ],
       "hourlyPeak": [
