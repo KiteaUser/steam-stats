@@ -5,14 +5,14 @@
   "name": "MISERY",
   "players": 745,
   "allTimePeak": 18585,
-  "peak24h": 867,
-  "peak24hAt": "2026-07-19T20:20:53.000Z",
-  "updatedAt": "2026-07-20T20:16:03.830Z",
+  "peak24h": 866,
+  "peak24hAt": "2026-07-19T20:31:45.000Z",
+  "updatedAt": "2026-07-20T20:21:06.587Z",
   "img_url": "2025/07/misery-tag-image.jpeg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-20T20:16:03.830Z",
-    "updatedAtTs": 1784578563,
+    "updatedAt": "2026-07-20T20:21:06.587Z",
+    "updatedAtTs": 1784578866,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1784578563,
+        1784578866,
         745
       ],
       "peak24h": [
-        1784492453,
-        867
+        1784493105,
+        866
       ],
       "peak48h": [
         1784485264,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784406062,
-          893
-        ],
         [
           1784406365,
           905
@@ -2287,6 +2283,10 @@
         ],
         [
           1784578563,
+          745
+        ],
+        [
+          1784578866,
           745
         ]
       ],
