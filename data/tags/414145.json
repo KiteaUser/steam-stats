@@ -3,16 +3,16 @@
   "appid": "1692250",
   "steamAppid": 1692250,
   "name": "F1 22",
-  "players": 90,
+  "players": 86,
   "allTimePeak": 25172,
   "peak24h": 105,
   "peak24hAt": "2026-07-20T20:06:10.000Z",
-  "updatedAt": "2026-07-21T18:36:27.914Z",
+  "updatedAt": "2026-07-21T18:41:14.709Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21T18:36:27.914Z",
-    "updatedAtTs": 1784658987,
+    "updatedAt": "2026-07-21T18:41:14.709Z",
+    "updatedAtTs": 1784659274,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1784658987,
-        90
+        1784659274,
+        86
       ],
       "peak24h": [
         1784577970,
         105
       ],
       "peak48h": [
-        1784486463,
+        1784567768,
         106
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784486463,
-          106
-        ],
         [
           1784486771,
           102
@@ -2296,6 +2292,10 @@
         [
           1784658987,
           90
+        ],
+        [
+          1784659274,
+          86
         ]
       ],
       "hourlyPeak": [
@@ -5503,5 +5503,5 @@
     }
   },
   "peak48h": 106,
-  "peak48hAt": "2026-07-19T18:41:03.000Z"
+  "peak48hAt": "2026-07-20T17:16:08.000Z"
 }
