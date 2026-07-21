@@ -3,16 +3,16 @@
   "appid": "1084600",
   "steamAppid": 1084600,
   "name": "My Time at Sandrock",
-  "players": 1024,
+  "players": 1008,
   "allTimePeak": 21778,
   "peak24h": 1146,
   "peak24hAt": "2026-07-21T14:51:16.000Z",
-  "updatedAt": "2026-07-21T19:06:06.109Z",
+  "updatedAt": "2026-07-21T19:11:15.049Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-11-05-am-2458.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21T19:06:06.109Z",
-    "updatedAtTs": 1784660766,
+    "updatedAt": "2026-07-21T19:11:15.049Z",
+    "updatedAtTs": 1784661075,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784660766,
-        1024
+        1784661075,
+        1008
       ],
       "peak24h": [
         1784645476,
         1146
       ],
       "peak48h": [
-        1784488253,
-        1355
+        1784488562,
+        1348
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784488253,
-          1355
-        ],
         [
           1784488562,
           1348
@@ -2300,6 +2296,10 @@
         [
           1784660766,
           1024
+        ],
+        [
+          1784661075,
+          1008
         ]
       ],
       "hourlyPeak": [
@@ -5514,6 +5514,6 @@
       ]
     }
   },
-  "peak48h": 1355,
-  "peak48hAt": "2026-07-19T19:10:53.000Z"
+  "peak48h": 1348,
+  "peak48hAt": "2026-07-19T19:16:02.000Z"
 }
