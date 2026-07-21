@@ -3,16 +3,16 @@
   "appid": "717690",
   "steamAppid": 717690,
   "name": "OVERKILL's The Walking Dead",
-  "players": 2,
+  "players": 1,
   "allTimePeak": 14375,
   "peak24h": 3,
   "peak24hAt": "2026-07-20T17:51:11.000Z",
-  "updatedAt": "2026-07-21T14:01:21.751Z",
+  "updatedAt": "2026-07-21T14:05:59.742Z",
   "img_url": "2024/12/mixcollage-30-dec-2024-10-01-am-4916.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21T14:01:21.751Z",
-    "updatedAtTs": 1784642481,
+    "updatedAt": "2026-07-21T14:05:59.742Z",
+    "updatedAtTs": 1784642759,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1784642481,
-        2
+        1784642759,
+        1
       ],
       "peak24h": [
         1784569871,
         3
       ],
       "peak48h": [
-        1784469686,
+        1784469960,
         3
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784469686,
-          3
-        ],
         [
           1784469960,
           3
@@ -664,6 +660,10 @@
         [
           1784642481,
           2
+        ],
+        [
+          1784642759,
+          1
         ]
       ],
       "hourlyPeak": [
@@ -2374,6 +2374,10 @@
         [
           1784466000,
           2
+        ],
+        [
+          1784469600,
+          3
         ]
       ],
       "dailyPeak": [
@@ -2995,5 +2999,5 @@
     }
   },
   "peak48h": 3,
-  "peak48hAt": "2026-07-19T14:01:26.000Z"
+  "peak48hAt": "2026-07-19T14:06:00.000Z"
 }
