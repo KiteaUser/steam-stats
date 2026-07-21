@@ -3,16 +3,16 @@
   "appid": "3357650",
   "steamAppid": 3357650,
   "name": "Pragmata",
-  "players": 1170,
+  "players": 1164,
   "allTimePeak": 68687,
   "peak24h": 1170,
   "peak24hAt": "2026-07-21T14:56:12.000Z",
-  "updatedAt": "2026-07-21T14:56:12.894Z",
+  "updatedAt": "2026-07-21T15:01:40.576Z",
   "img_url": "2025/06/pragmata-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21T14:56:12.894Z",
-    "updatedAtTs": 1784645772,
+    "updatedAt": "2026-07-21T15:01:40.576Z",
+    "updatedAtTs": 1784646100,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784645772,
-        1170
+        1784646100,
+        1164
       ],
       "peak24h": [
         1784645772,
         1170
       ],
       "peak48h": [
-        1784473264,
-        1653
+        1784475364,
+        1652
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784473264,
-          1653
-        ],
         [
           1784473568,
           1635
@@ -2300,13 +2296,13 @@
         [
           1784645772,
           1170
+        ],
+        [
+          1784646100,
+          1164
         ]
       ],
       "hourlyPeak": [
-        [
-          1782054000,
-          3128
-        ],
         [
           1782057600,
           2829
@@ -4990,6 +4986,10 @@
         [
           1784469600,
           1674
+        ],
+        [
+          1784473200,
+          1653
         ]
       ],
       "dailyPeak": [
@@ -5257,6 +5257,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 1653,
-  "peak48hAt": "2026-07-19T15:01:04.000Z"
+  "peak48h": 1652,
+  "peak48hAt": "2026-07-19T15:36:04.000Z"
 }
