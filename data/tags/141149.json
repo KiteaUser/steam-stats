@@ -3,16 +3,16 @@
   "appid": "548430",
   "steamAppid": 548430,
   "name": "Deep Rock Galactic",
-  "players": 5234,
+  "players": 5020,
   "allTimePeak": 54160,
   "peak24h": 5665,
   "peak24hAt": "2026-07-21T14:36:00.000Z",
-  "updatedAt": "2026-07-21T15:51:11.610Z",
+  "updatedAt": "2026-07-21T15:56:02.983Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-12-34-am-2609.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21T15:51:11.610Z",
-    "updatedAtTs": 1784649071,
+    "updatedAt": "2026-07-21T15:56:02.983Z",
+    "updatedAtTs": 1784649362,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784649071,
-        5234
+        1784649362,
+        5020
       ],
       "peak24h": [
         1784644560,
         5665
       ],
       "peak48h": [
-        1784476558,
-        6323
+        1784476870,
+        6205
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784476558,
-          6323
-        ],
         [
           1784476870,
           6205
@@ -2284,6 +2280,10 @@
         [
           1784649071,
           5234
+        ],
+        [
+          1784649362,
+          5020
         ]
       ],
       "hourlyPeak": [
@@ -5758,6 +5758,6 @@
       ]
     }
   },
-  "peak48h": 6323,
-  "peak48hAt": "2026-07-19T15:55:58.000Z"
+  "peak48h": 6205,
+  "peak48hAt": "2026-07-19T16:01:10.000Z"
 }
