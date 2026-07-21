@@ -7,12 +7,12 @@
   "allTimePeak": 11866,
   "peak24h": 604,
   "peak24hAt": "2026-07-20T18:11:02.000Z",
-  "updatedAt": "2026-07-21T15:11:17.519Z",
+  "updatedAt": "2026-07-21T15:16:19.210Z",
   "img_url": "sharedimages/2024/07/norland-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21T15:11:17.519Z",
-    "updatedAtTs": 1784646677,
+    "updatedAt": "2026-07-21T15:16:19.210Z",
+    "updatedAtTs": 1784646979,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1784646677,
+        1784646979,
         536
       ],
       "peak24h": [
@@ -31,7 +31,7 @@
         604
       ],
       "peak48h": [
-        1784474158,
+        1784475664,
         783
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784474158,
-          783
-        ],
         [
           1784474452,
           782
@@ -2299,6 +2295,10 @@
         ],
         [
           1784646677,
+          536
+        ],
+        [
+          1784646979,
           536
         ]
       ],
@@ -5411,5 +5411,5 @@
     }
   },
   "peak48h": 783,
-  "peak48hAt": "2026-07-19T15:15:58.000Z"
+  "peak48hAt": "2026-07-19T15:41:04.000Z"
 }

@@ -3,16 +3,16 @@
   "appid": "2244210",
   "steamAppid": 2244210,
   "name": "Echoes of Aincrad",
-  "players": 4529,
+  "players": 4373,
   "allTimePeak": 19901,
-  "peak24h": 5116,
-  "peak24hAt": "2026-07-20T15:16:03.000Z",
-  "updatedAt": "2026-07-21T15:11:17.519Z",
+  "peak24h": 4940,
+  "peak24hAt": "2026-07-20T15:20:57.000Z",
+  "updatedAt": "2026-07-21T15:16:19.210Z",
   "img_url": "2026/03/echoes-of-aincrad-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-21T15:11:17.519Z",
-    "updatedAtTs": 1784646677,
+    "updatedAt": "2026-07-21T15:16:19.210Z",
+    "updatedAtTs": 1784646979,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784646677,
-        4529
+        1784646979,
+        4373
       ],
       "peak24h": [
-        1784560563,
-        5116
+        1784560857,
+        4940
       ],
       "peak48h": [
-        1784474158,
-        8037
+        1784474452,
+        7905
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784474158,
-          8037
-        ],
         [
           1784474452,
           7905
@@ -2292,6 +2288,10 @@
         [
           1784646677,
           4529
+        ],
+        [
+          1784646979,
+          4373
         ]
       ],
       "hourlyPeak": [
@@ -3241,6 +3241,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 8037,
-  "peak48hAt": "2026-07-19T15:15:58.000Z"
+  "peak48h": 7905,
+  "peak48hAt": "2026-07-19T15:20:52.000Z"
 }
