@@ -3,16 +3,16 @@
   "appid": "305050",
   "steamAppid": 305050,
   "name": "Outland",
-  "players": 3,
+  "players": 1,
   "allTimePeak": 16166,
   "peak24h": 4,
   "peak24hAt": "2026-07-22T20:31:11.000Z",
-  "updatedAt": "2026-07-23T16:15:58.657Z",
+  "updatedAt": "2026-07-23T16:21:05.727Z",
   "img_url": "2025/08/outland-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-23T16:15:58.657Z",
-    "updatedAtTs": 1784823358,
+    "updatedAt": "2026-07-23T16:21:05.727Z",
+    "updatedAtTs": 1784823665,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1784823358,
-        3
+        1784823665,
+        1
       ],
       "peak24h": [
         1784752271,
         4
       ],
       "peak48h": [
-        1784650579,
+        1784652063,
         4
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784650579,
-          4
-        ],
         [
           1784650876,
           3
@@ -1348,6 +1344,10 @@
         [
           1784820686,
           3
+        ],
+        [
+          1784823665,
+          1
         ]
       ],
       "hourlyPeak": [
@@ -3749,7 +3749,7 @@
         ],
         [
           1784649600,
-          3
+          4
         ]
       ],
       "dailyPeak": [
@@ -4583,5 +4583,5 @@
     }
   },
   "peak48h": 4,
-  "peak48hAt": "2026-07-21T16:16:19.000Z"
+  "peak48hAt": "2026-07-21T16:41:03.000Z"
 }
