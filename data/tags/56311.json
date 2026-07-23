@@ -3,16 +3,16 @@
   "appid": "200710",
   "steamAppid": 200710,
   "name": "Torchlight II",
-  "players": 425,
+  "players": 420,
   "allTimePeak": 54821,
   "peak24h": 460,
   "peak24hAt": "2026-07-23T14:01:30.000Z",
-  "updatedAt": "2026-07-23T14:51:07.755Z",
+  "updatedAt": "2026-07-23T14:56:17.616Z",
   "img_url": "2024/12/mixcollage-06-dec-2024-03-51-pm-7452.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-23T14:51:07.755Z",
-    "updatedAtTs": 1784818267,
+    "updatedAt": "2026-07-23T14:56:17.616Z",
+    "updatedAtTs": 1784818577,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784818267,
-        425
+        1784818577,
+        420
       ],
       "peak24h": [
         1784815290,
         460
       ],
       "peak48h": [
-        1784645476,
-        468
+        1784815290,
+        460
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784645476,
-          468
-        ],
-        [
-          1784645772,
-          457
-        ],
         [
           1784646100,
           450
@@ -2300,6 +2292,10 @@
         [
           1784818267,
           425
+        ],
+        [
+          1784818577,
+          420
         ]
       ],
       "hourlyPeak": [
@@ -4989,7 +4985,7 @@
         ],
         [
           1784642400,
-          457
+          468
         ]
       ],
       "dailyPeak": [
@@ -5986,6 +5982,6 @@
       ]
     }
   },
-  "peak48h": 468,
-  "peak48hAt": "2026-07-21T14:51:16.000Z"
+  "peak48h": 460,
+  "peak48hAt": "2026-07-23T14:01:30.000Z"
 }
