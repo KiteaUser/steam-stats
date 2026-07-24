@@ -3,16 +3,16 @@
   "appid": "1113120",
   "steamAppid": 1113120,
   "name": "IXION",
-  "players": 230,
+  "players": 229,
   "allTimePeak": 17189,
   "peak24h": 230,
   "peak24hAt": "2026-07-24T20:21:07.000Z",
-  "updatedAt": "2026-07-24T20:21:07.957Z",
+  "updatedAt": "2026-07-24T20:25:58.163Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-07-39-am-5233.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-24T20:21:07.957Z",
-    "updatedAtTs": 1784924467,
+    "updatedAt": "2026-07-24T20:25:58.163Z",
+    "updatedAtTs": 1784924758,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784924467,
-        230
+        1784924758,
+        229
       ],
       "peak24h": [
         1784924467,
         230
       ],
       "peak48h": [
-        1784751670,
-        259
+        1784752271,
+        255
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784751670,
-          259
-        ],
         [
           1784751966,
           252
@@ -2316,6 +2312,10 @@
         [
           1784924467,
           230
+        ],
+        [
+          1784924758,
+          229
         ]
       ],
       "hourlyPeak": [
@@ -5005,7 +5005,7 @@
         ],
         [
           1784750400,
-          252
+          259
         ]
       ],
       "dailyPeak": [
@@ -5514,6 +5514,6 @@
       ]
     }
   },
-  "peak48h": 259,
-  "peak48hAt": "2026-07-22T20:21:10.000Z"
+  "peak48h": 255,
+  "peak48hAt": "2026-07-22T20:31:11.000Z"
 }
