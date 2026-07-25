@@ -3,16 +3,16 @@
   "appid": "3419430",
   "steamAppid": 3419430,
   "name": "Bongo Cat",
-  "players": 163017,
+  "players": 162989,
   "allTimePeak": 194508,
   "peak24h": 163140,
   "peak24hAt": "2026-07-25T14:17:09.000Z",
-  "updatedAt": "2026-07-25T14:21:03.975Z",
+  "updatedAt": "2026-07-25T14:25:58.007Z",
   "img_url": "2026/04/bongo-cat-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-25T14:21:03.975Z",
-    "updatedAtTs": 1784989263,
+    "updatedAt": "2026-07-25T14:25:58.007Z",
+    "updatedAtTs": 1784989558,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1784989263,
-        163017
+        1784989558,
+        162989
       ],
       "peak24h": [
         1784989029,
         163140
       ],
       "peak48h": [
-        1784816474,
-        170273
+        1784816767,
+        170130
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784816474,
-          170273
-        ],
         [
           1784816767,
           170130
@@ -2280,6 +2276,10 @@
         [
           1784989263,
           163017
+        ],
+        [
+          1784989558,
+          162989
         ]
       ],
       "hourlyPeak": [
@@ -5374,6 +5374,6 @@
       ]
     }
   },
-  "peak48h": 170273,
-  "peak48hAt": "2026-07-23T14:21:14.000Z"
+  "peak48h": 170130,
+  "peak48hAt": "2026-07-23T14:26:07.000Z"
 }
