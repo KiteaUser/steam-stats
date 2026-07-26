@@ -3,16 +3,16 @@
   "appid": "236870",
   "steamAppid": 236870,
   "name": "HITMAN",
-  "players": 72,
+  "players": 80,
   "allTimePeak": 51689,
-  "peak24h": 79,
-  "peak24hAt": "2026-07-26T16:01:25.000Z",
-  "updatedAt": "2026-07-26T18:05:53.087Z",
+  "peak24h": 80,
+  "peak24hAt": "2026-07-26T18:11:05.000Z",
+  "updatedAt": "2026-07-26T18:11:05.961Z",
   "img_url": "2024/12/mixcollage-23-dec-2024-10-09-pm-8518.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-26T18:05:53.087Z",
-    "updatedAtTs": 1785089153,
+    "updatedAt": "2026-07-26T18:11:05.961Z",
+    "updatedAtTs": 1785089465,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785089153,
-        72
+        1785089465,
+        80
       ],
       "peak24h": [
-        1785081685,
-        79
+        1785089465,
+        80
       ],
       "peak48h": [
-        1785081685,
-        79
+        1785089465,
+        80
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784916373,
-          49
-        ],
         [
           1784916675,
           49
@@ -2288,6 +2284,10 @@
         [
           1785089153,
           72
+        ],
+        [
+          1785089465,
+          80
         ]
       ],
       "hourlyPeak": [
@@ -4977,7 +4977,7 @@
         ],
         [
           1784916000,
-          45
+          49
         ]
       ],
       "dailyPeak": [
@@ -5886,6 +5886,6 @@
       ]
     }
   },
-  "peak48h": 79,
-  "peak48hAt": "2026-07-26T16:01:25.000Z"
+  "peak48h": 80,
+  "peak48hAt": "2026-07-26T18:11:05.000Z"
 }
