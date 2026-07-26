@@ -3,16 +3,16 @@
   "appid": "606880",
   "steamAppid": 606880,
   "name": "GreedFall",
-  "players": 256,
+  "players": 255,
   "allTimePeak": 16345,
   "peak24h": 274,
   "peak24hAt": "2026-07-26T18:41:01.000Z",
-  "updatedAt": "2026-07-26T19:10:53.005Z",
+  "updatedAt": "2026-07-26T19:16:07.864Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-07-23-am-6283.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-26T19:10:53.005Z",
-    "updatedAtTs": 1785093053,
+    "updatedAt": "2026-07-26T19:16:07.864Z",
+    "updatedAtTs": 1785093367,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785093053,
-        256
+        1785093367,
+        255
       ],
       "peak24h": [
         1785091261,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784920270,
-          207
-        ],
         [
           1784920583,
           204
@@ -2288,6 +2284,10 @@
         [
           1785093053,
           256
+        ],
+        [
+          1785093367,
+          255
         ]
       ],
       "hourlyPeak": [
@@ -4977,7 +4977,7 @@
         ],
         [
           1784919600,
-          206
+          207
         ]
       ],
       "dailyPeak": [
