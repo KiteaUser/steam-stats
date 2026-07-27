@@ -3,16 +3,16 @@
   "appid": "1203220",
   "steamAppid": 1203220,
   "name": "NARAKA: BLADEPOINT",
-  "players": 92531,
+  "players": 88417,
   "allTimePeak": 385770,
   "peak24h": 96626,
   "peak24hAt": "2026-07-27T14:01:37.000Z",
-  "updatedAt": "2026-07-27T14:41:06.982Z",
+  "updatedAt": "2026-07-27T14:46:00.314Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-03-15-am-8494.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-27T14:41:06.982Z",
-    "updatedAtTs": 1785163266,
+    "updatedAt": "2026-07-27T14:46:00.314Z",
+    "updatedAtTs": 1785163560,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785163266,
-        92531
+        1785163560,
+        88417
       ],
       "peak24h": [
         1785160897,
         96626
       ],
       "peak48h": [
-        1784990476,
-        96853
+        1785160897,
+        96626
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784990476,
-          96853
-        ],
         [
           1784990762,
           95227
@@ -2348,6 +2344,10 @@
         [
           1785163266,
           92531
+        ],
+        [
+          1785163560,
+          88417
         ]
       ],
       "hourlyPeak": [
@@ -5622,6 +5622,6 @@
       ]
     }
   },
-  "peak48h": 96853,
-  "peak48hAt": "2026-07-25T14:41:16.000Z"
+  "peak48h": 96626,
+  "peak48hAt": "2026-07-27T14:01:37.000Z"
 }
