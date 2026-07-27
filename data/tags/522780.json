@@ -3,16 +3,16 @@
   "appid": "1625450",
   "steamAppid": 1625450,
   "name": "Muck",
-  "players": 1039,
+  "players": 1000,
   "allTimePeak": 16715,
   "peak24h": 1187,
   "peak24hAt": "2026-07-26T19:41:00.000Z",
-  "updatedAt": "2026-07-27T16:51:10.401Z",
+  "updatedAt": "2026-07-27T16:56:02.727Z",
   "img_url": "2024/11/mixcollage-30-nov-2024-01-23-am-6114.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-27T16:51:10.401Z",
-    "updatedAtTs": 1785171070,
+    "updatedAt": "2026-07-27T16:56:02.727Z",
+    "updatedAtTs": 1785171362,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785171070,
-        1039
+        1785171362,
+        1000
       ],
       "peak24h": [
         1785094860,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1784998274,
-          1117
-        ],
         [
           1784998569,
           1126
@@ -2344,6 +2340,10 @@
         [
           1785171070,
           1039
+        ],
+        [
+          1785171362,
+          1000
         ]
       ],
       "hourlyPeak": [
