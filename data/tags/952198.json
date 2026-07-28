@@ -7,12 +7,12 @@
   "allTimePeak": 24085,
   "peak24h": 322,
   "peak24hAt": "2026-07-28T02:56:05.000Z",
-  "updatedAt": "2026-07-28T03:41:00.975Z",
+  "updatedAt": "2026-07-28T03:46:03.914Z",
   "img_url": "2024/10/webfishing-tag-image.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-28T03:41:00.975Z",
-    "updatedAtTs": 1785210060,
+    "updatedAt": "2026-07-28T03:46:03.914Z",
+    "updatedAtTs": 1785210363,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1785210060,
+        1785210363,
         301
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         322
       ],
       "peak48h": [
-        1785037262,
-        344
+        1785037569,
+        330
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785037262,
-          344
-        ],
         [
           1785037569,
           330
@@ -2347,6 +2343,10 @@
         ],
         [
           1785210060,
+          301
+        ],
+        [
+          1785210363,
           301
         ]
       ],
@@ -5474,6 +5474,6 @@
       ]
     }
   },
-  "peak48h": 344,
-  "peak48hAt": "2026-07-26T03:41:02.000Z"
+  "peak48h": 330,
+  "peak48hAt": "2026-07-26T03:46:09.000Z"
 }
