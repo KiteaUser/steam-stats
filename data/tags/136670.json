@@ -3,16 +3,16 @@
   "appid": "8870",
   "steamAppid": 8870,
   "name": "BioShock Infinite",
-  "players": 401,
+  "players": 397,
   "allTimePeak": 65332,
   "peak24h": 435,
   "peak24hAt": "2026-07-27T21:05:59.000Z",
-  "updatedAt": "2026-07-28T20:56:18.315Z",
+  "updatedAt": "2026-07-28T21:01:34.211Z",
   "img_url": "2022/09/bioshock-infinite.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-28T20:56:18.315Z",
-    "updatedAtTs": 1785272178,
+    "updatedAt": "2026-07-28T21:01:34.211Z",
+    "updatedAtTs": 1785272494,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785272178,
-        401
+        1785272494,
+        397
       ],
       "peak24h": [
         1785186359,
         435
       ],
       "peak48h": [
-        1785099679,
-        512
+        1785099967,
+        497
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785099679,
-          512
-        ],
         [
           1785099967,
           497
@@ -2312,13 +2308,13 @@
         [
           1785272178,
           401
+        ],
+        [
+          1785272494,
+          397
         ]
       ],
       "hourlyPeak": [
-        [
-          1782680400,
-          459
-        ],
         [
           1782684000,
           446
@@ -5002,6 +4998,10 @@
         [
           1785096000,
           580
+        ],
+        [
+          1785099600,
+          512
         ]
       ],
       "dailyPeak": [
@@ -5994,6 +5994,6 @@
       ]
     }
   },
-  "peak48h": 512,
-  "peak48hAt": "2026-07-26T21:01:19.000Z"
+  "peak48h": 497,
+  "peak48hAt": "2026-07-26T21:06:07.000Z"
 }
