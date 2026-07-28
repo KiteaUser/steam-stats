@@ -3,16 +3,16 @@
   "appid": "1366540",
   "steamAppid": 1366540,
   "name": "Dyson Sphere Program",
-  "players": 4314,
+  "players": 4246,
   "allTimePeak": 59815,
-  "peak24h": 4419,
-  "peak24hAt": "2026-07-27T14:41:06.000Z",
-  "updatedAt": "2026-07-28T14:37:46.160Z",
+  "peak24h": 4364,
+  "peak24hAt": "2026-07-27T14:46:00.000Z",
+  "updatedAt": "2026-07-28T14:41:15.647Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-11-55-pm-5416.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-28T14:37:46.160Z",
-    "updatedAtTs": 1785249466,
+    "updatedAt": "2026-07-28T14:41:15.647Z",
+    "updatedAtTs": 1785249675,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785249466,
-        4314
+        1785249675,
+        4246
       ],
       "peak24h": [
-        1785163266,
-        4419
+        1785163560,
+        4364
       ],
       "peak48h": [
-        1785076861,
-        4824
+        1785077160,
+        4737
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785076861,
-          4824
-        ],
         [
           1785077160,
           4737
@@ -2316,6 +2312,10 @@
         [
           1785249466,
           4314
+        ],
+        [
+          1785249675,
+          4246
         ]
       ],
       "hourlyPeak": [
@@ -5622,6 +5622,6 @@
       ]
     }
   },
-  "peak48h": 4824,
-  "peak48hAt": "2026-07-26T14:41:01.000Z"
+  "peak48h": 4737,
+  "peak48hAt": "2026-07-26T14:46:00.000Z"
 }
