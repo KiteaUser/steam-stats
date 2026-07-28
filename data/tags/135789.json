@@ -3,16 +3,16 @@
   "appid": "962130",
   "steamAppid": 962130,
   "name": "Grounded",
-  "players": 2480,
+  "players": 2444,
   "allTimePeak": 32012,
   "peak24h": 3060,
   "peak24hAt": "2026-07-28T14:21:11.000Z",
-  "updatedAt": "2026-07-28T21:31:13.263Z",
+  "updatedAt": "2026-07-28T21:36:09.988Z",
   "img_url": "2022/09/GROUNDED.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-28T21:31:13.263Z",
-    "updatedAtTs": 1785274273,
+    "updatedAt": "2026-07-28T21:36:09.988Z",
+    "updatedAtTs": 1785274569,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785274273,
-        2480
+        1785274569,
+        2444
       ],
       "peak24h": [
         1785248471,
         3060
       ],
       "peak48h": [
-        1785101476,
-        3631
+        1785102055,
+        3413
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785101476,
-          3631
-        ],
-        [
-          1785101763,
-          3500
-        ],
         [
           1785102055,
           3413
@@ -2316,6 +2308,10 @@
         [
           1785274273,
           2480
+        ],
+        [
+          1785274569,
+          2444
         ]
       ],
       "hourlyPeak": [
@@ -5646,6 +5642,6 @@
       ]
     }
   },
-  "peak48h": 3631,
-  "peak48hAt": "2026-07-26T21:31:16.000Z"
+  "peak48h": 3413,
+  "peak48hAt": "2026-07-26T21:40:55.000Z"
 }
