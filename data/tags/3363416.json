@@ -3,16 +3,16 @@
   "appid": "2407270",
   "steamAppid": 2407270,
   "name": "AI Limit",
-  "players": 591,
+  "players": 607,
   "allTimePeak": 14480,
   "peak24h": 634,
   "peak24hAt": "2026-07-27T14:01:37.000Z",
-  "updatedAt": "2026-07-28T13:41:22.668Z",
+  "updatedAt": "2026-07-28T13:47:02.930Z",
   "img_url": "2025/01/mixcollage-06-jan-2025-11-44-am-7056.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-28T13:41:22.668Z",
-    "updatedAtTs": 1785246082,
+    "updatedAt": "2026-07-28T13:47:02.930Z",
+    "updatedAtTs": 1785246422,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1785246082,
-        591
+        1785246422,
+        607
       ],
       "peak24h": [
         1785160897,
         634
       ],
       "peak48h": [
-        1785073556,
+        1785073867,
         672
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785073556,
-          672
-        ],
         [
           1785073867,
           672
@@ -2316,6 +2312,10 @@
         [
           1785246082,
           591
+        ],
+        [
+          1785246422,
+          607
         ]
       ],
       "hourlyPeak": [
@@ -5423,5 +5423,5 @@
     }
   },
   "peak48h": 672,
-  "peak48hAt": "2026-07-26T13:45:56.000Z"
+  "peak48hAt": "2026-07-26T13:51:07.000Z"
 }
