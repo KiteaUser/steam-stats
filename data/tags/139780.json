@@ -3,16 +3,16 @@
   "appid": "1364020",
   "steamAppid": 1364020,
   "name": "Boundary",
-  "players": 4,
+  "players": 3,
   "allTimePeak": 24840,
   "peak24h": 9,
   "peak24hAt": "2026-07-28T01:31:09.000Z",
-  "updatedAt": "2026-07-28T07:26:47.490Z",
+  "updatedAt": "2026-07-28T07:31:24.224Z",
   "img_url": "2024/12/mixcollage-02-dec-2024-01-18-pm-6337.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-28T07:26:47.490Z",
-    "updatedAtTs": 1785223607,
+    "updatedAt": "2026-07-28T07:31:24.224Z",
+    "updatedAtTs": 1785223884,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785223607,
-        4
+        1785223884,
+        3
       ],
       "peak24h": [
         1785202269,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785051066,
-          3
-        ],
         [
           1785051355,
           3
@@ -2328,6 +2324,10 @@
         [
           1785223607,
           4
+        ],
+        [
+          1785223884,
+          3
         ]
       ],
       "hourlyPeak": [
