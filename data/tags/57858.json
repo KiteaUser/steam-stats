@@ -3,16 +3,16 @@
   "appid": "312670",
   "steamAppid": 312670,
   "name": "Strange Brigade",
-  "players": 30,
+  "players": 23,
   "allTimePeak": 22426,
   "peak24h": 43,
   "peak24hAt": "2026-07-29T16:21:09.000Z",
-  "updatedAt": "2026-07-30T02:55:50.968Z",
+  "updatedAt": "2026-07-30T03:01:24.553Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-02-07-pm-6827.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-30T02:55:50.968Z",
-    "updatedAtTs": 1785380150,
+    "updatedAt": "2026-07-30T03:01:24.553Z",
+    "updatedAtTs": 1785380484,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785380150,
-        30
+        1785380484,
+        23
       ],
       "peak24h": [
         1785342069,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785207365,
-          17
-        ],
-        [
-          1785207678,
-          17
-        ],
         [
           1785207962,
           15
@@ -2308,13 +2300,13 @@
         [
           1785380150,
           30
+        ],
+        [
+          1785380484,
+          23
         ]
       ],
       "hourlyPeak": [
-        [
-          1782788400,
-          35
-        ],
         [
           1782792000,
           38
@@ -4998,6 +4990,10 @@
         [
           1785204000,
           22
+        ],
+        [
+          1785207600,
+          17
         ]
       ],
       "dailyPeak": [
