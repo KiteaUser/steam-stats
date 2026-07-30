@@ -3,16 +3,16 @@
   "appid": "15700",
   "steamAppid": 15700,
   "name": "Oddworld: Abe's Oddysee",
-  "players": 9,
+  "players": 7,
   "allTimePeak": 45049,
   "peak24h": 13,
   "peak24hAt": "2026-07-29T16:43:05.000Z",
-  "updatedAt": "2026-07-30T14:45:55.223Z",
+  "updatedAt": "2026-07-30T14:51:29.373Z",
   "img_url": "2024/11/mixcollage-26-nov-2024-04-43-pm-3317.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-30T14:45:55.223Z",
-    "updatedAtTs": 1785422755,
+    "updatedAt": "2026-07-30T14:51:29.373Z",
+    "updatedAtTs": 1785423089,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1785422755,
-        9
+        1785423089,
+        7
       ],
       "peak24h": [
         1785343385,
         13
       ],
       "peak48h": [
-        1785250265,
+        1785250565,
         15
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785249975,
-          13
-        ],
-        [
-          1785250265,
-          15
-        ],
         [
           1785250565,
           15
@@ -2332,6 +2324,10 @@
         [
           1785422755,
           9
+        ],
+        [
+          1785423089,
+          7
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5017,7 @@
         ],
         [
           1785247200,
-          13
+          15
         ]
       ],
       "dailyPeak": [
@@ -6055,5 +6051,5 @@
     }
   },
   "peak48h": 15,
-  "peak48hAt": "2026-07-28T14:51:05.000Z"
+  "peak48hAt": "2026-07-28T14:56:05.000Z"
 }
