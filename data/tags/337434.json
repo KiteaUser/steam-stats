@@ -3,16 +3,16 @@
   "appid": "386180",
   "steamAppid": 386180,
   "name": "Crossout",
-  "players": 1337,
+  "players": 1302,
   "allTimePeak": 12170,
   "peak24h": 1624,
   "peak24hAt": "2026-07-30T18:56:20.000Z",
-  "updatedAt": "2026-07-30T20:41:16.605Z",
+  "updatedAt": "2026-07-30T20:46:15.498Z",
   "img_url": "2025/02/mixcollage-07-feb-2025-07-47-am-8645.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-30T20:41:16.605Z",
-    "updatedAtTs": 1785444076,
+    "updatedAt": "2026-07-30T20:46:15.498Z",
+    "updatedAtTs": 1785444375,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785444076,
-        1337
+        1785444375,
+        1302
       ],
       "peak24h": [
         1785437780,
         1624
       ],
       "peak48h": [
-        1785271325,
-        1633
+        1785437780,
+        1624
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785271325,
-          1633
-        ],
-        [
-          1785271569,
-          1601
-        ],
         [
           1785271868,
           1574
@@ -2316,6 +2308,10 @@
         [
           1785444076,
           1337
+        ],
+        [
+          1785444375,
+          1302
         ]
       ],
       "hourlyPeak": [
@@ -5842,6 +5838,6 @@
       ]
     }
   },
-  "peak48h": 1633,
-  "peak48hAt": "2026-07-28T20:42:05.000Z"
+  "peak48h": 1624,
+  "peak48hAt": "2026-07-30T18:56:20.000Z"
 }
