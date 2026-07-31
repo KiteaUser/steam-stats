@@ -3,16 +3,16 @@
   "appid": "2488620",
   "steamAppid": 2488620,
   "name": "F1 24",
-  "players": 449,
+  "players": 447,
   "allTimePeak": 13327,
   "peak24h": 464,
   "peak24hAt": "2026-07-31T14:25:56.000Z",
-  "updatedAt": "2026-07-31T15:51:09.443Z",
+  "updatedAt": "2026-07-31T15:56:07.569Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-08-51-am-5472.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-31T15:51:09.443Z",
-    "updatedAtTs": 1785513069,
+    "updatedAt": "2026-07-31T15:56:07.569Z",
+    "updatedAtTs": 1785513367,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785513069,
-        449
+        1785513367,
+        447
       ],
       "peak24h": [
         1785507956,
         464
       ],
       "peak48h": [
-        1785340278,
-        472
+        1785507956,
+        464
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785340278,
-          472
-        ],
         [
           1785340583,
           457
@@ -2320,6 +2316,10 @@
         [
           1785513069,
           449
+        ],
+        [
+          1785513367,
+          447
         ]
       ],
       "hourlyPeak": [
@@ -5474,6 +5474,6 @@
       ]
     }
   },
-  "peak48h": 472,
-  "peak48hAt": "2026-07-29T15:51:18.000Z"
+  "peak48h": 464,
+  "peak48hAt": "2026-07-31T14:25:56.000Z"
 }
