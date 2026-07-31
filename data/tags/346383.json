@@ -3,16 +3,16 @@
   "appid": "301520",
   "steamAppid": 301520,
   "name": "Robocraft",
-  "players": 4,
+  "players": 3,
   "allTimePeak": 26725,
   "peak24h": 8,
   "peak24hAt": "2026-07-31T14:36:18.000Z",
-  "updatedAt": "2026-07-31T17:16:03.131Z",
+  "updatedAt": "2026-07-31T17:21:15.974Z",
   "img_url": "2024/11/mixcollage-23-nov-2024-03-15-am-4688.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-31T17:16:03.131Z",
-    "updatedAtTs": 1785518163,
+    "updatedAt": "2026-07-31T17:21:15.974Z",
+    "updatedAtTs": 1785518475,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785518163,
-        4
+        1785518475,
+        3
       ],
       "peak24h": [
         1785508578,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785345420,
-          2
-        ],
-        [
-          1785345667,
-          2
-        ],
         [
           1785346028,
           3
@@ -2324,6 +2316,10 @@
         [
           1785518163,
           4
+        ],
+        [
+          1785518475,
+          3
         ]
       ],
       "hourlyPeak": [
