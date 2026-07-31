@@ -3,16 +3,16 @@
   "appid": "1134570",
   "steamAppid": 1134570,
   "name": "F1 2021",
-  "players": 44,
+  "players": 46,
   "allTimePeak": 25575,
   "peak24h": 115,
   "peak24hAt": "2026-07-30T18:22:05.000Z",
-  "updatedAt": "2026-07-31T01:25:58.295Z",
+  "updatedAt": "2026-07-31T01:31:12.530Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-31T01:25:58.295Z",
-    "updatedAtTs": 1785461158,
+    "updatedAt": "2026-07-31T01:31:12.530Z",
+    "updatedAtTs": 1785461472,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785461158,
-        44
+        1785461472,
+        46
       ],
       "peak24h": [
         1785435725,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785288367,
-          50
-        ],
-        [
-          1785288670,
-          49
-        ],
         [
           1785288963,
           49
@@ -2324,6 +2316,10 @@
         [
           1785461158,
           44
+        ],
+        [
+          1785461472,
+          46
         ]
       ],
       "hourlyPeak": [
