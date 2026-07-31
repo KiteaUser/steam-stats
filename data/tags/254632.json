@@ -3,16 +3,16 @@
   "appid": "1092790",
   "steamAppid": 1092790,
   "name": "Inscryption",
-  "players": 1234,
+  "players": 1233,
   "allTimePeak": 17072,
   "peak24h": 1664,
   "peak24hAt": "2026-07-30T13:51:09.000Z",
-  "updatedAt": "2026-07-31T03:21:01.960Z",
+  "updatedAt": "2026-07-31T03:25:55.094Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-01-37-am-7712.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-07-31T03:21:01.960Z",
-    "updatedAtTs": 1785468061,
+    "updatedAt": "2026-07-31T03:25:55.094Z",
+    "updatedAtTs": 1785468355,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785468061,
-        1234
+        1785468355,
+        1233
       ],
       "peak24h": [
         1785419469,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785295286,
-          1393
-        ],
         [
           1785295562,
           1393
@@ -2324,6 +2320,10 @@
         [
           1785468061,
           1234
+        ],
+        [
+          1785468355,
+          1233
         ]
       ],
       "hourlyPeak": [
