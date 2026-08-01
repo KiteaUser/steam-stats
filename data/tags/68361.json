@@ -3,16 +3,16 @@
   "appid": "108600",
   "steamAppid": 108600,
   "name": "Project Zomboid",
-  "players": 101512,
-  "allTimePeak": 101512,
-  "peak24h": 101512,
-  "peak24hAt": "2026-08-01T18:25:59.000Z",
-  "updatedAt": "2026-08-01T18:36:01.576Z",
+  "players": 102083,
+  "allTimePeak": 102083,
+  "peak24h": 102083,
+  "peak24hAt": "2026-08-01T18:40:56.000Z",
+  "updatedAt": "2026-08-01T18:40:56.922Z",
   "img_url": "2023/09/project-zomboid.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01T18:36:01.576Z",
-    "updatedAtTs": 1785609361,
+    "updatedAt": "2026-08-01T18:40:56.922Z",
+    "updatedAtTs": 1785609656,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,28 +23,24 @@
     },
     "summary": {
       "current": [
-        1785609361,
-        101512
+        1785609656,
+        102083
       ],
       "peak24h": [
-        1785608759,
-        101512
+        1785609656,
+        102083
       ],
       "peak48h": [
-        1785608759,
-        101512
+        1785609656,
+        102083
       ],
       "allTimePeak": [
         null,
-        101512
+        102083
       ]
     },
     "series": {
       "raw5m": [
-        [
-          1785436617,
-          77436
-        ],
         [
           1785436873,
           78078
@@ -2272,6 +2268,10 @@
         [
           1785609361,
           101512
+        ],
+        [
+          1785609656,
+          102083
         ]
       ],
       "hourlyPeak": [
@@ -5822,6 +5822,6 @@
       ]
     }
   },
-  "peak48h": 101512,
-  "peak48hAt": "2026-08-01T18:25:59.000Z"
+  "peak48h": 102083,
+  "peak48hAt": "2026-08-01T18:40:56.000Z"
 }
