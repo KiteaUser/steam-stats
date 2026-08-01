@@ -3,16 +3,16 @@
   "appid": "2448970",
   "steamAppid": 2448970,
   "name": "Dungeonborne",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 39325,
   "peak24h": 2,
   "peak24hAt": "2026-07-31T17:01:18.000Z",
-  "updatedAt": "2026-08-01T11:26:01.046Z",
+  "updatedAt": "2026-08-01T11:36:55.167Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-10-25-am-7882.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01T11:26:01.046Z",
-    "updatedAtTs": 1785583561,
+    "updatedAt": "2026-08-01T11:36:55.167Z",
+    "updatedAtTs": 1785584215,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1785583561,
-        1
+        1785584215,
+        2
       ],
       "peak24h": [
         1785517278,
         2
       ],
       "peak48h": [
-        1785410762,
+        1785473469,
         2
       ],
       "allTimePeak": [
@@ -41,18 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785410762,
-          2
-        ],
-        [
-          1785411074,
-          1
-        ],
-        [
-          1785411350,
-          1
-        ],
         [
           1785416492,
           1
@@ -304,6 +292,10 @@
         [
           1785583561,
           1
+        ],
+        [
+          1785584215,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -2243,5 +2235,5 @@
     }
   },
   "peak48h": 2,
-  "peak48hAt": "2026-07-30T11:26:02.000Z"
+  "peak48hAt": "2026-07-31T04:51:09.000Z"
 }
