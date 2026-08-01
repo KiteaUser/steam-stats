@@ -3,16 +3,16 @@
   "appid": "424370",
   "steamAppid": 424370,
   "name": "Wolcen: Lords of Mayhem",
-  "players": 32,
+  "players": 33,
   "allTimePeak": 127542,
-  "peak24h": 32,
-  "peak24hAt": "2026-08-01T10:21:00.000Z",
-  "updatedAt": "2026-08-01T10:21:00.597Z",
+  "peak24h": 33,
+  "peak24hAt": "2026-08-01T10:26:08.000Z",
+  "updatedAt": "2026-08-01T10:26:08.150Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-02-48-am-5164.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01T10:21:00.597Z",
-    "updatedAtTs": 1785579660,
+    "updatedAt": "2026-08-01T10:26:08.150Z",
+    "updatedAtTs": 1785579968,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785579660,
-        32
+        1785579968,
+        33
       ],
       "peak24h": [
-        1785579660,
-        32
+        1785579968,
+        33
       ],
       "peak48h": [
-        1785417376,
-        32
+        1785579968,
+        33
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785406861,
-          20
-        ],
-        [
-          1785407161,
-          21
-        ],
         [
           1785407462,
           21
@@ -2296,6 +2288,10 @@
         [
           1785579660,
           32
+        ],
+        [
+          1785579968,
+          33
         ]
       ],
       "hourlyPeak": [
@@ -4985,7 +4981,7 @@
         ],
         [
           1785405600,
-          18
+          21
         ]
       ],
       "dailyPeak": [
@@ -5734,6 +5730,6 @@
       ]
     }
   },
-  "peak48h": 32,
-  "peak48hAt": "2026-07-30T13:16:16.000Z"
+  "peak48h": 33,
+  "peak48hAt": "2026-08-01T10:26:08.000Z"
 }
