@@ -3,16 +3,16 @@
   "appid": "489520",
   "steamAppid": 489520,
   "name": "Minion Masters",
-  "players": 256,
+  "players": 252,
   "allTimePeak": 10329,
   "peak24h": 379,
   "peak24hAt": "2026-07-31T15:46:20.000Z",
-  "updatedAt": "2026-08-01T01:51:01.279Z",
+  "updatedAt": "2026-08-01T01:56:05.321Z",
   "img_url": "2024/11/mixcollage-21-nov-2024-09-00-am-2774.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01T01:51:01.279Z",
-    "updatedAtTs": 1785549061,
+    "updatedAt": "2026-08-01T01:56:05.321Z",
+    "updatedAtTs": 1785549365,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785549061,
-        256
+        1785549365,
+        252
       ],
       "peak24h": [
         1785512780,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785376553,
-          252
-        ],
         [
           1785376879,
           250
@@ -2316,6 +2312,10 @@
         [
           1785549061,
           256
+        ],
+        [
+          1785549365,
+          252
         ]
       ],
       "hourlyPeak": [
