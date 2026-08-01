@@ -3,16 +3,16 @@
   "appid": "1332010",
   "steamAppid": 1332010,
   "name": "Stray",
-  "players": 696,
+  "players": 704,
   "allTimePeak": 62963,
-  "peak24h": 701,
-  "peak24hAt": "2026-08-01T14:21:05.000Z",
-  "updatedAt": "2026-08-01T16:25:56.729Z",
+  "peak24h": 704,
+  "peak24hAt": "2026-08-01T16:31:18.000Z",
+  "updatedAt": "2026-08-01T16:31:18.253Z",
   "img_url": "2022/09/stray-game.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-01T16:25:56.729Z",
-    "updatedAtTs": 1785601556,
+    "updatedAt": "2026-08-01T16:31:18.253Z",
+    "updatedAtTs": 1785601878,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785601556,
-        696
+        1785601878,
+        704
       ],
       "peak24h": [
-        1785594065,
-        701
+        1785601878,
+        704
       ],
       "peak48h": [
-        1785594065,
-        701
+        1785601878,
+        704
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785428762,
-          552
-        ],
         [
           1785429080,
           548
@@ -2264,6 +2260,10 @@
         [
           1785601556,
           696
+        ],
+        [
+          1785601878,
+          704
         ]
       ],
       "hourlyPeak": [
@@ -5398,6 +5398,6 @@
       ]
     }
   },
-  "peak48h": 701,
-  "peak48hAt": "2026-08-01T14:21:05.000Z"
+  "peak48h": 704,
+  "peak48hAt": "2026-08-01T16:31:18.000Z"
 }
