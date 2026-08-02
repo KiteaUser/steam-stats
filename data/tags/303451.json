@@ -3,16 +3,16 @@
   "appid": "648800",
   "steamAppid": 648800,
   "name": "Raft",
-  "players": 8854,
+  "players": 8800,
   "allTimePeak": 101096,
   "peak24h": 12922,
   "peak24hAt": "2026-08-02T14:21:14.000Z",
-  "updatedAt": "2026-08-02T18:26:04.494Z",
+  "updatedAt": "2026-08-02T18:31:04.883Z",
   "img_url": "2024/12/mixcollage-03-dec-2024-09-06-pm-1686.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-02T18:26:04.494Z",
-    "updatedAtTs": 1785695164,
+    "updatedAt": "2026-08-02T18:31:04.883Z",
+    "updatedAtTs": 1785695464,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785695164,
-        8854
+        1785695464,
+        8800
       ],
       "peak24h": [
         1785680474,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785522369,
-          7434
-        ],
         [
           1785522959,
           7434
@@ -2240,6 +2236,10 @@
         [
           1785695164,
           8854
+        ],
+        [
+          1785695464,
+          8800
         ]
       ],
       "hourlyPeak": [
