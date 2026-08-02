@@ -5,14 +5,14 @@
   "name": "Just Survive",
   "players": 1,
   "allTimePeak": 40335,
-  "peak24h": 4,
-  "peak24hAt": "2026-08-01T03:05:57.000Z",
-  "updatedAt": "2026-08-02T03:01:28.686Z",
+  "peak24h": 3,
+  "peak24hAt": "2026-08-01T03:11:02.000Z",
+  "updatedAt": "2026-08-02T03:08:11.402Z",
   "img_url": "2025/06/just-survive.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-02T03:01:28.686Z",
-    "updatedAtTs": 1785639688,
+    "updatedAt": "2026-08-02T03:08:11.402Z",
+    "updatedAtTs": 1785640091,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1785639688,
+        1785640091,
         1
       ],
       "peak24h": [
-        1785553557,
-        4
+        1785553862,
+        3
       ],
       "peak48h": [
         1785517278,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785467165,
-          2
-        ],
         [
           1785467464,
           2
@@ -2267,6 +2263,10 @@
         ],
         [
           1785639688,
+          1
+        ],
+        [
+          1785640091,
           1
         ]
       ],
