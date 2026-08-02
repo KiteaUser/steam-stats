@@ -3,16 +3,16 @@
   "appid": "333930",
   "steamAppid": 333930,
   "name": "Dirty Bomb",
-  "players": 27,
+  "players": 28,
   "allTimePeak": 13113,
   "peak24h": 57,
   "peak24hAt": "2026-08-01T13:26:55.000Z",
-  "updatedAt": "2026-08-02T02:17:03.453Z",
+  "updatedAt": "2026-08-02T02:21:53.973Z",
   "img_url": "2025/02/dirty-bomb-tag-cover.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-02T02:17:03.453Z",
-    "updatedAtTs": 1785637023,
+    "updatedAt": "2026-08-02T02:21:53.973Z",
+    "updatedAtTs": 1785637313,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785637023,
-        27
+        1785637313,
+        28
       ],
       "peak24h": [
         1785590815,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785464486,
-          1
-        ],
         [
           1785464767,
           1
@@ -2268,6 +2264,10 @@
         [
           1785637023,
           27
+        ],
+        [
+          1785637313,
+          28
         ]
       ],
       "hourlyPeak": [
