@@ -3,16 +3,16 @@
   "appid": "3146520",
   "steamAppid": 3146520,
   "name": "WEBFISHING",
-  "players": 290,
+  "players": 302,
   "allTimePeak": 24085,
   "peak24h": 330,
   "peak24hAt": "2026-08-03T02:27:52.000Z",
-  "updatedAt": "2026-08-03T03:21:08.983Z",
+  "updatedAt": "2026-08-03T03:25:57.416Z",
   "img_url": "2024/10/webfishing-tag-image.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03T03:21:08.983Z",
-    "updatedAtTs": 1785727268,
+    "updatedAt": "2026-08-03T03:25:57.416Z",
+    "updatedAtTs": 1785727557,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1785727268,
-        290
+        1785727557,
+        302
       ],
       "peak24h": [
         1785724072,
         330
       ],
       "peak48h": [
-        1785554469,
+        1785554811,
         330
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785554469,
-          330
-        ],
         [
           1785554811,
           330
@@ -2196,6 +2192,10 @@
         [
           1785727268,
           290
+        ],
+        [
+          1785727557,
+          302
         ]
       ],
       "hourlyPeak": [
@@ -4885,7 +4885,7 @@
         ],
         [
           1785553200,
-          313
+          330
         ]
       ],
       "dailyPeak": [
@@ -5231,5 +5231,5 @@
     }
   },
   "peak48h": 330,
-  "peak48hAt": "2026-08-01T03:21:09.000Z"
+  "peak48hAt": "2026-08-01T03:26:51.000Z"
 }
