@@ -5,14 +5,14 @@
   "name": "Stray",
   "players": 577,
   "allTimePeak": 62963,
-  "peak24h": 820,
-  "peak24hAt": "2026-08-02T16:47:05.000Z",
-  "updatedAt": "2026-08-03T16:46:39.298Z",
+  "peak24h": 794,
+  "peak24hAt": "2026-08-02T16:56:02.000Z",
+  "updatedAt": "2026-08-03T16:51:14.399Z",
   "img_url": "2022/09/stray-game.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03T16:46:39.298Z",
-    "updatedAtTs": 1785775599,
+    "updatedAt": "2026-08-03T16:51:14.399Z",
+    "updatedAtTs": 1785775874,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1785775599,
+        1785775874,
         577
       ],
       "peak24h": [
-        1785689225,
-        820
+        1785689762,
+        794
       ],
       "peak48h": [
         1785688554,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785603069,
-          679
-        ],
         [
           1785603362,
           679
@@ -2187,6 +2183,10 @@
         ],
         [
           1785775599,
+          577
+        ],
+        [
+          1785775874,
           577
         ]
       ],
