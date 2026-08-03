@@ -7,12 +7,12 @@
   "allTimePeak": 25145,
   "peak24h": 1,
   "peak24hAt": "2026-08-01T01:06:25.000Z",
-  "updatedAt": "2026-08-03T01:05:59.213Z",
+  "updatedAt": "2026-08-03T01:11:03.710Z",
   "img_url": "2025/02/mixcollage-10-feb-2025-04-28-am-8302.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03T01:05:59.213Z",
-    "updatedAtTs": 1785719159,
+    "updatedAt": "2026-08-03T01:11:03.710Z",
+    "updatedAtTs": 1785719463,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,26 +23,18 @@
     },
     "summary": {
       "current": [
-        1785719159,
+        1785719463,
         1
       ],
       "peak24h": null,
-      "peak48h": [
-        1785546385,
-        1
-      ],
+      "peak48h": null,
       "allTimePeak": [
         null,
         25145
       ]
     },
     "series": {
-      "raw5m": [
-        [
-          1785546385,
-          1
-        ]
-      ],
+      "raw5m": [],
       "hourlyPeak": [
         [
           1783184400,
@@ -126,6 +118,10 @@
         ],
         [
           1785542400,
+          1
+        ],
+        [
+          1785546000,
           1
         ]
       ],
@@ -550,7 +546,5 @@
         ]
       ]
     }
-  },
-  "peak48h": 1,
-  "peak48hAt": "2026-08-01T01:06:25.000Z"
+  }
 }
