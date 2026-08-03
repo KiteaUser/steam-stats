@@ -3,16 +3,16 @@
   "appid": "760160",
   "steamAppid": 760160,
   "name": "Vampire: The Masquerade - Bloodhunt",
-  "players": 2,
+  "players": 4,
   "allTimePeak": 29475,
   "peak24h": 7,
   "peak24hAt": "2026-08-02T16:35:54.000Z",
-  "updatedAt": "2026-08-03T12:01:44.198Z",
+  "updatedAt": "2026-08-03T12:07:14.001Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-02-18-am-3879.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-03T12:01:44.198Z",
-    "updatedAtTs": 1785758504,
+    "updatedAt": "2026-08-03T12:07:14.001Z",
+    "updatedAtTs": 1785758834,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1785758504,
-        2
+        1785758834,
+        4
       ],
       "peak24h": [
         1785688554,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785585962,
-          3
-        ],
         [
           1785586567,
           3
@@ -2200,6 +2196,10 @@
         [
           1785758504,
           2
+        ],
+        [
+          1785758834,
+          4
         ]
       ],
       "hourlyPeak": [
@@ -4889,7 +4889,7 @@
         ],
         [
           1785585600,
-          1
+          3
         ]
       ],
       "dailyPeak": [
