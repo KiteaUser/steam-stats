@@ -3,16 +3,16 @@
   "appid": "872200",
   "steamAppid": 872200,
   "name": "Rogue Company",
-  "players": 259,
+  "players": 253,
   "allTimePeak": 12189,
   "peak24h": 310,
   "peak24hAt": "2026-08-03T20:31:55.000Z",
-  "updatedAt": "2026-08-04T20:16:16.546Z",
+  "updatedAt": "2026-08-04T20:21:20.792Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-01-12-am-2914.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-04T20:16:16.546Z",
-    "updatedAtTs": 1785874576,
+    "updatedAt": "2026-08-04T20:21:20.792Z",
+    "updatedAtTs": 1785874880,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785874576,
-        259
+        1785874880,
+        253
       ],
       "peak24h": [
         1785789115,
         310
       ],
       "peak48h": [
-        1785701822,
-        389
+        1785703568,
+        367
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785701822,
-          389
-        ],
-        [
-          1785702064,
-          387
-        ],
         [
           1785702352,
           362
@@ -2124,6 +2116,10 @@
         [
           1785874576,
           259
+        ],
+        [
+          1785874880,
+          253
         ]
       ],
       "hourlyPeak": [
@@ -4813,7 +4809,7 @@
         ],
         [
           1785700800,
-          367
+          389
         ]
       ],
       "dailyPeak": [
@@ -5318,6 +5314,6 @@
       ]
     }
   },
-  "peak48h": 389,
-  "peak48hAt": "2026-08-02T20:17:02.000Z"
+  "peak48h": 367,
+  "peak48hAt": "2026-08-02T20:46:08.000Z"
 }
