@@ -3,16 +3,16 @@
   "appid": "1888160",
   "steamAppid": 1888160,
   "name": "ARMORED CORE VI FIRES OF RUBICON",
-  "players": 1496,
+  "players": 1531,
   "allTimePeak": 156171,
   "peak24h": 1602,
   "peak24hAt": "2026-08-03T14:36:05.000Z",
-  "updatedAt": "2026-08-04T13:51:23.962Z",
+  "updatedAt": "2026-08-04T13:56:11.691Z",
   "img_url": "2024/12/mixcollage-06-dec-2024-02-31-pm-2761.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-04T13:51:23.962Z",
-    "updatedAtTs": 1785851483,
+    "updatedAt": "2026-08-04T13:56:11.691Z",
+    "updatedAtTs": 1785851771,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785851483,
-        1496
+        1785851771,
+        1531
       ],
       "peak24h": [
         1785767765,
         1602
       ],
       "peak48h": [
-        1785678952,
-        1839
+        1785681131,
+        1828
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785678952,
-          1839
-        ],
         [
           1785679599,
           1806
@@ -2112,6 +2108,10 @@
         [
           1785851483,
           1496
+        ],
+        [
+          1785851771,
+          1531
         ]
       ],
       "hourlyPeak": [
@@ -4801,7 +4801,7 @@
         ],
         [
           1785675600,
-          1813
+          1839
         ]
       ],
       "dailyPeak": [
@@ -5206,6 +5206,6 @@
       ]
     }
   },
-  "peak48h": 1839,
-  "peak48hAt": "2026-08-02T13:55:52.000Z"
+  "peak48h": 1828,
+  "peak48hAt": "2026-08-02T14:32:11.000Z"
 }
