@@ -3,16 +3,16 @@
   "appid": "1144200",
   "steamAppid": 1144200,
   "name": "Ready or Not",
-  "players": 9005,
+  "players": 8871,
   "allTimePeak": 55174,
-  "peak24h": 9288,
-  "peak24hAt": "2026-08-03T20:07:05.000Z",
-  "updatedAt": "2026-08-04T20:06:25.795Z",
+  "peak24h": 9024,
+  "peak24hAt": "2026-08-03T20:16:02.000Z",
+  "updatedAt": "2026-08-04T20:11:25.442Z",
   "img_url": "2025/09/ready-or-not-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-04T20:06:25.795Z",
-    "updatedAtTs": 1785873985,
+    "updatedAt": "2026-08-04T20:11:25.442Z",
+    "updatedAtTs": 1785874285,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1785873985,
-        9005
+        1785874285,
+        8871
       ],
       "peak24h": [
-        1785787625,
-        9288
+        1785788162,
+        9024
       ],
       "peak48h": [
-        1785701460,
+        1785701822,
         11059
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785701460,
-          11059
-        ],
         [
           1785701822,
           11059
@@ -2120,6 +2116,10 @@
         [
           1785873985,
           9005
+        ],
+        [
+          1785874285,
+          8871
         ]
       ],
       "hourlyPeak": [
@@ -5295,5 +5295,5 @@
     }
   },
   "peak48h": 11059,
-  "peak48hAt": "2026-08-02T20:11:00.000Z"
+  "peak48hAt": "2026-08-02T20:17:02.000Z"
 }
