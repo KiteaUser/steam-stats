@@ -3,16 +3,16 @@
   "appid": "1044720",
   "steamAppid": 1044720,
   "name": "Farthest Frontier",
-  "players": 2121,
+  "players": 2080,
   "allTimePeak": 24910,
   "peak24h": 2446,
   "peak24hAt": "2026-08-04T14:26:15.000Z",
-  "updatedAt": "2026-08-04T20:27:04.248Z",
+  "updatedAt": "2026-08-04T20:36:43.279Z",
   "img_url": "2025/02/farthest-frontier-cover-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-04T20:27:04.248Z",
-    "updatedAtTs": 1785875224,
+    "updatedAt": "2026-08-04T20:36:43.279Z",
+    "updatedAtTs": 1785875803,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785875224,
-        2121
+        1785875803,
+        2080
       ],
       "peak24h": [
         1785853575,
         2446
       ],
       "peak48h": [
-        1785702681,
-        2885
+        1785703568,
+        2799
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785702681,
-          2885
-        ],
-        [
-          1785702961,
-          2885
-        ],
         [
           1785703568,
           2799
@@ -2120,6 +2112,10 @@
         [
           1785875224,
           2121
+        ],
+        [
+          1785875803,
+          2080
         ]
       ],
       "hourlyPeak": [
@@ -5262,6 +5258,6 @@
       ]
     }
   },
-  "peak48h": 2885,
-  "peak48hAt": "2026-08-02T20:31:21.000Z"
+  "peak48h": 2799,
+  "peak48hAt": "2026-08-02T20:46:08.000Z"
 }
