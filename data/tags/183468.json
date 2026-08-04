@@ -6,13 +6,13 @@
   "players": 273,
   "allTimePeak": 15568,
   "peak24h": 350,
-  "peak24hAt": "2026-08-03T18:46:08.000Z",
-  "updatedAt": "2026-08-04T18:45:58.803Z",
+  "peak24hAt": "2026-08-03T18:56:00.000Z",
+  "updatedAt": "2026-08-04T18:51:12.309Z",
   "img_url": "2022/10/AliensFireteamTagPage.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-04T18:45:58.803Z",
-    "updatedAtTs": 1785869158,
+    "updatedAt": "2026-08-04T18:51:12.309Z",
+    "updatedAtTs": 1785869472,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,11 +23,11 @@
     },
     "summary": {
       "current": [
-        1785869158,
+        1785869472,
         273
       ],
       "peak24h": [
-        1785782768,
+        1785783360,
         350
       ],
       "peak48h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785696664,
-          418
-        ],
         [
           1785696980,
           418
@@ -2111,6 +2107,10 @@
         ],
         [
           1785869158,
+          273
+        ],
+        [
+          1785869472,
           273
         ]
       ],
