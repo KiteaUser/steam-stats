@@ -3,16 +3,16 @@
   "appid": "359320",
   "steamAppid": 359320,
   "name": "Elite Dangerous",
-  "players": 5037,
+  "players": 5004,
   "allTimePeak": 28923,
-  "peak24h": 5157,
-  "peak24hAt": "2026-08-04T20:02:12.000Z",
-  "updatedAt": "2026-08-05T20:01:25.402Z",
+  "peak24h": 5150,
+  "peak24hAt": "2026-08-04T20:11:25.000Z",
+  "updatedAt": "2026-08-05T20:07:16.189Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-02-41-pm-1768.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-05T20:01:25.402Z",
-    "updatedAtTs": 1785960085,
+    "updatedAt": "2026-08-05T20:07:16.189Z",
+    "updatedAtTs": 1785960436,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1785960085,
-        5037
+        1785960436,
+        5004
       ],
       "peak24h": [
-        1785873732,
-        5157
+        1785874285,
+        5150
       ],
       "peak48h": [
-        1785787625,
+        1785787862,
         5380
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785787625,
-          5380
-        ],
         [
           1785787862,
           5380
@@ -2188,6 +2184,10 @@
         [
           1785960085,
           5037
+        ],
+        [
+          1785960436,
+          5004
         ]
       ],
       "hourlyPeak": [
@@ -5687,5 +5687,5 @@
     }
   },
   "peak48h": 5380,
-  "peak48hAt": "2026-08-03T20:07:05.000Z"
+  "peak48hAt": "2026-08-03T20:11:02.000Z"
 }
