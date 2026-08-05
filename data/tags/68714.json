@@ -5,14 +5,14 @@
   "name": "Two Point Hospital",
   "players": 1024,
   "allTimePeak": 34014,
-  "peak24h": 1091,
-  "peak24hAt": "2026-08-04T14:36:52.000Z",
-  "updatedAt": "2026-08-05T14:36:11.655Z",
+  "peak24h": 1081,
+  "peak24hAt": "2026-08-04T14:41:16.000Z",
+  "updatedAt": "2026-08-05T14:41:00.217Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-01-23-am-2444.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-05T14:36:11.655Z",
-    "updatedAtTs": 1785940571,
+    "updatedAt": "2026-08-05T14:41:00.217Z",
+    "updatedAtTs": 1785940860,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1785940571,
+        1785940860,
         1024
       ],
       "peak24h": [
-        1785854212,
-        1091
+        1785854476,
+        1081
       ],
       "peak48h": [
         1785854212,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785768060,
-          1080
-        ],
         [
           1785768665,
           1080
@@ -2163,6 +2159,10 @@
         ],
         [
           1785940571,
+          1024
+        ],
+        [
+          1785940860,
           1024
         ]
       ],
