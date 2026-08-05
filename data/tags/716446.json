@@ -7,12 +7,12 @@
   "allTimePeak": 12690,
   "peak24h": 2,
   "peak24hAt": "2026-08-05T07:05:58.000Z",
-  "updatedAt": "2026-08-05T20:46:21.737Z",
+  "updatedAt": "2026-08-05T20:51:20.007Z",
   "img_url": "sharedimages/2024/08/defiance-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-05T20:46:21.737Z",
-    "updatedAtTs": 1785962781,
+    "updatedAt": "2026-08-05T20:51:20.007Z",
+    "updatedAtTs": 1785963080,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1785962781,
+        1785963080,
         2
       ],
       "peak24h": [
@@ -31,7 +31,7 @@
         2
       ],
       "peak48h": [
-        1785790275,
+        1785790885,
         2
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785790275,
-          2
-        ],
         [
           1785790570,
           1
@@ -2015,6 +2011,10 @@
         ],
         [
           1785962781,
+          2
+        ],
+        [
+          1785963080,
           2
         ]
       ],
@@ -4325,7 +4325,7 @@
         ],
         [
           1785787200,
-          1
+          2
         ]
       ],
       "dailyPeak": [
@@ -5235,5 +5235,5 @@
     }
   },
   "peak48h": 2,
-  "peak48hAt": "2026-08-03T20:51:15.000Z"
+  "peak48hAt": "2026-08-03T21:01:25.000Z"
 }
