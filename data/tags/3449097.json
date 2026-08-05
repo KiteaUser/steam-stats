@@ -3,16 +3,16 @@
   "appid": "3164500",
   "steamAppid": 3164500,
   "name": "Schedule I",
-  "players": 17317,
+  "players": 16905,
   "allTimePeak": 459075,
   "peak24h": 17889,
   "peak24hAt": "2026-08-05T20:16:02.000Z",
-  "updatedAt": "2026-08-05T22:06:14.466Z",
+  "updatedAt": "2026-08-05T22:16:05.236Z",
   "img_url": "2025/03/schedule-i-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-05T22:06:14.466Z",
-    "updatedAtTs": 1785967574,
+    "updatedAt": "2026-08-05T22:16:05.236Z",
+    "updatedAtTs": 1785968165,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1785967574,
-        17317
+        1785968165,
+        16905
       ],
       "peak24h": [
         1785960962,
         17889
       ],
       "peak48h": [
-        1785795062,
-        18690
+        1785873440,
+        18403
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785795062,
-          18690
-        ],
         [
           1785795424,
           18286
@@ -2200,6 +2196,10 @@
         [
           1785967574,
           17317
+        ],
+        [
+          1785968165,
+          16905
         ]
       ],
       "hourlyPeak": [
@@ -5222,6 +5222,6 @@
       ]
     }
   },
-  "peak48h": 18690,
-  "peak48hAt": "2026-08-03T22:11:02.000Z"
+  "peak48h": 18403,
+  "peak48hAt": "2026-08-04T19:57:20.000Z"
 }
