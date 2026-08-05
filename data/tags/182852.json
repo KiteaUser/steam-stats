@@ -3,16 +3,16 @@
   "appid": "918570",
   "steamAppid": 918570,
   "name": "Century: Age of Ashes",
-  "players": 86,
+  "players": 83,
   "allTimePeak": 12222,
   "peak24h": 94,
   "peak24hAt": "2026-08-05T18:16:14.000Z",
-  "updatedAt": "2026-08-05T18:46:08.536Z",
+  "updatedAt": "2026-08-05T18:51:04.600Z",
   "img_url": "2024/12/mixcollage-02-dec-2024-01-20-pm-6434.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-05T18:46:08.536Z",
-    "updatedAtTs": 1785955568,
+    "updatedAt": "2026-08-05T18:51:04.600Z",
+    "updatedAtTs": 1785955864,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1785955568,
-        86
+        1785955864,
+        83
       ],
       "peak24h": [
         1785953774,
         94
       ],
       "peak48h": [
-        1785783062,
+        1785783360,
         100
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785783062,
-          100
-        ],
         [
           1785783360,
           100
@@ -2184,6 +2180,10 @@
         [
           1785955568,
           86
+        ],
+        [
+          1785955864,
+          83
         ]
       ],
       "hourlyPeak": [
@@ -5363,5 +5363,5 @@
     }
   },
   "peak48h": 100,
-  "peak48hAt": "2026-08-03T18:51:02.000Z"
+  "peak48hAt": "2026-08-03T18:56:00.000Z"
 }
