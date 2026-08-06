@@ -3,16 +3,16 @@
   "appid": "814380",
   "steamAppid": 814380,
   "name": "Sekiro: Shadows Die Twice",
-  "players": 6469,
+  "players": 6448,
   "allTimePeak": 125315,
-  "peak24h": 6490,
-  "peak24hAt": "2026-08-05T14:11:21.000Z",
-  "updatedAt": "2026-08-06T14:06:56.092Z",
+  "peak24h": 6469,
+  "peak24hAt": "2026-08-06T14:06:56.000Z",
+  "updatedAt": "2026-08-06T14:11:23.261Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-07-46-am-1352.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-06T14:06:56.092Z",
-    "updatedAtTs": 1786025216,
+    "updatedAt": "2026-08-06T14:11:23.261Z",
+    "updatedAtTs": 1786025483,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
+        1786025483,
+        6448
+      ],
+      "peak24h": [
         1786025216,
         6469
       ],
-      "peak24h": [
-        1785939081,
-        6490
-      ],
       "peak48h": [
-        1785852676,
-        6655
+        1785853016,
+        6638
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785852676,
-          6655
-        ],
         [
           1785853016,
           6638
@@ -2152,6 +2148,10 @@
         [
           1786025216,
           6469
+        ],
+        [
+          1786025483,
+          6448
         ]
       ],
       "hourlyPeak": [
@@ -5466,6 +5466,6 @@
       ]
     }
   },
-  "peak48h": 6655,
-  "peak48hAt": "2026-08-04T14:11:16.000Z"
+  "peak48h": 6638,
+  "peak48hAt": "2026-08-04T14:16:56.000Z"
 }
