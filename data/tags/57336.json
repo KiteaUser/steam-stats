@@ -3,16 +3,16 @@
   "appid": "241540",
   "steamAppid": 241540,
   "name": "State of Decay",
-  "players": 3,
+  "players": 5,
   "allTimePeak": 10079,
   "peak24h": 7,
-  "peak24hAt": "2026-08-06T13:46:34.000Z",
-  "updatedAt": "2026-08-07T13:41:01.719Z",
+  "peak24hAt": "2026-08-06T14:15:59.000Z",
+  "updatedAt": "2026-08-07T13:48:02.689Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-11-57-pm-1263.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-07T13:41:01.719Z",
-    "updatedAtTs": 1786110061,
+    "updatedAt": "2026-08-07T13:48:02.689Z",
+    "updatedAtTs": 1786110482,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1786110061,
-        3
+        1786110482,
+        5
       ],
       "peak24h": [
-        1786023994,
+        1786025759,
         7
       ],
       "peak48h": [
-        1785937285,
-        11
+        1785937872,
+        10
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1785937285,
-          11
-        ],
-        [
-          1785937624,
-          11
-        ],
         [
           1785937872,
           10
@@ -1960,6 +1952,10 @@
         [
           1786110061,
           3
+        ],
+        [
+          1786110482,
+          5
         ]
       ],
       "hourlyPeak": [
@@ -5538,6 +5534,6 @@
       ]
     }
   },
-  "peak48h": 11,
-  "peak48hAt": "2026-08-05T13:41:25.000Z"
+  "peak48h": 10,
+  "peak48hAt": "2026-08-05T13:51:12.000Z"
 }
