@@ -3,16 +3,16 @@
   "appid": "222880",
   "steamAppid": 222880,
   "name": "Insurgency",
-  "players": 137,
+  "players": 143,
   "allTimePeak": 121575,
   "peak24h": 241,
   "peak24hAt": "2026-08-07T17:51:05.000Z",
-  "updatedAt": "2026-08-08T10:01:15.635Z",
+  "updatedAt": "2026-08-08T10:05:55.081Z",
   "img_url": "2025/01/mixcollage-05-jan-2025-04-16-am-6534.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-08T10:01:15.635Z",
-    "updatedAtTs": 1786183275,
+    "updatedAt": "2026-08-08T10:05:55.081Z",
+    "updatedAtTs": 1786183555,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1786183275,
-        137
+        1786183555,
+        143
       ],
       "peak24h": [
         1786125065,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786010479,
-          96
-        ],
         [
           1786010766,
           106
@@ -2088,6 +2084,10 @@
         [
           1786183275,
           137
+        ],
+        [
+          1786183555,
+          143
         ]
       ],
       "hourlyPeak": [
@@ -4773,6 +4773,10 @@
         ],
         [
           1786006800,
+          96
+        ],
+        [
+          1786010400,
           96
         ]
       ],
