@@ -3,16 +3,16 @@
   "appid": "294040",
   "steamAppid": 294040,
   "name": "Loot Hero DX",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 14306,
   "peak24h": 3,
   "peak24hAt": "2026-08-08T12:26:02.000Z",
-  "updatedAt": "2026-08-08T13:01:19.923Z",
+  "updatedAt": "2026-08-08T13:06:05.596Z",
   "img_url": "2025/04/mixcollage-04-apr-2025-12-13-pm-1617.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-08T13:01:19.923Z",
-    "updatedAtTs": 1786194079,
+    "updatedAt": "2026-08-08T13:06:05.596Z",
+    "updatedAtTs": 1786194365,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1786194079,
-        1
+        1786194365,
+        2
       ],
       "peak24h": [
         1786191962,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786021295,
-          2
-        ],
         [
           1786021568,
           2
@@ -392,6 +388,10 @@
         [
           1786193762,
           1
+        ],
+        [
+          1786194365,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -1489,6 +1489,10 @@
         ],
         [
           1786017600,
+          2
+        ],
+        [
+          1786021200,
           2
         ]
       ],
