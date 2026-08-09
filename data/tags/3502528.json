@@ -7,12 +7,12 @@
   "allTimePeak": 12757,
   "peak24h": 1,
   "peak24hAt": "2026-08-07T11:51:05.000Z",
-  "updatedAt": "2026-08-09T11:46:04.774Z",
+  "updatedAt": "2026-08-09T11:51:10.070Z",
   "img_url": "2025/07/radical-heights-tag-page-cover-art.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-09T11:46:04.774Z",
-    "updatedAtTs": 1786275964,
+    "updatedAt": "2026-08-09T11:51:10.070Z",
+    "updatedAtTs": 1786276270,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,26 +23,18 @@
     },
     "summary": {
       "current": [
-        1786275964,
+        1786276270,
         1
       ],
       "peak24h": null,
-      "peak48h": [
-        1786103465,
-        1
-      ],
+      "peak48h": null,
       "allTimePeak": [
         null,
         12757
       ]
     },
     "series": {
-      "raw5m": [
-        [
-          1786103465,
-          1
-        ]
-      ],
+      "raw5m": [],
       "hourlyPeak": [
         [
           1783684800,
@@ -1306,7 +1298,5 @@
         ]
       ]
     }
-  },
-  "peak48h": 1,
-  "peak48hAt": "2026-08-07T11:51:05.000Z"
+  }
 }
