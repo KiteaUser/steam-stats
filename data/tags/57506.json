@@ -3,16 +3,16 @@
   "appid": "394230",
   "steamAppid": 394230,
   "name": "Battleborn",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 12101,
   "peak24h": 2,
   "peak24hAt": "2026-08-08T13:45:56.000Z",
-  "updatedAt": "2026-08-09T07:01:18.003Z",
+  "updatedAt": "2026-08-09T07:06:00.744Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-08-48-pm-4335.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-09T07:01:18.003Z",
-    "updatedAtTs": 1786258878,
+    "updatedAt": "2026-08-09T07:06:00.744Z",
+    "updatedAtTs": 1786259160,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1786258878,
-        1
+        1786259160,
+        2
       ],
       "peak24h": [
         1786196756,
         2
       ],
       "peak48h": [
-        1786086090,
+        1786086369,
         2
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786086090,
-          2
-        ],
         [
           1786086369,
           2
@@ -1112,6 +1108,10 @@
         [
           1786258878,
           1
+        ],
+        [
+          1786259160,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -2874,6 +2874,10 @@
         [
           1786082400,
           3
+        ],
+        [
+          1786086000,
+          2
         ]
       ],
       "dailyPeak": [
@@ -3615,5 +3619,5 @@
     }
   },
   "peak48h": 2,
-  "peak48hAt": "2026-08-07T07:01:30.000Z"
+  "peak48hAt": "2026-08-07T07:06:09.000Z"
 }
