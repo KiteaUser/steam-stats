@@ -3,16 +3,16 @@
   "appid": "1274570",
   "steamAppid": 1274570,
   "name": "DEVOUR",
-  "players": 1151,
+  "players": 1144,
   "allTimePeak": 12331,
   "peak24h": 1175,
   "peak24hAt": "2026-08-09T14:11:03.000Z",
-  "updatedAt": "2026-08-09T15:15:58.780Z",
+  "updatedAt": "2026-08-09T15:21:11.122Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-12-25-pm-1107.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-09T15:15:58.780Z",
-    "updatedAtTs": 1786288558,
+    "updatedAt": "2026-08-09T15:21:11.122Z",
+    "updatedAtTs": 1786288871,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1786288558,
-        1151
+        1786288871,
+        1144
       ],
       "peak24h": [
         1786284663,
         1175
       ],
       "peak48h": [
-        1786115762,
-        1226
+        1786284663,
+        1175
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786115762,
-          1226
-        ],
-        [
-          1786116071,
-          1202
-        ],
         [
           1786116376,
           1168
@@ -2336,6 +2328,10 @@
         [
           1786288558,
           1151
+        ],
+        [
+          1786288871,
+          1144
         ]
       ],
       "hourlyPeak": [
@@ -5570,6 +5566,6 @@
       ]
     }
   },
-  "peak48h": 1226,
-  "peak48hAt": "2026-08-07T15:16:02.000Z"
+  "peak48h": 1175,
+  "peak48hAt": "2026-08-09T14:11:03.000Z"
 }
