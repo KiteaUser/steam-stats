@@ -3,16 +3,16 @@
   "appid": "2138720",
   "steamAppid": 2138720,
   "name": "REMATCH",
-  "players": 5576,
+  "players": 5466,
   "allTimePeak": 92841,
-  "peak24h": 5746,
-  "peak24hAt": "2026-08-11T21:26:02.000Z",
-  "updatedAt": "2026-08-12T21:21:05.698Z",
+  "peak24h": 5737,
+  "peak24hAt": "2026-08-11T21:41:15.000Z",
+  "updatedAt": "2026-08-12T21:31:14.224Z",
   "img_url": "2025/04/rematch-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-12T21:21:05.698Z",
-    "updatedAtTs": 1786569665,
+    "updatedAt": "2026-08-12T21:31:14.224Z",
+    "updatedAtTs": 1786570274,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1786569665,
-        5576
+        1786570274,
+        5466
       ],
       "peak24h": [
-        1786483562,
-        5746
+        1786484475,
+        5737
       ],
       "peak48h": [
-        1786396873,
-        6136
+        1786398373,
+        6091
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786396873,
-          6136
-        ],
-        [
-          1786397172,
-          6023
-        ],
         [
           1786397480,
           6023
@@ -2208,6 +2200,10 @@
         [
           1786569665,
           5576
+        ],
+        [
+          1786570274,
+          5466
         ]
       ],
       "hourlyPeak": [
@@ -5242,6 +5238,6 @@
       ]
     }
   },
-  "peak48h": 6136,
-  "peak48hAt": "2026-08-10T21:21:13.000Z"
+  "peak48h": 6091,
+  "peak48hAt": "2026-08-10T21:46:13.000Z"
 }
