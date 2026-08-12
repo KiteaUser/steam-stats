@@ -3,16 +3,16 @@
   "appid": "241560",
   "steamAppid": 241560,
   "name": "The Crew",
-  "players": 6,
+  "players": 5,
   "allTimePeak": 12236,
   "peak24h": 7,
   "peak24hAt": "2026-08-12T15:22:00.000Z",
-  "updatedAt": "2026-08-12T20:41:24.467Z",
+  "updatedAt": "2026-08-12T20:46:04.384Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-04-51-pm-2171.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-12T20:41:24.467Z",
-    "updatedAtTs": 1786567284,
+    "updatedAt": "2026-08-12T20:46:04.384Z",
+    "updatedAtTs": 1786567564,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1786567284,
-        6
+        1786567564,
+        5
       ],
       "peak24h": [
         1786548120,
         7
       ],
       "peak48h": [
-        1786394535,
-        10
+        1786408854,
+        9
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786394535,
-          10
-        ],
         [
           1786394819,
           7
@@ -2196,6 +2192,10 @@
         [
           1786567284,
           6
+        ],
+        [
+          1786567564,
+          5
         ]
       ],
       "hourlyPeak": [
@@ -5750,6 +5750,6 @@
       ]
     }
   },
-  "peak48h": 10,
-  "peak48hAt": "2026-08-10T20:42:15.000Z"
+  "peak48h": 9,
+  "peak48hAt": "2026-08-11T00:40:54.000Z"
 }
