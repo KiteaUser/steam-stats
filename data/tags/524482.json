@@ -3,16 +3,16 @@
   "appid": "1128810",
   "steamAppid": 1128810,
   "name": "RISK: Global Domination",
-  "players": 3028,
+  "players": 3016,
   "allTimePeak": 11716,
   "peak24h": 3028,
   "peak24hAt": "2026-08-13T20:51:22.000Z",
-  "updatedAt": "2026-08-13T20:51:22.466Z",
+  "updatedAt": "2026-08-13T20:56:09.529Z",
   "img_url": "2024/11/mixcollage-21-nov-2024-04-10-am-6312.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-13T20:51:22.466Z",
-    "updatedAtTs": 1786654282,
+    "updatedAt": "2026-08-13T20:56:09.529Z",
+    "updatedAtTs": 1786654569,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1786654282,
-        3028
+        1786654569,
+        3016
       ],
       "peak24h": [
         1786654282,
         3028
       ],
       "peak48h": [
-        1786481757,
-        3048
+        1786654282,
+        3028
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786481757,
-          3048
-        ],
         [
           1786482388,
           2994
@@ -2180,6 +2176,10 @@
         [
           1786654282,
           3028
+        ],
+        [
+          1786654569,
+          3016
         ]
       ],
       "hourlyPeak": [
@@ -5474,6 +5474,6 @@
       ]
     }
   },
-  "peak48h": 3048,
-  "peak48hAt": "2026-08-11T20:55:57.000Z"
+  "peak48h": 3028,
+  "peak48hAt": "2026-08-13T20:51:22.000Z"
 }
