@@ -5,6 +5,7 @@ import path from "path";
 const SHEET_URL = process.env.SHEET_URL;
 const DATA_DIR = "data";
 const TAGS_DIR = path.join(DATA_DIR, "tags");
+const GAMES_CACHE_PATH = path.join(DATA_DIR, "games-cache.json");
 
 const SECOND = 1000;
 const HOUR = 60 * 60 * SECOND;
@@ -76,6 +77,38 @@ async function fetchJsonWithRetry(url, attempts = 3) {
   }
 
   throw lastError;
+}
+
+async function readGamesCache() {
+  const text = await fs.readFile(GAMES_CACHE_PATH, "utf8");
+  const cached = JSON.parse(text);
+
+  if (!Array.isArray(cached) || cached.length === 0) {
+    throw new Error("Games cache is empty or invalid");
+  }
+
+  const games = cached.filter((game) => {
+    return (
+      game &&
+      game.gr_tag_id != null &&
+      String(game.gr_tag_id).trim() !== "" &&
+      game.steam_appid != null &&
+      String(game.steam_appid).replace(/[^\d]/g, "") !== ""
+    );
+  });
+
+  if (!games.length) {
+    throw new Error("Games cache contains no valid games");
+  }
+
+  return games;
+}
+
+function compactGameForCache(game) {
+  return {
+    gr_tag_id: String(game.gr_tag_id),
+    steam_appid: String(game.steam_appid)
+  };
 }
 
 async function mapLimit(items, limit, mapper) {
@@ -281,7 +314,9 @@ function initChartData(stored, now, nowTs, players) {
         ? [peak24hTs, Number(stored.peak24h)]
         : null,
       peak48h: null,
-      allTimePeak: stored?.allTimePeak ? [null, Number(stored.allTimePeak)] : null
+      allTimePeak: stored?.allTimePeak
+        ? [null, Number(stored.allTimePeak)]
+        : null
     },
     series: {
       raw5m: [],
@@ -301,13 +336,15 @@ function updateChartData(
   shouldRecordPoint
 ) {
   const nowTs = Math.floor(nowMs / SECOND);
-  const chartData = stored?.chartData || initChartData(stored, now, nowTs, players);
+  const chartData = stored?.chartData ||
+    initChartData(stored, now, nowTs, players);
 
   chartData.schemaVersion = chartData.schemaVersion || 1;
   chartData.updatedAt = now;
   chartData.updatedAtTs = nowTs;
   chartData.source = chartData.source || "steam";
-  chartData.sourceIntervalSeconds = chartData.sourceIntervalSeconds || 300;
+  chartData.sourceIntervalSeconds =
+    chartData.sourceIntervalSeconds || 300;
 
   chartData.retention = {
     raw5mSeconds: RAW_5M_MS / SECOND,
@@ -318,14 +355,24 @@ function updateChartData(
 
   chartData.summary ||= {};
   chartData.series ||= {};
-  chartData.series.raw5m = dedupeByTimestamp(chartData.series.raw5m || []);
-  chartData.series.hourlyPeak = mergePeakPoints(chartData.series.hourlyPeak || []);
-  chartData.series.dailyPeak = mergePeakPoints(chartData.series.dailyPeak || []);
-  chartData.series.monthlyPeak = mergePeakPoints(chartData.series.monthlyPeak || []);
+  chartData.series.raw5m = dedupeByTimestamp(
+    chartData.series.raw5m || []
+  );
+  chartData.series.hourlyPeak = mergePeakPoints(
+    chartData.series.hourlyPeak || []
+  );
+  chartData.series.dailyPeak = mergePeakPoints(
+    chartData.series.dailyPeak || []
+  );
+  chartData.series.monthlyPeak = mergePeakPoints(
+    chartData.series.monthlyPeak || []
+  );
 
   if (shouldRecordPoint) {
     chartData.series.raw5m.push([nowTs, players]);
-    chartData.series.raw5m = dedupeByTimestamp(chartData.series.raw5m);
+    chartData.series.raw5m = dedupeByTimestamp(
+      chartData.series.raw5m
+    );
   }
 
   const rawKeep = [];
@@ -382,7 +429,9 @@ function updateChartData(
     const timestamp = Number(point[0]);
     const value = Number(point[1]);
 
-    if (!Number.isFinite(timestamp) || !Number.isFinite(value)) continue;
+    if (!Number.isFinite(timestamp) || !Number.isFinite(value)) {
+      continue;
+    }
 
     if (timestamp >= dailyKeepCutoffTs) {
       dailyKeep.push([timestamp, value]);
@@ -414,8 +463,14 @@ function updateChartData(
   );
 
   chartData.summary.current = [nowTs, players];
-  chartData.summary.peak24h = getPeakSince(chartData, nowTs - 24 * 60 * 60);
-  chartData.summary.peak48h = getPeakSince(chartData, nowTs - 48 * 60 * 60);
+  chartData.summary.peak24h = getPeakSince(
+    chartData,
+    nowTs - 24 * 60 * 60
+  );
+  chartData.summary.peak48h = getPeakSince(
+    chartData,
+    nowTs - 48 * 60 * 60
+  );
   chartData.summary.allTimePeak = [null, allTimePeak];
 
   return chartData;
@@ -464,30 +519,51 @@ async function run() {
     process.exit(1);
   }
 
-  let payload;
+  await ensureDir(DATA_DIR);
+  await ensureDir(TAGS_DIR);
+
+  let games;
+  let gamesFromSheet = null;
 
   try {
-    payload = await fetchJsonWithRetry(SHEET_URL, 3);
+    const payload = await fetchJsonWithRetry(SHEET_URL, 3);
+    const sheetGames = Array.isArray(payload)
+      ? payload
+      : payload?.data;
+
+    if (!Array.isArray(sheetGames) || sheetGames.length === 0) {
+      throw new Error("SHEET_URL returned no valid games");
+    }
+
+    games = sheetGames;
+    gamesFromSheet = sheetGames;
+
+    console.log(`Loaded ${games.length} games from SHEET_URL`);
   } catch (err) {
     console.error("Failed to load SHEET_URL after retries.");
     console.error(err.message);
-    process.exit(1);
+    console.log("Falling back to cached game list...");
+
+    try {
+      games = await readGamesCache();
+      console.log(
+        `Loaded ${games.length} games from ${GAMES_CACHE_PATH}`
+      );
+    } catch (cacheErr) {
+      console.error("No usable fallback game cache.");
+      console.error(cacheErr.message);
+      process.exit(1);
+    }
   }
-
-  const games = Array.isArray(payload) ? payload : payload.data;
-
-  if (!Array.isArray(games)) {
-    console.error(JSON.stringify(payload, null, 2));
-    process.exit(1);
-  }
-
-  await ensureDir(DATA_DIR);
-  await ensureDir(TAGS_DIR);
 
   let previousTop10 = [];
 
   try {
-    const existingTop10 = await fs.readFile(path.join(DATA_DIR, "top10.json"), "utf8");
+    const existingTop10 = await fs.readFile(
+      path.join(DATA_DIR, "top10.json"),
+      "utf8"
+    );
+
     previousTop10 = JSON.parse(existingTop10);
   } catch {}
 
@@ -513,9 +589,11 @@ async function run() {
     } catch {}
   }
 
-  const steamPayloads = await mapLimit(games, 10, async (game) => {
-    return fetchSteamPlayerCount(game);
-  });
+  const steamPayloads = await mapLimit(
+    games,
+    10,
+    async (game) => fetchSteamPlayerCount(game)
+  );
 
   const now = new Date().toISOString();
   const nowMs = Date.now();
@@ -525,15 +603,30 @@ async function run() {
     const game = games[i];
     const tagId = String(game.gr_tag_id);
     const appid = String(game.steam_appid);
-    const steamAppid = Number(appid.replace(/[^\d]/g, "")) || 0;
-    const fetchedPlayers = steamPayloads[i]?.response?.player_count;
+    const steamAppid =
+      Number(appid.replace(/[^\d]/g, "")) || 0;
+
+    const fetchedPlayers =
+      steamPayloads[i]?.response?.player_count;
+
     const stored = previousByTagId.get(tagId) || {};
-    const validated = getValidatedPlayers(fetchedPlayers, stored);
+    const validated = getValidatedPlayers(
+      fetchedPlayers,
+      stored
+    );
+
     const players = validated.players;
     const shouldRecordPoint = validated.shouldRecordPoint;
 
-    const existingPeak = Number(stored?.allTimePeak) || Number(game.all_time_peak) || 0;
-    const provisionalAllTimePeak = Math.max(existingPeak, players);
+    const existingPeak =
+      Number(stored?.allTimePeak) ||
+      Number(game.all_time_peak) ||
+      0;
+
+    const provisionalAllTimePeak = Math.max(
+      existingPeak,
+      players
+    );
 
     const chartData = updateChartData(
       stored,
@@ -544,8 +637,11 @@ async function run() {
       shouldRecordPoint
     );
 
-    const allTimePeak = Array.isArray(chartData.summary.allTimePeak)
-      ? Number(chartData.summary.allTimePeak[1]) || provisionalAllTimePeak
+    const allTimePeak = Array.isArray(
+      chartData.summary.allTimePeak
+    )
+      ? Number(chartData.summary.allTimePeak[1]) ||
+        provisionalAllTimePeak
       : provisionalAllTimePeak;
 
     const peak24hTuple = chartData.summary.peak24h;
@@ -556,33 +652,46 @@ async function run() {
       : Number(stored?.peak24h) || players;
 
     const peak24hAt = Array.isArray(peak24hTuple)
-      ? new Date(peak24hTuple[0] * SECOND).toISOString()
+      ? new Date(
+          peak24hTuple[0] * SECOND
+        ).toISOString()
       : stored?.peak24hAt || now;
 
     const record = {
       tagId: Number(tagId),
       appid,
       steamAppid,
-      name: game.clean_game_name,
+      name:
+        game.clean_game_name ||
+        stored?.name ||
+        "",
       players,
       allTimePeak,
       peak24h,
       peak24hAt,
       updatedAt: now,
-      img_url: game.img_url || "",
+      img_url:
+        game.img_url ||
+        stored?.img_url ||
+        "",
       chartData
     };
 
     if (Array.isArray(peak48hTuple)) {
       record.peak48h = peak48hTuple[1];
-      record.peak48hAt = new Date(peak48hTuple[0] * SECOND).toISOString();
+      record.peak48hAt = new Date(
+        peak48hTuple[0] * SECOND
+      ).toISOString();
     }
 
     results.push(record);
   }
 
   const writes = results.map((record) =>
-    writeJson(path.join(TAGS_DIR, `${record.tagId}.json`), record)
+    writeJson(
+      path.join(TAGS_DIR, `${record.tagId}.json`),
+      record
+    )
   );
 
   await Promise.all(writes);
@@ -595,7 +704,33 @@ async function run() {
       appid: record.steamAppid
     }));
 
-  await writeJson(path.join(DATA_DIR, "top10.json"), top10);
+  await writeJson(
+    path.join(DATA_DIR, "top10.json"),
+    top10
+  );
+
+  if (gamesFromSheet) {
+    const compactGames = gamesFromSheet
+      .filter((game) => {
+        return (
+          game &&
+          game.gr_tag_id != null &&
+          String(game.gr_tag_id).trim() !== "" &&
+          game.steam_appid != null &&
+          String(game.steam_appid).replace(/[^\d]/g, "") !== ""
+        );
+      })
+      .map(compactGameForCache);
+
+    await writeJson(
+      GAMES_CACHE_PATH,
+      compactGames
+    );
+
+    console.log(
+      `Updated game cache with ${compactGames.length} games`
+    );
+  }
 
   console.log("Done:", results.length);
 }
