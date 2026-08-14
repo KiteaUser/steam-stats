@@ -3,16 +3,16 @@
   "appid": "599140",
   "steamAppid": 599140,
   "name": "Graveyard Keeper",
-  "players": 2000,
+  "players": 1976,
   "allTimePeak": 46305,
-  "peak24h": 2066,
-  "peak24hAt": "2026-08-13T19:11:26.000Z",
-  "updatedAt": "2026-08-14T19:11:20.797Z",
+  "peak24h": 2060,
+  "peak24hAt": "2026-08-13T19:21:05.000Z",
+  "updatedAt": "2026-08-14T19:16:09.240Z",
   "img_url": "2025/02/mixcollage-08-feb-2025-10-06-am-6940.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-14T19:11:20.797Z",
-    "updatedAtTs": 1786734680,
+    "updatedAt": "2026-08-14T19:16:09.240Z",
+    "updatedAtTs": 1786734969,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1786734680,
-        2000
+        1786734969,
+        1976
       ],
       "peak24h": [
-        1786648286,
-        2066
+        1786648865,
+        2060
       ],
       "peak48h": [
-        1786561889,
+        1786562233,
         2170
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786561889,
-          2170
-        ],
         [
           1786562233,
           2170
@@ -2308,6 +2304,10 @@
         [
           1786734680,
           2000
+        ],
+        [
+          1786734969,
+          1976
         ]
       ],
       "hourlyPeak": [
@@ -5735,5 +5735,5 @@
     }
   },
   "peak48h": 2170,
-  "peak48hAt": "2026-08-12T19:11:29.000Z"
+  "peak48hAt": "2026-08-12T19:17:13.000Z"
 }
