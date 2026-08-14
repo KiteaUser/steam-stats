@@ -3,16 +3,16 @@
   "appid": "67370",
   "steamAppid": 67370,
   "name": "The Darkness II",
-  "players": 10,
+  "players": 15,
   "allTimePeak": 12593,
   "peak24h": 44,
   "peak24hAt": "2026-08-13T18:11:36.000Z",
-  "updatedAt": "2026-08-14T12:46:03.656Z",
+  "updatedAt": "2026-08-14T12:51:14.195Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-12-13-am-7939.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-14T12:46:03.656Z",
-    "updatedAtTs": 1786711563,
+    "updatedAt": "2026-08-14T12:51:14.195Z",
+    "updatedAtTs": 1786711874,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1786711563,
-        10
+        1786711874,
+        15
       ],
       "peak24h": [
         1786644696,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786538876,
-          21
-        ],
         [
           1786539396,
           27
@@ -2264,6 +2260,10 @@
         [
           1786711563,
           10
+        ],
+        [
+          1786711874,
+          15
         ]
       ],
       "hourlyPeak": [
