@@ -3,16 +3,16 @@
   "appid": "774171",
   "steamAppid": 774171,
   "name": "Muse Dash",
-  "players": 960,
+  "players": 968,
   "allTimePeak": 11478,
   "peak24h": 1233,
   "peak24hAt": "2026-08-13T12:57:21.000Z",
-  "updatedAt": "2026-08-14T11:01:12.896Z",
+  "updatedAt": "2026-08-14T11:06:00.980Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-11-50-am-9505.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-14T11:01:12.896Z",
-    "updatedAtTs": 1786705272,
+    "updatedAt": "2026-08-14T11:06:00.980Z",
+    "updatedAtTs": 1786705560,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1786705272,
-        960
+        1786705560,
+        968
       ],
       "peak24h": [
         1786625841,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786532495,
-          1049
-        ],
         [
           1786533062,
           1109
@@ -2260,6 +2256,10 @@
         [
           1786705272,
           960
+        ],
+        [
+          1786705560,
+          968
         ]
       ],
       "hourlyPeak": [
@@ -4941,6 +4941,10 @@
         ],
         [
           1786528800,
+          1049
+        ],
+        [
+          1786532400,
           1049
         ]
       ],
