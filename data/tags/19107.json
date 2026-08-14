@@ -3,16 +3,16 @@
   "appid": "1139900",
   "steamAppid": 1139900,
   "name": "Ghostrunner",
-  "players": 262,
+  "players": 256,
   "allTimePeak": 11294,
   "peak24h": 274,
   "peak24hAt": "2026-08-13T13:11:14.000Z",
-  "updatedAt": "2026-08-14T13:06:06.039Z",
+  "updatedAt": "2026-08-14T13:11:14.931Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-03-01-am-5075.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-14T13:06:06.039Z",
-    "updatedAtTs": 1786712766,
+    "updatedAt": "2026-08-14T13:11:14.931Z",
+    "updatedAtTs": 1786713074,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1786712766,
-        262
+        1786713074,
+        256
       ],
       "peak24h": [
         1786626674,
         274
       ],
       "peak48h": [
-        1786539976,
+        1786540573,
         302
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786539976,
-          302
-        ],
-        [
-          1786540265,
-          302
-        ],
         [
           1786540573,
           302
@@ -2268,6 +2260,10 @@
         [
           1786712766,
           262
+        ],
+        [
+          1786713074,
+          256
         ]
       ],
       "hourlyPeak": [
@@ -5535,5 +5531,5 @@
     }
   },
   "peak48h": 302,
-  "peak48hAt": "2026-08-12T13:06:16.000Z"
+  "peak48hAt": "2026-08-12T13:16:13.000Z"
 }
