@@ -3,16 +3,16 @@
   "appid": "1857090",
   "steamAppid": 1857090,
   "name": "Norland",
-  "players": 337,
+  "players": 341,
   "allTimePeak": 11866,
   "peak24h": 458,
   "peak24hAt": "2026-08-16T14:01:32.000Z",
-  "updatedAt": "2026-08-16T21:56:01.169Z",
+  "updatedAt": "2026-08-16T22:01:19.913Z",
   "img_url": "sharedimages/2024/07/norland-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-16T21:56:01.169Z",
-    "updatedAtTs": 1786917361,
+    "updatedAt": "2026-08-16T22:01:19.913Z",
+    "updatedAtTs": 1786917679,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1786917361,
-        337
+        1786917679,
+        341
       ],
       "peak24h": [
         1786888892,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786744564,
-          284
-        ],
-        [
-          1786744872,
-          266
-        ],
         [
           1786745166,
           259
@@ -2336,13 +2328,13 @@
         [
           1786917361,
           337
+        ],
+        [
+          1786917679,
+          341
         ]
       ],
       "hourlyPeak": [
-        [
-          1784325600,
-          459
-        ],
         [
           1784329200,
           399
@@ -5021,7 +5013,11 @@
         ],
         [
           1786741200,
-          283
+          284
+        ],
+        [
+          1786744800,
+          266
         ]
       ],
       "dailyPeak": [
