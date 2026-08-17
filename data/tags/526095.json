@@ -3,16 +3,16 @@
   "appid": "1782210",
   "steamAppid": 1782210,
   "name": "Crab Game",
-  "players": 614,
+  "players": 627,
   "allTimePeak": 75967,
   "peak24h": 1044,
   "peak24hAt": "2026-08-16T14:11:04.000Z",
-  "updatedAt": "2026-08-17T13:46:11.855Z",
+  "updatedAt": "2026-08-17T13:51:08.656Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-12-06-am-3261.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-17T13:46:11.855Z",
-    "updatedAtTs": 1786974371,
+    "updatedAt": "2026-08-17T13:51:08.656Z",
+    "updatedAtTs": 1786974668,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1786974371,
-        614
+        1786974668,
+        627
       ],
       "peak24h": [
         1786889464,
         1044
       ],
       "peak48h": [
-        1786801864,
+        1786802166,
         1065
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786801864,
-          1065
-        ],
         [
           1786802166,
           1065
@@ -2344,6 +2340,10 @@
         [
           1786974371,
           614
+        ],
+        [
+          1786974668,
+          627
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5029,7 @@
         ],
         [
           1786798800,
-          1020
+          1065
         ]
       ],
       "dailyPeak": [
@@ -5575,5 +5575,5 @@
     }
   },
   "peak48h": 1065,
-  "peak48hAt": "2026-08-15T13:51:04.000Z"
+  "peak48hAt": "2026-08-15T13:56:06.000Z"
 }
