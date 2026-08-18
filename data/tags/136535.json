@@ -3,16 +3,16 @@
   "appid": "2344520",
   "steamAppid": 2344520,
   "name": "Diablo IV",
-  "players": 5101,
+  "players": 5031,
   "allTimePeak": 64518,
   "peak24h": 6248,
   "peak24hAt": "2026-08-18T15:01:31.000Z",
-  "updatedAt": "2026-08-18T20:51:19.643Z",
+  "updatedAt": "2026-08-18T20:56:09.435Z",
   "img_url": "2025/09/diablo-4-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-18T20:51:19.643Z",
-    "updatedAtTs": 1787086279,
+    "updatedAt": "2026-08-18T20:56:09.435Z",
+    "updatedAtTs": 1787086569,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787086279,
-        5101
+        1787086569,
+        5031
       ],
       "peak24h": [
         1787065291,
         6248
       ],
       "peak48h": [
-        1786913764,
-        6881
+        1786914089,
+        6666
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786913764,
-          6881
-        ],
         [
           1786914089,
           6666
@@ -2288,6 +2284,10 @@
         [
           1787086279,
           5101
+        ],
+        [
+          1787086569,
+          5031
         ]
       ],
       "hourlyPeak": [
@@ -5426,6 +5426,6 @@
       ]
     }
   },
-  "peak48h": 6881,
-  "peak48hAt": "2026-08-16T20:56:04.000Z"
+  "peak48h": 6666,
+  "peak48hAt": "2026-08-16T21:01:29.000Z"
 }
