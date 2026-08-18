@@ -3,16 +3,16 @@
   "appid": "2407270",
   "steamAppid": 2407270,
   "name": "AI Limit",
-  "players": 505,
+  "players": 507,
   "allTimePeak": 14480,
-  "peak24h": 517,
-  "peak24hAt": "2026-08-17T13:51:08.000Z",
-  "updatedAt": "2026-08-18T13:46:17.804Z",
+  "peak24h": 515,
+  "peak24hAt": "2026-08-17T13:56:06.000Z",
+  "updatedAt": "2026-08-18T13:51:21.629Z",
   "img_url": "2025/01/mixcollage-06-jan-2025-11-44-am-7056.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-18T13:46:17.804Z",
-    "updatedAtTs": 1787060777,
+    "updatedAt": "2026-08-18T13:51:21.629Z",
+    "updatedAtTs": 1787061081,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1787060777,
-        505
+        1787061081,
+        507
       ],
       "peak24h": [
-        1786974668,
-        517
+        1786974966,
+        515
       ],
       "peak48h": [
-        1786888269,
+        1786888563,
         553
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786888269,
-          553
-        ],
         [
           1786888563,
           553
@@ -2288,6 +2284,10 @@
         [
           1787060777,
           505
+        ],
+        [
+          1787061081,
+          507
         ]
       ],
       "hourlyPeak": [
@@ -5359,5 +5359,5 @@
     }
   },
   "peak48h": 553,
-  "peak48hAt": "2026-08-16T13:51:09.000Z"
+  "peak48hAt": "2026-08-16T13:56:03.000Z"
 }
