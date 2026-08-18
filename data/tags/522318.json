@@ -3,16 +3,16 @@
   "appid": "1104280",
   "steamAppid": 1104280,
   "name": "The Slormancer",
-  "players": 66,
+  "players": 67,
   "allTimePeak": 10989,
   "peak24h": 86,
   "peak24hAt": "2026-08-18T15:01:31.000Z",
-  "updatedAt": "2026-08-18T16:26:00.743Z",
+  "updatedAt": "2026-08-18T16:31:25.441Z",
   "img_url": "2024/11/mixcollage-29-nov-2024-10-37-am-5229.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-18T16:26:00.743Z",
-    "updatedAtTs": 1787070360,
+    "updatedAt": "2026-08-18T16:31:25.441Z",
+    "updatedAtTs": 1787070685,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787070360,
-        66
+        1787070685,
+        67
       ],
       "peak24h": [
         1787065291,
         86
       ],
       "peak48h": [
-        1786897565,
-        105
+        1786898172,
+        97
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786897565,
-          105
-        ],
-        [
-          1786897865,
-          105
-        ],
         [
           1786898172,
           97
@@ -2292,6 +2284,10 @@
         [
           1787070360,
           66
+        ],
+        [
+          1787070685,
+          67
         ]
       ],
       "hourlyPeak": [
@@ -4977,7 +4973,7 @@
         ],
         [
           1786896000,
-          103
+          105
         ]
       ],
       "dailyPeak": [
@@ -5550,6 +5546,6 @@
       ]
     }
   },
-  "peak48h": 105,
-  "peak48hAt": "2026-08-16T16:26:05.000Z"
+  "peak48h": 97,
+  "peak48hAt": "2026-08-16T16:36:12.000Z"
 }
