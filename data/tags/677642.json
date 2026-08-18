@@ -3,16 +3,16 @@
   "appid": "2543510",
   "steamAppid": 2543510,
   "name": "GUNTOUCHABLES",
-  "players": 20,
+  "players": 18,
   "allTimePeak": 16284,
   "peak24h": 49,
   "peak24hAt": "2026-08-17T14:06:03.000Z",
-  "updatedAt": "2026-08-18T09:06:16.334Z",
+  "updatedAt": "2026-08-18T09:11:08.807Z",
   "img_url": "2024/11/mixcollage-26-nov-2024-01-30-pm-837.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-18T09:06:16.334Z",
-    "updatedAtTs": 1787043976,
+    "updatedAt": "2026-08-18T09:11:08.807Z",
+    "updatedAtTs": 1787044268,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1787043976,
-        20
+        1787044268,
+        18
       ],
       "peak24h": [
         1786975563,
         49
       ],
       "peak48h": [
-        1786871464,
+        1786975563,
         49
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786871464,
-          49
-        ],
         [
           1786871763,
           41
@@ -2280,6 +2276,10 @@
         [
           1787043976,
           20
+        ],
+        [
+          1787044268,
+          18
         ]
       ],
       "hourlyPeak": [
@@ -4965,7 +4965,7 @@
         ],
         [
           1786870800,
-          48
+          49
         ]
       ],
       "dailyPeak": [
@@ -5331,5 +5331,5 @@
     }
   },
   "peak48h": 49,
-  "peak48hAt": "2026-08-16T09:11:04.000Z"
+  "peak48hAt": "2026-08-17T14:06:03.000Z"
 }
