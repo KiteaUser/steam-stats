@@ -3,16 +3,16 @@
   "appid": "3041230",
   "steamAppid": 3041230,
   "name": "Windrose",
-  "players": 5906,
+  "players": 5700,
   "allTimePeak": 211121,
-  "peak24h": 6266,
-  "peak24hAt": "2026-08-17T20:11:06.000Z",
-  "updatedAt": "2026-08-18T20:11:06.086Z",
+  "peak24h": 6082,
+  "peak24hAt": "2026-08-18T19:26:13.000Z",
+  "updatedAt": "2026-08-18T20:16:14.617Z",
   "img_url": "2026/04/windrose-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-18T20:11:06.086Z",
-    "updatedAtTs": 1787083866,
+    "updatedAt": "2026-08-18T20:16:14.617Z",
+    "updatedAtTs": 1787084174,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787083866,
-        5906
+        1787084174,
+        5700
       ],
       "peak24h": [
-        1786997466,
-        6266
+        1787081173,
+        6082
       ],
       "peak48h": [
-        1786911363,
-        7912
+        1786911674,
+        7753
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1786911068,
-          7836
-        ],
-        [
-          1786911363,
-          7912
-        ],
         [
           1786911674,
           7753
@@ -2292,6 +2284,10 @@
         [
           1787083866,
           5906
+        ],
+        [
+          1787084174,
+          5700
         ]
       ],
       "hourlyPeak": [
@@ -5310,6 +5306,6 @@
       ]
     }
   },
-  "peak48h": 7912,
-  "peak48hAt": "2026-08-16T20:16:03.000Z"
+  "peak48h": 7753,
+  "peak48hAt": "2026-08-16T20:21:14.000Z"
 }
