@@ -3,16 +3,16 @@
   "appid": "408900",
   "steamAppid": 408900,
   "name": "Unfortunate Spacemen",
-  "players": 13,
+  "players": 20,
   "allTimePeak": 11823,
-  "peak24h": 19,
-  "peak24hAt": "2026-08-19T03:23:05.000Z",
-  "updatedAt": "2026-08-19T21:36:05.918Z",
+  "peak24h": 20,
+  "peak24hAt": "2026-08-19T21:41:43.000Z",
+  "updatedAt": "2026-08-19T21:41:43.822Z",
   "img_url": "2025/02/unfortunate-spacemen-tag-cover.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-19T21:36:05.918Z",
-    "updatedAtTs": 1787175365,
+    "updatedAt": "2026-08-19T21:41:43.822Z",
+    "updatedAtTs": 1787175703,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787175365,
-        13
+        1787175703,
+        20
       ],
       "peak24h": [
-        1787109785,
-        19
+        1787175703,
+        20
       ],
       "peak48h": [
-        1787049368,
-        19
+        1787175703,
+        20
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787002574,
-          6
-        ],
-        [
-          1787002880,
-          4
-        ],
         [
           1787003160,
           4
@@ -2272,6 +2264,10 @@
         [
           1787175365,
           13
+        ],
+        [
+          1787175703,
+          20
         ]
       ],
       "hourlyPeak": [
@@ -5758,6 +5754,6 @@
       ]
     }
   },
-  "peak48h": 19,
-  "peak48hAt": "2026-08-18T10:36:08.000Z"
+  "peak48h": 20,
+  "peak48hAt": "2026-08-19T21:41:43.000Z"
 }
