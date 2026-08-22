@@ -3,16 +3,16 @@
   "appid": "240760",
   "steamAppid": 240760,
   "name": "Wasteland 2",
-  "players": 10,
+  "players": 11,
   "allTimePeak": 18856,
   "peak24h": 12,
   "peak24hAt": "2026-08-21T19:16:20.000Z",
-  "updatedAt": "2026-08-22T18:21:11.833Z",
+  "updatedAt": "2026-08-22T18:26:05.135Z",
   "img_url": "2025/04/wasteland-2-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-22T18:21:11.833Z",
-    "updatedAtTs": 1787422871,
+    "updatedAt": "2026-08-22T18:26:05.135Z",
+    "updatedAtTs": 1787423165,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1787422871,
-        10
+        1787423165,
+        11
       ],
       "peak24h": [
         1787339780,
         12
       ],
       "peak48h": [
-        1787250086,
+        1787339780,
         12
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787250086,
-          12
-        ],
         [
           1787250376,
           10
@@ -2348,6 +2344,10 @@
         [
           1787422871,
           10
+        ],
+        [
+          1787423165,
+          11
         ]
       ],
       "hourlyPeak": [
@@ -5975,5 +5975,5 @@
     }
   },
   "peak48h": 12,
-  "peak48hAt": "2026-08-20T18:21:26.000Z"
+  "peak48hAt": "2026-08-21T19:16:20.000Z"
 }
