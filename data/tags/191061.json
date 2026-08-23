@@ -3,16 +3,16 @@
   "appid": "453480",
   "steamAppid": 453480,
   "name": "Shadowverse",
-  "players": 2,
+  "players": 3,
   "allTimePeak": 24167,
   "peak24h": 6,
   "peak24hAt": "2026-08-22T13:16:06.000Z",
-  "updatedAt": "2026-08-23T12:25:54.547Z",
+  "updatedAt": "2026-08-23T12:31:17.892Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-08-26-am-6014.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-23T12:25:54.547Z",
-    "updatedAtTs": 1787487954,
+    "updatedAt": "2026-08-23T12:31:17.892Z",
+    "updatedAtTs": 1787488277,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787487954,
-        2
+        1787488277,
+        3
       ],
       "peak24h": [
         1787404566,
         6
       ],
       "peak48h": [
-        1787315170,
-        9
+        1787319972,
+        7
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787315170,
-          9
-        ],
         [
           1787315491,
           6
@@ -2344,6 +2340,10 @@
         [
           1787487954,
           2
+        ],
+        [
+          1787488277,
+          3
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5029,7 @@
         ],
         [
           1787313600,
-          5
+          9
         ]
       ],
       "dailyPeak": [
@@ -5838,6 +5838,6 @@
       ]
     }
   },
-  "peak48h": 9,
-  "peak48hAt": "2026-08-21T12:26:10.000Z"
+  "peak48h": 7,
+  "peak48hAt": "2026-08-21T13:46:12.000Z"
 }
