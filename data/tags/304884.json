@@ -3,16 +3,16 @@
   "appid": "626690",
   "steamAppid": 626690,
   "name": "Sword Art Online: Fatal Bullet",
-  "players": 82,
+  "players": 80,
   "allTimePeak": 21727,
   "peak24h": 101,
   "peak24hAt": "2026-08-23T16:31:12.000Z",
-  "updatedAt": "2026-08-24T16:18:23.575Z",
+  "updatedAt": "2026-08-24T16:22:12.566Z",
   "img_url": "2025/01/fatal-bullet.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-24T16:18:23.575Z",
-    "updatedAtTs": 1787588303,
+    "updatedAt": "2026-08-24T16:22:12.566Z",
+    "updatedAtTs": 1787588532,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787588303,
-        82
+        1787588532,
+        80
       ],
       "peak24h": [
         1787502672,
         101
       ],
       "peak48h": [
-        1787415681,
-        109
+        1787416554,
+        104
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787415681,
-          109
-        ],
         [
           1787415958,
           100
@@ -2336,6 +2332,10 @@
         [
           1787588303,
           82
+        ],
+        [
+          1787588532,
+          80
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5021,7 @@
         ],
         [
           1787414400,
-          101
+          109
         ]
       ],
       "dailyPeak": [
@@ -5774,6 +5774,6 @@
       ]
     }
   },
-  "peak48h": 109,
-  "peak48hAt": "2026-08-22T16:21:21.000Z"
+  "peak48h": 104,
+  "peak48hAt": "2026-08-22T16:35:54.000Z"
 }
