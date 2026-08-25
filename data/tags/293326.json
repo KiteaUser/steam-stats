@@ -3,16 +3,16 @@
   "appid": "1284190",
   "steamAppid": 1284190,
   "name": "The Planet Crafter",
-  "players": 3871,
+  "players": 3850,
   "allTimePeak": 28416,
-  "peak24h": 4211,
-  "peak24hAt": "2026-08-24T20:02:06.000Z",
-  "updatedAt": "2026-08-25T20:01:40.035Z",
+  "peak24h": 4088,
+  "peak24hAt": "2026-08-24T20:13:19.000Z",
+  "updatedAt": "2026-08-25T20:07:55.072Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-02-49-am-9606.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-25T20:01:40.035Z",
-    "updatedAtTs": 1787688100,
+    "updatedAt": "2026-08-25T20:07:55.072Z",
+    "updatedAtTs": 1787688475,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787688100,
-        3871
+        1787688475,
+        3850
       ],
       "peak24h": [
-        1787601726,
-        4211
+        1787602399,
+        4088
       ],
       "peak48h": [
-        1787515560,
-        5340
+        1787515866,
+        5289
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787515560,
-          5340
-        ],
         [
           1787515866,
           5289
@@ -2336,6 +2332,10 @@
         [
           1787688100,
           3871
+        ],
+        [
+          1787688475,
+          3850
         ]
       ],
       "hourlyPeak": [
@@ -5578,6 +5578,6 @@
       ]
     }
   },
-  "peak48h": 5340,
-  "peak48hAt": "2026-08-23T20:06:00.000Z"
+  "peak48h": 5289,
+  "peak48hAt": "2026-08-23T20:11:06.000Z"
 }
