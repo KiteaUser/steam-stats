@@ -3,16 +3,16 @@
   "appid": "2073620",
   "steamAppid": 2073620,
   "name": "Arena Breakout: Infinite",
-  "players": 32061,
+  "players": 31816,
   "allTimePeak": 66007,
-  "peak24h": 32895,
-  "peak24hAt": "2026-08-24T19:31:29.000Z",
-  "updatedAt": "2026-08-25T19:31:25.595Z",
+  "peak24h": 32810,
+  "peak24hAt": "2026-08-24T19:38:01.000Z",
+  "updatedAt": "2026-08-25T19:35:56.942Z",
   "img_url": "2024/11/mixcollage-20-nov-2024-02-10-am-3342.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-25T19:31:25.595Z",
-    "updatedAtTs": 1787686285,
+    "updatedAt": "2026-08-25T19:35:56.942Z",
+    "updatedAtTs": 1787686556,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1787686285,
-        32061
+        1787686556,
+        31816
       ],
       "peak24h": [
-        1787599889,
-        32895
+        1787600281,
+        32810
       ],
       "peak48h": [
-        1787513501,
+        1787513760,
         35895
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787513501,
-          35895
-        ],
         [
           1787513760,
           35895
@@ -2340,6 +2336,10 @@
         [
           1787686285,
           32061
+        ],
+        [
+          1787686556,
+          31816
         ]
       ],
       "hourlyPeak": [
@@ -5415,5 +5415,5 @@
     }
   },
   "peak48h": 35895,
-  "peak48hAt": "2026-08-23T19:31:41.000Z"
+  "peak48hAt": "2026-08-23T19:36:00.000Z"
 }
