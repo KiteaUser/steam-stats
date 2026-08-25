@@ -3,16 +3,16 @@
   "appid": "67370",
   "steamAppid": 67370,
   "name": "The Darkness II",
-  "players": 44,
+  "players": 43,
   "allTimePeak": 12593,
   "peak24h": 52,
   "peak24hAt": "2026-08-24T21:06:52.000Z",
-  "updatedAt": "2026-08-25T20:25:57.438Z",
+  "updatedAt": "2026-08-25T20:31:26.505Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-12-13-am-7939.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-25T20:25:57.438Z",
-    "updatedAtTs": 1787689557,
+    "updatedAt": "2026-08-25T20:31:26.505Z",
+    "updatedAtTs": 1787689886,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1787689557,
-        44
+        1787689886,
+        43
       ],
       "peak24h": [
         1787605612,
         52
       ],
       "peak48h": [
-        1787517073,
+        1787517371,
         63
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787516766,
-          60
-        ],
-        [
-          1787517073,
-          63
-        ],
         [
           1787517371,
           63
@@ -2340,6 +2332,10 @@
         [
           1787689557,
           44
+        ],
+        [
+          1787689886,
+          43
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5021,7 @@
         ],
         [
           1787515200,
-          60
+          63
         ]
       ],
       "dailyPeak": [
@@ -6047,5 +6043,5 @@
     }
   },
   "peak48h": 63,
-  "peak48hAt": "2026-08-23T20:31:13.000Z"
+  "peak48hAt": "2026-08-23T20:36:11.000Z"
 }
