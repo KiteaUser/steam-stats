@@ -3,16 +3,16 @@
   "appid": "2742830",
   "steamAppid": 2742830,
   "name": "Monster Train 2",
-  "players": 1001,
+  "players": 997,
   "allTimePeak": 18503,
   "peak24h": 1038,
   "peak24hAt": "2026-08-25T14:08:18.000Z",
-  "updatedAt": "2026-08-25T15:01:36.437Z",
+  "updatedAt": "2026-08-25T15:07:02.377Z",
   "img_url": "2025/04/monster-train-2-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-25T15:01:36.437Z",
-    "updatedAtTs": 1787670096,
+    "updatedAt": "2026-08-25T15:07:02.377Z",
+    "updatedAtTs": 1787670422,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787670096,
-        1001
+        1787670422,
+        997
       ],
       "peak24h": [
         1787666898,
         1038
       ],
       "peak48h": [
-        1787497562,
-        1150
+        1787497874,
+        1112
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787497562,
-          1150
-        ],
         [
           1787497874,
           1112
@@ -2336,6 +2332,10 @@
         [
           1787670096,
           1001
+        ],
+        [
+          1787670422,
+          997
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5021,7 @@
         ],
         [
           1787497200,
-          1129
+          1150
         ]
       ],
       "dailyPeak": [
@@ -5426,6 +5426,6 @@
       ]
     }
   },
-  "peak48h": 1150,
-  "peak48hAt": "2026-08-23T15:06:02.000Z"
+  "peak48h": 1112,
+  "peak48hAt": "2026-08-23T15:11:14.000Z"
 }
