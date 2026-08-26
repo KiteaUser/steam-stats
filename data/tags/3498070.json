@@ -3,16 +3,16 @@
   "appid": "2584270",
   "steamAppid": 2584270,
   "name": "Mortal Shell II",
-  "players": 16494,
+  "players": 17126,
   "allTimePeak": 33111,
   "peak24h": 29237,
   "peak24hAt": "2026-08-25T16:51:06.000Z",
-  "updatedAt": "2026-08-26T11:06:05.636Z",
+  "updatedAt": "2026-08-26T11:11:22.905Z",
   "img_url": "2026/08/mortal-shell-ii-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-26T11:06:05.636Z",
-    "updatedAtTs": 1787742365,
+    "updatedAt": "2026-08-26T11:11:22.905Z",
+    "updatedAtTs": 1787742682,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1787742365,
-        16494
+        1787742682,
+        17126
       ],
       "peak24h": [
         1787676666,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787569604,
-          20919
-        ],
-        [
-          1787569882,
-          20919
-        ],
         [
           1787570163,
           21339
@@ -2336,9 +2328,18 @@
         [
           1787742365,
           16494
+        ],
+        [
+          1787742682,
+          17126
         ]
       ],
-      "hourlyPeak": [],
+      "hourlyPeak": [
+        [
+          1787569200,
+          20919
+        ]
+      ],
       "dailyPeak": [],
       "monthlyPeak": []
     }
