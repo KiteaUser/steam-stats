@@ -3,16 +3,16 @@
   "appid": "1337520",
   "steamAppid": 1337520,
   "name": "Risk of Rain Returns",
-  "players": 209,
+  "players": 195,
   "allTimePeak": 45141,
   "peak24h": 223,
   "peak24hAt": "2026-08-26T02:01:31.000Z",
-  "updatedAt": "2026-08-26T19:45:59.473Z",
+  "updatedAt": "2026-08-26T19:51:13.256Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-03-04-am-9126.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-26T19:45:59.473Z",
-    "updatedAtTs": 1787773559,
+    "updatedAt": "2026-08-26T19:51:13.256Z",
+    "updatedAtTs": 1787773873,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787773559,
-        209
+        1787773873,
+        195
       ],
       "peak24h": [
         1787709691,
         223
       ],
       "peak48h": [
-        1787600823,
-        227
+        1787709691,
+        223
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787600823,
-          227
-        ],
         [
           1787601074,
           214
@@ -2304,6 +2300,10 @@
         [
           1787773559,
           209
+        ],
+        [
+          1787773873,
+          195
         ]
       ],
       "hourlyPeak": [
@@ -5470,6 +5470,6 @@
       ]
     }
   },
-  "peak48h": 227,
-  "peak48hAt": "2026-08-24T19:47:03.000Z"
+  "peak48h": 223,
+  "peak48hAt": "2026-08-26T02:01:31.000Z"
 }
