@@ -3,16 +3,16 @@
   "appid": "1966720",
   "steamAppid": 1966720,
   "name": "Lethal Company",
-  "players": 3209,
+  "players": 3132,
   "allTimePeak": 240817,
   "peak24h": 3983,
   "peak24hAt": "2026-08-25T19:45:54.000Z",
-  "updatedAt": "2026-08-26T02:31:27.367Z",
+  "updatedAt": "2026-08-26T02:36:06.636Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-07-40-pm-5934.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-26T02:31:27.367Z",
-    "updatedAtTs": 1787711487,
+    "updatedAt": "2026-08-26T02:36:06.636Z",
+    "updatedAtTs": 1787711766,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787711487,
-        3209
+        1787711766,
+        3132
       ],
       "peak24h": [
         1787687154,
         3983
       ],
       "peak48h": [
-        1787538964,
-        3991
+        1787687154,
+        3983
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787538964,
-          3991
-        ],
         [
           1787539270,
           3942
@@ -2328,6 +2324,10 @@
         [
           1787711487,
           3209
+        ],
+        [
+          1787711766,
+          3132
         ]
       ],
       "hourlyPeak": [
@@ -5498,6 +5498,6 @@
       ]
     }
   },
-  "peak48h": 3991,
-  "peak48hAt": "2026-08-24T02:36:04.000Z"
+  "peak48h": 3983,
+  "peak48hAt": "2026-08-25T19:45:54.000Z"
 }
