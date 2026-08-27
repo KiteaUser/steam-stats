@@ -3,16 +3,16 @@
   "appid": "247730",
   "steamAppid": 247730,
   "name": "Nether",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 10930,
   "peak24h": 2,
   "peak24hAt": "2026-08-27T11:11:11.000Z",
-  "updatedAt": "2026-08-27T19:06:09.181Z",
+  "updatedAt": "2026-08-27T19:11:17.370Z",
   "img_url": "2025/07/nether.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-27T19:06:09.181Z",
-    "updatedAtTs": 1787857569,
+    "updatedAt": "2026-08-27T19:11:17.370Z",
+    "updatedAtTs": 1787857877,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1787857569,
-        1
+        1787857877,
+        2
       ],
       "peak24h": [
         1787829071,
@@ -888,6 +888,10 @@
         [
           1787857569,
           1
+        ],
+        [
+          1787857877,
+          2
         ]
       ],
       "hourlyPeak": [
