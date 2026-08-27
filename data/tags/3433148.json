@@ -3,16 +3,16 @@
   "appid": "3117820",
   "steamAppid": 3117820,
   "name": "Sultan's Game",
-  "players": 2992,
+  "players": 2948,
   "allTimePeak": 46106,
   "peak24h": 3004,
   "peak24hAt": "2026-08-27T14:26:06.000Z",
-  "updatedAt": "2026-08-27T14:36:06.284Z",
+  "updatedAt": "2026-08-27T14:41:20.875Z",
   "img_url": "2025/03/sultan-s-game-tag-image.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-27T14:36:06.284Z",
-    "updatedAtTs": 1787841366,
+    "updatedAt": "2026-08-27T14:41:20.875Z",
+    "updatedAtTs": 1787841680,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1787841366,
-        2992
+        1787841680,
+        2948
       ],
       "peak24h": [
         1787840766,
         3004
       ],
       "peak48h": [
-        1787668880,
+        1787669175,
         3076
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787668880,
-          3076
-        ],
         [
           1787669175,
           3076
@@ -2304,6 +2300,10 @@
         [
           1787841366,
           2992
+        ],
+        [
+          1787841680,
+          2948
         ]
       ],
       "hourlyPeak": [
@@ -5411,5 +5411,5 @@
     }
   },
   "peak48h": 3076,
-  "peak48hAt": "2026-08-25T14:41:20.000Z"
+  "peak48hAt": "2026-08-25T14:46:15.000Z"
 }
