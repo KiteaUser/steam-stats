@@ -3,16 +3,16 @@
   "appid": "466240",
   "steamAppid": 466240,
   "name": "Deceit",
-  "players": 11,
+  "players": 20,
   "allTimePeak": 16923,
   "peak24h": 42,
   "peak24hAt": "2026-08-27T21:31:10.000Z",
-  "updatedAt": "2026-08-28T20:51:11.089Z",
+  "updatedAt": "2026-08-28T20:56:05.020Z",
   "img_url": "2025/02/mixcollage-24-feb-2025-12-53-am-2211.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-28T20:51:11.089Z",
-    "updatedAtTs": 1787950271,
+    "updatedAt": "2026-08-28T20:56:05.020Z",
+    "updatedAtTs": 1787950565,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1787950271,
-        11
+        1787950565,
+        20
       ],
       "peak24h": [
         1787866270,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787777481,
-          15
-        ],
         [
           1787777865,
           15
@@ -2336,6 +2332,10 @@
         [
           1787950271,
           11
+        ],
+        [
+          1787950565,
+          20
         ]
       ],
       "hourlyPeak": [
