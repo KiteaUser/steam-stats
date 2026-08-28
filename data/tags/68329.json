@@ -3,16 +3,16 @@
   "appid": "333930",
   "steamAppid": 333930,
   "name": "Dirty Bomb",
-  "players": 64,
+  "players": 67,
   "allTimePeak": 13113,
-  "peak24h": 66,
-  "peak24hAt": "2026-08-28T20:31:22.000Z",
-  "updatedAt": "2026-08-28T20:41:28.773Z",
+  "peak24h": 67,
+  "peak24hAt": "2026-08-28T20:46:08.000Z",
+  "updatedAt": "2026-08-28T20:46:08.257Z",
   "img_url": "2025/02/dirty-bomb-tag-cover.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-28T20:41:28.773Z",
-    "updatedAtTs": 1787949688,
+    "updatedAt": "2026-08-28T20:46:08.257Z",
+    "updatedAtTs": 1787949968,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1787949688,
-        64
+        1787949968,
+        67
       ],
       "peak24h": [
-        1787949082,
-        66
+        1787949968,
+        67
       ],
       "peak48h": [
-        1787949082,
-        66
+        1787949968,
+        67
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787776967,
-          38
-        ],
         [
           1787777172,
           38
@@ -2336,6 +2332,10 @@
         [
           1787949688,
           64
+        ],
+        [
+          1787949968,
+          67
         ]
       ],
       "hourlyPeak": [
@@ -5922,6 +5922,6 @@
       ]
     }
   },
-  "peak48h": 66,
-  "peak48hAt": "2026-08-28T20:31:22.000Z"
+  "peak48h": 67,
+  "peak48hAt": "2026-08-28T20:46:08.000Z"
 }
