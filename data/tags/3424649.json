@@ -3,16 +3,16 @@
   "appid": "3167550",
   "steamAppid": 3167550,
   "name": "Tiny Pasture",
-  "players": 576,
+  "players": 556,
   "allTimePeak": 19732,
   "peak24h": 577,
   "peak24hAt": "2026-08-30T09:16:08.000Z",
-  "updatedAt": "2026-08-30T10:10:57.947Z",
+  "updatedAt": "2026-08-30T10:16:01.005Z",
   "img_url": "2025/02/tiny-pasture-cover-art-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-30T10:10:57.947Z",
-    "updatedAtTs": 1788084657,
+    "updatedAt": "2026-08-30T10:16:01.005Z",
+    "updatedAtTs": 1788084961,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788084657,
-        576
+        1788084961,
+        556
       ],
       "peak24h": [
         1788081368,
         577
       ],
       "peak48h": [
-        1787911867,
+        1787912164,
         578
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787911867,
-          578
-        ],
         [
           1787912164,
           578
@@ -2344,6 +2340,10 @@
         [
           1788084657,
           576
+        ],
+        [
+          1788084961,
+          556
         ]
       ],
       "hourlyPeak": [
@@ -5467,5 +5467,5 @@
     }
   },
   "peak48h": 578,
-  "peak48hAt": "2026-08-28T10:11:07.000Z"
+  "peak48hAt": "2026-08-28T10:16:04.000Z"
 }
