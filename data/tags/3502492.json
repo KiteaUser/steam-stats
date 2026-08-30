@@ -3,16 +3,16 @@
   "appid": "560380",
   "steamAppid": 560380,
   "name": "MapleStory 2",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 42467,
   "peak24h": 2,
-  "peak24hAt": "2026-08-29T20:11:05.000Z",
-  "updatedAt": "2026-08-30T20:11:05.425Z",
+  "peak24hAt": "2026-08-30T18:35:59.000Z",
+  "updatedAt": "2026-08-30T20:16:10.569Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-30T20:11:05.425Z",
-    "updatedAtTs": 1788120665,
+    "updatedAt": "2026-08-30T20:16:10.569Z",
+    "updatedAtTs": 1788120970,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,11 +23,11 @@
     },
     "summary": {
       "current": [
-        1788120665,
-        1
+        1788120970,
+        2
       ],
       "peak24h": [
-        1788034265,
+        1788114959,
         2
       ],
       "peak48h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1787947892,
-          1
-        ],
         [
           1787948178,
           1
@@ -584,6 +580,10 @@
         [
           1788120665,
           1
+        ],
+        [
+          1788120970,
+          2
         ]
       ],
       "hourlyPeak": [
