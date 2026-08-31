@@ -3,16 +3,16 @@
   "appid": "505460",
   "steamAppid": 505460,
   "name": "Foxhole",
-  "players": 3027,
+  "players": 3024,
   "allTimePeak": 17704,
-  "peak24h": 3639,
-  "peak24hAt": "2026-08-30T19:21:27.000Z",
-  "updatedAt": "2026-08-31T19:21:12.370Z",
+  "peak24h": 3608,
+  "peak24hAt": "2026-08-30T19:31:06.000Z",
+  "updatedAt": "2026-08-31T19:26:09.305Z",
   "img_url": "2025/03/foxhole-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-31T19:21:12.370Z",
-    "updatedAtTs": 1788204072,
+    "updatedAt": "2026-08-31T19:26:09.305Z",
+    "updatedAtTs": 1788204369,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788204072,
-        3027
+        1788204369,
+        3024
       ],
       "peak24h": [
-        1788117687,
-        3639
+        1788118266,
+        3608
       ],
       "peak48h": [
-        1788031565,
+        1788032162,
         3689
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788031565,
-          3689
-        ],
         [
           1788031874,
           3668
@@ -2340,6 +2336,10 @@
         [
           1788204072,
           3027
+        ],
+        [
+          1788204369,
+          3024
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5025,7 @@
         ],
         [
           1788030000,
-          3636
+          3689
         ]
       ],
       "dailyPeak": [
@@ -5875,5 +5875,5 @@
     }
   },
   "peak48h": 3689,
-  "peak48hAt": "2026-08-29T19:26:05.000Z"
+  "peak48hAt": "2026-08-29T19:36:02.000Z"
 }
