@@ -3,16 +3,16 @@
   "appid": "48240",
   "steamAppid": 48240,
   "name": "Anno 2070",
-  "players": 76,
+  "players": 73,
   "allTimePeak": 11217,
   "peak24h": 83,
   "peak24hAt": "2026-08-30T19:56:11.000Z",
-  "updatedAt": "2026-08-31T19:26:09.305Z",
+  "updatedAt": "2026-08-31T19:31:30.562Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-12-58-pm-5692.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-08-31T19:26:09.305Z",
-    "updatedAtTs": 1788204369,
+    "updatedAt": "2026-08-31T19:31:30.562Z",
+    "updatedAtTs": 1788204690,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788204369,
-        76
+        1788204690,
+        73
       ],
       "peak24h": [
         1788119771,
         83
       ],
       "peak48h": [
-        1788031874,
-        100
+        1788032162,
+        99
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788031874,
-          100
-        ],
         [
           1788032162,
           99
@@ -2344,6 +2340,10 @@
         [
           1788204369,
           76
+        ],
+        [
+          1788204690,
+          73
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5029,7 @@
         ],
         [
           1788030000,
-          99
+          100
         ]
       ],
       "dailyPeak": [
@@ -6074,6 +6074,6 @@
       ]
     }
   },
-  "peak48h": 100,
-  "peak48hAt": "2026-08-29T19:31:14.000Z"
+  "peak48h": 99,
+  "peak48hAt": "2026-08-29T19:36:02.000Z"
 }
