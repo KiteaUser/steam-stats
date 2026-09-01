@@ -3,16 +3,16 @@
   "appid": "268500",
   "steamAppid": 268500,
   "name": "XCOM 2",
-  "players": 4819,
+  "players": 4753,
   "allTimePeak": 133022,
   "peak24h": 5017,
   "peak24hAt": "2026-09-01T15:46:16.000Z",
-  "updatedAt": "2026-09-01T20:46:27.098Z",
+  "updatedAt": "2026-09-01T20:51:12.640Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-03-24-pm-6210.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01T20:46:27.098Z",
-    "updatedAtTs": 1788295587,
+    "updatedAt": "2026-09-01T20:51:12.640Z",
+    "updatedAtTs": 1788295872,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788295587,
-        4819
+        1788295872,
+        4753
       ],
       "peak24h": [
         1788277576,
         5017
       ],
       "peak48h": [
-        1788123057,
-        5565
+        1788123356,
+        5436
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788123057,
-          5565
-        ],
         [
           1788123356,
           5436
@@ -2320,6 +2316,10 @@
         [
           1788295587,
           4819
+        ],
+        [
+          1788295872,
+          4753
         ]
       ],
       "hourlyPeak": [
@@ -5762,6 +5762,6 @@
       ]
     }
   },
-  "peak48h": 5565,
-  "peak48hAt": "2026-08-30T20:50:57.000Z"
+  "peak48h": 5436,
+  "peak48hAt": "2026-08-30T20:55:56.000Z"
 }
