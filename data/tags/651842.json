@@ -3,16 +3,16 @@
   "appid": "2835570",
   "steamAppid": 2835570,
   "name": "Buckshot Roulette",
-  "players": 2254,
+  "players": 2202,
   "allTimePeak": 20226,
   "peak24h": 3063,
   "peak24hAt": "2026-08-31T14:46:24.000Z",
-  "updatedAt": "2026-09-01T14:41:19.266Z",
+  "updatedAt": "2026-09-01T14:46:02.268Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-10-11-am-7511.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01T14:41:19.266Z",
-    "updatedAtTs": 1788273679,
+    "updatedAt": "2026-09-01T14:46:02.268Z",
+    "updatedAtTs": 1788273962,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788273679,
-        2254
+        1788273962,
+        2202
       ],
       "peak24h": [
         1788187584,
         3063
       ],
       "peak48h": [
-        1788101159,
-        3457
+        1788101484,
+        3419
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788101159,
-          3457
-        ],
         [
           1788101484,
           3419
@@ -2320,6 +2316,10 @@
         [
           1788273679,
           2254
+        ],
+        [
+          1788273962,
+          2202
         ]
       ],
       "hourlyPeak": [
@@ -5370,6 +5370,6 @@
       ]
     }
   },
-  "peak48h": 3457,
-  "peak48hAt": "2026-08-30T14:45:59.000Z"
+  "peak48h": 3419,
+  "peak48hAt": "2026-08-30T14:51:24.000Z"
 }
