@@ -3,16 +3,16 @@
   "appid": "1313140",
   "steamAppid": 1313140,
   "name": "Cult of the Lamb",
-  "players": 3601,
+  "players": 3574,
   "allTimePeak": 61780,
-  "peak24h": 4051,
-  "peak24hAt": "2026-08-31T21:10:58.000Z",
-  "updatedAt": "2026-09-01T21:06:15.612Z",
+  "peak24h": 3979,
+  "peak24hAt": "2026-09-01T18:31:10.000Z",
+  "updatedAt": "2026-09-01T21:11:12.411Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-06-54-pm-5046.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01T21:06:15.612Z",
-    "updatedAtTs": 1788296775,
+    "updatedAt": "2026-09-01T21:11:12.411Z",
+    "updatedAtTs": 1788297072,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788296775,
-        3601
+        1788297072,
+        3574
       ],
       "peak24h": [
-        1788210658,
-        4051
+        1788287470,
+        3979
       ],
       "peak48h": [
-        1788124261,
-        5521
+        1788124567,
+        5396
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788124261,
-          5521
-        ],
         [
           1788124567,
           5396
@@ -2320,6 +2316,10 @@
         [
           1788296775,
           3601
+        ],
+        [
+          1788297072,
+          3574
         ]
       ],
       "hourlyPeak": [
@@ -5450,6 +5450,6 @@
       ]
     }
   },
-  "peak48h": 5521,
-  "peak48hAt": "2026-08-30T21:11:01.000Z"
+  "peak48h": 5396,
+  "peak48hAt": "2026-08-30T21:16:07.000Z"
 }
