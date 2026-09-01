@@ -3,16 +3,16 @@
   "appid": "1336490",
   "steamAppid": 1336490,
   "name": "Against the Storm",
-  "players": 2104,
+  "players": 2098,
   "allTimePeak": 12832,
   "peak24h": 2341,
   "peak24hAt": "2026-09-01T14:41:19.000Z",
-  "updatedAt": "2026-09-01T16:36:22.118Z",
+  "updatedAt": "2026-09-01T16:42:06.591Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-08-47-am-9612.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01T16:36:22.118Z",
-    "updatedAtTs": 1788280582,
+    "updatedAt": "2026-09-01T16:42:06.591Z",
+    "updatedAtTs": 1788280926,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788280582,
-        2104
+        1788280926,
+        2098
       ],
       "peak24h": [
         1788273679,
         2341
       ],
       "peak48h": [
-        1788108065,
-        2785
+        1788108380,
+        2779
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788108065,
-          2785
-        ],
         [
           1788108380,
           2779
@@ -2320,6 +2316,10 @@
         [
           1788280582,
           2104
+        ],
+        [
+          1788280926,
+          2098
         ]
       ],
       "hourlyPeak": [
@@ -5438,6 +5438,6 @@
       ]
     }
   },
-  "peak48h": 2785,
-  "peak48hAt": "2026-08-30T16:41:05.000Z"
+  "peak48h": 2779,
+  "peak48hAt": "2026-08-30T16:46:20.000Z"
 }
