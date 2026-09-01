@@ -3,16 +3,16 @@
   "appid": "308040",
   "steamAppid": 308040,
   "name": "Back to Bed",
-  "players": 4,
+  "players": 7,
   "allTimePeak": 30771,
   "peak24h": 7,
   "peak24hAt": "2026-09-01T22:06:25.000Z",
-  "updatedAt": "2026-09-01T22:16:09.721Z",
+  "updatedAt": "2026-09-01T22:21:18.937Z",
   "img_url": "2024/11/mixcollage-21-nov-2024-02-43-am-9267.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01T22:16:09.721Z",
-    "updatedAtTs": 1788300969,
+    "updatedAt": "2026-09-01T22:21:18.937Z",
+    "updatedAtTs": 1788301278,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788300969,
-        4
+        1788301278,
+        7
       ],
       "peak24h": [
         1788300385,
         7
       ],
       "peak48h": [
-        1788128469,
+        1788128767,
         7
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788128469,
-          7
-        ],
         [
           1788128767,
           7
@@ -2320,6 +2316,10 @@
         [
           1788300969,
           4
+        ],
+        [
+          1788301278,
+          7
         ]
       ],
       "hourlyPeak": [
@@ -5839,5 +5839,5 @@
     }
   },
   "peak48h": 7,
-  "peak48hAt": "2026-08-30T22:21:09.000Z"
+  "peak48hAt": "2026-08-30T22:26:07.000Z"
 }
