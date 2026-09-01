@@ -3,16 +3,16 @@
   "appid": "858820",
   "steamAppid": 858820,
   "name": "Tribes of Midgard",
-  "players": 160,
+  "players": 169,
   "allTimePeak": 30930,
-  "peak24h": 160,
-  "peak24hAt": "2026-09-01T12:51:19.000Z",
-  "updatedAt": "2026-09-01T12:51:19.652Z",
+  "peak24h": 169,
+  "peak24hAt": "2026-09-01T12:56:11.000Z",
+  "updatedAt": "2026-09-01T12:56:11.539Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-03-20-am-6647.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-01T12:51:19.652Z",
-    "updatedAtTs": 1788267079,
+    "updatedAt": "2026-09-01T12:56:11.539Z",
+    "updatedAtTs": 1788267371,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788267079,
-        160
+        1788267371,
+        169
       ],
       "peak24h": [
-        1788267079,
-        160
+        1788267371,
+        169
       ],
       "peak48h": [
-        1788121319,
-        168
+        1788267371,
+        169
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788094556,
-          109
-        ],
         [
           1788094884,
           110
@@ -2320,6 +2316,10 @@
         [
           1788267079,
           160
+        ],
+        [
+          1788267371,
+          169
         ]
       ],
       "hourlyPeak": [
@@ -5005,7 +5005,7 @@
         ],
         [
           1788091200,
-          103
+          109
         ]
       ],
       "dailyPeak": [
@@ -5502,6 +5502,6 @@
       ]
     }
   },
-  "peak48h": 168,
-  "peak48hAt": "2026-08-30T20:21:59.000Z"
+  "peak48h": 169,
+  "peak48hAt": "2026-09-01T12:56:11.000Z"
 }
