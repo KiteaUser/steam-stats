@@ -3,16 +3,16 @@
   "appid": "236870",
   "steamAppid": 236870,
   "name": "HITMAN",
-  "players": 64,
+  "players": 60,
   "allTimePeak": 51689,
   "peak24h": 73,
   "peak24hAt": "2026-09-02T19:06:20.000Z",
-  "updatedAt": "2026-09-02T19:51:43.569Z",
+  "updatedAt": "2026-09-02T19:56:17.725Z",
   "img_url": "2024/12/mixcollage-23-dec-2024-10-09-pm-8518.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-02T19:51:43.569Z",
-    "updatedAtTs": 1788378703,
+    "updatedAt": "2026-09-02T19:56:17.725Z",
+    "updatedAtTs": 1788378977,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1788378703,
-        64
+        1788378977,
+        60
       ],
       "peak24h": [
         1788375980,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788206175,
-          70
-        ],
         [
           1788206475,
           70
@@ -2316,6 +2312,10 @@
         [
           1788378703,
           64
+        ],
+        [
+          1788378977,
+          60
         ]
       ],
       "hourlyPeak": [
