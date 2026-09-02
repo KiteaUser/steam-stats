@@ -3,16 +3,16 @@
   "appid": "34000",
   "steamAppid": 34000,
   "name": "Football Manager 2010",
-  "players": 98,
+  "players": 99,
   "allTimePeak": 24343,
   "peak24h": 108,
   "peak24hAt": "2026-09-01T20:01:28.000Z",
-  "updatedAt": "2026-09-02T19:46:05.744Z",
+  "updatedAt": "2026-09-02T19:51:43.569Z",
   "img_url": "2024/12/mixcollage-30-dec-2024-09-26-am-3083.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-02T19:46:05.744Z",
-    "updatedAtTs": 1788378365,
+    "updatedAt": "2026-09-02T19:51:43.569Z",
+    "updatedAtTs": 1788378703,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788378365,
-        98
+        1788378703,
+        99
       ],
       "peak24h": [
         1788292888,
         108
       ],
       "peak48h": [
-        1788205576,
-        110
+        1788292888,
+        108
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788205576,
-          110
-        ],
-        [
-          1788205862,
-          110
-        ],
         [
           1788206175,
           106
@@ -2320,6 +2312,10 @@
         [
           1788378365,
           98
+        ],
+        [
+          1788378703,
+          99
         ]
       ],
       "hourlyPeak": [
@@ -5005,7 +5001,7 @@
         ],
         [
           1788202800,
-          105
+          110
         ]
       ],
       "dailyPeak": [
@@ -5938,6 +5934,6 @@
       ]
     }
   },
-  "peak48h": 110,
-  "peak48hAt": "2026-08-31T19:46:16.000Z"
+  "peak48h": 108,
+  "peak48hAt": "2026-09-01T20:01:28.000Z"
 }
