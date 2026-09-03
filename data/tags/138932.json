@@ -3,16 +3,16 @@
   "appid": "719040",
   "steamAppid": 719040,
   "name": "Wasteland 3",
-  "players": 308,
+  "players": 305,
   "allTimePeak": 24555,
   "peak24h": 333,
   "peak24hAt": "2026-09-03T19:42:06.000Z",
-  "updatedAt": "2026-09-03T20:41:11.931Z",
+  "updatedAt": "2026-09-03T20:47:40.036Z",
   "img_url": "2024/12/mixcollage-12-dec-2024-11-54-pm-8506.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-03T20:41:11.931Z",
-    "updatedAtTs": 1788468071,
+    "updatedAt": "2026-09-03T20:47:40.036Z",
+    "updatedAtTs": 1788468460,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788468071,
-        308
+        1788468460,
+        305
       ],
       "peak24h": [
         1788464526,
         333
       ],
       "peak48h": [
-        1788295284,
-        347
+        1788464526,
+        333
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788295284,
-          347
-        ],
-        [
-          1788295587,
-          347
-        ],
         [
           1788295872,
           326
@@ -2344,6 +2336,10 @@
         [
           1788468071,
           308
+        ],
+        [
+          1788468460,
+          305
         ]
       ],
       "hourlyPeak": [
@@ -5578,6 +5574,6 @@
       ]
     }
   },
-  "peak48h": 347,
-  "peak48hAt": "2026-09-01T20:41:24.000Z"
+  "peak48h": 333,
+  "peak48hAt": "2026-09-03T19:42:06.000Z"
 }
