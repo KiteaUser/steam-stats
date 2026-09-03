@@ -3,16 +3,16 @@
   "appid": "57900",
   "steamAppid": 57900,
   "name": "Duke Nukem Forever",
-  "players": 29,
+  "players": 28,
   "allTimePeak": 13321,
   "peak24h": 37,
   "peak24hAt": "2026-09-03T14:46:17.000Z",
-  "updatedAt": "2026-09-03T19:51:08.464Z",
+  "updatedAt": "2026-09-03T19:56:56.132Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-08-20-pm-3198.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-03T19:51:08.464Z",
-    "updatedAtTs": 1788465068,
+    "updatedAt": "2026-09-03T19:56:56.132Z",
+    "updatedAtTs": 1788465416,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788465068,
-        29
+        1788465416,
+        28
       ],
       "peak24h": [
         1788446777,
         37
       ],
       "peak48h": [
-        1788292362,
+        1788446777,
         37
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788292362,
-          37
-        ],
-        [
-          1788292568,
-          31
-        ],
         [
           1788292888,
           31
@@ -2344,6 +2336,10 @@
         [
           1788465068,
           29
+        ],
+        [
+          1788465416,
+          28
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5025,7 @@
         ],
         [
           1788289200,
-          35
+          37
         ]
       ],
       "dailyPeak": [
@@ -5967,5 +5963,5 @@
     }
   },
   "peak48h": 37,
-  "peak48hAt": "2026-09-01T19:52:42.000Z"
+  "peak48hAt": "2026-09-03T14:46:17.000Z"
 }
