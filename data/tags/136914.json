@@ -6,13 +6,13 @@
   "players": 1,
   "allTimePeak": 11536,
   "peak24h": 1,
-  "peak24hAt": "2026-08-29T21:41:01.000Z",
-  "updatedAt": "2026-09-03T06:11:04.006Z",
+  "peak24hAt": "2026-09-03T06:16:04.000Z",
+  "updatedAt": "2026-09-03T06:16:04.458Z",
   "img_url": "2022/10/HoodOutlawsLegendsTagPage.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-03T06:11:04.006Z",
-    "updatedAtTs": 1788415864,
+    "updatedAt": "2026-09-03T06:16:04.458Z",
+    "updatedAtTs": 1788416164,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,18 +23,29 @@
     },
     "summary": {
       "current": [
-        1788415864,
+        1788416164,
         1
       ],
-      "peak24h": null,
-      "peak48h": null,
+      "peak24h": [
+        1788416164,
+        1
+      ],
+      "peak48h": [
+        1788416164,
+        1
+      ],
       "allTimePeak": [
         null,
         11536
       ]
     },
     "series": {
-      "raw5m": [],
+      "raw5m": [
+        [
+          1788416164,
+          1
+        ]
+      ],
       "hourlyPeak": [
         [
           1785852000,
@@ -638,5 +649,7 @@
         ]
       ]
     }
-  }
+  },
+  "peak48h": 1,
+  "peak48hAt": "2026-09-03T06:16:04.000Z"
 }
