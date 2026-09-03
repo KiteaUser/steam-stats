@@ -5,14 +5,14 @@
   "name": "RAGE",
   "players": 64,
   "allTimePeak": 18059,
-  "peak24h": 83,
-  "peak24hAt": "2026-09-02T16:37:00.000Z",
-  "updatedAt": "2026-09-03T16:33:31.016Z",
+  "peak24h": 81,
+  "peak24hAt": "2026-09-02T16:41:25.000Z",
+  "updatedAt": "2026-09-03T16:38:22.374Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-07-05-am-5906.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-03T16:33:31.016Z",
-    "updatedAtTs": 1788453211,
+    "updatedAt": "2026-09-03T16:38:22.374Z",
+    "updatedAtTs": 1788453502,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1788453211,
+        1788453502,
         64
       ],
       "peak24h": [
-        1788367020,
-        83
+        1788367285,
+        81
       ],
       "peak48h": [
         1788365892,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788280582,
-          60
-        ],
         [
           1788280926,
           61
@@ -2339,6 +2335,10 @@
         ],
         [
           1788453211,
+          64
+        ],
+        [
+          1788453502,
           64
         ]
       ],
