@@ -3,16 +3,16 @@
   "appid": "239140",
   "steamAppid": 239140,
   "name": "Dying Light",
-  "players": 4710,
+  "players": 4684,
   "allTimePeak": 45876,
   "peak24h": 4747,
   "peak24hAt": "2026-09-03T13:51:43.000Z",
-  "updatedAt": "2026-09-03T14:51:30.060Z",
+  "updatedAt": "2026-09-03T14:56:18.792Z",
   "img_url": "2024/11/mixcollage-25-nov-2024-12-22-pm-8173.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-03T14:51:30.060Z",
-    "updatedAtTs": 1788447090,
+    "updatedAt": "2026-09-03T14:56:18.792Z",
+    "updatedAtTs": 1788447378,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788447090,
-        4710
+        1788447378,
+        4684
       ],
       "peak24h": [
         1788443503,
         4747
       ],
       "peak48h": [
-        1788274567,
-        5024
+        1788274901,
+        4986
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788274323,
-          4986
-        ],
-        [
-          1788274567,
-          5024
-        ],
         [
           1788274901,
           4986
@@ -2348,6 +2340,10 @@
         [
           1788447090,
           4710
+        ],
+        [
+          1788447378,
+          4684
         ]
       ],
       "hourlyPeak": [
@@ -5850,6 +5846,6 @@
       ]
     }
   },
-  "peak48h": 5024,
-  "peak48hAt": "2026-09-01T14:56:07.000Z"
+  "peak48h": 4986,
+  "peak48hAt": "2026-09-01T15:01:41.000Z"
 }
