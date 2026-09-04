@@ -3,16 +3,16 @@
   "appid": "2381590",
   "steamAppid": 2381590,
   "name": "Only Up",
-  "players": 6,
+  "players": 12,
   "allTimePeak": 11239,
   "peak24h": 21,
   "peak24hAt": "2026-09-03T14:46:17.000Z",
-  "updatedAt": "2026-09-04T02:19:37.081Z",
+  "updatedAt": "2026-09-04T02:24:20.620Z",
   "img_url": "2025/01/mixcollage-19-jan-2025-12-09-pm-2429.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-04T02:19:37.081Z",
-    "updatedAtTs": 1788488377,
+    "updatedAt": "2026-09-04T02:24:20.620Z",
+    "updatedAtTs": 1788488660,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1788488377,
-        6
+        1788488660,
+        12
       ],
       "peak24h": [
         1788446777,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788315667,
-          17
-        ],
         [
           1788315949,
           17
@@ -2276,6 +2272,10 @@
         [
           1788488377,
           6
+        ],
+        [
+          1788488660,
+          12
         ]
       ],
       "hourlyPeak": [
@@ -4961,7 +4961,7 @@
         ],
         [
           1788314400,
-          15
+          17
         ]
       ],
       "dailyPeak": [
