@@ -7,12 +7,12 @@
   "allTimePeak": 373887,
   "peak24h": 103839,
   "peak24hAt": "2026-09-04T14:46:49.000Z",
-  "updatedAt": "2026-09-04T15:21:06.447Z",
+  "updatedAt": "2026-09-04T15:26:05.350Z",
   "img_url": "2026/08/how-to-fish-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-04T15:21:06.447Z",
-    "updatedAtTs": 1788535266,
+    "updatedAt": "2026-09-04T15:26:05.350Z",
+    "updatedAtTs": 1788535565,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1788535266,
+        1788535565,
         99479
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         103839
       ],
       "peak48h": [
-        1788362553,
-        120534
+        1788362819,
+        118286
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788362553,
-          120534
-        ],
         [
           1788362819,
           118286
@@ -2068,6 +2064,10 @@
         [
           1788535266,
           99479
+        ],
+        [
+          1788535565,
+          99479
         ]
       ],
       "hourlyPeak": [
@@ -3332,6 +3332,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 120534,
-  "peak48hAt": "2026-09-02T15:22:33.000Z"
+  "peak48h": 118286,
+  "peak48hAt": "2026-09-02T15:26:59.000Z"
 }
