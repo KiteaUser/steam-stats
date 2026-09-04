@@ -3,16 +3,16 @@
   "appid": "471710",
   "steamAppid": 471710,
   "name": "Rec Room",
-  "players": 80,
+  "players": 82,
   "allTimePeak": 17678,
   "peak24h": 93,
   "peak24hAt": "2026-09-04T00:04:18.000Z",
-  "updatedAt": "2026-09-04T01:38:33.438Z",
+  "updatedAt": "2026-09-04T01:44:56.420Z",
   "img_url": "2024/11/mixcollage-25-nov-2024-06-04-pm-7971.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-04T01:38:33.438Z",
-    "updatedAtTs": 1788485913,
+    "updatedAt": "2026-09-04T01:44:56.420Z",
+    "updatedAtTs": 1788486296,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788485913,
-        80
+        1788486296,
+        82
       ],
       "peak24h": [
         1788480258,
         93
       ],
       "peak48h": [
-        1788313277,
+        1788313577,
         126
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788313277,
-          126
-        ],
         [
           1788313577,
           126
@@ -2292,6 +2288,10 @@
         [
           1788485913,
           80
+        ],
+        [
+          1788486296,
+          82
         ]
       ],
       "hourlyPeak": [
@@ -5731,5 +5731,5 @@
     }
   },
   "peak48h": 126,
-  "peak48hAt": "2026-09-02T01:41:17.000Z"
+  "peak48hAt": "2026-09-02T01:46:17.000Z"
 }
