@@ -3,16 +3,16 @@
   "appid": "343710",
   "steamAppid": 343710,
   "name": "KHOLAT",
-  "players": 6,
+  "players": 5,
   "allTimePeak": 275043,
   "peak24h": 8,
   "peak24hAt": "2026-09-05T16:56:03.000Z",
-  "updatedAt": "2026-09-05T22:01:32.995Z",
+  "updatedAt": "2026-09-05T22:06:02.184Z",
   "img_url": "2024/11/mixcollage-23-nov-2024-10-15-am-8326.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-05T22:01:32.995Z",
-    "updatedAtTs": 1788645692,
+    "updatedAt": "2026-09-05T22:06:02.184Z",
+    "updatedAtTs": 1788645962,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788645692,
-        6
+        1788645962,
+        5
       ],
       "peak24h": [
         1788627363,
         8
       ],
       "peak48h": [
-        1788472920,
-        114
+        1788473286,
+        104
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788472920,
-          114
-        ],
         [
           1788473286,
           104
@@ -1800,6 +1796,10 @@
         [
           1788645692,
           6
+        ],
+        [
+          1788645962,
+          5
         ]
       ],
       "hourlyPeak": [
@@ -4382,6 +4382,10 @@
         [
           1788469200,
           129
+        ],
+        [
+          1788472800,
+          114
         ]
       ],
       "dailyPeak": [
@@ -5182,6 +5186,6 @@
       ]
     }
   },
-  "peak48h": 114,
-  "peak48hAt": "2026-09-03T22:02:00.000Z"
+  "peak48h": 104,
+  "peak48hAt": "2026-09-03T22:08:06.000Z"
 }
