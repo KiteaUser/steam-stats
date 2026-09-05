@@ -3,16 +3,16 @@
   "appid": "109600",
   "steamAppid": 109600,
   "name": "Neverwinter",
-  "players": 1102,
+  "players": 1077,
   "allTimePeak": 14866,
   "peak24h": 1102,
   "peak24hAt": "2026-09-05T19:05:57.000Z",
-  "updatedAt": "2026-09-05T19:10:57.811Z",
+  "updatedAt": "2026-09-05T19:16:09.068Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-10-12-am-929.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-05T19:10:57.811Z",
-    "updatedAtTs": 1788635457,
+    "updatedAt": "2026-09-05T19:16:09.068Z",
+    "updatedAtTs": 1788635769,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788635457,
-        1102
+        1788635769,
+        1077
       ],
       "peak24h": [
         1788635157,
         1102
       ],
       "peak48h": [
-        1788462969,
-        1103
+        1788635157,
+        1102
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788462669,
-          1096
-        ],
-        [
-          1788462969,
-          1103
-        ],
         [
           1788463277,
           1093
@@ -2060,6 +2052,10 @@
         [
           1788635457,
           1102
+        ],
+        [
+          1788635769,
+          1077
         ]
       ],
       "hourlyPeak": [
@@ -5626,6 +5622,6 @@
       ]
     }
   },
-  "peak48h": 1103,
-  "peak48hAt": "2026-09-03T19:16:09.000Z"
+  "peak48h": 1102,
+  "peak48hAt": "2026-09-05T19:05:57.000Z"
 }
