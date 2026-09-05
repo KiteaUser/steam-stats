@@ -3,16 +3,16 @@
   "appid": "269710",
   "steamAppid": 269710,
   "name": "Tumblestone",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 13239,
   "peak24h": 5,
   "peak24hAt": "2026-09-04T18:03:04.000Z",
-  "updatedAt": "2026-09-05T08:15:58.641Z",
+  "updatedAt": "2026-09-05T08:21:08.192Z",
   "img_url": "2025/04/mixcollage-08-apr-2025-01-44-pm-1509.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-05T08:15:58.641Z",
-    "updatedAtTs": 1788596158,
+    "updatedAt": "2026-09-05T08:21:08.192Z",
+    "updatedAtTs": 1788596468,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1788596158,
-        1
+        1788596468,
+        2
       ],
       "peak24h": [
         1788544984,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788423374,
-          1
-        ],
         [
           1788423789,
           1
@@ -1504,6 +1500,10 @@
         [
           1788596158,
           1
+        ],
+        [
+          1788596468,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -3861,6 +3861,10 @@
         ],
         [
           1788415200,
+          1
+        ],
+        [
+          1788422400,
           1
         ]
       ],
