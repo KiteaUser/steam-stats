@@ -3,16 +3,16 @@
   "appid": "222880",
   "steamAppid": 222880,
   "name": "Insurgency",
-  "players": 258,
+  "players": 282,
   "allTimePeak": 121575,
-  "peak24h": 262,
-  "peak24hAt": "2026-09-05T16:21:00.000Z",
-  "updatedAt": "2026-09-05T19:40:58.968Z",
+  "peak24h": 282,
+  "peak24hAt": "2026-09-05T19:45:58.000Z",
+  "updatedAt": "2026-09-05T19:45:58.586Z",
   "img_url": "2025/01/mixcollage-05-jan-2025-04-16-am-6534.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-05T19:40:58.968Z",
-    "updatedAtTs": 1788637258,
+    "updatedAt": "2026-09-05T19:45:58.586Z",
+    "updatedAtTs": 1788637558,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788637258,
-        258
+        1788637558,
+        282
       ],
       "peak24h": [
-        1788625260,
-        262
+        1788637558,
+        282
       ],
       "peak48h": [
-        1788625260,
-        262
+        1788637558,
+        282
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788464526,
-          204
-        ],
         [
           1788464896,
           204
@@ -2068,6 +2064,10 @@
         [
           1788637258,
           258
+        ],
+        [
+          1788637558,
+          282
         ]
       ],
       "hourlyPeak": [
@@ -5690,6 +5690,6 @@
       ]
     }
   },
-  "peak48h": 262,
-  "peak48hAt": "2026-09-05T16:21:00.000Z"
+  "peak48h": 282,
+  "peak48hAt": "2026-09-05T19:45:58.000Z"
 }
