@@ -3,16 +3,16 @@
   "appid": "2253100",
   "steamAppid": 2253100,
   "name": "Everwind",
-  "players": 512,
+  "players": 481,
   "allTimePeak": 11022,
   "peak24h": 760,
   "peak24hAt": "2026-09-05T19:26:03.000Z",
-  "updatedAt": "2026-09-06T00:01:21.827Z",
+  "updatedAt": "2026-09-06T00:06:00.016Z",
   "img_url": "2026/03/everwind-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-06T00:01:21.827Z",
-    "updatedAtTs": 1788652881,
+    "updatedAt": "2026-09-06T00:06:00.016Z",
+    "updatedAtTs": 1788653160,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1788652881,
-        512
+        1788653160,
+        481
       ],
       "peak24h": [
         1788636363,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788480258,
-          364
-        ],
         [
           1788480554,
           364
@@ -2112,6 +2108,10 @@
         [
           1788652881,
           512
+        ],
+        [
+          1788653160,
+          481
         ]
       ],
       "hourlyPeak": [
@@ -4798,6 +4798,10 @@
         [
           1788476400,
           409
+        ],
+        [
+          1788480000,
+          364
         ]
       ],
       "dailyPeak": [
