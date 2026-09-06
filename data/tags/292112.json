@@ -3,16 +3,16 @@
   "appid": "24980",
   "steamAppid": 24980,
   "name": "Mass Effect 2 2010",
-  "players": 8,
+  "players": 10,
   "allTimePeak": 13320,
   "peak24h": 11,
   "peak24hAt": "2026-09-06T09:41:07.000Z",
-  "updatedAt": "2026-09-06T18:41:08.244Z",
+  "updatedAt": "2026-09-06T18:46:15.990Z",
   "img_url": "2024/12/mixcollage-25-dec-2024-02-38-am-1084.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-06T18:41:08.244Z",
-    "updatedAtTs": 1788720068,
+    "updatedAt": "2026-09-06T18:46:15.990Z",
+    "updatedAtTs": 1788720375,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788720068,
-        8
+        1788720375,
+        10
       ],
       "peak24h": [
         1788687667,
         11
       ],
       "peak48h": [
-        1788547382,
+        1788547579,
         12
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788547382,
-          12
-        ],
         [
           1788547579,
           12
@@ -2348,6 +2344,10 @@
         [
           1788720068,
           8
+        ],
+        [
+          1788720375,
+          10
         ]
       ],
       "hourlyPeak": [
@@ -5037,7 +5037,7 @@
         ],
         [
           1788544800,
-          10
+          12
         ]
       ],
       "dailyPeak": [
@@ -5987,5 +5987,5 @@
     }
   },
   "peak48h": 12,
-  "peak48hAt": "2026-09-04T18:43:02.000Z"
+  "peak48hAt": "2026-09-04T18:46:19.000Z"
 }
