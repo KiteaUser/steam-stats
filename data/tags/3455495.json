@@ -3,16 +3,16 @@
   "appid": "930210",
   "steamAppid": 930210,
   "name": "HuniePop 2: Double Date",
-  "players": 106,
+  "players": 107,
   "allTimePeak": 15388,
   "peak24h": 124,
   "peak24hAt": "2026-09-06T04:01:12.000Z",
-  "updatedAt": "2026-09-07T02:16:08.011Z",
+  "updatedAt": "2026-09-07T02:21:13.761Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-07T02:16:08.011Z",
-    "updatedAtTs": 1788747368,
+    "updatedAt": "2026-09-07T02:21:13.761Z",
+    "updatedAtTs": 1788747673,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788747368,
-        106
+        1788747673,
+        107
       ],
       "peak24h": [
         1788667272,
         124
       ],
       "peak48h": [
-        1788574859,
+        1788575163,
         129
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788574859,
-          129
-        ],
         [
           1788575163,
           129
@@ -2344,6 +2340,10 @@
         [
           1788747368,
           106
+        ],
+        [
+          1788747673,
+          107
         ]
       ],
       "hourlyPeak": [
@@ -5575,5 +5575,5 @@
     }
   },
   "peak48h": 129,
-  "peak48hAt": "2026-09-05T02:20:59.000Z"
+  "peak48hAt": "2026-09-05T02:26:03.000Z"
 }
