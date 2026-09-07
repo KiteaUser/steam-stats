@@ -5,14 +5,14 @@
   "name": "Directive 8020",
   "players": 40,
   "allTimePeak": 3021,
-  "peak24h": 50,
-  "peak24hAt": "2026-09-06T21:20:59.000Z",
-  "updatedAt": "2026-09-07T21:20:57.456Z",
+  "peak24h": 47,
+  "peak24hAt": "2026-09-06T21:31:14.000Z",
+  "updatedAt": "2026-09-07T21:26:10.801Z",
   "img_url": "2025/02/directive-8020-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-07T21:20:57.456Z",
-    "updatedAtTs": 1788816057,
+    "updatedAt": "2026-09-07T21:26:10.801Z",
+    "updatedAtTs": 1788816370,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788816057,
+        1788816370,
         40
       ],
       "peak24h": [
-        1788729659,
-        50
+        1788730274,
+        47
       ],
       "peak48h": [
-        1788643273,
-        70
+        1788643878,
+        67
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788643273,
-          70
-        ],
-        [
-          1788643563,
-          67
-        ],
         [
           1788643878,
           67
@@ -2347,6 +2339,10 @@
         ],
         [
           1788816057,
+          40
+        ],
+        [
+          1788816370,
           40
         ]
       ],
@@ -5326,6 +5322,6 @@
       ]
     }
   },
-  "peak48h": 70,
-  "peak48hAt": "2026-09-05T21:21:13.000Z"
+  "peak48h": 67,
+  "peak48hAt": "2026-09-05T21:31:18.000Z"
 }
