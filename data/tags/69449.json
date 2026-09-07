@@ -3,16 +3,16 @@
   "appid": "1229490",
   "steamAppid": 1229490,
   "name": "ULTRAKILL",
-  "players": 4017,
+  "players": 3976,
   "allTimePeak": 71785,
   "peak24h": 4060,
   "peak24hAt": "2026-09-06T19:11:01.000Z",
-  "updatedAt": "2026-09-07T19:01:37.871Z",
+  "updatedAt": "2026-09-07T19:06:05.005Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-10-10-am-1485.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-07T19:01:37.871Z",
-    "updatedAtTs": 1788807697,
+    "updatedAt": "2026-09-07T19:06:05.005Z",
+    "updatedAtTs": 1788807965,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788807697,
-        4017
+        1788807965,
+        3976
       ],
       "peak24h": [
         1788721861,
         4060
       ],
       "peak48h": [
-        1788635157,
-        4526
+        1788635769,
+        4501
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788635157,
-          4526
-        ],
         [
           1788635457,
           4475
@@ -2344,6 +2340,10 @@
         [
           1788807697,
           4017
+        ],
+        [
+          1788807965,
+          3976
         ]
       ],
       "hourlyPeak": [
@@ -5033,7 +5033,7 @@
         ],
         [
           1788634800,
-          4458
+          4526
         ]
       ],
       "dailyPeak": [
@@ -5594,6 +5594,6 @@
       ]
     }
   },
-  "peak48h": 4526,
-  "peak48hAt": "2026-09-05T19:05:57.000Z"
+  "peak48h": 4501,
+  "peak48hAt": "2026-09-05T19:16:09.000Z"
 }
