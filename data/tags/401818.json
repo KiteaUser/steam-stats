@@ -3,16 +3,16 @@
   "appid": "1190340",
   "steamAppid": 1190340,
   "name": "SUPER PEOPLE",
-  "players": 1,
+  "players": 3,
   "allTimePeak": 47392,
   "peak24h": 3,
   "peak24hAt": "2026-09-08T00:05:59.000Z",
-  "updatedAt": "2026-09-08T19:06:09.871Z",
+  "updatedAt": "2026-09-08T19:11:57.120Z",
   "img_url": "2024/12/mixcollage-23-dec-2024-01-33-pm-702.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-08T19:06:09.871Z",
-    "updatedAtTs": 1788894369,
+    "updatedAt": "2026-09-08T19:11:57.120Z",
+    "updatedAtTs": 1788894717,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1788894369,
-        1
+        1788894717,
+        3
       ],
       "peak24h": [
         1788825959,
         3
       ],
       "peak48h": [
-        1788721861,
+        1788722157,
         7
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788721861,
-          7
-        ],
         [
           1788722157,
           7
@@ -2152,6 +2148,10 @@
         [
           1788894369,
           1
+        ],
+        [
+          1788894717,
+          3
         ]
       ],
       "hourlyPeak": [
@@ -4517,7 +4517,7 @@
         ],
         [
           1788721200,
-          2
+          7
         ]
       ],
       "dailyPeak": [
@@ -4967,5 +4967,5 @@
     }
   },
   "peak48h": 7,
-  "peak48hAt": "2026-09-06T19:11:01.000Z"
+  "peak48hAt": "2026-09-06T19:15:57.000Z"
 }
