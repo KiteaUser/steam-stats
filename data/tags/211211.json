@@ -3,16 +3,16 @@
   "appid": "780310",
   "steamAppid": 780310,
   "name": "The Riftbreaker",
-  "players": 2111,
+  "players": 2009,
   "allTimePeak": 21741,
-  "peak24h": 2435,
-  "peak24hAt": "2026-09-07T15:35:57.000Z",
-  "updatedAt": "2026-09-08T15:31:11.152Z",
+  "peak24h": 2362,
+  "peak24hAt": "2026-09-07T15:41:11.000Z",
+  "updatedAt": "2026-09-08T15:36:01.647Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-08-04-pm-2417.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-08T15:31:11.152Z",
-    "updatedAtTs": 1788881471,
+    "updatedAt": "2026-09-08T15:36:01.647Z",
+    "updatedAtTs": 1788881761,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788881471,
-        2111
+        1788881761,
+        2009
       ],
       "peak24h": [
-        1788795357,
-        2435
+        1788795671,
+        2362
       ],
       "peak48h": [
-        1788708672,
-        2976
+        1788708968,
+        2879
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788708672,
-          2976
-        ],
         [
           1788708968,
           2879
@@ -2340,6 +2336,10 @@
         [
           1788881471,
           2111
+        ],
+        [
+          1788881761,
+          2009
         ]
       ],
       "hourlyPeak": [
@@ -5542,6 +5542,6 @@
       ]
     }
   },
-  "peak48h": 2976,
-  "peak48hAt": "2026-09-06T15:31:12.000Z"
+  "peak48h": 2879,
+  "peak48hAt": "2026-09-06T15:36:08.000Z"
 }
