@@ -3,16 +3,16 @@
   "appid": "535930",
   "steamAppid": 535930,
   "name": "Two Point Hospital",
-  "players": 679,
+  "players": 668,
   "allTimePeak": 34014,
   "peak24h": 814,
   "peak24hAt": "2026-09-08T13:36:03.000Z",
-  "updatedAt": "2026-09-08T16:11:08.801Z",
+  "updatedAt": "2026-09-08T16:18:35.113Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-01-23-am-2444.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-08T16:11:08.801Z",
-    "updatedAtTs": 1788883868,
+    "updatedAt": "2026-09-08T16:18:35.113Z",
+    "updatedAtTs": 1788884315,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788883868,
-        679
+        1788884315,
+        668
       ],
       "peak24h": [
         1788874563,
         814
       ],
       "peak48h": [
-        1788711069,
-        1024
+        1788711955,
+        996
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788711069,
-          1024
-        ],
-        [
-          1788711357,
-          1008
-        ],
         [
           1788711667,
           988
@@ -2340,6 +2332,10 @@
         [
           1788883868,
           679
+        ],
+        [
+          1788884315,
+          668
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5025,7 @@
         ],
         [
           1788710400,
-          1008
+          1024
         ]
       ],
       "dailyPeak": [
@@ -5706,6 +5702,6 @@
       ]
     }
   },
-  "peak48h": 1024,
-  "peak48hAt": "2026-09-06T16:11:09.000Z"
+  "peak48h": 996,
+  "peak48hAt": "2026-09-06T16:25:55.000Z"
 }
