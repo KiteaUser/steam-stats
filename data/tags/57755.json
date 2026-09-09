@@ -3,16 +3,16 @@
   "appid": "362960",
   "steamAppid": 362960,
   "name": "Tyranny",
-  "players": 52,
+  "players": 53,
   "allTimePeak": 15792,
   "peak24h": 75,
   "peak24hAt": "2026-09-09T19:47:07.000Z",
-  "updatedAt": "2026-09-09T22:16:29.929Z",
+  "updatedAt": "2026-09-09T22:21:54.191Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-12-21-am-8907.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-09T22:16:29.929Z",
-    "updatedAtTs": 1788992189,
+    "updatedAt": "2026-09-09T22:21:54.191Z",
+    "updatedAtTs": 1788992514,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788992189,
-        52
+        1788992514,
+        53
       ],
       "peak24h": [
         1788983227,
         75
       ],
       "peak48h": [
-        1788819412,
-        86
+        1788895284,
+        80
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788819412,
-          86
-        ],
-        [
-          1788819674,
-          78
-        ],
         [
           1788819957,
           78
@@ -2328,6 +2320,10 @@
         [
           1788992189,
           52
+        ],
+        [
+          1788992514,
+          53
         ]
       ],
       "hourlyPeak": [
@@ -5802,6 +5798,6 @@
       ]
     }
   },
-  "peak48h": 86,
-  "peak48hAt": "2026-09-07T22:16:52.000Z"
+  "peak48h": 80,
+  "peak48hAt": "2026-09-08T19:21:24.000Z"
 }
