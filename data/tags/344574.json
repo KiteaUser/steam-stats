@@ -3,16 +3,16 @@
   "appid": "289130",
   "steamAppid": 289130,
   "name": "ENDLESS Legend",
-  "players": 96,
+  "players": 93,
   "allTimePeak": 89190,
   "peak24h": 152,
   "peak24hAt": "2026-09-09T19:02:01.000Z",
-  "updatedAt": "2026-09-09T21:41:20.624Z",
+  "updatedAt": "2026-09-09T21:46:28.850Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-12-20-am-5132.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-09T21:41:20.624Z",
-    "updatedAtTs": 1788990080,
+    "updatedAt": "2026-09-09T21:46:28.850Z",
+    "updatedAtTs": 1788990388,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1788990080,
-        96
+        1788990388,
+        93
       ],
       "peak24h": [
         1788980521,
         152
       ],
       "peak48h": [
-        1788817569,
-        159
+        1788980521,
+        152
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788817569,
-          159
-        ],
         [
           1788817878,
           147
@@ -2344,6 +2340,10 @@
         [
           1788990080,
           96
+        ],
+        [
+          1788990388,
+          93
         ]
       ],
       "hourlyPeak": [
@@ -5910,6 +5910,6 @@
       ]
     }
   },
-  "peak48h": 159,
-  "peak48hAt": "2026-09-07T21:46:09.000Z"
+  "peak48h": 152,
+  "peak48hAt": "2026-09-09T19:02:01.000Z"
 }
