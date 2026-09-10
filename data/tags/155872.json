@@ -3,16 +3,16 @@
   "appid": "202970",
   "steamAppid": 202970,
   "name": "Call of Duty: Black Ops II",
-  "players": 234,
+  "players": 223,
   "allTimePeak": 18277,
   "peak24h": 234,
   "peak24hAt": "2026-09-10T17:41:17.000Z",
-  "updatedAt": "2026-09-10T17:41:17.200Z",
+  "updatedAt": "2026-09-10T17:46:40.761Z",
   "img_url": "2025/01/call-of-duty_-black-ops-ii.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-10T17:41:17.200Z",
-    "updatedAtTs": 1789062077,
+    "updatedAt": "2026-09-10T17:46:40.761Z",
+    "updatedAtTs": 1789062400,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789062077,
-        234
+        1789062400,
+        223
       ],
       "peak24h": [
         1789062077,
         234
       ],
       "peak48h": [
-        1788889565,
+        1788889883,
         254
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788889565,
-          254
-        ],
         [
           1788889883,
           254
@@ -2336,6 +2332,10 @@
         [
           1789062077,
           234
+        ],
+        [
+          1789062400,
+          223
         ]
       ],
       "hourlyPeak": [
@@ -5975,5 +5975,5 @@
     }
   },
   "peak48h": 254,
-  "peak48hAt": "2026-09-08T17:46:05.000Z"
+  "peak48hAt": "2026-09-08T17:51:23.000Z"
 }
