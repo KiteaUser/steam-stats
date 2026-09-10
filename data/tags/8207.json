@@ -3,16 +3,16 @@
   "appid": "2000950",
   "steamAppid": 2000950,
   "name": "Call of Duty: Modern Warfare",
-  "players": 2048,
+  "players": 1980,
   "allTimePeak": 61667,
   "peak24h": 2149,
   "peak24hAt": "2026-09-09T15:18:28.000Z",
-  "updatedAt": "2026-09-10T15:11:30.367Z",
+  "updatedAt": "2026-09-10T15:18:00.444Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-01-58-pm-6458.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-10T15:11:30.367Z",
-    "updatedAtTs": 1789053090,
+    "updatedAt": "2026-09-10T15:18:00.444Z",
+    "updatedAtTs": 1789053480,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789053090,
-        2048
+        1789053480,
+        1980
       ],
       "peak24h": [
         1788967108,
         2149
       ],
       "peak48h": [
-        1788880391,
-        2242
+        1788965585,
+        2227
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788880391,
-          2242
-        ],
         [
           1788880705,
           2205
@@ -2340,6 +2336,10 @@
         [
           1789053090,
           2048
+        ],
+        [
+          1789053480,
+          1980
         ]
       ],
       "hourlyPeak": [
@@ -5482,6 +5482,6 @@
       ]
     }
   },
-  "peak48h": 2242,
-  "peak48hAt": "2026-09-08T15:13:11.000Z"
+  "peak48h": 2227,
+  "peak48hAt": "2026-09-09T14:53:05.000Z"
 }
