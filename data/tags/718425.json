@@ -3,16 +3,16 @@
   "appid": "2201320",
   "steamAppid": 2201320,
   "name": "Date Everything",
-  "players": 369,
+  "players": 349,
   "allTimePeak": 14231,
   "peak24h": 369,
   "peak24hAt": "2026-09-10T01:02:20.000Z",
-  "updatedAt": "2026-09-10T01:02:20.639Z",
+  "updatedAt": "2026-09-10T01:06:24.649Z",
   "img_url": "2024/11/mixcollage-22-nov-2024-12-14-pm-8306.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-10T01:02:20.639Z",
-    "updatedAtTs": 1789002140,
+    "updatedAt": "2026-09-10T01:06:24.649Z",
+    "updatedAtTs": 1789002384,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789002140,
-        369
+        1789002384,
+        349
       ],
       "peak24h": [
         1789002140,
         369
       ],
       "peak48h": [
-        1788829566,
-        463
+        1788834108,
+        455
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788829566,
-          463
-        ],
         [
           1788829877,
           449
@@ -2332,6 +2328,10 @@
         [
           1789002140,
           369
+        ],
+        [
+          1789002384,
+          349
         ]
       ],
       "hourlyPeak": [
@@ -5366,6 +5366,6 @@
       ]
     }
   },
-  "peak48h": 463,
-  "peak48hAt": "2026-09-08T01:06:06.000Z"
+  "peak48h": 455,
+  "peak48hAt": "2026-09-08T02:21:48.000Z"
 }
