@@ -3,16 +3,16 @@
   "appid": "1040200",
   "steamAppid": 1040200,
   "name": "Crime Scene Cleaner",
-  "players": 1102,
+  "players": 1100,
   "allTimePeak": 13577,
   "peak24h": 1163,
-  "peak24hAt": "2026-09-09T15:31:23.000Z",
-  "updatedAt": "2026-09-10T15:26:51.598Z",
+  "peak24hAt": "2026-09-09T15:36:58.000Z",
+  "updatedAt": "2026-09-10T15:31:39.073Z",
   "img_url": "2024/12/mixcollage-27-dec-2024-02-16-am-8110.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-10T15:26:51.598Z",
-    "updatedAtTs": 1789054011,
+    "updatedAt": "2026-09-10T15:31:39.073Z",
+    "updatedAtTs": 1789054299,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789054011,
-        1102
+        1789054299,
+        1100
       ],
       "peak24h": [
-        1788967883,
+        1788968218,
         1163
       ],
       "peak48h": [
-        1788881471,
-        1205
+        1788881761,
+        1197
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788881471,
-          1205
-        ],
         [
           1788881761,
           1197
@@ -2308,6 +2304,10 @@
         [
           1789054011,
           1102
+        ],
+        [
+          1789054299,
+          1100
         ]
       ],
       "hourlyPeak": [
@@ -5382,6 +5382,6 @@
       ]
     }
   },
-  "peak48h": 1205,
-  "peak48hAt": "2026-09-08T15:31:11.000Z"
+  "peak48h": 1197,
+  "peak48hAt": "2026-09-08T15:36:01.000Z"
 }
