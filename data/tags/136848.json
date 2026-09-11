@@ -3,16 +3,16 @@
   "appid": "202170",
   "steamAppid": 202170,
   "name": "Sleeping Dogs",
-  "players": 24,
+  "players": 21,
   "allTimePeak": 12134,
   "peak24h": 33,
   "peak24hAt": "2026-09-10T21:16:16.000Z",
-  "updatedAt": "2026-09-11T18:51:03.742Z",
+  "updatedAt": "2026-09-11T18:56:09.378Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-02-20-am-5763.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-11T18:51:03.742Z",
-    "updatedAtTs": 1789152663,
+    "updatedAt": "2026-09-11T18:56:09.378Z",
+    "updatedAtTs": 1789152969,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789152663,
-        24
+        1789152969,
+        21
       ],
       "peak24h": [
         1789074976,
         33
       ],
       "peak48h": [
-        1788979888,
+        1789074976,
         33
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1788979888,
-          33
-        ],
-        [
-          1788980164,
-          28
-        ],
         [
           1788980521,
           25
@@ -2332,6 +2324,10 @@
         [
           1789152663,
           24
+        ],
+        [
+          1789152969,
+          21
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5017,7 @@
         ],
         [
           1788976800,
-          31
+          33
         ]
       ],
       "dailyPeak": [
@@ -5987,5 +5983,5 @@
     }
   },
   "peak48h": 33,
-  "peak48hAt": "2026-09-09T18:51:28.000Z"
+  "peak48hAt": "2026-09-10T21:16:16.000Z"
 }
