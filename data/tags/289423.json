@@ -3,16 +3,16 @@
   "appid": "234710",
   "steamAppid": 234710,
   "name": "Poker Night 2",
-  "players": 21,
+  "players": 18,
   "allTimePeak": 11260,
   "peak24h": 26,
   "peak24hAt": "2026-09-11T21:32:05.000Z",
-  "updatedAt": "2026-09-12T03:06:01.646Z",
+  "updatedAt": "2026-09-12T03:13:18.148Z",
   "img_url": "2025/06/poker-night-2-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12T03:06:01.646Z",
-    "updatedAtTs": 1789182361,
+    "updatedAt": "2026-09-12T03:13:18.148Z",
+    "updatedAtTs": 1789182798,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789182361,
-        21
+        1789182798,
+        18
       ],
       "peak24h": [
         1789162325,
         26
       ],
       "peak48h": [
-        1789009592,
-        28
+        1789012288,
+        26
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789009592,
-          28
-        ],
-        [
-          1789009872,
-          25
-        ],
         [
           1789010157,
           25
@@ -2332,6 +2324,10 @@
         [
           1789182361,
           21
+        ],
+        [
+          1789182798,
+          18
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5017,7 @@
         ],
         [
           1789009200,
-          26
+          28
         ]
       ],
       "dailyPeak": [
@@ -5962,6 +5958,6 @@
       ]
     }
   },
-  "peak48h": 28,
-  "peak48hAt": "2026-09-10T03:06:32.000Z"
+  "peak48h": 26,
+  "peak48hAt": "2026-09-10T03:51:28.000Z"
 }
