@@ -3,16 +3,16 @@
   "appid": "2325290",
   "steamAppid": 2325290,
   "name": "Sky: Children of the Light",
-  "players": 5369,
+  "players": 5189,
   "allTimePeak": 8844,
   "peak24h": 5369,
   "peak24hAt": "2026-09-12T13:46:02.000Z",
-  "updatedAt": "2026-09-12T13:46:02.961Z",
+  "updatedAt": "2026-09-12T13:51:20.964Z",
   "img_url": "2024/12/mixcollage-06-dec-2024-12-53-am-8412.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12T13:46:02.961Z",
-    "updatedAtTs": 1789220762,
+    "updatedAt": "2026-09-12T13:51:20.964Z",
+    "updatedAtTs": 1789221080,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789220762,
-        5369
+        1789221080,
+        5189
       ],
       "peak24h": [
         1789220762,
         5369
       ],
       "peak48h": [
-        1789048023,
-        5620
+        1789054571,
+        5603
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789048023,
-          5620
-        ],
-        [
-          1789048274,
-          5417
-        ],
         [
           1789048564,
           5417
@@ -2332,6 +2324,10 @@
         [
           1789220762,
           5369
+        ],
+        [
+          1789221080,
+          5189
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5017,7 @@
         ],
         [
           1789045200,
-          5558
+          5620
         ]
       ],
       "dailyPeak": [
@@ -5430,6 +5426,6 @@
       ]
     }
   },
-  "peak48h": 5620,
-  "peak48hAt": "2026-09-10T13:47:03.000Z"
+  "peak48h": 5603,
+  "peak48hAt": "2026-09-10T15:36:11.000Z"
 }
