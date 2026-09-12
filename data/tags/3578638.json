@@ -3,16 +3,16 @@
   "appid": "4128260",
   "steamAppid": 4128260,
   "name": "Highguard",
-  "players": 2,
+  "players": 3,
   "allTimePeak": 97249,
   "peak24h": 3,
-  "peak24hAt": "2026-09-11T03:01:29.000Z",
-  "updatedAt": "2026-09-12T03:01:27.746Z",
+  "peak24hAt": "2026-09-11T03:11:19.000Z",
+  "updatedAt": "2026-09-12T03:06:01.646Z",
   "img_url": "2025/12/highguard-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-12T03:01:27.746Z",
-    "updatedAtTs": 1789182087,
+    "updatedAt": "2026-09-12T03:06:01.646Z",
+    "updatedAtTs": 1789182361,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789182087,
-        2
+        1789182361,
+        3
       ],
       "peak24h": [
-        1789095689,
+        1789096279,
         3
       ],
       "peak48h": [
-        1789009297,
+        1789009592,
         3
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789009297,
-          3
-        ],
         [
           1789009592,
           3
@@ -2344,6 +2340,10 @@
         [
           1789182087,
           2
+        ],
+        [
+          1789182361,
+          3
         ]
       ],
       "hourlyPeak": [
@@ -5030,6 +5030,10 @@
         [
           1789005600,
           3
+        ],
+        [
+          1789009200,
+          3
         ]
       ],
       "dailyPeak": [
@@ -5355,5 +5359,5 @@
     }
   },
   "peak48h": 3,
-  "peak48hAt": "2026-09-10T03:01:37.000Z"
+  "peak48hAt": "2026-09-10T03:06:32.000Z"
 }
