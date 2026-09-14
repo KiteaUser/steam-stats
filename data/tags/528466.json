@@ -3,16 +3,16 @@
   "appid": "1337520",
   "steamAppid": 1337520,
   "name": "Risk of Rain Returns",
-  "players": 80,
+  "players": 75,
   "allTimePeak": 45141,
   "peak24h": 230,
   "peak24hAt": "2026-09-13T19:16:09.000Z",
-  "updatedAt": "2026-09-14T06:40:57.679Z",
+  "updatedAt": "2026-09-14T06:46:02.153Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-03-04-am-9126.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-14T06:40:57.679Z",
-    "updatedAtTs": 1789368057,
+    "updatedAt": "2026-09-14T06:46:02.153Z",
+    "updatedAtTs": 1789368362,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1789368057,
-        80
+        1789368362,
+        75
       ],
       "peak24h": [
         1789326969,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789195562,
-          123
-        ],
         [
           1789195862,
           121
@@ -2288,6 +2284,10 @@
         [
           1789368057,
           80
+        ],
+        [
+          1789368362,
+          75
         ]
       ],
       "hourlyPeak": [
