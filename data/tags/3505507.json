@@ -3,16 +3,16 @@
   "appid": "3527290",
   "steamAppid": 3527290,
   "name": "PEAK",
-  "players": 23750,
+  "players": 23039,
   "allTimePeak": 170759,
   "peak24h": 32839,
   "peak24hAt": "2026-09-13T19:31:20.000Z",
-  "updatedAt": "2026-09-14T15:27:44.007Z",
+  "updatedAt": "2026-09-14T15:32:22.313Z",
   "img_url": "2025/09/peak-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-14T15:27:44.007Z",
-    "updatedAtTs": 1789399664,
+    "updatedAt": "2026-09-14T15:32:22.313Z",
+    "updatedAtTs": 1789399942,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789399664,
-        23750
+        1789399942,
+        23039
       ],
       "peak24h": [
         1789327880,
         32839
       ],
       "peak48h": [
-        1789227071,
+        1789227364,
         39393
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789227071,
-          39393
-        ],
         [
           1789227364,
           39393
@@ -2288,6 +2284,10 @@
         [
           1789399664,
           23750
+        ],
+        [
+          1789399942,
+          23039
         ]
       ],
       "hourlyPeak": [
@@ -5339,5 +5339,5 @@
     }
   },
   "peak48h": 39393,
-  "peak48hAt": "2026-09-12T15:31:11.000Z"
+  "peak48hAt": "2026-09-12T15:36:04.000Z"
 }
