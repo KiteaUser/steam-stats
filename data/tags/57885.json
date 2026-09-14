@@ -3,16 +3,16 @@
   "appid": "577800",
   "steamAppid": 577800,
   "name": "NBA 2K18",
-  "players": 60,
+  "players": 58,
   "allTimePeak": 25432,
   "peak24h": 69,
   "peak24hAt": "2026-09-14T13:56:10.000Z",
-  "updatedAt": "2026-09-14T14:21:12.363Z",
+  "updatedAt": "2026-09-14T14:27:48.564Z",
   "img_url": "2025/02/nba-2k18-tag-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-14T14:21:12.363Z",
-    "updatedAtTs": 1789395672,
+    "updatedAt": "2026-09-14T14:27:48.564Z",
+    "updatedAtTs": 1789396068,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789395672,
-        60
+        1789396068,
+        58
       ],
       "peak24h": [
         1789394170,
         69
       ],
       "peak48h": [
-        1789223168,
+        1789394170,
         69
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789223168,
-          69
-        ],
         [
           1789223476,
           67
@@ -2288,6 +2284,10 @@
         [
           1789395672,
           60
+        ],
+        [
+          1789396068,
+          58
         ]
       ],
       "hourlyPeak": [
@@ -5711,5 +5711,5 @@
     }
   },
   "peak48h": 69,
-  "peak48hAt": "2026-09-12T14:26:08.000Z"
+  "peak48hAt": "2026-09-14T13:56:10.000Z"
 }
