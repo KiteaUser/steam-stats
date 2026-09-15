@@ -3,16 +3,16 @@
   "appid": "2479810",
   "steamAppid": 2479810,
   "name": "Gray Zone Warfare",
-  "players": 1785,
+  "players": 1805,
   "allTimePeak": 72548,
   "peak24h": 2258,
   "peak24hAt": "2026-09-15T19:42:06.000Z",
-  "updatedAt": "2026-09-15T21:46:15.600Z",
+  "updatedAt": "2026-09-15T21:51:03.580Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-12-21-am-2326.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:46:15.600Z",
-    "updatedAtTs": 1789508775,
+    "updatedAt": "2026-09-15T21:51:03.580Z",
+    "updatedAtTs": 1789509063,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789508775,
-        1785
+        1789509063,
+        1805
       ],
       "peak24h": [
         1789501326,
         2258
       ],
       "peak48h": [
-        1789336263,
-        2605
+        1789336562,
+        2519
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789336263,
-          2605
-        ],
         [
           1789336562,
           2519
@@ -2332,6 +2328,10 @@
         [
           1789508775,
           1785
+        ],
+        [
+          1789509063,
+          1805
         ]
       ],
       "hourlyPeak": [
@@ -5442,6 +5442,6 @@
       ]
     }
   },
-  "peak48h": 2605,
-  "peak48hAt": "2026-09-13T21:51:03.000Z"
+  "peak48h": 2519,
+  "peak48hAt": "2026-09-13T21:56:02.000Z"
 }
