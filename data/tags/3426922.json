@@ -3,16 +3,16 @@
   "appid": "1119730",
   "steamAppid": 1119730,
   "name": "Ranch Simulator",
-  "players": 838,
+  "players": 802,
   "allTimePeak": 12624,
   "peak24h": 1091,
   "peak24hAt": "2026-09-15T19:16:09.000Z",
-  "updatedAt": "2026-09-15T21:01:14.262Z",
+  "updatedAt": "2026-09-15T21:06:43.926Z",
   "img_url": "2025/02/ranch-simulator-tag-page-cover-art-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:01:14.262Z",
-    "updatedAtTs": 1789506074,
+    "updatedAt": "2026-09-15T21:06:43.926Z",
+    "updatedAtTs": 1789506403,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789506074,
-        838
+        1789506403,
+        802
       ],
       "peak24h": [
         1789499769,
         1091
       ],
       "peak48h": [
-        1789333556,
-        1225
+        1789334165,
+        1192
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789333556,
-          1225
-        ],
         [
           1789333866,
           1128
@@ -2336,6 +2332,10 @@
         [
           1789506074,
           838
+        ],
+        [
+          1789506403,
+          802
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5025,7 @@
         ],
         [
           1789333200,
-          1192
+          1225
         ]
       ],
       "dailyPeak": [
@@ -5594,6 +5594,6 @@
       ]
     }
   },
-  "peak48h": 1225,
-  "peak48hAt": "2026-09-13T21:05:56.000Z"
+  "peak48h": 1192,
+  "peak48hAt": "2026-09-13T21:16:05.000Z"
 }

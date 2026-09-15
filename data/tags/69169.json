@@ -3,16 +3,16 @@
   "appid": "903950",
   "steamAppid": 903950,
   "name": "Last Oasis",
-  "players": 42,
+  "players": 39,
   "allTimePeak": 33287,
   "peak24h": 54,
   "peak24hAt": "2026-09-15T15:51:11.000Z",
-  "updatedAt": "2026-09-15T21:01:14.262Z",
+  "updatedAt": "2026-09-15T21:06:43.926Z",
   "img_url": "2025/04/last-oasis-game-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:01:14.262Z",
-    "updatedAtTs": 1789506074,
+    "updatedAt": "2026-09-15T21:06:43.926Z",
+    "updatedAtTs": 1789506403,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789506074,
-        42
+        1789506403,
+        39
       ],
       "peak24h": [
         1789487471,
         54
       ],
       "peak48h": [
-        1789333556,
-        70
+        1789333866,
+        69
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789333556,
-          70
-        ],
         [
           1789333866,
           69
@@ -2336,6 +2332,10 @@
         [
           1789506074,
           42
+        ],
+        [
+          1789506403,
+          39
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5025,7 @@
         ],
         [
           1789333200,
-          69
+          70
         ]
       ],
       "dailyPeak": [
@@ -5642,6 +5642,6 @@
       ]
     }
   },
-  "peak48h": 70,
-  "peak48hAt": "2026-09-13T21:05:56.000Z"
+  "peak48h": 69,
+  "peak48hAt": "2026-09-13T21:11:06.000Z"
 }

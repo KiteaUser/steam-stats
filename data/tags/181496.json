@@ -7,12 +7,12 @@
   "allTimePeak": 58939,
   "peak24h": 253,
   "peak24hAt": "2026-09-15T18:56:09.000Z",
-  "updatedAt": "2026-09-15T21:01:14.262Z",
+  "updatedAt": "2026-09-15T21:06:43.926Z",
   "img_url": "2025/06/atlas-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:01:14.262Z",
-    "updatedAtTs": 1789506074,
+    "updatedAt": "2026-09-15T21:06:43.926Z",
+    "updatedAtTs": 1789506403,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1789506074,
+        1789506403,
         245
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         253
       ],
       "peak48h": [
-        1789333556,
-        308
+        1789333866,
+        306
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789333556,
-          308
-        ],
         [
           1789333866,
           306
@@ -2335,6 +2331,10 @@
         ],
         [
           1789506074,
+          245
+        ],
+        [
+          1789506403,
           245
         ]
       ],
@@ -5702,6 +5702,6 @@
       ]
     }
   },
-  "peak48h": 308,
-  "peak48hAt": "2026-09-13T21:05:56.000Z"
+  "peak48h": 306,
+  "peak48hAt": "2026-09-13T21:11:06.000Z"
 }

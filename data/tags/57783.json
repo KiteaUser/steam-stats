@@ -3,16 +3,16 @@
   "appid": "327030",
   "steamAppid": 327030,
   "name": "Worms WMD",
-  "players": 294,
+  "players": 250,
   "allTimePeak": 5122,
   "peak24h": 338,
   "peak24hAt": "2026-09-15T20:33:06.000Z",
-  "updatedAt": "2026-09-15T21:01:14.262Z",
+  "updatedAt": "2026-09-15T21:06:43.926Z",
   "img_url": "2025/02/worms-w-m-d.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:01:14.262Z",
-    "updatedAtTs": 1789506074,
+    "updatedAt": "2026-09-15T21:06:43.926Z",
+    "updatedAtTs": 1789506403,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789506074,
-        294
+        1789506403,
+        250
       ],
       "peak24h": [
         1789504386,
         338
       ],
       "peak48h": [
-        1789333556,
-        375
+        1789334165,
+        373
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789333556,
-          375
-        ],
         [
           1789333866,
           360
@@ -2332,6 +2328,10 @@
         [
           1789506074,
           294
+        ],
+        [
+          1789506403,
+          250
         ]
       ],
       "hourlyPeak": [
@@ -5021,7 +5021,7 @@
         ],
         [
           1789333200,
-          360
+          375
         ]
       ],
       "dailyPeak": [
@@ -5830,6 +5830,6 @@
       ]
     }
   },
-  "peak48h": 375,
-  "peak48hAt": "2026-09-13T21:05:56.000Z"
+  "peak48h": 373,
+  "peak48hAt": "2026-09-13T21:16:05.000Z"
 }

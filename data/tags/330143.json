@@ -3,16 +3,16 @@
   "appid": "379720",
   "steamAppid": 379720,
   "name": "DOOM",
-  "players": 608,
+  "players": 571,
   "allTimePeak": 44271,
   "peak24h": 754,
   "peak24hAt": "2026-09-15T19:31:25.000Z",
-  "updatedAt": "2026-09-15T21:01:14.262Z",
+  "updatedAt": "2026-09-15T21:06:43.926Z",
   "img_url": "2024/11/mixcollage-18-nov-2024-02-58-pm-3753.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:01:14.262Z",
-    "updatedAtTs": 1789506074,
+    "updatedAt": "2026-09-15T21:06:43.926Z",
+    "updatedAtTs": 1789506403,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789506074,
-        608
+        1789506403,
+        571
       ],
       "peak24h": [
         1789500685,
         754
       ],
       "peak48h": [
-        1789333556,
+        1789333866,
         803
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789333556,
-          803
-        ],
         [
           1789333866,
           803
@@ -2332,6 +2328,10 @@
         [
           1789506074,
           608
+        ],
+        [
+          1789506403,
+          571
         ]
       ],
       "hourlyPeak": [
@@ -5823,5 +5823,5 @@
     }
   },
   "peak48h": 803,
-  "peak48hAt": "2026-09-13T21:05:56.000Z"
+  "peak48hAt": "2026-09-13T21:11:06.000Z"
 }
