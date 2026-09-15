@@ -7,12 +7,12 @@
   "allTimePeak": 29278,
   "peak24h": 3133,
   "peak24hAt": "2026-09-15T01:46:02.000Z",
-  "updatedAt": "2026-09-15T20:46:18.008Z",
+  "updatedAt": "2026-09-15T20:50:59.208Z",
   "img_url": "2025/03/abiotic-factor-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T20:46:18.008Z",
-    "updatedAtTs": 1789505178,
+    "updatedAt": "2026-09-15T20:50:59.208Z",
+    "updatedAtTs": 1789505459,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1789505178,
+        1789505459,
         2780
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         3133
       ],
       "peak48h": [
-        1789332659,
-        4431
+        1789332960,
+        4394
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789332659,
-          4431
-        ],
         [
           1789332960,
           4394
@@ -2327,6 +2323,10 @@
         ],
         [
           1789505178,
+          2780
+        ],
+        [
+          1789505459,
           2780
         ]
       ],
@@ -5434,6 +5434,6 @@
       ]
     }
   },
-  "peak48h": 4431,
-  "peak48hAt": "2026-09-13T20:50:59.000Z"
+  "peak48h": 4394,
+  "peak48hAt": "2026-09-13T20:56:00.000Z"
 }
