@@ -3,16 +3,16 @@
   "appid": "1145350",
   "steamAppid": 1145350,
   "name": "Hades II",
-  "players": 3861,
+  "players": 3848,
   "allTimePeak": 112947,
   "peak24h": 3962,
   "peak24hAt": "2026-09-14T19:46:12.000Z",
-  "updatedAt": "2026-09-15T19:36:00.066Z",
+  "updatedAt": "2026-09-15T19:42:06.412Z",
   "img_url": "2025/09/hades-2-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T19:36:00.066Z",
-    "updatedAtTs": 1789500960,
+    "updatedAt": "2026-09-15T19:42:06.412Z",
+    "updatedAtTs": 1789501326,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789500960,
-        3861
+        1789501326,
+        3848
       ],
       "peak24h": [
         1789415172,
         3962
       ],
       "peak48h": [
-        1789328169,
-        5078
+        1789328772,
+        5054
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789328169,
-          5078
-        ],
-        [
-          1789328470,
-          5054
-        ],
         [
           1789328772,
           5054
@@ -2340,6 +2332,10 @@
         [
           1789500960,
           3861
+        ],
+        [
+          1789501326,
+          3848
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5025,7 @@
         ],
         [
           1789326000,
-          5075
+          5078
         ]
       ],
       "dailyPeak": [
@@ -5446,6 +5442,6 @@
       ]
     }
   },
-  "peak48h": 5078,
-  "peak48hAt": "2026-09-13T19:36:09.000Z"
+  "peak48h": 5054,
+  "peak48hAt": "2026-09-13T19:46:12.000Z"
 }
