@@ -3,16 +3,16 @@
   "appid": "323370",
   "steamAppid": 323370,
   "name": "TERA",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 25260,
   "peak24h": 2,
   "peak24hAt": "2026-09-14T11:06:16.000Z",
-  "updatedAt": "2026-09-15T00:16:04.665Z",
+  "updatedAt": "2026-09-15T00:21:10.144Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-01-54-am-7086.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T00:16:04.665Z",
-    "updatedAtTs": 1789431364,
+    "updatedAt": "2026-09-15T00:21:10.144Z",
+    "updatedAtTs": 1789431670,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789431364,
-        1
+        1789431670,
+        2
       ],
       "peak24h": [
         1789383976,
         2
       ],
       "peak48h": [
-        1789258609,
+        1789259149,
         2
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789258609,
-          2
-        ],
-        [
-          1789258869,
-          2
-        ],
         [
           1789259149,
           2
@@ -2304,6 +2296,10 @@
         [
           1789431364,
           1
+        ],
+        [
+          1789431670,
+          2
         ]
       ],
       "hourlyPeak": [
@@ -5699,5 +5695,5 @@
     }
   },
   "peak48h": 2,
-  "peak48hAt": "2026-09-13T00:16:49.000Z"
+  "peak48hAt": "2026-09-13T00:25:49.000Z"
 }
