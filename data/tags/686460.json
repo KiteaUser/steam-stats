@@ -3,16 +3,16 @@
   "appid": "2567870",
   "steamAppid": 2567870,
   "name": "Chained Together",
-  "players": 5605,
+  "players": 5483,
   "allTimePeak": 94480,
   "peak24h": 5946,
-  "peak24hAt": "2026-09-14T14:41:08.000Z",
-  "updatedAt": "2026-09-15T14:41:08.499Z",
+  "peak24hAt": "2026-09-14T14:46:20.000Z",
+  "updatedAt": "2026-09-15T14:46:07.919Z",
   "img_url": "2024/12/mixcollage-03-dec-2024-11-53-am-7469.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T14:41:08.499Z",
-    "updatedAtTs": 1789483268,
+    "updatedAt": "2026-09-15T14:46:07.919Z",
+    "updatedAtTs": 1789483567,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789483268,
-        5605
+        1789483567,
+        5483
       ],
       "peak24h": [
-        1789396868,
+        1789397180,
         5946
       ],
       "peak48h": [
-        1789310765,
-        6603
+        1789311124,
+        6332
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789310765,
-          6603
-        ],
         [
           1789311124,
           6332
@@ -2332,6 +2328,10 @@
         [
           1789483268,
           5605
+        ],
+        [
+          1789483567,
+          5483
         ]
       ],
       "hourlyPeak": [
@@ -5434,6 +5434,6 @@
       ]
     }
   },
-  "peak48h": 6603,
-  "peak48hAt": "2026-09-13T14:46:05.000Z"
+  "peak48h": 6332,
+  "peak48hAt": "2026-09-13T14:52:04.000Z"
 }
