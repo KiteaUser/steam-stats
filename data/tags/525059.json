@@ -3,16 +3,16 @@
   "appid": "376210",
   "steamAppid": 376210,
   "name": "The Isle",
-  "players": 21991,
+  "players": 21955,
   "allTimePeak": 27965,
   "peak24h": 22860,
   "peak24hAt": "2026-09-14T18:01:17.000Z",
-  "updatedAt": "2026-09-15T17:53:04.393Z",
+  "updatedAt": "2026-09-15T17:55:55.611Z",
   "img_url": "2024/11/mixcollage-29-nov-2024-01-35-am-7350.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T17:53:04.393Z",
-    "updatedAtTs": 1789494784,
+    "updatedAt": "2026-09-15T17:55:55.611Z",
+    "updatedAtTs": 1789494955,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789494784,
-        21991
+        1789494955,
+        21955
       ],
       "peak24h": [
         1789408877,
         22860
       ],
       "peak48h": [
-        1789322151,
-        26101
+        1789322492,
+        26012
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789322151,
-          26101
-        ],
         [
           1789322492,
           26012
@@ -2324,6 +2320,10 @@
         [
           1789494784,
           21991
+        ],
+        [
+          1789494955,
+          21955
         ]
       ],
       "hourlyPeak": [
@@ -5838,6 +5838,6 @@
       ]
     }
   },
-  "peak48h": 26101,
-  "peak48hAt": "2026-09-13T17:55:51.000Z"
+  "peak48h": 26012,
+  "peak48hAt": "2026-09-13T18:01:32.000Z"
 }
