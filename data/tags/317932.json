@@ -3,16 +3,16 @@
   "appid": "3489700",
   "steamAppid": 3489700,
   "name": "Stellar Blade",
-  "players": 3410,
+  "players": 3365,
   "allTimePeak": 192078,
   "peak24h": 3600,
   "peak24hAt": "2026-09-15T14:26:17.000Z",
-  "updatedAt": "2026-09-15T15:01:28.393Z",
+  "updatedAt": "2026-09-15T15:07:11.548Z",
   "img_url": "2024/12/mixcollage-25-dec-2024-06-17-am-4130.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T15:01:28.393Z",
-    "updatedAtTs": 1789484488,
+    "updatedAt": "2026-09-15T15:07:11.548Z",
+    "updatedAtTs": 1789484831,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789484488,
-        3410
+        1789484831,
+        3365
       ],
       "peak24h": [
         1789482377,
         3600
       ],
       "peak48h": [
-        1789311967,
-        3964
+        1789312333,
+        3855
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789311967,
-          3964
-        ],
         [
           1789312333,
           3855
@@ -2328,6 +2324,10 @@
         [
           1789484488,
           3410
+        ],
+        [
+          1789484831,
+          3365
         ]
       ],
       "hourlyPeak": [
@@ -5382,6 +5382,6 @@
       ]
     }
   },
-  "peak48h": 3964,
-  "peak48hAt": "2026-09-13T15:06:07.000Z"
+  "peak48h": 3855,
+  "peak48hAt": "2026-09-13T15:12:13.000Z"
 }
