@@ -3,16 +3,16 @@
   "appid": "1253920",
   "steamAppid": 1253920,
   "name": "Rogue Legacy 2",
-  "players": 184,
+  "players": 186,
   "allTimePeak": 22811,
   "peak24h": 196,
   "peak24hAt": "2026-09-15T20:41:09.000Z",
-  "updatedAt": "2026-09-15T21:11:13.099Z",
+  "updatedAt": "2026-09-15T21:16:16.402Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-08-32-am-8757-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:11:13.099Z",
-    "updatedAtTs": 1789506673,
+    "updatedAt": "2026-09-15T21:16:16.402Z",
+    "updatedAtTs": 1789506976,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789506673,
-        184
+        1789506976,
+        186
       ],
       "peak24h": [
         1789504869,
         196
       ],
       "peak48h": [
-        1789334165,
-        205
+        1789504869,
+        196
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789334165,
-          205
-        ],
         [
           1789334463,
           195
@@ -2332,6 +2328,10 @@
         [
           1789506673,
           184
+        ],
+        [
+          1789506976,
+          186
         ]
       ],
       "hourlyPeak": [
@@ -5618,6 +5618,6 @@
       ]
     }
   },
-  "peak48h": 205,
-  "peak48hAt": "2026-09-13T21:16:05.000Z"
+  "peak48h": 196,
+  "peak48hAt": "2026-09-15T20:41:09.000Z"
 }
