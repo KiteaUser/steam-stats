@@ -7,12 +7,12 @@
   "allTimePeak": 340394,
   "peak24h": 7370,
   "peak24hAt": "2026-09-15T14:11:06.000Z",
-  "updatedAt": "2026-09-15T21:06:43.926Z",
+  "updatedAt": "2026-09-15T21:11:13.099Z",
   "img_url": "2026/06/meccha-chameleon-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T21:06:43.926Z",
-    "updatedAtTs": 1789506403,
+    "updatedAt": "2026-09-15T21:11:13.099Z",
+    "updatedAtTs": 1789506673,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1789506403,
+        1789506673,
         5206
       ],
       "peak24h": [
@@ -31,8 +31,8 @@
         7370
       ],
       "peak48h": [
-        1789333866,
-        7823
+        1789395358,
+        7691
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789333866,
-          7823
-        ],
         [
           1789334165,
           7200
@@ -2335,6 +2331,10 @@
         ],
         [
           1789506403,
+          5206
+        ],
+        [
+          1789506673,
           5206
         ]
       ],
@@ -5305,6 +5305,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 7823,
-  "peak48hAt": "2026-09-13T21:11:06.000Z"
+  "peak48h": 7691,
+  "peak48hAt": "2026-09-14T14:15:58.000Z"
 }
