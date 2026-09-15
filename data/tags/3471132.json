@@ -7,12 +7,12 @@
   "allTimePeak": 849,
   "peak24h": 465,
   "peak24hAt": "2026-09-15T01:56:26.000Z",
-  "updatedAt": "2026-09-15T20:33:06.759Z",
+  "updatedAt": "2026-09-15T20:36:03.395Z",
   "img_url": "2025/04/dead-as-disco-tag-image-2.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-15T20:33:06.759Z",
-    "updatedAtTs": 1789504386,
+    "updatedAt": "2026-09-15T20:36:03.395Z",
+    "updatedAtTs": 1789504563,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1789504386,
+        1789504563,
         427
       ],
       "peak24h": [
@@ -31,7 +31,7 @@
         465
       ],
       "peak48h": [
-        1789331758,
+        1789332365,
         625
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789331758,
-          625
-        ],
         [
           1789332055,
           622
@@ -2324,6 +2320,10 @@
         [
           1789504386,
           427
+        ],
+        [
+          1789504563,
+          427
         ]
       ],
       "hourlyPeak": [
@@ -4293,5 +4293,5 @@
     }
   },
   "peak48h": 625,
-  "peak48hAt": "2026-09-13T20:35:58.000Z"
+  "peak48hAt": "2026-09-13T20:46:05.000Z"
 }
