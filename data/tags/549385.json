@@ -3,16 +3,16 @@
   "appid": "1911610",
   "steamAppid": 1911610,
   "name": "Windblown",
-  "players": 170,
+  "players": 161,
   "allTimePeak": 10179,
   "peak24h": 173,
   "peak24hAt": "2026-09-16T14:37:44.000Z",
-  "updatedAt": "2026-09-16T15:31:18.150Z",
+  "updatedAt": "2026-09-16T15:36:07.099Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-11-11-am-1936.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-16T15:31:18.150Z",
-    "updatedAtTs": 1789572678,
+    "updatedAt": "2026-09-16T15:36:07.099Z",
+    "updatedAtTs": 1789572967,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789572678,
-        170
+        1789572967,
+        161
       ],
       "peak24h": [
         1789569464,
         173
       ],
       "peak48h": [
-        1789399942,
-        177
+        1789569464,
+        173
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789399942,
-          177
-        ],
         [
           1789400216,
           164
@@ -2284,6 +2280,10 @@
         [
           1789572678,
           170
+        ],
+        [
+          1789572967,
+          161
         ]
       ],
       "hourlyPeak": [
@@ -5374,6 +5374,6 @@
       ]
     }
   },
-  "peak48h": 177,
-  "peak48hAt": "2026-09-14T15:32:22.000Z"
+  "peak48h": 173,
+  "peak48hAt": "2026-09-16T14:37:44.000Z"
 }
