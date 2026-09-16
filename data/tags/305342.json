@@ -3,16 +3,16 @@
   "appid": "207140",
   "steamAppid": 207140,
   "name": "SpeedRunners",
-  "players": 101,
+  "players": 99,
   "allTimePeak": 17212,
   "peak24h": 125,
   "peak24hAt": "2026-09-15T21:56:00.000Z",
-  "updatedAt": "2026-09-16T21:41:09.493Z",
+  "updatedAt": "2026-09-16T21:46:14.114Z",
   "img_url": "2024/11/mixcollage-28-nov-2024-12-33-am-397.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-16T21:41:09.493Z",
-    "updatedAtTs": 1789594869,
+    "updatedAt": "2026-09-16T21:46:14.114Z",
+    "updatedAtTs": 1789595174,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789594869,
-        101
+        1789595174,
+        99
       ],
       "peak24h": [
         1789509360,
         125
       ],
       "peak48h": [
-        1789422369,
-        132
+        1789507268,
+        131
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789422102,
-          119
-        ],
-        [
-          1789422369,
-          132
-        ],
         [
           1789422658,
           114
@@ -2276,6 +2268,10 @@
         [
           1789594869,
           101
+        ],
+        [
+          1789595174,
+          99
         ]
       ],
       "hourlyPeak": [
@@ -4965,7 +4961,7 @@
         ],
         [
           1789419600,
-          124
+          132
         ]
       ],
       "dailyPeak": [
@@ -5894,6 +5890,6 @@
       ]
     }
   },
-  "peak48h": 132,
-  "peak48hAt": "2026-09-14T21:46:09.000Z"
+  "peak48h": 131,
+  "peak48hAt": "2026-09-15T21:21:08.000Z"
 }
