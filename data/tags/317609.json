@@ -3,16 +3,16 @@
   "appid": "3557620",
   "steamAppid": 3557620,
   "name": "Blue Archive",
-  "players": 3347,
+  "players": 3328,
   "allTimePeak": 27077,
   "peak24h": 4546,
   "peak24hAt": "2026-09-17T13:36:20.000Z",
-  "updatedAt": "2026-09-17T16:36:24.991Z",
+  "updatedAt": "2026-09-17T16:41:15.503Z",
   "img_url": "2024/12/mixcollage-18-dec-2024-02-00-am-6585.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-17T16:36:24.991Z",
-    "updatedAtTs": 1789662984,
+    "updatedAt": "2026-09-17T16:41:15.503Z",
+    "updatedAtTs": 1789663275,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789662984,
-        3347
+        1789663275,
+        3328
       ],
       "peak24h": [
         1789652180,
         4546
       ],
       "peak48h": [
-        1789490296,
-        6173
+        1789490593,
+        5889
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789490296,
-          6173
-        ],
         [
           1789490593,
           5889
@@ -2296,6 +2292,10 @@
         [
           1789662984,
           3347
+        ],
+        [
+          1789663275,
+          3328
         ]
       ],
       "hourlyPeak": [
@@ -5354,6 +5354,6 @@
       ]
     }
   },
-  "peak48h": 6173,
-  "peak48hAt": "2026-09-15T16:38:16.000Z"
+  "peak48h": 5889,
+  "peak48hAt": "2026-09-15T16:43:13.000Z"
 }
