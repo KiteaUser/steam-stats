@@ -3,16 +3,16 @@
   "appid": "4128260",
   "steamAppid": 4128260,
   "name": "Highguard",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 97249,
   "peak24h": 5,
   "peak24hAt": "2026-09-16T15:31:18.000Z",
-  "updatedAt": "2026-09-17T04:21:00.322Z",
+  "updatedAt": "2026-09-17T04:27:13.933Z",
   "img_url": "2025/12/highguard-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-17T04:21:00.322Z",
-    "updatedAtTs": 1789618860,
+    "updatedAt": "2026-09-17T04:27:13.933Z",
+    "updatedAtTs": 1789619233,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1789618860,
-        1
+        1789619233,
+        2
       ],
       "peak24h": [
         1789572678,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789446167,
-          2
-        ],
-        [
-          1789446357,
-          2
-        ],
         [
           1789446672,
           2
@@ -2292,6 +2284,10 @@
         [
           1789618860,
           1
+        ],
+        [
+          1789619233,
+          2
         ]
       ],
       "hourlyPeak": [
