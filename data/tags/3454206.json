@@ -3,16 +3,16 @@
   "appid": "2134320",
   "steamAppid": 2134320,
   "name": "ENA: Dream BBQ",
-  "players": 75,
+  "players": 81,
   "allTimePeak": 10988,
   "peak24h": 92,
   "peak24hAt": "2026-09-17T19:26:17.000Z",
-  "updatedAt": "2026-09-18T18:01:24.559Z",
+  "updatedAt": "2026-09-18T18:08:10.035Z",
   "img_url": "2025/03/ena-dream-bbq-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-18T18:01:24.559Z",
-    "updatedAtTs": 1789754484,
+    "updatedAt": "2026-09-18T18:08:10.035Z",
+    "updatedAtTs": 1789754890,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789754484,
-        75
+        1789754890,
+        81
       ],
       "peak24h": [
         1789673177,
         92
       ],
       "peak48h": [
-        1789581964,
-        98
+        1789582918,
+        92
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789581744,
-          92
-        ],
-        [
-          1789581964,
-          98
-        ],
         [
           1789582406,
           91
@@ -2344,6 +2336,10 @@
         [
           1789754484,
           75
+        ],
+        [
+          1789754890,
+          81
         ]
       ],
       "hourlyPeak": [
@@ -5030,6 +5026,10 @@
         [
           1789578000,
           102
+        ],
+        [
+          1789581600,
+          98
         ]
       ],
       "dailyPeak": [
@@ -5418,6 +5418,6 @@
       ]
     }
   },
-  "peak48h": 98,
-  "peak48hAt": "2026-09-16T18:06:04.000Z"
+  "peak48h": 92,
+  "peak48hAt": "2026-09-16T18:21:58.000Z"
 }
