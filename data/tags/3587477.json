@@ -3,16 +3,16 @@
   "appid": "4025700",
   "steamAppid": 4025700,
   "name": "Heartopia",
-  "players": 9717,
+  "players": 9544,
   "allTimePeak": 66118,
   "peak24h": 10091,
   "peak24hAt": "2026-09-18T15:01:29.000Z",
-  "updatedAt": "2026-09-18T15:41:13.666Z",
+  "updatedAt": "2026-09-18T15:46:28.652Z",
   "img_url": "2026/01/heartopia-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-18T15:41:13.666Z",
-    "updatedAtTs": 1789746073,
+    "updatedAt": "2026-09-18T15:46:28.652Z",
+    "updatedAtTs": 1789746388,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1789746073,
-        9717
+        1789746388,
+        9544
       ],
       "peak24h": [
         1789743689,
         10091
       ],
       "peak48h": [
-        1789573288,
-        10229
+        1789743689,
+        10091
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789573288,
-          10229
-        ],
-        [
-          1789573566,
-          10139
-        ],
         [
           1789573955,
           9896
@@ -2344,6 +2336,10 @@
         [
           1789746073,
           9717
+        ],
+        [
+          1789746388,
+          9544
         ]
       ],
       "hourlyPeak": [
@@ -5382,6 +5378,6 @@
       ]
     }
   },
-  "peak48h": 10229,
-  "peak48hAt": "2026-09-16T15:41:28.000Z"
+  "peak48h": 10091,
+  "peak48hAt": "2026-09-18T15:01:29.000Z"
 }
