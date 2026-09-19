@@ -3,16 +3,16 @@
   "appid": "2353060",
   "steamAppid": 2353060,
   "name": "Invincible VS",
-  "players": 18,
+  "players": 22,
   "allTimePeak": 5339,
-  "peak24h": 27,
-  "peak24hAt": "2026-09-18T01:46:00.000Z",
-  "updatedAt": "2026-09-19T01:45:58.003Z",
+  "peak24h": 25,
+  "peak24hAt": "2026-09-18T23:16:01.000Z",
+  "updatedAt": "2026-09-19T01:51:06.579Z",
   "img_url": "2025/06/invincible-vs-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-19T01:45:58.003Z",
-    "updatedAtTs": 1789782358,
+    "updatedAt": "2026-09-19T01:51:06.579Z",
+    "updatedAtTs": 1789782666,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1789782358,
-        18
+        1789782666,
+        22
       ],
       "peak24h": [
-        1789695960,
-        27
+        1789773361,
+        25
       ],
       "peak48h": [
-        1789609570,
+        1789610166,
         36
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789609570,
-          36
-        ],
-        [
-          1789609861,
-          36
-        ],
         [
           1789610166,
           36
@@ -2340,6 +2332,10 @@
         [
           1789782358,
           18
+        ],
+        [
+          1789782666,
+          22
         ]
       ],
       "hourlyPeak": [
@@ -5367,5 +5363,5 @@
     }
   },
   "peak48h": 36,
-  "peak48hAt": "2026-09-17T01:46:10.000Z"
+  "peak48hAt": "2026-09-17T01:56:06.000Z"
 }
