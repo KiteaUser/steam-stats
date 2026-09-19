@@ -3,16 +3,16 @@
   "appid": "3115220",
   "steamAppid": 3115220,
   "name": "Town to City",
-  "players": 225,
+  "players": 235,
   "allTimePeak": 381,
   "peak24h": 238,
   "peak24hAt": "2026-09-19T16:16:09.000Z",
-  "updatedAt": "2026-09-19T16:26:01.612Z",
+  "updatedAt": "2026-09-19T16:31:10.845Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-19T16:26:01.612Z",
-    "updatedAtTs": 1789835161,
+    "updatedAt": "2026-09-19T16:31:10.845Z",
+    "updatedAtTs": 1789835470,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1789835161,
-        225
+        1789835470,
+        235
       ],
       "peak24h": [
         1789834569,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789662421,
-          184
-        ],
         [
           1789662727,
           184
@@ -2328,6 +2324,10 @@
         [
           1789835161,
           225
+        ],
+        [
+          1789835470,
+          235
         ]
       ],
       "hourlyPeak": [
@@ -4657,7 +4657,7 @@
         ],
         [
           1789660800,
-          181
+          184
         ]
       ],
       "dailyPeak": [],
