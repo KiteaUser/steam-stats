@@ -3,16 +3,16 @@
   "appid": "1465460",
   "steamAppid": 1465460,
   "name": "Infection Free Zone",
-  "players": 1206,
+  "players": 1162,
   "allTimePeak": 19380,
   "peak24h": 1206,
   "peak24hAt": "2026-09-19T15:46:14.000Z",
-  "updatedAt": "2026-09-19T15:57:40.022Z",
+  "updatedAt": "2026-09-19T16:03:00.805Z",
   "img_url": "2024/12/mixcollage-03-dec-2024-08-48-pm-2658.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-19T15:57:40.022Z",
-    "updatedAtTs": 1789833460,
+    "updatedAt": "2026-09-19T16:03:00.805Z",
+    "updatedAtTs": 1789833780,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1789833460,
-        1206
+        1789833780,
+        1162
       ],
       "peak24h": [
         1789832774,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789660891,
-          781
-        ],
         [
           1789661169,
           781
@@ -2324,13 +2320,13 @@
         [
           1789833460,
           1206
+        ],
+        [
+          1789833780,
+          1162
         ]
       ],
       "hourlyPeak": [
-        [
-          1787241600,
-          940
-        ],
         [
           1787245200,
           908
@@ -5014,6 +5010,10 @@
         [
           1789657200,
           796
+        ],
+        [
+          1789660800,
+          781
         ]
       ],
       "dailyPeak": [
