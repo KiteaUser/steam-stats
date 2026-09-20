@@ -3,16 +3,16 @@
   "appid": "3722330",
   "steamAppid": 3722330,
   "name": "Shift At Midnight",
-  "players": 2019,
+  "players": 2048,
   "allTimePeak": 37590,
   "peak24h": 5267,
   "peak24hAt": "2026-09-19T14:23:22.000Z",
-  "updatedAt": "2026-09-20T11:05:54.532Z",
+  "updatedAt": "2026-09-20T11:11:06.900Z",
   "img_url": "2026/04/shift-at-midnight-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-20T11:05:54.532Z",
-    "updatedAtTs": 1789902354,
+    "updatedAt": "2026-09-20T11:11:06.900Z",
+    "updatedAtTs": 1789902666,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1789902354,
-        2019
+        1789902666,
+        2048
       ],
       "peak24h": [
         1789827802,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789729604,
-          1916
-        ],
         [
           1789729919,
           1886
@@ -2340,6 +2336,10 @@
         [
           1789902354,
           2019
+        ],
+        [
+          1789902666,
+          2048
         ]
       ],
       "hourlyPeak": [
@@ -4745,7 +4745,7 @@
         ],
         [
           1789729200,
-          1886
+          1916
         ]
       ],
       "dailyPeak": [],
