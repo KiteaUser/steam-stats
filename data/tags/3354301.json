@@ -3,16 +3,16 @@
   "appid": "209670",
   "steamAppid": 209670,
   "name": "Cortex Command",
-  "players": 4,
+  "players": 6,
   "allTimePeak": 62839,
   "peak24h": 9,
   "peak24hAt": "2026-09-21T13:56:13.000Z",
-  "updatedAt": "2026-09-21T22:56:10.428Z",
+  "updatedAt": "2026-09-21T23:01:23.219Z",
   "img_url": "2025/01/mixcollage-04-jan-2025-02-56-am-6452.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-21T22:56:10.428Z",
-    "updatedAtTs": 1790031370,
+    "updatedAt": "2026-09-21T23:01:23.219Z",
+    "updatedAtTs": 1790031683,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790031370,
-        4
+        1790031683,
+        6
       ],
       "peak24h": [
         1789998973,
         9
       ],
       "peak48h": [
-        1789858695,
+        1789858988,
         9
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789858695,
-          9
-        ],
         [
           1789858988,
           9
@@ -2348,13 +2344,13 @@
         [
           1790031370,
           4
+        ],
+        [
+          1790031683,
+          6
         ]
       ],
       "hourlyPeak": [
-        [
-          1787439600,
-          6
-        ],
         [
           1787443200,
           4
@@ -6039,5 +6035,5 @@
     }
   },
   "peak48h": 9,
-  "peak48hAt": "2026-09-19T22:58:15.000Z"
+  "peak48hAt": "2026-09-19T23:03:08.000Z"
 }
