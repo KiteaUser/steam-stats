@@ -3,16 +3,16 @@
   "appid": "3834090",
   "steamAppid": 3834090,
   "name": "YAPYAP",
-  "players": 358,
+  "players": 388,
   "allTimePeak": 14775,
   "peak24h": 452,
   "peak24hAt": "2026-09-20T15:48:14.000Z",
-  "updatedAt": "2026-09-21T15:06:19.951Z",
+  "updatedAt": "2026-09-21T15:11:08.396Z",
   "img_url": "2026/01/yapyap-custom-cover-art-image.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-21T15:06:19.951Z",
-    "updatedAtTs": 1790003179,
+    "updatedAt": "2026-09-21T15:11:08.396Z",
+    "updatedAtTs": 1790003468,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790003179,
-        358
+        1790003468,
+        388
       ],
       "peak24h": [
         1789919294,
         452
       ],
       "peak48h": [
-        1789830666,
-        516
+        1789831270,
+        501
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789830666,
-          516
-        ],
         [
           1789830964,
           493
@@ -2344,6 +2340,10 @@
         [
           1790003179,
           358
+        ],
+        [
+          1790003468,
+          388
         ]
       ],
       "hourlyPeak": [
@@ -5033,7 +5033,7 @@
         ],
         [
           1789830000,
-          493
+          516
         ]
       ],
       "dailyPeak": [
@@ -5390,6 +5390,6 @@
       ]
     }
   },
-  "peak48h": 516,
-  "peak48hAt": "2026-09-19T15:11:06.000Z"
+  "peak48h": 501,
+  "peak48hAt": "2026-09-19T15:21:10.000Z"
 }
