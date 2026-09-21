@@ -3,16 +3,16 @@
   "appid": "2641470",
   "steamAppid": 2641470,
   "name": "Spectre Divide",
-  "players": 4,
+  "players": 5,
   "allTimePeak": 30971,
   "peak24h": 5,
   "peak24hAt": "2026-09-21T14:16:11.000Z",
-  "updatedAt": "2026-09-21T14:21:27.655Z",
+  "updatedAt": "2026-09-21T14:26:12.179Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-10-20-pm-1986.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-21T14:21:27.655Z",
-    "updatedAtTs": 1790000487,
+    "updatedAt": "2026-09-21T14:26:12.179Z",
+    "updatedAtTs": 1790000772,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790000487,
-        4
+        1790000772,
+        5
       ],
       "peak24h": [
         1790000171,
         5
       ],
       "peak48h": [
-        1789827802,
-        10
+        1789827999,
+        9
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789827802,
-          10
-        ],
         [
           1789827999,
           9
@@ -2348,6 +2344,10 @@
         [
           1790000487,
           4
+        ],
+        [
+          1790000772,
+          5
         ]
       ],
       "hourlyPeak": [
@@ -5462,6 +5462,6 @@
       ]
     }
   },
-  "peak48h": 10,
-  "peak48hAt": "2026-09-19T14:23:22.000Z"
+  "peak48h": 9,
+  "peak48hAt": "2026-09-19T14:26:39.000Z"
 }
