@@ -3,16 +3,16 @@
   "appid": "1562430",
   "steamAppid": 1562430,
   "name": "DREDGE",
-  "players": 553,
+  "players": 533,
   "allTimePeak": 12686,
   "peak24h": 620,
   "peak24hAt": "2026-09-22T01:51:10.000Z",
-  "updatedAt": "2026-09-22T22:51:11.146Z",
+  "updatedAt": "2026-09-22T22:56:10.785Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-01-23-am-8944.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22T22:51:11.146Z",
-    "updatedAtTs": 1790117471,
+    "updatedAt": "2026-09-22T22:56:10.785Z",
+    "updatedAtTs": 1790117770,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790117471,
-        553
+        1790117770,
+        533
       ],
       "peak24h": [
         1790041870,
         620
       ],
       "peak48h": [
-        1789944955,
-        720
+        1789948264,
+        707
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789944955,
-          720
-        ],
         [
           1789945287,
           692
@@ -2332,6 +2328,10 @@
         [
           1790117471,
           553
+        ],
+        [
+          1790117770,
+          533
         ]
       ],
       "hourlyPeak": [
@@ -5518,6 +5518,6 @@
       ]
     }
   },
-  "peak48h": 720,
-  "peak48hAt": "2026-09-20T22:55:55.000Z"
+  "peak48h": 707,
+  "peak48hAt": "2026-09-20T23:51:04.000Z"
 }
