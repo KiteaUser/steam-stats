@@ -3,16 +3,16 @@
   "appid": "1808500",
   "steamAppid": 1808500,
   "name": "ARC Raiders",
-  "players": 26161,
+  "players": 26021,
   "allTimePeak": 481966,
   "peak24h": 27528,
   "peak24hAt": "2026-09-21T20:16:14.000Z",
-  "updatedAt": "2026-09-22T20:06:13.657Z",
+  "updatedAt": "2026-09-22T20:12:00.600Z",
   "img_url": "2025/02/mixcollage-10-feb-2025-05-28-am-1209-1.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22T20:06:13.657Z",
-    "updatedAtTs": 1790107573,
+    "updatedAt": "2026-09-22T20:12:00.600Z",
+    "updatedAtTs": 1790107920,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790107573,
-        26161
+        1790107920,
+        26021
       ],
       "peak24h": [
         1790021774,
         27528
       ],
       "peak48h": [
-        1789935065,
-        33224
+        1789935360,
+        32825
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789935065,
-          33224
-        ],
         [
           1789935360,
           32825
@@ -2340,6 +2336,10 @@
         [
           1790107573,
           26161
+        ],
+        [
+          1790107920,
+          26021
         ]
       ],
       "hourlyPeak": [
@@ -5402,6 +5402,6 @@
       ]
     }
   },
-  "peak48h": 33224,
-  "peak48hAt": "2026-09-20T20:11:05.000Z"
+  "peak48h": 32825,
+  "peak48hAt": "2026-09-20T20:16:00.000Z"
 }
