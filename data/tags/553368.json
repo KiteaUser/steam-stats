@@ -3,16 +3,16 @@
   "appid": "2551020",
   "steamAppid": 2551020,
   "name": "One-armed robber",
-  "players": 1101,
+  "players": 1085,
   "allTimePeak": 13663,
   "peak24h": 1159,
   "peak24hAt": "2026-09-21T18:26:06.000Z",
-  "updatedAt": "2026-09-22T18:06:03.397Z",
+  "updatedAt": "2026-09-22T18:12:59.168Z",
   "img_url": "2024/11/mixcollage-24-nov-2024-10-50-am-3449.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22T18:06:03.397Z",
-    "updatedAtTs": 1790100363,
+    "updatedAt": "2026-09-22T18:12:59.168Z",
+    "updatedAtTs": 1790100779,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790100363,
-        1101
+        1790100779,
+        1085
       ],
       "peak24h": [
         1790015166,
         1159
       ],
       "peak48h": [
-        1789927874,
-        1565
+        1789928470,
+        1555
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789927874,
-          1565
-        ],
         [
           1789928161,
           1529
@@ -2340,6 +2336,10 @@
         [
           1790100363,
           1101
+        ],
+        [
+          1790100779,
+          1085
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5029,7 @@
         ],
         [
           1789927200,
-          1529
+          1565
         ]
       ],
       "dailyPeak": [
@@ -5494,6 +5494,6 @@
       ]
     }
   },
-  "peak48h": 1565,
-  "peak48hAt": "2026-09-20T18:11:14.000Z"
+  "peak48h": 1555,
+  "peak48hAt": "2026-09-20T18:21:10.000Z"
 }
