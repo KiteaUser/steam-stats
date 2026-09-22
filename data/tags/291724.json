@@ -3,16 +3,16 @@
   "appid": "590380",
   "steamAppid": 590380,
   "name": "Into the Breach",
-  "players": 377,
+  "players": 376,
   "allTimePeak": 14682,
   "peak24h": 435,
   "peak24hAt": "2026-09-21T15:56:39.000Z",
-  "updatedAt": "2026-09-22T15:47:06.093Z",
+  "updatedAt": "2026-09-22T15:51:16.345Z",
   "img_url": "2024/11/mixcollage-29-nov-2024-09-39-am-7427.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22T15:47:06.093Z",
-    "updatedAtTs": 1790092026,
+    "updatedAt": "2026-09-22T15:51:16.345Z",
+    "updatedAtTs": 1790092276,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790092026,
-        377
+        1790092276,
+        376
       ],
       "peak24h": [
         1790006199,
         435
       ],
       "peak48h": [
-        1789919294,
-        524
+        1789919894,
+        512
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789919294,
-          524
-        ],
-        [
-          1789919463,
-          524
-        ],
         [
           1789919894,
           512
@@ -2344,6 +2336,10 @@
         [
           1790092026,
           377
+        ],
+        [
+          1790092276,
+          376
         ]
       ],
       "hourlyPeak": [
@@ -5826,6 +5822,6 @@
       ]
     }
   },
-  "peak48h": 524,
-  "peak48hAt": "2026-09-20T15:48:14.000Z"
+  "peak48h": 512,
+  "peak48hAt": "2026-09-20T15:58:14.000Z"
 }
