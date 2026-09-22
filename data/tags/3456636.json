@@ -3,16 +3,16 @@
   "appid": "365450",
   "steamAppid": 365450,
   "name": "Hacknet",
-  "players": 23,
+  "players": 22,
   "allTimePeak": 127640,
   "peak24h": 47,
   "peak24hAt": "2026-09-21T16:26:14.000Z",
-  "updatedAt": "2026-09-22T05:16:02.841Z",
+  "updatedAt": "2026-09-22T05:21:07.155Z",
   "img_url": "2025/04/mixcollage-05-apr-2025-09-45-am-920.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22T05:16:02.841Z",
-    "updatedAtTs": 1790054162,
+    "updatedAt": "2026-09-22T05:21:07.155Z",
+    "updatedAtTs": 1790054467,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790054162,
-        23
+        1790054467,
+        22
       ],
       "peak24h": [
         1790007974,
         47
       ],
       "peak48h": [
-        1789881659,
+        1789881954,
         54
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789881659,
-          54
-        ],
         [
           1789881954,
           54
@@ -2340,6 +2336,10 @@
         [
           1790054162,
           23
+        ],
+        [
+          1790054467,
+          22
         ]
       ],
       "hourlyPeak": [
@@ -5899,5 +5899,5 @@
     }
   },
   "peak48h": 54,
-  "peak48hAt": "2026-09-20T05:20:59.000Z"
+  "peak48hAt": "2026-09-20T05:25:54.000Z"
 }
