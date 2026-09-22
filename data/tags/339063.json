@@ -3,16 +3,16 @@
   "appid": "471710",
   "steamAppid": 471710,
   "name": "Rec Room",
-  "players": 130,
+  "players": 144,
   "allTimePeak": 17678,
   "peak24h": 155,
   "peak24hAt": "2026-09-21T22:41:25.000Z",
-  "updatedAt": "2026-09-22T22:06:10.669Z",
+  "updatedAt": "2026-09-22T22:13:17.620Z",
   "img_url": "2024/11/mixcollage-25-nov-2024-06-04-pm-7971.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22T22:06:10.669Z",
-    "updatedAtTs": 1790114770,
+    "updatedAt": "2026-09-22T22:13:17.620Z",
+    "updatedAtTs": 1790115197,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790114770,
-        130
+        1790115197,
+        144
       ],
       "peak24h": [
         1790030485,
         155
       ],
       "peak48h": [
-        1789942268,
-        175
+        1789942864,
+        174
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789942268,
-          175
-        ],
         [
           1789942559,
           165
@@ -2340,6 +2336,10 @@
         [
           1790114770,
           130
+        ],
+        [
+          1790115197,
+          144
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5029,7 @@
         ],
         [
           1789941600,
-          165
+          175
         ]
       ],
       "dailyPeak": [
@@ -5854,6 +5854,6 @@
       ]
     }
   },
-  "peak48h": 175,
-  "peak48hAt": "2026-09-20T22:11:08.000Z"
+  "peak48h": 174,
+  "peak48hAt": "2026-09-20T22:21:04.000Z"
 }
