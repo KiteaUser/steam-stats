@@ -3,16 +3,16 @@
   "appid": "2507950",
   "steamAppid": 2507950,
   "name": "Delta Force",
-  "players": 120942,
+  "players": 120749,
   "allTimePeak": 247028,
   "peak24h": 120942,
   "peak24hAt": "2026-09-22T14:03:47.000Z",
-  "updatedAt": "2026-09-22T14:03:47.373Z",
+  "updatedAt": "2026-09-22T14:07:56.338Z",
   "img_url": "2025/09/delta-force-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-22T14:03:47.373Z",
-    "updatedAtTs": 1790085827,
+    "updatedAt": "2026-09-22T14:07:56.338Z",
+    "updatedAtTs": 1790086076,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790085827,
-        120942
+        1790086076,
+        120749
       ],
       "peak24h": [
         1790085827,
         120942
       ],
       "peak48h": [
-        1789913160,
-        128569
+        1789913454,
+        128504
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789913160,
-          128569
-        ],
         [
           1789913454,
           128504
@@ -2340,6 +2336,10 @@
         [
           1790085827,
           120942
+        ],
+        [
+          1790086076,
+          120749
         ]
       ],
       "hourlyPeak": [
@@ -5029,7 +5029,7 @@
         ],
         [
           1789912800,
-          128504
+          128569
         ]
       ],
       "dailyPeak": [
@@ -5446,6 +5446,6 @@
       ]
     }
   },
-  "peak48h": 128569,
-  "peak48hAt": "2026-09-20T14:06:00.000Z"
+  "peak48h": 128504,
+  "peak48hAt": "2026-09-20T14:10:54.000Z"
 }
