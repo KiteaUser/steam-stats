@@ -3,16 +3,16 @@
   "appid": "1092790",
   "steamAppid": 1092790,
   "name": "Inscryption",
-  "players": 1047,
+  "players": 1004,
   "allTimePeak": 17072,
   "peak24h": 1060,
   "peak24hAt": "2026-09-23T14:51:16.000Z",
-  "updatedAt": "2026-09-23T15:08:16.503Z",
+  "updatedAt": "2026-09-23T15:13:22.667Z",
   "img_url": "2024/12/mixcollage-08-dec-2024-01-37-am-7712.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-23T15:08:16.503Z",
-    "updatedAtTs": 1790176096,
+    "updatedAt": "2026-09-23T15:13:22.667Z",
+    "updatedAtTs": 1790176402,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790176096,
-        1047
+        1790176402,
+        1004
       ],
       "peak24h": [
         1790175076,
         1060
       ],
       "peak48h": [
-        1790003468,
-        1148
+        1790004377,
+        1099
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790003468,
-          1148
-        ],
         [
           1790003773,
           1093
@@ -2328,6 +2324,10 @@
         [
           1790176096,
           1047
+        ],
+        [
+          1790176402,
+          1004
         ]
       ],
       "hourlyPeak": [
@@ -5590,6 +5590,6 @@
       ]
     }
   },
-  "peak48h": 1148,
-  "peak48hAt": "2026-09-21T15:11:08.000Z"
+  "peak48h": 1099,
+  "peak48hAt": "2026-09-21T15:26:17.000Z"
 }
