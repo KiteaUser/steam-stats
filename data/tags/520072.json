@@ -3,16 +3,16 @@
   "appid": "258970",
   "steamAppid": 258970,
   "name": "Gauntlet",
-  "players": 12,
+  "players": 16,
   "allTimePeak": 12730,
   "peak24h": 46,
   "peak24hAt": "2026-09-22T22:38:15.000Z",
-  "updatedAt": "2026-09-23T08:35:51.538Z",
+  "updatedAt": "2026-09-23T08:41:17.176Z",
   "img_url": "2024/11/mixcollage-25-nov-2024-12-53-pm-235.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-23T08:35:51.538Z",
-    "updatedAtTs": 1790152551,
+    "updatedAt": "2026-09-23T08:41:17.176Z",
+    "updatedAtTs": 1790152877,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1790152551,
-        12
+        1790152877,
+        16
       ],
       "peak24h": [
         1790116695,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1789979773,
-          16
-        ],
-        [
-          1789980072,
-          16
-        ],
         [
           1789980367,
           16
@@ -2336,6 +2328,10 @@
         [
           1790152551,
           12
+        ],
+        [
+          1790152877,
+          16
         ]
       ],
       "hourlyPeak": [
