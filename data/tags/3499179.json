@@ -3,16 +3,16 @@
   "appid": "1966410",
   "steamAppid": 1966410,
   "name": "Aphelion",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 120,
   "peak24h": 6,
   "peak24hAt": "2026-09-22T15:41:21.000Z",
-  "updatedAt": "2026-09-23T14:41:22.879Z",
+  "updatedAt": "2026-09-23T14:48:21.223Z",
   "img_url": "2026/02/aphelion-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-23T14:41:22.879Z",
-    "updatedAtTs": 1790174482,
+    "updatedAt": "2026-09-23T14:48:21.223Z",
+    "updatedAtTs": 1790174901,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1790174482,
-        1
+        1790174901,
+        2
       ],
       "peak24h": [
         1790091681,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790001974,
-          1
-        ],
         [
           1790002276,
           1
@@ -1828,6 +1824,10 @@
         [
           1790174482,
           1
+        ],
+        [
+          1790174901,
+          2
         ]
       ],
       "hourlyPeak": [
