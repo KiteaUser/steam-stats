@@ -3,16 +3,16 @@
   "appid": "316010",
   "steamAppid": 316010,
   "name": "Magic Duels",
-  "players": 46,
+  "players": 42,
   "allTimePeak": 14586,
   "peak24h": 56,
   "peak24hAt": "2026-09-24T16:52:09.000Z",
-  "updatedAt": "2026-09-24T20:41:10.047Z",
+  "updatedAt": "2026-09-24T20:48:00.983Z",
   "img_url": "2025/03/magic-duels-video-game-cover-art-tag.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-24T20:41:10.047Z",
-    "updatedAtTs": 1790282470,
+    "updatedAt": "2026-09-24T20:48:00.983Z",
+    "updatedAtTs": 1790282880,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790282470,
-        46
+        1790282880,
+        42
       ],
       "peak24h": [
         1790268729,
         56
       ],
       "peak48h": [
-        1790109990,
-        58
+        1790268729,
+        56
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790109674,
-          56
-        ],
-        [
-          1790109990,
-          58
-        ],
         [
           1790110326,
           53
@@ -2332,6 +2324,10 @@
         [
           1790282470,
           46
+        ],
+        [
+          1790282880,
+          42
         ]
       ],
       "hourlyPeak": [
@@ -5898,6 +5894,6 @@
       ]
     }
   },
-  "peak48h": 58,
-  "peak48hAt": "2026-09-22T20:46:30.000Z"
+  "peak48h": 56,
+  "peak48hAt": "2026-09-24T16:52:09.000Z"
 }
