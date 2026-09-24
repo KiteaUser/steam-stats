@@ -3,16 +3,16 @@
   "appid": "292000",
   "steamAppid": 292000,
   "name": "No More Room in Hell 2",
-  "players": 2800,
+  "players": 2807,
   "allTimePeak": 16326,
   "peak24h": 3046,
   "peak24hAt": "2026-09-23T02:31:54.000Z",
-  "updatedAt": "2026-09-24T02:22:08.294Z",
+  "updatedAt": "2026-09-24T02:26:10.190Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-01-24-am-5588.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-24T02:22:08.294Z",
-    "updatedAtTs": 1790216528,
+    "updatedAt": "2026-09-24T02:26:10.190Z",
+    "updatedAtTs": 1790216770,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790216528,
-        2800
+        1790216770,
+        2807
       ],
       "peak24h": [
         1790130714,
         3046
       ],
       "peak48h": [
-        1790043962,
+        1790044560,
         3339
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790043962,
-          3339
-        ],
         [
           1790044277,
           3320
@@ -2324,6 +2320,10 @@
         [
           1790216528,
           2800
+        ],
+        [
+          1790216770,
+          2807
         ]
       ],
       "hourlyPeak": [
@@ -5013,7 +5013,7 @@
         ],
         [
           1790042400,
-          3333
+          3339
         ]
       ],
       "dailyPeak": [
@@ -5447,5 +5447,5 @@
     }
   },
   "peak48h": 3339,
-  "peak48hAt": "2026-09-22T02:26:02.000Z"
+  "peak48hAt": "2026-09-22T02:36:00.000Z"
 }
