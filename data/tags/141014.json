@@ -3,16 +3,16 @@
   "appid": "548570",
   "steamAppid": 548570,
   "name": "RAGE 2",
-  "players": 64,
+  "players": 60,
   "allTimePeak": 13673,
   "peak24h": 71,
   "peak24hAt": "2026-09-25T20:26:08.000Z",
-  "updatedAt": "2026-09-25T20:45:59.717Z",
+  "updatedAt": "2026-09-25T20:51:09.423Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-02-27-am-2988.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-25T20:45:59.717Z",
-    "updatedAtTs": 1790369159,
+    "updatedAt": "2026-09-25T20:51:09.423Z",
+    "updatedAtTs": 1790369469,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1790369159,
-        64
+        1790369469,
+        60
       ],
       "peak24h": [
         1790367968,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790196381,
-          51
-        ],
-        [
-          1790196658,
-          51
-        ],
         [
           1790197020,
           51
@@ -2344,6 +2336,10 @@
         [
           1790369159,
           64
+        ],
+        [
+          1790369469,
+          60
         ]
       ],
       "hourlyPeak": [
