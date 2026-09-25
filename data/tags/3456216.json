@@ -3,16 +3,16 @@
   "appid": "621830",
   "steamAppid": 621830,
   "name": "WRC 7",
-  "players": 777,
+  "players": 799,
   "allTimePeak": 11215,
   "peak24h": 810,
   "peak24hAt": "2026-09-25T13:32:00.000Z",
-  "updatedAt": "2026-09-25T14:31:15.172Z",
+  "updatedAt": "2026-09-25T14:38:16.939Z",
   "img_url": "2025/08/wrc-7-tag-page-cover-art_upscayl_2x_ultramix_balanced.png",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-25T14:31:15.172Z",
-    "updatedAtTs": 1790346675,
+    "updatedAt": "2026-09-25T14:38:16.939Z",
+    "updatedAtTs": 1790347096,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790346675,
-        777
+        1790347096,
+        799
       ],
       "peak24h": [
         1790343120,
         810
       ],
       "peak48h": [
-        1790174168,
+        1790174482,
         860
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790173893,
-          841
-        ],
-        [
-          1790174168,
-          860
-        ],
         [
           1790174482,
           860
@@ -2344,6 +2336,10 @@
         [
           1790346675,
           777
+        ],
+        [
+          1790347096,
+          799
         ]
       ],
       "hourlyPeak": [
@@ -5815,5 +5811,5 @@
     }
   },
   "peak48h": 860,
-  "peak48hAt": "2026-09-23T14:36:08.000Z"
+  "peak48hAt": "2026-09-23T14:41:22.000Z"
 }
