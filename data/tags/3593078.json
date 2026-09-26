@@ -3,16 +3,16 @@
   "appid": "2956680",
   "steamAppid": 2956680,
   "name": "LORT",
-  "players": 183,
+  "players": 204,
   "allTimePeak": 9899,
-  "peak24h": 201,
-  "peak24hAt": "2026-09-25T21:05:58.000Z",
-  "updatedAt": "2026-09-26T01:10:53.048Z",
+  "peak24h": 204,
+  "peak24hAt": "2026-09-26T01:16:07.000Z",
+  "updatedAt": "2026-09-26T01:16:07.799Z",
   "img_url": "2026/01/lort-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26T01:10:53.048Z",
-    "updatedAtTs": 1790385053,
+    "updatedAt": "2026-09-26T01:16:07.799Z",
+    "updatedAtTs": 1790385367,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790385053,
-        183
+        1790385367,
+        204
       ],
       "peak24h": [
-        1790370358,
-        201
+        1790385367,
+        204
       ],
       "peak48h": [
-        1790216528,
-        203
+        1790385367,
+        204
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790212326,
-          174
-        ],
         [
           1790212644,
           181
@@ -2344,6 +2340,10 @@
         [
           1790385053,
           183
+        ],
+        [
+          1790385367,
+          204
         ]
       ],
       "hourlyPeak": [
@@ -5414,6 +5414,6 @@
       ]
     }
   },
-  "peak48h": 203,
-  "peak48hAt": "2026-09-24T02:22:08.000Z"
+  "peak48h": 204,
+  "peak48hAt": "2026-09-26T01:16:07.000Z"
 }
