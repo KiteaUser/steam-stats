@@ -3,16 +3,16 @@
   "appid": "262280",
   "steamAppid": 262280,
   "name": "Dungeons 2",
-  "players": 31,
+  "players": 29,
   "allTimePeak": 11705,
   "peak24h": 32,
   "peak24hAt": "2026-09-26T16:51:53.000Z",
-  "updatedAt": "2026-09-26T19:31:14.871Z",
+  "updatedAt": "2026-09-26T19:36:38.902Z",
   "img_url": "2025/04/mixcollage-02-apr-2025-08-49-am-3329.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26T19:31:14.871Z",
-    "updatedAtTs": 1790451074,
+    "updatedAt": "2026-09-26T19:36:38.902Z",
+    "updatedAtTs": 1790451398,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790451074,
-        31
+        1790451398,
+        29
       ],
       "peak24h": [
         1790441513,
         32
       ],
       "peak48h": [
-        1790278406,
+        1790441513,
         32
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790278406,
-          32
-        ],
         [
           1790278700,
           28
@@ -2348,6 +2344,10 @@
         [
           1790451074,
           31
+        ],
+        [
+          1790451398,
+          29
         ]
       ],
       "hourlyPeak": [
@@ -5935,5 +5935,5 @@
     }
   },
   "peak48h": 32,
-  "peak48hAt": "2026-09-24T19:33:26.000Z"
+  "peak48hAt": "2026-09-26T16:51:53.000Z"
 }
