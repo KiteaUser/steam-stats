@@ -3,16 +3,16 @@
   "appid": "1407200",
   "steamAppid": 1407200,
   "name": "World of Tanks",
-  "players": 10050,
+  "players": 10028,
   "allTimePeak": 24172,
   "peak24h": 10073,
   "peak24hAt": "2026-09-26T18:21:06.000Z",
-  "updatedAt": "2026-09-26T18:41:02.007Z",
+  "updatedAt": "2026-09-26T18:46:07.496Z",
   "img_url": "2025/09/world-of-tanks-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26T18:41:02.007Z",
-    "updatedAtTs": 1790448062,
+    "updatedAt": "2026-09-26T18:46:07.496Z",
+    "updatedAtTs": 1790448367,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790448062,
-        10050
+        1790448367,
+        10028
       ],
       "peak24h": [
         1790446866,
         10073
       ],
       "peak48h": [
-        1790275273,
-        10175
+        1790275571,
+        10080
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790275273,
-          10175
-        ],
         [
           1790275571,
           10080
@@ -2348,6 +2344,10 @@
         [
           1790448062,
           10050
+        ],
+        [
+          1790448367,
+          10028
         ]
       ],
       "hourlyPeak": [
@@ -5646,6 +5646,6 @@
       ]
     }
   },
-  "peak48h": 10175,
-  "peak48hAt": "2026-09-24T18:41:13.000Z"
+  "peak48h": 10080,
+  "peak48hAt": "2026-09-24T18:46:11.000Z"
 }
