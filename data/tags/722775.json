@@ -3,16 +3,16 @@
   "appid": "1040200",
   "steamAppid": 1040200,
   "name": "Crime Scene Cleaner",
-  "players": 1025,
+  "players": 999,
   "allTimePeak": 13577,
   "peak24h": 1098,
   "peak24hAt": "2026-09-26T14:16:03.000Z",
-  "updatedAt": "2026-09-26T16:51:53.132Z",
+  "updatedAt": "2026-09-26T16:56:16.105Z",
   "img_url": "2024/12/mixcollage-27-dec-2024-02-16-am-8110.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26T16:51:53.132Z",
-    "updatedAtTs": 1790441513,
+    "updatedAt": "2026-09-26T16:56:16.105Z",
+    "updatedAtTs": 1790441776,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1790441513,
-        1025
+        1790441776,
+        999
       ],
       "peak24h": [
         1790432163,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790268729,
-          860
-        ],
-        [
-          1790268969,
-          860
-        ],
         [
           1790269284,
           860
@@ -2348,6 +2340,10 @@
         [
           1790441513,
           1025
+        ],
+        [
+          1790441776,
+          999
         ]
       ],
       "hourlyPeak": [
