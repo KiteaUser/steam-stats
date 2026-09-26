@@ -3,16 +3,16 @@
   "appid": "1104280",
   "steamAppid": 1104280,
   "name": "The Slormancer",
-  "players": 64,
+  "players": 60,
   "allTimePeak": 10989,
   "peak24h": 67,
   "peak24hAt": "2026-09-25T20:26:08.000Z",
-  "updatedAt": "2026-09-26T12:25:49.437Z",
+  "updatedAt": "2026-09-26T12:33:21.666Z",
   "img_url": "2024/11/mixcollage-29-nov-2024-10-37-am-5229.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-26T12:25:49.437Z",
-    "updatedAtTs": 1790425549,
+    "updatedAt": "2026-09-26T12:33:21.666Z",
+    "updatedAtTs": 1790426001,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1790425549,
-        64
+        1790426001,
+        60
       ],
       "peak24h": [
         1790367968,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790252763,
-          32
-        ],
-        [
-          1790253081,
-          35
-        ],
         [
           1790253478,
           36
@@ -2344,6 +2336,10 @@
         [
           1790425549,
           64
+        ],
+        [
+          1790426001,
+          60
         ]
       ],
       "hourlyPeak": [
@@ -5033,7 +5029,7 @@
         ],
         [
           1790251200,
-          32
+          35
         ]
       ],
       "dailyPeak": [
