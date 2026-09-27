@@ -5,14 +5,14 @@
   "name": "Blacklight: Retribution",
   "players": 1,
   "allTimePeak": 12131,
-  "peak24h": 7,
-  "peak24hAt": "2026-09-26T19:41:53.000Z",
-  "updatedAt": "2026-09-27T19:41:05.559Z",
+  "peak24h": 4,
+  "peak24hAt": "2026-09-26T19:46:10.000Z",
+  "updatedAt": "2026-09-27T19:46:02.315Z",
   "img_url": "2025/01/mixcollage-31-jan-2025-09-30-am-8429.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-27T19:41:05.559Z",
-    "updatedAtTs": 1790538065,
+    "updatedAt": "2026-09-27T19:46:02.315Z",
+    "updatedAtTs": 1790538362,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1790538065,
+        1790538362,
         1
       ],
       "peak24h": [
-        1790451713,
-        7
+        1790451970,
+        4
       ],
       "peak48h": [
         1790451713,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790365275,
-          3
-        ],
         [
           1790365575,
           4
@@ -1075,6 +1071,10 @@
         ],
         [
           1790538065,
+          1
+        ],
+        [
+          1790538362,
           1
         ]
       ],
