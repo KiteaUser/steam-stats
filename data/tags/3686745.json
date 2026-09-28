@@ -3,16 +3,16 @@
   "appid": "3722330",
   "steamAppid": 3722330,
   "name": "Shift At Midnight",
-  "players": 3889,
+  "players": 3700,
   "allTimePeak": 37590,
-  "peak24h": 4443,
-  "peak24hAt": "2026-09-27T15:16:05.000Z",
-  "updatedAt": "2026-09-28T15:11:07.292Z",
+  "peak24h": 4336,
+  "peak24hAt": "2026-09-27T15:21:03.000Z",
+  "updatedAt": "2026-09-28T15:18:11.251Z",
   "img_url": "2026/04/shift-at-midnight-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-28T15:11:07.292Z",
-    "updatedAtTs": 1790608267,
+    "updatedAt": "2026-09-28T15:18:11.251Z",
+    "updatedAtTs": 1790608691,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790608267,
-        3889
+        1790608691,
+        3700
       ],
       "peak24h": [
-        1790522165,
-        4443
+        1790522463,
+        4336
       ],
       "peak48h": [
-        1790435771,
-        5076
+        1790436192,
+        4880
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790435771,
-          5076
-        ],
         [
           1790436192,
           4880
@@ -2344,6 +2340,10 @@
         [
           1790608267,
           3889
+        ],
+        [
+          1790608691,
+          3700
         ]
       ],
       "hourlyPeak": [
@@ -5065,6 +5065,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 5076,
-  "peak48hAt": "2026-09-26T15:16:11.000Z"
+  "peak48h": 4880,
+  "peak48hAt": "2026-09-26T15:23:12.000Z"
 }
