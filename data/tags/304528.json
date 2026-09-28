@@ -3,16 +3,16 @@
   "appid": "1290000",
   "steamAppid": 1290000,
   "name": "PowerWash Simulator",
-  "players": 1041,
+  "players": 1015,
   "allTimePeak": 14178,
-  "peak24h": 1290,
-  "peak24hAt": "2026-09-27T20:35:59.000Z",
-  "updatedAt": "2026-09-28T20:32:05.230Z",
+  "peak24h": 1262,
+  "peak24hAt": "2026-09-27T20:41:39.000Z",
+  "updatedAt": "2026-09-28T20:38:11.314Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-08-13-pm-6573.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-28T20:32:05.230Z",
-    "updatedAtTs": 1790627525,
+    "updatedAt": "2026-09-28T20:38:11.314Z",
+    "updatedAtTs": 1790627891,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790627525,
-        1041
+        1790627891,
+        1015
       ],
       "peak24h": [
-        1790541359,
-        1290
+        1790541699,
+        1262
       ],
       "peak48h": [
-        1790454961,
-        1319
+        1790539562,
+        1314
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790454961,
-          1319
-        ],
         [
           1790455270,
           1302
@@ -2340,6 +2336,10 @@
         [
           1790627525,
           1041
+        ],
+        [
+          1790627891,
+          1015
         ]
       ],
       "hourlyPeak": [
@@ -5642,6 +5642,6 @@
       ]
     }
   },
-  "peak48h": 1319,
-  "peak48hAt": "2026-09-26T20:36:01.000Z"
+  "peak48h": 1314,
+  "peak48hAt": "2026-09-27T20:06:02.000Z"
 }
