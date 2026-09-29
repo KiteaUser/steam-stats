@@ -6,13 +6,13 @@
   "players": 272,
   "allTimePeak": 11866,
   "peak24h": 300,
-  "peak24hAt": "2026-09-28T17:11:45.000Z",
-  "updatedAt": "2026-09-29T17:07:06.510Z",
+  "peak24hAt": "2026-09-28T17:16:03.000Z",
+  "updatedAt": "2026-09-29T17:12:48.003Z",
   "img_url": "sharedimages/2024/07/norland-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-29T17:07:06.510Z",
-    "updatedAtTs": 1790701626,
+    "updatedAt": "2026-09-29T17:12:48.003Z",
+    "updatedAtTs": 1790701968,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,11 +23,11 @@
     },
     "summary": {
       "current": [
-        1790701626,
+        1790701968,
         272
       ],
       "peak24h": [
-        1790615505,
+        1790615763,
         300
       ],
       "peak48h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790529129,
-          354
-        ],
         [
           1790529421,
           354
@@ -2315,6 +2311,10 @@
         ],
         [
           1790701626,
+          272
+        ],
+        [
+          1790701968,
           272
         ]
       ],
