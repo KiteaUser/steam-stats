@@ -3,16 +3,16 @@
   "appid": "881020",
   "steamAppid": 881020,
   "name": "Granblue Fantasy: Relink",
-  "players": 2941,
+  "players": 2852,
   "allTimePeak": 114054,
   "peak24h": 2990,
   "peak24hAt": "2026-09-28T15:08:25.000Z",
-  "updatedAt": "2026-09-29T15:01:34.003Z",
+  "updatedAt": "2026-09-29T15:06:08.035Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-12-17-am-7544.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-29T15:01:34.003Z",
-    "updatedAtTs": 1790694094,
+    "updatedAt": "2026-09-29T15:06:08.035Z",
+    "updatedAtTs": 1790694368,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790694094,
-        2941
+        1790694368,
+        2852
       ],
       "peak24h": [
         1790608105,
         2990
       ],
       "peak48h": [
-        1790521302,
-        3558
+        1790521698,
+        3417
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790521302,
-          3558
-        ],
         [
           1790521698,
           3417
@@ -2336,6 +2332,10 @@
         [
           1790694094,
           2941
+        ],
+        [
+          1790694368,
+          2852
         ]
       ],
       "hourlyPeak": [
@@ -5022,6 +5022,10 @@
         [
           1790517600,
           3683
+        ],
+        [
+          1790521200,
+          3558
         ]
       ],
       "dailyPeak": [
@@ -5506,6 +5510,6 @@
       ]
     }
   },
-  "peak48h": 3558,
-  "peak48hAt": "2026-09-27T15:01:42.000Z"
+  "peak48h": 3417,
+  "peak48hAt": "2026-09-27T15:08:18.000Z"
 }
