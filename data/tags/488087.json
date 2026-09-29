@@ -3,16 +3,16 @@
   "appid": "2108330",
   "steamAppid": 2108330,
   "name": "F1 23",
-  "players": 179,
+  "players": 175,
   "allTimePeak": 14512,
   "peak24h": 188,
   "peak24hAt": "2026-09-29T16:46:10.000Z",
-  "updatedAt": "2026-09-29T18:06:59.933Z",
+  "updatedAt": "2026-09-29T18:13:20.833Z",
   "img_url": "2024/12/mixcollage-06-dec-2024-01-10-am-1607.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-29T18:06:59.933Z",
-    "updatedAtTs": 1790705219,
+    "updatedAt": "2026-09-29T18:13:20.833Z",
+    "updatedAtTs": 1790705600,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790705219,
-        179
+        1790705600,
+        175
       ],
       "peak24h": [
         1790700370,
         188
       ],
       "peak48h": [
-        1790532673,
+        1790532959,
         206
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790532673,
-          206
-        ],
         [
           1790532959,
           206
@@ -2324,6 +2320,10 @@
         [
           1790705219,
           179
+        ],
+        [
+          1790705600,
+          175
         ]
       ],
       "hourlyPeak": [
@@ -5531,5 +5531,5 @@
     }
   },
   "peak48h": 206,
-  "peak48hAt": "2026-09-27T18:11:13.000Z"
+  "peak48hAt": "2026-09-27T18:15:59.000Z"
 }
