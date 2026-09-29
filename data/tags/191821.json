@@ -6,13 +6,13 @@
   "players": 1063,
   "allTimePeak": 2797,
   "peak24h": 1186,
-  "peak24hAt": "2026-09-28T20:46:11.000Z",
-  "updatedAt": "2026-09-29T20:41:50.324Z",
+  "peak24hAt": "2026-09-28T20:51:23.000Z",
+  "updatedAt": "2026-09-29T20:47:19.997Z",
   "img_url": "2024/08/paralives.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-29T20:41:50.324Z",
-    "updatedAtTs": 1790714510,
+    "updatedAt": "2026-09-29T20:47:19.997Z",
+    "updatedAtTs": 1790714839,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,11 +23,11 @@
     },
     "summary": {
       "current": [
-        1790714510,
+        1790714839,
         1063
       ],
       "peak24h": [
-        1790628371,
+        1790628683,
         1186
       ],
       "peak48h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790542013,
-          1636
-        ],
         [
           1790542394,
           1645
@@ -2323,6 +2319,10 @@
         ],
         [
           1790714510,
+          1063
+        ],
+        [
+          1790714839,
           1063
         ]
       ],
