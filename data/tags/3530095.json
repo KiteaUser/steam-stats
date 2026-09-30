@@ -6,13 +6,13 @@
   "players": 5728,
   "allTimePeak": 33639,
   "peak24h": 6219,
-  "peak24hAt": "2026-09-29T01:51:55.000Z",
-  "updatedAt": "2026-09-30T01:48:09.692Z",
+  "peak24hAt": "2026-09-29T01:56:04.000Z",
+  "updatedAt": "2026-09-30T01:53:20.026Z",
   "img_url": "2025/08/halloween-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-30T01:48:09.692Z",
-    "updatedAtTs": 1790732889,
+    "updatedAt": "2026-09-30T01:53:20.026Z",
+    "updatedAtTs": 1790733200,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790732889,
+        1790733200,
         5728
       ],
       "peak24h": [
-        1790646715,
+        1790646964,
         6219
       ],
       "peak48h": [
-        1790560261,
-        6996
+        1790560561,
+        6955
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790560261,
-          6996
-        ],
         [
           1790560561,
           6955
@@ -2304,6 +2300,10 @@
         [
           1790732889,
           5728
+        ],
+        [
+          1790733200,
+          5728
         ]
       ],
       "hourlyPeak": [
@@ -4181,6 +4181,6 @@
       "monthlyPeak": []
     }
   },
-  "peak48h": 6996,
-  "peak48hAt": "2026-09-28T01:51:01.000Z"
+  "peak48h": 6955,
+  "peak48hAt": "2026-09-28T01:56:01.000Z"
 }
