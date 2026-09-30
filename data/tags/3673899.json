@@ -3,16 +3,16 @@
   "appid": "1626170",
   "steamAppid": 1626170,
   "name": "People of Note",
-  "players": 4,
+  "players": 3,
   "allTimePeak": 230,
   "peak24h": 8,
   "peak24hAt": "2026-09-29T05:16:02.000Z",
-  "updatedAt": "2026-09-30T00:01:23.295Z",
+  "updatedAt": "2026-09-30T00:06:22.538Z",
   "img_url": "2026/03/people-of-note-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-30T00:01:23.295Z",
-    "updatedAtTs": 1790726483,
+    "updatedAt": "2026-09-30T00:06:22.538Z",
+    "updatedAtTs": 1790726782,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790726483,
-        4
+        1790726782,
+        3
       ],
       "peak24h": [
         1790658962,
         8
       ],
       "peak48h": [
-        1790553685,
+        1790554265,
         9
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790553685,
-          9
-        ],
-        [
-          1790553964,
-          9
-        ],
         [
           1790554265,
           9
@@ -2312,6 +2304,10 @@
         [
           1790726483,
           4
+        ],
+        [
+          1790726782,
+          3
         ]
       ],
       "hourlyPeak": [
@@ -4998,6 +4994,10 @@
         [
           1790550000,
           11
+        ],
+        [
+          1790553600,
+          9
         ]
       ],
       "dailyPeak": [
@@ -5383,5 +5383,5 @@
     }
   },
   "peak48h": 9,
-  "peak48hAt": "2026-09-28T00:01:25.000Z"
+  "peak48hAt": "2026-09-28T00:11:05.000Z"
 }
