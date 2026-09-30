@@ -3,16 +3,16 @@
   "appid": "3070070",
   "steamAppid": 3070070,
   "name": "TCG Card Shop Simulator",
-  "players": 6040,
+  "players": 6010,
   "allTimePeak": 53453,
-  "peak24h": 6617,
-  "peak24hAt": "2026-09-29T20:26:12.000Z",
-  "updatedAt": "2026-09-30T20:26:06.598Z",
+  "peak24h": 6585,
+  "peak24hAt": "2026-09-29T20:35:59.000Z",
+  "updatedAt": "2026-09-30T20:31:26.871Z",
   "img_url": "2025/03/mixcollage-04-mar-2025-10-11-am-7189.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-30T20:26:06.598Z",
-    "updatedAtTs": 1790799966,
+    "updatedAt": "2026-09-30T20:31:26.871Z",
+    "updatedAtTs": 1790800286,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1790799966,
-        6040
+        1790800286,
+        6010
       ],
       "peak24h": [
-        1790713572,
-        6617
+        1790714159,
+        6585
       ],
       "peak48h": [
-        1790627242,
-        7361
+        1790627525,
+        7342
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790627242,
-          7361
-        ],
         [
           1790627525,
           7342
@@ -2316,6 +2312,10 @@
         [
           1790799966,
           6040
+        ],
+        [
+          1790800286,
+          6010
         ]
       ],
       "hourlyPeak": [
@@ -5466,6 +5466,6 @@
       ]
     }
   },
-  "peak48h": 7361,
-  "peak48hAt": "2026-09-28T20:27:22.000Z"
+  "peak48h": 7342,
+  "peak48hAt": "2026-09-28T20:32:05.000Z"
 }
