@@ -3,16 +3,16 @@
   "appid": "977880",
   "steamAppid": 977880,
   "name": "Eastward",
-  "players": 30,
+  "players": 26,
   "allTimePeak": 13882,
   "peak24h": 35,
   "peak24hAt": "2026-09-30T14:01:23.000Z",
-  "updatedAt": "2026-09-30T17:41:08.506Z",
+  "updatedAt": "2026-09-30T17:46:31.457Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-01-12-am-3765.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-09-30T17:41:08.506Z",
-    "updatedAtTs": 1790790068,
+    "updatedAt": "2026-09-30T17:46:31.457Z",
+    "updatedAtTs": 1790790391,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790790068,
-        30
+        1790790391,
+        26
       ],
       "peak24h": [
         1790776883,
         35
       ],
       "peak48h": [
-        1790617577,
+        1790617864,
         38
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790617274,
-          37
-        ],
-        [
-          1790617577,
-          38
-        ],
         [
           1790617864,
           38
@@ -2316,6 +2308,10 @@
         [
           1790790068,
           30
+        ],
+        [
+          1790790391,
+          26
         ]
       ],
       "hourlyPeak": [
@@ -5005,7 +5001,7 @@
         ],
         [
           1790614800,
-          36
+          38
         ]
       ],
       "dailyPeak": [
@@ -5611,5 +5607,5 @@
     }
   },
   "peak48h": 38,
-  "peak48hAt": "2026-09-28T17:46:17.000Z"
+  "peak48hAt": "2026-09-28T17:51:04.000Z"
 }
