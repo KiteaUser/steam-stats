@@ -3,16 +3,16 @@
   "appid": "221100",
   "steamAppid": 221100,
   "name": "DayZ",
-  "players": 44118,
+  "players": 44001,
   "allTimePeak": 78937,
   "peak24h": 44118,
   "peak24hAt": "2026-10-01T18:51:04.000Z",
-  "updatedAt": "2026-10-01T18:51:04.767Z",
+  "updatedAt": "2026-10-01T18:56:03.411Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-08-19-am-9698.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-01T18:51:04.767Z",
-    "updatedAtTs": 1790880664,
+    "updatedAt": "2026-10-01T18:56:03.411Z",
+    "updatedAtTs": 1790880963,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790880664,
-        44118
+        1790880963,
+        44001
       ],
       "peak24h": [
         1790880664,
         44118
       ],
       "peak48h": [
-        1790707885,
+        1790708168,
         45477
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790707885,
-          45477
-        ],
         [
           1790708168,
           45477
@@ -2332,6 +2328,10 @@
         [
           1790880664,
           44118
+        ],
+        [
+          1790880963,
+          44001
         ]
       ],
       "hourlyPeak": [
@@ -5947,5 +5947,5 @@
     }
   },
   "peak48h": 45477,
-  "peak48hAt": "2026-09-29T18:51:25.000Z"
+  "peak48hAt": "2026-09-29T18:56:08.000Z"
 }
