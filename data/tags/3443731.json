@@ -7,12 +7,12 @@
   "allTimePeak": 12229,
   "peak24h": 571,
   "peak24hAt": "2026-09-30T20:21:01.000Z",
-  "updatedAt": "2026-10-01T20:11:09.212Z",
+  "updatedAt": "2026-10-01T20:16:14.061Z",
   "img_url": "2025/03/gas-station-simulator-tag-image.jpeg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-01T20:11:09.212Z",
-    "updatedAtTs": 1790885469,
+    "updatedAt": "2026-10-01T20:16:14.061Z",
+    "updatedAtTs": 1790885774,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,7 +23,7 @@
     },
     "summary": {
       "current": [
-        1790885469,
+        1790885774,
         505
       ],
       "peak24h": [
@@ -31,7 +31,7 @@
         571
       ],
       "peak48h": [
-        1790712689,
+        1790713263,
         663
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790712689,
-          663
-        ],
         [
           1790713077,
           647
@@ -2331,6 +2327,10 @@
         ],
         [
           1790885469,
+          505
+        ],
+        [
+          1790885774,
           505
         ]
       ],
@@ -5515,5 +5515,5 @@
     }
   },
   "peak48h": 663,
-  "peak48hAt": "2026-09-29T20:11:29.000Z"
+  "peak48hAt": "2026-09-29T20:21:03.000Z"
 }

@@ -3,16 +3,16 @@
   "appid": "2255370",
   "steamAppid": 2255370,
   "name": "Directive 8020",
-  "players": 33,
+  "players": 35,
   "allTimePeak": 3021,
   "peak24h": 38,
   "peak24hAt": "2026-09-30T20:26:06.000Z",
-  "updatedAt": "2026-10-01T20:11:09.212Z",
+  "updatedAt": "2026-10-01T20:16:14.061Z",
   "img_url": "2025/02/directive-8020-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-01T20:11:09.212Z",
-    "updatedAtTs": 1790885469,
+    "updatedAt": "2026-10-01T20:16:14.061Z",
+    "updatedAtTs": 1790885774,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1790885469,
-        33
+        1790885774,
+        35
       ],
       "peak24h": [
         1790799966,
         38
       ],
       "peak48h": [
-        1790712689,
+        1790796061,
         38
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790712689,
-          38
-        ],
         [
           1790713077,
           35
@@ -2312,6 +2308,10 @@
         [
           1790885469,
           33
+        ],
+        [
+          1790885774,
+          35
         ]
       ],
       "hourlyPeak": [
@@ -5271,5 +5271,5 @@
     }
   },
   "peak48h": 38,
-  "peak48hAt": "2026-09-29T20:11:29.000Z"
+  "peak48hAt": "2026-09-30T19:21:01.000Z"
 }
