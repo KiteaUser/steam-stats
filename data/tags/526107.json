@@ -3,16 +3,16 @@
   "appid": "1714040",
   "steamAppid": 1714040,
   "name": "Super Auto Pets",
-  "players": 355,
+  "players": 349,
   "allTimePeak": 10760,
   "peak24h": 371,
   "peak24hAt": "2026-10-03T13:46:53.000Z",
-  "updatedAt": "2026-10-03T14:41:05.518Z",
+  "updatedAt": "2026-10-03T14:46:28.046Z",
   "img_url": "2024/11/mixcollage-23-nov-2024-03-03-am-9376.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-03T14:41:05.518Z",
-    "updatedAtTs": 1791038465,
+    "updatedAt": "2026-10-03T14:46:28.046Z",
+    "updatedAtTs": 1791038788,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1791038465,
-        355
+        1791038788,
+        349
       ],
       "peak24h": [
         1791035213,
         371
       ],
       "peak48h": [
-        1790865738,
+        1791035213,
         371
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790865738,
-          371
-        ],
         [
           1790866104,
           359
@@ -2328,6 +2324,10 @@
         [
           1791038465,
           355
+        ],
+        [
+          1791038788,
+          349
         ]
       ],
       "hourlyPeak": [
@@ -5017,7 +5017,7 @@
         ],
         [
           1790863200,
-          365
+          371
         ]
       ],
       "dailyPeak": [
@@ -5519,5 +5519,5 @@
     }
   },
   "peak48h": 371,
-  "peak48hAt": "2026-10-01T14:42:18.000Z"
+  "peak48hAt": "2026-10-03T13:46:53.000Z"
 }
