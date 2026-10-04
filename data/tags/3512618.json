@@ -3,16 +3,16 @@
   "appid": "1128000",
   "steamAppid": 1128000,
   "name": "Cube World",
-  "players": 23,
+  "players": 24,
   "allTimePeak": 35622,
   "peak24h": 27,
   "peak24hAt": "2026-10-04T15:11:19.000Z",
-  "updatedAt": "2026-10-04T17:56:02.172Z",
+  "updatedAt": "2026-10-04T18:01:23.117Z",
   "img_url": "2025/07/cube-world-video-game-cover-art-tag.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-04T17:56:02.172Z",
-    "updatedAtTs": 1791136562,
+    "updatedAt": "2026-10-04T18:01:23.117Z",
+    "updatedAtTs": 1791136883,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1791136562,
-        23
+        1791136883,
+        24
       ],
       "peak24h": [
         1791126679,
         27
       ],
       "peak48h": [
-        1790963768,
+        1791126679,
         27
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1790963768,
-          27
-        ],
-        [
-          1790964080,
-          23
-        ],
         [
           1790964366,
           22
@@ -2324,13 +2316,13 @@
         [
           1791136562,
           23
+        ],
+        [
+          1791136883,
+          24
         ]
       ],
       "hourlyPeak": [
-        [
-          1788544800,
-          19
-        ],
         [
           1788548400,
           16
@@ -5013,7 +5005,11 @@
         ],
         [
           1790960400,
-          25
+          27
+        ],
+        [
+          1790964000,
+          23
         ]
       ],
       "dailyPeak": [
@@ -5611,5 +5607,5 @@
     }
   },
   "peak48h": 27,
-  "peak48hAt": "2026-10-02T17:56:08.000Z"
+  "peak48hAt": "2026-10-04T15:11:19.000Z"
 }
