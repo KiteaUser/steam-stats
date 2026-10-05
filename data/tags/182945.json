@@ -3,16 +3,16 @@
   "appid": "1372880",
   "steamAppid": 1372880,
   "name": "The Day Before",
-  "players": 0,
+  "players": 1,
   "allTimePeak": 38104,
-  "peak24h": 0,
-  "peak24hAt": "2026-06-10T22:47:21.000Z",
-  "updatedAt": "2026-10-05T11:05:54.494Z",
+  "peak24h": 1,
+  "peak24hAt": "2026-10-05T11:11:12.000Z",
+  "updatedAt": "2026-10-05T11:11:12.393Z",
   "img_url": "2025/03/the-day-before-game-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-05T11:05:54.494Z",
-    "updatedAtTs": 1791198354,
+    "updatedAt": "2026-10-05T11:11:12.393Z",
+    "updatedAtTs": 1791198672,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,18 +23,29 @@
     },
     "summary": {
       "current": [
-        1791198354,
-        0
+        1791198672,
+        1
       ],
-      "peak24h": null,
-      "peak48h": null,
+      "peak24h": [
+        1791198672,
+        1
+      ],
+      "peak48h": [
+        1791198672,
+        1
+      ],
       "allTimePeak": [
         null,
         38104
       ]
     },
     "series": {
-      "raw5m": [],
+      "raw5m": [
+        [
+          1791198672,
+          1
+        ]
+      ],
       "hourlyPeak": [],
       "dailyPeak": [],
       "monthlyPeak": [
@@ -164,5 +175,7 @@
         ]
       ]
     }
-  }
+  },
+  "peak48h": 1,
+  "peak48hAt": "2026-10-05T11:11:12.000Z"
 }
