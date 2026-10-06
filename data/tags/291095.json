@@ -3,16 +3,16 @@
   "appid": "863550",
   "steamAppid": 863550,
   "name": "HITMAN 2",
-  "players": 133,
+  "players": 135,
   "allTimePeak": 361001,
   "peak24h": 174,
   "peak24hAt": "2026-10-05T18:21:22.000Z",
-  "updatedAt": "2026-10-06T17:18:05.393Z",
+  "updatedAt": "2026-10-06T17:20:59.750Z",
   "img_url": "2024/12/mixcollage-09-dec-2024-10-20-am-6773.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-06T17:18:05.393Z",
-    "updatedAtTs": 1791307085,
+    "updatedAt": "2026-10-06T17:20:59.750Z",
+    "updatedAtTs": 1791307259,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1791307085,
-        133
+        1791307259,
+        135
       ],
       "peak24h": [
         1791224482,
         174
       ],
       "peak48h": [
-        1791134456,
+        1791224482,
         174
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791134456,
-          174
-        ],
         [
           1791134754,
           165
@@ -2260,6 +2256,10 @@
         [
           1791307085,
           133
+        ],
+        [
+          1791307259,
+          135
         ]
       ],
       "hourlyPeak": [
@@ -4949,7 +4949,7 @@
         ],
         [
           1791133200,
-          170
+          174
         ]
       ],
       "dailyPeak": [
@@ -5599,5 +5599,5 @@
     }
   },
   "peak48h": 174,
-  "peak48hAt": "2026-10-04T17:20:56.000Z"
+  "peak48hAt": "2026-10-05T18:21:22.000Z"
 }
