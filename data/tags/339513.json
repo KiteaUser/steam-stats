@@ -3,16 +3,16 @@
   "appid": "304050",
   "steamAppid": 304050,
   "name": "Trove",
-  "players": 494,
+  "players": 504,
   "allTimePeak": 58949,
   "peak24h": 590,
   "peak24hAt": "2026-10-07T14:31:22.000Z",
-  "updatedAt": "2026-10-07T19:36:04.501Z",
+  "updatedAt": "2026-10-07T19:43:00.371Z",
   "img_url": "2024/11/mixcollage-26-nov-2024-12-13-pm-7444.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-07T19:36:04.501Z",
-    "updatedAtTs": 1791401764,
+    "updatedAt": "2026-10-07T19:43:00.371Z",
+    "updatedAtTs": 1791402180,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1791401764,
-        494
+        1791402180,
+        504
       ],
       "peak24h": [
         1791383482,
         590
       ],
       "peak48h": [
-        1791229311,
-        602
+        1791383482,
+        590
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791229311,
-          602
-        ],
         [
           1791231830,
           541
@@ -2252,6 +2248,10 @@
         [
           1791401764,
           494
+        ],
+        [
+          1791402180,
+          504
         ]
       ],
       "hourlyPeak": [
@@ -4941,7 +4941,7 @@
         ],
         [
           1791226800,
-          588
+          602
         ]
       ],
       "dailyPeak": [
@@ -5758,6 +5758,6 @@
       ]
     }
   },
-  "peak48h": 602,
-  "peak48hAt": "2026-10-05T19:41:51.000Z"
+  "peak48h": 590,
+  "peak48hAt": "2026-10-07T14:31:22.000Z"
 }
