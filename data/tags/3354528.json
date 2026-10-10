@@ -3,16 +3,16 @@
   "appid": "96000",
   "steamAppid": 96000,
   "name": "The Tiny Bang Story",
-  "players": 7,
+  "players": 8,
   "allTimePeak": 164840,
   "peak24h": 12,
   "peak24hAt": "2026-10-09T17:42:56.000Z",
-  "updatedAt": "2026-10-10T15:45:57.831Z",
+  "updatedAt": "2026-10-10T15:51:06.988Z",
   "img_url": "2024/12/mixcollage-31-dec-2024-08-31-pm-9013.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-10T15:45:57.831Z",
-    "updatedAtTs": 1791647157,
+    "updatedAt": "2026-10-10T15:51:06.988Z",
+    "updatedAtTs": 1791647466,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1791647157,
-        7
+        1791647466,
+        8
       ],
       "peak24h": [
         1791567776,
         12
       ],
       "peak48h": [
-        1791474382,
+        1791474678,
         20
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791474382,
-          20
-        ],
         [
           1791474678,
           20
@@ -2340,6 +2336,10 @@
         [
           1791647157,
           7
+        ],
+        [
+          1791647466,
+          8
         ]
       ],
       "hourlyPeak": [
@@ -5999,5 +5999,5 @@
     }
   },
   "peak48h": 20,
-  "peak48hAt": "2026-10-08T15:46:22.000Z"
+  "peak48hAt": "2026-10-08T15:51:18.000Z"
 }
