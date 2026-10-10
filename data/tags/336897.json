@@ -3,16 +3,16 @@
   "appid": "2141910",
   "steamAppid": 2141910,
   "name": "Magic: The Gathering Arena",
-  "players": 12387,
+  "players": 12222,
   "allTimePeak": 18047,
   "peak24h": 12405,
   "peak24hAt": "2026-10-10T19:48:13.000Z",
-  "updatedAt": "2026-10-10T20:11:03.280Z",
+  "updatedAt": "2026-10-10T20:15:55.952Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-01-42-pm-222.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-10T20:11:03.280Z",
-    "updatedAtTs": 1791663063,
+    "updatedAt": "2026-10-10T20:15:55.952Z",
+    "updatedAtTs": 1791663355,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1791663063,
-        12387
+        1791663355,
+        12222
       ],
       "peak24h": [
         1791661693,
         12405
       ],
       "peak48h": [
-        1791490264,
-        12700
+        1791490680,
+        12593
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791490264,
-          12700
-        ],
         [
           1791490680,
           12593
@@ -2336,6 +2332,10 @@
         [
           1791663063,
           12387
+        ],
+        [
+          1791663355,
+          12222
         ]
       ],
       "hourlyPeak": [
@@ -5474,6 +5474,6 @@
       ]
     }
   },
-  "peak48h": 12700,
-  "peak48hAt": "2026-10-08T20:11:04.000Z"
+  "peak48h": 12593,
+  "peak48hAt": "2026-10-08T20:18:00.000Z"
 }
