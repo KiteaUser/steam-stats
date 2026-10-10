@@ -3,16 +3,16 @@
   "appid": "453480",
   "steamAppid": 453480,
   "name": "Shadowverse",
-  "players": 6,
+  "players": 4,
   "allTimePeak": 24167,
   "peak24h": 8,
   "peak24hAt": "2026-10-09T11:56:00.000Z",
-  "updatedAt": "2026-10-10T11:31:04.270Z",
+  "updatedAt": "2026-10-10T11:35:55.979Z",
   "img_url": "2024/12/mixcollage-13-dec-2024-08-26-am-6014.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-10T11:31:04.270Z",
-    "updatedAtTs": 1791631864,
+    "updatedAt": "2026-10-10T11:35:55.979Z",
+    "updatedAtTs": 1791632155,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1791631864,
-        6
+        1791632155,
+        4
       ],
       "peak24h": [
         1791546960,
         8
       ],
       "peak48h": [
-        1791459073,
+        1791459369,
         11
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791459073,
-          11
-        ],
         [
           1791459369,
           11
@@ -2344,6 +2340,10 @@
         [
           1791631864,
           6
+        ],
+        [
+          1791632155,
+          4
         ]
       ],
       "hourlyPeak": [
@@ -5799,5 +5799,5 @@
     }
   },
   "peak48h": 11,
-  "peak48hAt": "2026-10-08T11:31:13.000Z"
+  "peak48hAt": "2026-10-08T11:36:09.000Z"
 }
