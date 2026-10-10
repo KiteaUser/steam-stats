@@ -3,16 +3,16 @@
   "appid": "1216060",
   "steamAppid": 1216060,
   "name": "DNF DUEL",
-  "players": 9,
+  "players": 11,
   "allTimePeak": 12331,
-  "peak24h": 10,
-  "peak24hAt": "2026-10-10T04:21:01.000Z",
-  "updatedAt": "2026-10-10T23:16:29.073Z",
+  "peak24h": 11,
+  "peak24hAt": "2026-10-10T23:21:56.000Z",
+  "updatedAt": "2026-10-10T23:21:56.802Z",
   "img_url": "2024/11/mixcollage-19-nov-2024-01-23-am-2863.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-10T23:16:29.073Z",
-    "updatedAtTs": 1791674189,
+    "updatedAt": "2026-10-10T23:21:56.802Z",
+    "updatedAtTs": 1791674516,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1791674189,
-        9
+        1791674516,
+        11
       ],
       "peak24h": [
-        1791606061,
-        10
+        1791674516,
+        11
       ],
       "peak48h": [
-        1791516360,
-        10
+        1791674516,
+        11
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791501664,
-          2
-        ],
         [
           1791501974,
           1
@@ -2268,6 +2264,10 @@
         [
           1791674189,
           9
+        ],
+        [
+          1791674516,
+          11
         ]
       ],
       "hourlyPeak": [
@@ -5434,6 +5434,6 @@
       ]
     }
   },
-  "peak48h": 10,
-  "peak48hAt": "2026-10-09T03:26:00.000Z"
+  "peak48h": 11,
+  "peak48hAt": "2026-10-10T23:21:56.000Z"
 }
