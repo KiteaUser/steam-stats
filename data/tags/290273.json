@@ -3,16 +3,16 @@
   "appid": "391540",
   "steamAppid": 391540,
   "name": "Undertale",
-  "players": 2276,
+  "players": 2274,
   "allTimePeak": 11071,
   "peak24h": 2689,
   "peak24hAt": "2026-10-11T18:11:12.000Z",
-  "updatedAt": "2026-10-12T18:01:26.730Z",
+  "updatedAt": "2026-10-12T18:06:00.058Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-07-39-pm-3965.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-12T18:01:26.730Z",
-    "updatedAtTs": 1791828086,
+    "updatedAt": "2026-10-12T18:06:00.058Z",
+    "updatedAtTs": 1791828360,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1791828086,
-        2276
+        1791828360,
+        2274
       ],
       "peak24h": [
         1791742272,
         2689
       ],
       "peak48h": [
-        1791655556,
-        3181
+        1791655868,
+        3164
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791655556,
-          3181
-        ],
         [
           1791655868,
           3164
@@ -2336,6 +2332,10 @@
         [
           1791828086,
           2276
+        ],
+        [
+          1791828360,
+          2274
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5025,7 @@
         ],
         [
           1791655200,
-          3143
+          3181
         ]
       ],
       "dailyPeak": [
@@ -5850,6 +5850,6 @@
       ]
     }
   },
-  "peak48h": 3181,
-  "peak48hAt": "2026-10-10T18:05:56.000Z"
+  "peak48h": 3164,
+  "peak48hAt": "2026-10-10T18:11:08.000Z"
 }
