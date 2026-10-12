@@ -3,16 +3,16 @@
   "appid": "815370",
   "steamAppid": 815370,
   "name": "Green Hell",
-  "players": 8099,
+  "players": 7941,
   "allTimePeak": 20259,
-  "peak24h": 8368,
-  "peak24hAt": "2026-10-11T14:55:56.000Z",
-  "updatedAt": "2026-10-12T14:51:34.826Z",
+  "peak24h": 8331,
+  "peak24hAt": "2026-10-11T15:01:21.000Z",
+  "updatedAt": "2026-10-12T14:56:09.241Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-01-30-am-69.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-12T14:51:34.826Z",
-    "updatedAtTs": 1791816694,
+    "updatedAt": "2026-10-12T14:56:09.241Z",
+    "updatedAtTs": 1791816969,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1791816694,
-        8099
+        1791816969,
+        7941
       ],
       "peak24h": [
-        1791730556,
-        8368
+        1791730881,
+        8331
       ],
       "peak48h": [
-        1791644160,
-        8526
+        1791727301,
+        8523
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791644160,
-          8526
-        ],
         [
           1791644470,
           8474
@@ -2344,6 +2340,10 @@
         [
           1791816694,
           8099
+        ],
+        [
+          1791816969,
+          7941
         ]
       ],
       "hourlyPeak": [
@@ -5718,6 +5718,6 @@
       ]
     }
   },
-  "peak48h": 8526,
-  "peak48hAt": "2026-10-10T14:56:00.000Z"
+  "peak48h": 8523,
+  "peak48hAt": "2026-10-11T14:01:41.000Z"
 }
