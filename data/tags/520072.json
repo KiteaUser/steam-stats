@@ -5,14 +5,14 @@
   "name": "Gauntlet",
   "players": 42,
   "allTimePeak": 12730,
-  "peak24h": 64,
-  "peak24hAt": "2026-10-11T03:41:09.000Z",
-  "updatedAt": "2026-10-12T03:41:06.648Z",
+  "peak24h": 62,
+  "peak24hAt": "2026-10-11T20:01:16.000Z",
+  "updatedAt": "2026-10-12T03:45:56.384Z",
   "img_url": "2024/11/mixcollage-25-nov-2024-12-53-pm-235.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-12T03:41:06.648Z",
-    "updatedAtTs": 1791776466,
+    "updatedAt": "2026-10-12T03:45:56.384Z",
+    "updatedAtTs": 1791776756,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,12 +23,12 @@
     },
     "summary": {
       "current": [
-        1791776466,
+        1791776756,
         42
       ],
       "peak24h": [
-        1791690069,
-        64
+        1791748876,
+        62
       ],
       "peak48h": [
         1791681181,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791603667,
-          57
-        ],
         [
           1791603967,
           51
@@ -2343,6 +2339,10 @@
         ],
         [
           1791776466,
+          42
+        ],
+        [
+          1791776756,
           42
         ]
       ],
