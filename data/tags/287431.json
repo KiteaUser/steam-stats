@@ -3,16 +3,16 @@
   "appid": "1286830",
   "steamAppid": 1286830,
   "name": "STAR WARS: The Old Republic",
-  "players": 4576,
+  "players": 4538,
   "allTimePeak": 34210,
-  "peak24h": 4603,
-  "peak24hAt": "2026-10-12T19:56:09.000Z",
-  "updatedAt": "2026-10-13T19:51:19.550Z",
+  "peak24h": 4576,
+  "peak24hAt": "2026-10-13T19:51:19.000Z",
+  "updatedAt": "2026-10-13T19:56:17.835Z",
   "img_url": "2024/12/mixcollage-05-dec-2024-08-17-pm-3244.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-13T19:51:19.550Z",
-    "updatedAtTs": 1791921079,
+    "updatedAt": "2026-10-13T19:56:17.835Z",
+    "updatedAtTs": 1791921377,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
+        1791921377,
+        4538
+      ],
+      "peak24h": [
         1791921079,
         4576
       ],
-      "peak24h": [
-        1791834969,
-        4603
-      ],
       "peak48h": [
-        1791748562,
+        1791748876,
         4999
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791748562,
-          4999
-        ],
         [
           1791748876,
           4999
@@ -2340,6 +2336,10 @@
         [
           1791921079,
           4576
+        ],
+        [
+          1791921377,
+          4538
         ]
       ],
       "hourlyPeak": [
@@ -5627,5 +5627,5 @@
     }
   },
   "peak48h": 4999,
-  "peak48hAt": "2026-10-11T19:56:02.000Z"
+  "peak48hAt": "2026-10-11T20:01:16.000Z"
 }
