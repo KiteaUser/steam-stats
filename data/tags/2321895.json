@@ -3,16 +3,16 @@
   "appid": "2592160",
   "steamAppid": 2592160,
   "name": "Dispatch",
-  "players": 923,
+  "players": 908,
   "allTimePeak": 220060,
   "peak24h": 1064,
   "peak24hAt": "2026-10-12T21:25:54.000Z",
-  "updatedAt": "2026-10-13T21:16:13.298Z",
+  "updatedAt": "2026-10-13T21:21:11.576Z",
   "img_url": "2025/06/dispatch-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-13T21:16:13.298Z",
-    "updatedAtTs": 1791926173,
+    "updatedAt": "2026-10-13T21:21:11.576Z",
+    "updatedAtTs": 1791926471,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1791926173,
-        923
+        1791926471,
+        908
       ],
       "peak24h": [
         1791840354,
         1064
       ],
       "peak48h": [
-        1791753661,
-        1387
+        1791753975,
+        1338
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791753374,
-          1359
-        ],
-        [
-          1791753661,
-          1387
-        ],
         [
           1791753975,
           1338
@@ -2344,6 +2336,10 @@
         [
           1791926173,
           923
+        ],
+        [
+          1791926471,
+          908
         ]
       ],
       "hourlyPeak": [
@@ -5033,7 +5029,7 @@
         ],
         [
           1791752400,
-          1384
+          1387
         ]
       ],
       "dailyPeak": [
@@ -5378,6 +5374,6 @@
       ]
     }
   },
-  "peak48h": 1387,
-  "peak48hAt": "2026-10-11T21:21:01.000Z"
+  "peak48h": 1338,
+  "peak48hAt": "2026-10-11T21:26:15.000Z"
 }
