@@ -3,16 +3,16 @@
   "appid": "43110",
   "steamAppid": 43110,
   "name": "Metro 2033",
-  "players": 57,
+  "players": 61,
   "allTimePeak": 14743,
   "peak24h": 77,
   "peak24hAt": "2026-10-13T17:16:21.000Z",
-  "updatedAt": "2026-10-13T18:36:04.088Z",
+  "updatedAt": "2026-10-13T18:41:01.770Z",
   "img_url": "2024/12/mixcollage-07-dec-2024-11-47-pm-7454.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-13T18:36:04.088Z",
-    "updatedAtTs": 1791916564,
+    "updatedAt": "2026-10-13T18:41:01.770Z",
+    "updatedAtTs": 1791916861,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1791916564,
-        57
+        1791916861,
+        61
       ],
       "peak24h": [
         1791911781,
         77
       ],
       "peak48h": [
-        1791744059,
-        104
+        1791744365,
+        99
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791744059,
-          104
-        ],
         [
           1791744365,
           99
@@ -2336,6 +2332,10 @@
         [
           1791916564,
           57
+        ],
+        [
+          1791916861,
+          61
         ]
       ],
       "hourlyPeak": [
@@ -5025,7 +5025,7 @@
         ],
         [
           1791741600,
-          99
+          104
         ]
       ],
       "dailyPeak": [
@@ -6006,6 +6006,6 @@
       ]
     }
   },
-  "peak48h": 104,
-  "peak48hAt": "2026-10-11T18:40:59.000Z"
+  "peak48h": 99,
+  "peak48hAt": "2026-10-11T18:46:05.000Z"
 }
