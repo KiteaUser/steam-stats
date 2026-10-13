@@ -3,16 +3,16 @@
   "appid": "420970",
   "steamAppid": 420970,
   "name": "RoBoRumble",
-  "players": 1,
+  "players": 2,
   "allTimePeak": 13029,
   "peak24h": 4,
-  "peak24hAt": "2026-10-12T05:16:07.000Z",
-  "updatedAt": "2026-10-13T05:11:06.501Z",
+  "peak24hAt": "2026-10-12T05:21:07.000Z",
+  "updatedAt": "2026-10-13T05:16:09.921Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-13T05:11:06.501Z",
-    "updatedAtTs": 1791868266,
+    "updatedAt": "2026-10-13T05:16:09.921Z",
+    "updatedAtTs": 1791868569,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,11 +23,11 @@
     },
     "summary": {
       "current": [
-        1791868266,
-        1
+        1791868569,
+        2
       ],
       "peak24h": [
-        1791782167,
+        1791782467,
         4
       ],
       "peak48h": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791695765,
-          2
-        ],
         [
           1791696109,
           2
@@ -1756,6 +1752,10 @@
         [
           1791868266,
           1
+        ],
+        [
+          1791868569,
+          2
         ]
       ],
       "hourlyPeak": [
