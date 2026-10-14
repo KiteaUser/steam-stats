@@ -3,16 +3,16 @@
   "appid": "208090",
   "steamAppid": 208090,
   "name": "Loadout",
-  "players": 2,
+  "players": 1,
   "allTimePeak": 29424,
   "peak24h": 6,
   "peak24hAt": "2026-10-13T21:31:21.000Z",
-  "updatedAt": "2026-10-14T12:36:06.050Z",
+  "updatedAt": "2026-10-14T12:41:20.140Z",
   "img_url": "2024/12/mixcollage-29-dec-2024-11-45-am-6905.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-14T12:36:06.050Z",
-    "updatedAtTs": 1791981366,
+    "updatedAt": "2026-10-14T12:41:20.140Z",
+    "updatedAtTs": 1791981680,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1791981366,
-        2
+        1791981680,
+        1
       ],
       "peak24h": [
         1791927081,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791808861,
-          1
-        ],
         [
           1791809193,
           1
@@ -720,6 +716,10 @@
         [
           1791981366,
           2
+        ],
+        [
+          1791981680,
+          1
         ]
       ],
       "hourlyPeak": [
