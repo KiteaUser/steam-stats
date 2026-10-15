@@ -3,16 +3,16 @@
   "appid": "4231820",
   "steamAppid": 4231820,
   "name": "Castlevania: Belmont's Curse",
-  "players": 0,
-  "allTimePeak": 0,
-  "peak24h": 0,
-  "peak24hAt": "2026-08-24T11:06:44.026Z",
-  "updatedAt": "2026-10-15T04:01:20.082Z",
+  "players": 14,
+  "allTimePeak": 14,
+  "peak24h": 14,
+  "peak24hAt": "2026-10-15T04:06:04.000Z",
+  "updatedAt": "2026-10-15T04:06:04.437Z",
   "img_url": "2026/02/castlevania-belmont-curse-custom-cover-art-tag-page.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-15T04:01:20.082Z",
-    "updatedAtTs": 1792036880,
+    "updatedAt": "2026-10-15T04:06:04.437Z",
+    "updatedAtTs": 1792037164,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,21 +23,34 @@
     },
     "summary": {
       "current": [
-        1792036880,
-        0
+        1792037164,
+        14
       ],
-      "peak24h": null,
-      "peak48h": null,
+      "peak24h": [
+        1792037164,
+        14
+      ],
+      "peak48h": [
+        1792037164,
+        14
+      ],
       "allTimePeak": [
         null,
-        0
+        14
       ]
     },
     "series": {
-      "raw5m": [],
+      "raw5m": [
+        [
+          1792037164,
+          14
+        ]
+      ],
       "hourlyPeak": [],
       "dailyPeak": [],
       "monthlyPeak": []
     }
-  }
+  },
+  "peak48h": 14,
+  "peak48hAt": "2026-10-15T04:06:04.000Z"
 }
