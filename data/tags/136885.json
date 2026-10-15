@@ -3,16 +3,16 @@
   "appid": "70",
   "steamAppid": 70,
   "name": "Half-Life",
-  "players": 1084,
+  "players": 1051,
   "allTimePeak": 33471,
   "peak24h": 1096,
   "peak24hAt": "2026-10-14T18:56:09.000Z",
-  "updatedAt": "2026-10-15T18:06:01.855Z",
+  "updatedAt": "2026-10-15T18:11:06.780Z",
   "img_url": "2024/12/mixcollage-25-dec-2024-03-04-am-925.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-15T18:06:01.855Z",
-    "updatedAtTs": 1792087561,
+    "updatedAt": "2026-10-15T18:11:06.780Z",
+    "updatedAtTs": 1792087866,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1792087561,
-        1084
+        1792087866,
+        1051
       ],
       "peak24h": [
         1792004169,
         1096
       ],
       "peak48h": [
-        1791914762,
+        1791915360,
         1115
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791914762,
-          1115
-        ],
         [
           1791915070,
           1096
@@ -2320,6 +2316,10 @@
         [
           1792087561,
           1084
+        ],
+        [
+          1792087866,
+          1051
         ]
       ],
       "hourlyPeak": [
@@ -5009,7 +5009,7 @@
         ],
         [
           1791914400,
-          1082
+          1115
         ]
       ],
       "dailyPeak": [
@@ -5999,5 +5999,5 @@
     }
   },
   "peak48h": 1115,
-  "peak48hAt": "2026-10-13T18:06:02.000Z"
+  "peak48hAt": "2026-10-13T18:16:00.000Z"
 }
