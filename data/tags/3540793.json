@@ -6,13 +6,13 @@
   "players": 396,
   "allTimePeak": 27390,
   "peak24h": 396,
-  "peak24hAt": "2026-10-15T13:51:07.000Z",
-  "updatedAt": "2026-10-16T13:48:19.356Z",
+  "peak24hAt": "2026-10-16T13:48:19.000Z",
+  "updatedAt": "2026-10-16T13:53:21.768Z",
   "img_url": "2025/09/dragon-quest-vii-reimagined.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-16T13:48:19.356Z",
-    "updatedAtTs": 1792158499,
+    "updatedAt": "2026-10-16T13:53:21.768Z",
+    "updatedAtTs": 1792158801,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792158499,
+        1792158801,
         396
       ],
       "peak24h": [
-        1792072267,
+        1792158499,
         396
       ],
       "peak48h": [
-        1791985859,
-        466
+        1791986176,
+        463
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1791985859,
-          466
-        ],
         [
           1791986176,
           463
@@ -2327,6 +2323,10 @@
         ],
         [
           1792158499,
+          396
+        ],
+        [
+          1792158801,
           396
         ]
       ],
@@ -5358,6 +5358,6 @@
       ]
     }
   },
-  "peak48h": 466,
-  "peak48hAt": "2026-10-14T13:50:59.000Z"
+  "peak48h": 463,
+  "peak48hAt": "2026-10-14T13:56:16.000Z"
 }
