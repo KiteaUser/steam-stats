@@ -3,16 +3,16 @@
   "appid": "979690",
   "steamAppid": 979690,
   "name": "The Ascent",
-  "players": 376,
+  "players": 384,
   "allTimePeak": 14013,
   "peak24h": 391,
   "peak24hAt": "2026-10-16T20:21:07.000Z",
-  "updatedAt": "2026-10-17T14:01:18.761Z",
+  "updatedAt": "2026-10-17T14:06:03.879Z",
   "img_url": "2024/12/mixcollage-10-dec-2024-10-13-am-7970.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-17T14:01:18.761Z",
-    "updatedAtTs": 1792245678,
+    "updatedAt": "2026-10-17T14:06:03.879Z",
+    "updatedAtTs": 1792245963,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1792245678,
-        376
+        1792245963,
+        384
       ],
       "peak24h": [
         1792182067,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792072893,
-          288
-        ],
         [
           1792073169,
           285
@@ -2340,6 +2336,10 @@
         [
           1792245678,
           376
+        ],
+        [
+          1792245963,
+          384
         ]
       ],
       "hourlyPeak": [
@@ -5025,6 +5025,10 @@
         ],
         [
           1792069200,
+          288
+        ],
+        [
+          1792072800,
           288
         ]
       ],
