@@ -3,16 +3,16 @@
   "appid": "227700",
   "steamAppid": 227700,
   "name": "Firefall",
-  "players": 2,
+  "players": 3,
   "allTimePeak": 13397,
   "peak24h": 3,
   "peak24hAt": "2026-10-19T00:51:06.000Z",
-  "updatedAt": "2026-10-19T04:10:59.657Z",
+  "updatedAt": "2026-10-19T04:16:04.790Z",
   "img_url": "",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-19T04:10:59.657Z",
-    "updatedAtTs": 1792383059,
+    "updatedAt": "2026-10-19T04:16:04.790Z",
+    "updatedAtTs": 1792383364,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1792383059,
-        2
+        1792383364,
+        3
       ],
       "peak24h": [
         1792371066,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792210392,
-          1
-        ],
         [
           1792210613,
           1
@@ -652,6 +648,10 @@
         [
           1792383059,
           2
+        ],
+        [
+          1792383364,
+          3
         ]
       ],
       "hourlyPeak": [
