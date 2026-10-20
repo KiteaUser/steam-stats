@@ -6,13 +6,13 @@
   "players": 51,
   "allTimePeak": 12156,
   "peak24h": 63,
-  "peak24hAt": "2026-10-19T18:45:58.000Z",
-  "updatedAt": "2026-10-20T18:41:06.472Z",
+  "peak24hAt": "2026-10-19T18:56:10.000Z",
+  "updatedAt": "2026-10-20T18:46:04.285Z",
   "img_url": "2025/02/awesomenauts-tag-cover.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T18:41:06.472Z",
-    "updatedAtTs": 1792521666,
+    "updatedAt": "2026-10-20T18:46:04.285Z",
+    "updatedAtTs": 1792521964,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792521666,
+        1792521964,
         51
       ],
       "peak24h": [
-        1792435558,
+        1792436170,
         63
       ],
       "peak48h": [
-        1792349159,
-        94
+        1792351303,
+        88
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792349159,
-          94
-        ],
         [
           1792349476,
           84
@@ -2335,6 +2331,10 @@
         ],
         [
           1792521666,
+          51
+        ],
+        [
+          1792521964,
           51
         ]
       ],
@@ -6030,6 +6030,6 @@
       ]
     }
   },
-  "peak48h": 94,
-  "peak48hAt": "2026-10-18T18:45:59.000Z"
+  "peak48h": 88,
+  "peak48hAt": "2026-10-18T19:21:43.000Z"
 }
