@@ -3,16 +3,16 @@
   "appid": "3393110",
   "steamAppid": 3393110,
   "name": "AION 2",
-  "players": 242192,
+  "players": 241638,
   "allTimePeak": 397905,
   "peak24h": 255611,
   "peak24hAt": "2026-10-19T20:01:22.000Z",
-  "updatedAt": "2026-10-20T19:56:08.914Z",
+  "updatedAt": "2026-10-20T20:01:21.333Z",
   "img_url": "2026/05/aion-2-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T19:56:08.914Z",
-    "updatedAtTs": 1792526168,
+    "updatedAt": "2026-10-20T20:01:21.333Z",
+    "updatedAtTs": 1792526481,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792526168,
-        242192
+        1792526481,
+        241638
       ],
       "peak24h": [
         1792440082,
         255611
       ],
       "peak48h": [
-        1792353680,
-        289884
+        1792353962,
+        289447
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792353680,
-          289884
-        ],
         [
           1792353962,
           289447
@@ -2340,6 +2336,10 @@
         [
           1792526168,
           242192
+        ],
+        [
+          1792526481,
+          241638
         ]
       ],
       "hourlyPeak": [
@@ -3050,12 +3050,16 @@
         [
           1792350000,
           301481
+        ],
+        [
+          1792353600,
+          289884
         ]
       ],
       "dailyPeak": [],
       "monthlyPeak": []
     }
   },
-  "peak48h": 289884,
-  "peak48hAt": "2026-10-18T20:01:20.000Z"
+  "peak48h": 289447,
+  "peak48hAt": "2026-10-18T20:06:02.000Z"
 }
