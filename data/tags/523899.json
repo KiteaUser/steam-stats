@@ -3,16 +3,16 @@
   "appid": "1211020",
   "steamAppid": 1211020,
   "name": "Wobbly Life",
-  "players": 830,
+  "players": 822,
   "allTimePeak": 10421,
   "peak24h": 924,
-  "peak24hAt": "2026-10-19T16:51:06.000Z",
-  "updatedAt": "2026-10-20T16:46:08.260Z",
+  "peak24hAt": "2026-10-19T16:56:10.000Z",
+  "updatedAt": "2026-10-20T16:51:13.275Z",
   "img_url": "2024/11/mixcollage-26-nov-2024-12-40-pm-9182.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T16:46:08.260Z",
-    "updatedAtTs": 1792514768,
+    "updatedAt": "2026-10-20T16:51:13.275Z",
+    "updatedAtTs": 1792515073,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1792514768,
-        830
+        1792515073,
+        822
       ],
       "peak24h": [
-        1792428666,
+        1792428970,
         924
       ],
       "peak48h": [
-        1792342268,
+        1792342559,
         1525
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792342268,
-          1525
-        ],
         [
           1792342559,
           1525
@@ -2336,6 +2332,10 @@
         [
           1792514768,
           830
+        ],
+        [
+          1792515073,
+          822
         ]
       ],
       "hourlyPeak": [
@@ -5651,5 +5651,5 @@
     }
   },
   "peak48h": 1525,
-  "peak48hAt": "2026-10-18T16:51:08.000Z"
+  "peak48hAt": "2026-10-18T16:55:59.000Z"
 }
