@@ -3,16 +3,16 @@
   "appid": "236150",
   "steamAppid": 236150,
   "name": "Starpoint Gemini 2",
-  "players": 11,
+  "players": 12,
   "allTimePeak": 20842,
-  "peak24h": 11,
-  "peak24hAt": "2026-10-20T15:31:20.000Z",
-  "updatedAt": "2026-10-20T19:21:01.968Z",
+  "peak24h": 12,
+  "peak24hAt": "2026-10-20T19:26:00.000Z",
+  "updatedAt": "2026-10-20T19:26:00.657Z",
   "img_url": "2024/11/mixcollage-20-nov-2024-08-48-pm-4959.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T19:21:01.968Z",
-    "updatedAtTs": 1792524061,
+    "updatedAt": "2026-10-20T19:26:00.657Z",
+    "updatedAtTs": 1792524360,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792524061,
-        11
+        1792524360,
+        12
       ],
       "peak24h": [
-        1792510280,
-        11
+        1792524360,
+        12
       ],
       "peak48h": [
-        1792351303,
-        18
+        1792351873,
+        17
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792351303,
-          18
-        ],
-        [
-          1792351558,
-          18
-        ],
         [
           1792351873,
           17
@@ -2332,6 +2324,10 @@
         [
           1792524061,
           11
+        ],
+        [
+          1792524360,
+          12
         ]
       ],
       "hourlyPeak": [
@@ -5986,6 +5982,6 @@
       ]
     }
   },
-  "peak48h": 18,
-  "peak48hAt": "2026-10-18T19:21:43.000Z"
+  "peak48h": 17,
+  "peak48hAt": "2026-10-18T19:31:13.000Z"
 }
