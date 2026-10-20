@@ -3,16 +3,16 @@
   "appid": "48000",
   "steamAppid": 48000,
   "name": "LIMBO",
-  "players": 82,
+  "players": 80,
   "allTimePeak": 27466,
   "peak24h": 92,
   "peak24hAt": "2026-10-20T15:31:20.000Z",
-  "updatedAt": "2026-10-20T17:16:06.936Z",
+  "updatedAt": "2026-10-20T17:21:06.529Z",
   "img_url": "2025/03/limbo-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T17:16:06.936Z",
-    "updatedAtTs": 1792516566,
+    "updatedAt": "2026-10-20T17:21:06.529Z",
+    "updatedAtTs": 1792516866,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792516566,
-        82
+        1792516866,
+        80
       ],
       "peak24h": [
         1792510280,
         92
       ],
       "peak48h": [
-        1792343769,
-        115
+        1792344362,
+        114
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792343769,
-          115
-        ],
-        [
-          1792344065,
-          114
-        ],
         [
           1792344362,
           114
@@ -2332,6 +2324,10 @@
         [
           1792516566,
           82
+        ],
+        [
+          1792516866,
+          80
         ]
       ],
       "hourlyPeak": [
@@ -6030,6 +6026,6 @@
       ]
     }
   },
-  "peak48h": 115,
-  "peak48hAt": "2026-10-18T17:16:09.000Z"
+  "peak48h": 114,
+  "peak48hAt": "2026-10-18T17:26:02.000Z"
 }
