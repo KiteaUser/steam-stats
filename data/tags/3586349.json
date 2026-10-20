@@ -3,16 +3,16 @@
   "appid": "4164420",
   "steamAppid": 4164420,
   "name": "My Winter Car",
-  "players": 1126,
+  "players": 1090,
   "allTimePeak": 24107,
-  "peak24h": 1162,
-  "peak24hAt": "2026-10-19T17:36:01.000Z",
-  "updatedAt": "2026-10-20T17:36:00.532Z",
+  "peak24h": 1143,
+  "peak24hAt": "2026-10-19T17:46:13.000Z",
+  "updatedAt": "2026-10-20T17:41:11.092Z",
   "img_url": "2025/12/my-winter-car-custom-tag-page-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T17:36:00.532Z",
-    "updatedAtTs": 1792517760,
+    "updatedAt": "2026-10-20T17:41:11.092Z",
+    "updatedAtTs": 1792518071,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792517760,
-        1126
+        1792518071,
+        1090
       ],
       "peak24h": [
-        1792431361,
-        1162
+        1792431973,
+        1143
       ],
       "peak48h": [
-        1792345256,
-        1385
+        1792345562,
+        1336
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792345256,
-          1385
-        ],
         [
           1792345562,
           1336
@@ -2328,6 +2324,10 @@
         [
           1792517760,
           1126
+        ],
+        [
+          1792518071,
+          1090
         ]
       ],
       "hourlyPeak": [
@@ -5378,6 +5378,6 @@
       ]
     }
   },
-  "peak48h": 1385,
-  "peak48hAt": "2026-10-18T17:40:56.000Z"
+  "peak48h": 1336,
+  "peak48hAt": "2026-10-18T17:46:02.000Z"
 }
