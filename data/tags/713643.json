@@ -3,16 +3,16 @@
   "appid": "2456740",
   "steamAppid": 2456740,
   "name": "inZOI",
-  "players": 2915,
+  "players": 2902,
   "allTimePeak": 87377,
   "peak24h": 3047,
   "peak24hAt": "2026-10-19T19:10:59.000Z",
-  "updatedAt": "2026-10-20T18:50:57.538Z",
+  "updatedAt": "2026-10-20T18:56:13.051Z",
   "img_url": "2024/11/inzoi-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T18:50:57.538Z",
-    "updatedAtTs": 1792522257,
+    "updatedAt": "2026-10-20T18:56:13.051Z",
+    "updatedAtTs": 1792522573,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792522257,
-        2915
+        1792522573,
+        2902
       ],
       "peak24h": [
         1792437059,
         3047
       ],
       "peak48h": [
-        1792349476,
-        4056
+        1792350092,
+        4018
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792349476,
-          4056
-        ],
-        [
-          1792349755,
-          4022
-        ],
         [
           1792350092,
           4018
@@ -2344,6 +2336,10 @@
         [
           1792522257,
           2915
+        ],
+        [
+          1792522573,
+          2902
         ]
       ],
       "hourlyPeak": [
@@ -5434,6 +5430,6 @@
       ]
     }
   },
-  "peak48h": 4056,
-  "peak48hAt": "2026-10-18T18:51:16.000Z"
+  "peak48h": 4018,
+  "peak48hAt": "2026-10-18T19:01:32.000Z"
 }
