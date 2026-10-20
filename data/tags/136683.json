@@ -3,16 +3,16 @@
   "appid": "745920",
   "steamAppid": 745920,
   "name": "Temtem",
-  "players": 96,
+  "players": 92,
   "allTimePeak": 39572,
   "peak24h": 113,
   "peak24hAt": "2026-10-19T19:46:01.000Z",
-  "updatedAt": "2026-10-20T17:11:13.401Z",
+  "updatedAt": "2026-10-20T17:16:06.936Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-09-20-am-9739.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T17:11:13.401Z",
-    "updatedAtTs": 1792516273,
+    "updatedAt": "2026-10-20T17:16:06.936Z",
+    "updatedAtTs": 1792516566,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1792516273,
-        96
+        1792516566,
+        92
       ],
       "peak24h": [
         1792439161,
         113
       ],
       "peak48h": [
-        1792343509,
+        1792343769,
         129
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792343509,
-          129
-        ],
         [
           1792343769,
           129
@@ -2344,6 +2340,10 @@
         [
           1792516273,
           96
+        ],
+        [
+          1792516566,
+          92
         ]
       ],
       "hourlyPeak": [
@@ -5033,7 +5033,7 @@
         ],
         [
           1792342800,
-          125
+          129
         ]
       ],
       "dailyPeak": [
@@ -5683,5 +5683,5 @@
     }
   },
   "peak48h": 129,
-  "peak48hAt": "2026-10-18T17:11:49.000Z"
+  "peak48hAt": "2026-10-18T17:16:09.000Z"
 }
