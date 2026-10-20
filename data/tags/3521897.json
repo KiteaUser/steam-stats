@@ -3,16 +3,16 @@
   "appid": "2753900",
   "steamAppid": 2753900,
   "name": "The King is Watching",
-  "players": 444,
+  "players": 456,
   "allTimePeak": 17988,
-  "peak24h": 485,
-  "peak24hAt": "2026-10-19T15:06:12.000Z",
-  "updatedAt": "2026-10-20T15:01:25.217Z",
+  "peak24h": 474,
+  "peak24hAt": "2026-10-19T15:11:08.000Z",
+  "updatedAt": "2026-10-20T15:06:13.870Z",
   "img_url": "2025/07/the-king-is-watching-tag-imae.jpeg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T15:01:25.217Z",
-    "updatedAtTs": 1792508485,
+    "updatedAt": "2026-10-20T15:06:13.870Z",
+    "updatedAtTs": 1792508773,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792508485,
-        444
+        1792508773,
+        456
       ],
       "peak24h": [
-        1792422372,
-        485
+        1792422668,
+        474
       ],
       "peak48h": [
-        1792335718,
-        621
+        1792336260,
+        613
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792335718,
-          621
-        ],
-        [
-          1792335961,
-          613
-        ],
         [
           1792336260,
           613
@@ -2340,6 +2332,10 @@
         [
           1792508485,
           444
+        ],
+        [
+          1792508773,
+          456
         ]
       ],
       "hourlyPeak": [
@@ -5026,6 +5022,10 @@
         [
           1792332000,
           647
+        ],
+        [
+          1792335600,
+          621
         ]
       ],
       "dailyPeak": [
@@ -5410,6 +5410,6 @@
       ]
     }
   },
-  "peak48h": 621,
-  "peak48hAt": "2026-10-18T15:01:58.000Z"
+  "peak48h": 613,
+  "peak48hAt": "2026-10-18T15:11:00.000Z"
 }
