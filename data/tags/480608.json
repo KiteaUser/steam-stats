@@ -3,16 +3,16 @@
   "appid": "2071280",
   "steamAppid": 2071280,
   "name": "Ravenswatch",
-  "players": 1695,
+  "players": 1484,
   "allTimePeak": 10018,
   "peak24h": 2467,
   "peak24hAt": "2026-10-20T19:56:08.000Z",
-  "updatedAt": "2026-10-20T22:06:02.079Z",
+  "updatedAt": "2026-10-20T22:11:05.462Z",
   "img_url": "2024/11/mixcollage-25-nov-2024-04-47-pm-9295.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-20T22:06:02.079Z",
-    "updatedAtTs": 1792533962,
+    "updatedAt": "2026-10-20T22:11:05.462Z",
+    "updatedAtTs": 1792534265,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792533962,
-        1695
+        1792534265,
+        1484
       ],
       "peak24h": [
         1792526168,
         2467
       ],
       "peak48h": [
-        1792361465,
-        2958
+        1792361771,
+        2926
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792361465,
-          2958
-        ],
         [
           1792361771,
           2926
@@ -2336,6 +2332,10 @@
         [
           1792533962,
           1695
+        ],
+        [
+          1792534265,
+          1484
         ]
       ],
       "hourlyPeak": [
@@ -5518,6 +5518,6 @@
       ]
     }
   },
-  "peak48h": 2958,
-  "peak48hAt": "2026-10-18T22:11:05.000Z"
+  "peak48h": 2926,
+  "peak48hAt": "2026-10-18T22:16:11.000Z"
 }
