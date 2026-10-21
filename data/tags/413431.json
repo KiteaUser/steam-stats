@@ -3,16 +3,16 @@
   "appid": "2186680",
   "steamAppid": 2186680,
   "name": "Warhammer 40000: Rogue Trader",
-  "players": 5139,
+  "players": 5033,
   "allTimePeak": 45405,
   "peak24h": 5261,
-  "peak24hAt": "2026-10-20T20:06:02.000Z",
-  "updatedAt": "2026-10-21T20:06:02.084Z",
+  "peak24hAt": "2026-10-20T20:16:07.000Z",
+  "updatedAt": "2026-10-21T20:11:13.297Z",
   "img_url": "2024/12/mixcollage-04-dec-2024-01-28-pm-9923.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21T20:06:02.084Z",
-    "updatedAtTs": 1792613162,
+    "updatedAt": "2026-10-21T20:11:13.297Z",
+    "updatedAtTs": 1792613473,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792613162,
-        5139
+        1792613473,
+        5033
       ],
       "peak24h": [
-        1792526762,
+        1792527367,
         5261
       ],
       "peak48h": [
-        1792440409,
-        5627
+        1792440964,
+        5414
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792440409,
-          5627
-        ],
-        [
-          1792440664,
-          5573
-        ],
         [
           1792440964,
           5414
@@ -2332,6 +2324,10 @@
         [
           1792613162,
           5139
+        ],
+        [
+          1792613473,
+          5033
         ]
       ],
       "hourlyPeak": [
@@ -5486,6 +5482,6 @@
       ]
     }
   },
-  "peak48h": 5627,
-  "peak48hAt": "2026-10-19T20:06:49.000Z"
+  "peak48h": 5414,
+  "peak48hAt": "2026-10-19T20:16:04.000Z"
 }
