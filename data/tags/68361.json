@@ -3,16 +3,16 @@
   "appid": "108600",
   "steamAppid": 108600,
   "name": "Project Zomboid",
-  "players": 51669,
+  "players": 51705,
   "allTimePeak": 124995,
   "peak24h": 53014,
   "peak24hAt": "2026-10-21T15:01:23.000Z",
-  "updatedAt": "2026-10-21T19:16:13.470Z",
+  "updatedAt": "2026-10-21T19:21:01.464Z",
   "img_url": "2023/09/project-zomboid.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21T19:16:13.470Z",
-    "updatedAtTs": 1792610173,
+    "updatedAt": "2026-10-21T19:21:01.464Z",
+    "updatedAtTs": 1792610461,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1792610173,
-        51669
+        1792610461,
+        51705
       ],
       "peak24h": [
         1792594883,
         53014
       ],
       "peak48h": [
-        1792437659,
+        1792437965,
         55481
       ],
       "allTimePeak": [
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792437659,
-          55481
-        ],
         [
           1792437965,
           55481
@@ -2332,6 +2328,10 @@
         [
           1792610173,
           51669
+        ],
+        [
+          1792610461,
+          51705
         ]
       ],
       "hourlyPeak": [
@@ -5971,5 +5971,5 @@
     }
   },
   "peak48h": 55481,
-  "peak48hAt": "2026-10-19T19:20:59.000Z"
+  "peak48hAt": "2026-10-19T19:26:05.000Z"
 }
