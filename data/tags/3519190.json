@@ -3,16 +3,16 @@
   "appid": "2119830",
   "steamAppid": 2119830,
   "name": "MISERY",
-  "players": 203,
+  "players": 206,
   "allTimePeak": 18585,
   "peak24h": 553,
   "peak24hAt": "2026-10-20T19:16:02.000Z",
-  "updatedAt": "2026-10-21T09:06:02.604Z",
+  "updatedAt": "2026-10-21T09:11:03.038Z",
   "img_url": "2025/07/misery-tag-image.jpeg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21T09:06:02.604Z",
-    "updatedAtTs": 1792573562,
+    "updatedAt": "2026-10-21T09:11:03.038Z",
+    "updatedAtTs": 1792573863,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,8 +23,8 @@
     },
     "summary": {
       "current": [
-        1792573562,
-        203
+        1792573863,
+        206
       ],
       "peak24h": [
         1792523762,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792401058,
-          220
-        ],
         [
           1792401365,
           219
@@ -2320,6 +2316,10 @@
         [
           1792573562,
           203
+        ],
+        [
+          1792573863,
+          206
         ]
       ],
       "hourlyPeak": [
