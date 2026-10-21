@@ -6,13 +6,13 @@
   "players": 1,
   "allTimePeak": 27035,
   "peak24h": 1,
-  "peak24hAt": "2026-10-12T16:26:10.000Z",
-  "updatedAt": "2026-10-21T08:01:29.297Z",
+  "peak24hAt": "2026-10-21T08:06:14.000Z",
+  "updatedAt": "2026-10-21T08:06:14.029Z",
   "img_url": "2025/07/dark-matter-video-game-cover-art-tag.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21T08:01:29.297Z",
-    "updatedAtTs": 1792569689,
+    "updatedAt": "2026-10-21T08:06:14.029Z",
+    "updatedAtTs": 1792569974,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,18 +23,29 @@
     },
     "summary": {
       "current": [
-        1792569689,
+        1792569974,
         1
       ],
-      "peak24h": null,
-      "peak48h": null,
+      "peak24h": [
+        1792569974,
+        1
+      ],
+      "peak48h": [
+        1792569974,
+        1
+      ],
       "allTimePeak": [
         null,
         27035
       ]
     },
     "series": {
-      "raw5m": [],
+      "raw5m": [
+        [
+          1792569974,
+          1
+        ]
+      ],
       "hourlyPeak": [
         [
           1790157600,
@@ -1122,5 +1133,7 @@
         ]
       ]
     }
-  }
+  },
+  "peak48h": 1,
+  "peak48hAt": "2026-10-21T08:06:14.000Z"
 }
