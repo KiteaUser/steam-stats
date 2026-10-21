@@ -3,16 +3,16 @@
   "appid": "238460",
   "steamAppid": 238460,
   "name": "BattleBlock Theater",
-  "players": 80,
+  "players": 78,
   "allTimePeak": 14781,
   "peak24h": 106,
   "peak24hAt": "2026-10-20T01:55:55.000Z",
-  "updatedAt": "2026-10-21T00:41:12.422Z",
+  "updatedAt": "2026-10-21T00:46:04.211Z",
   "img_url": "2024/12/battleblock-theater-video-game-cover-art-tag.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21T00:41:12.422Z",
-    "updatedAtTs": 1792543272,
+    "updatedAt": "2026-10-21T00:46:04.211Z",
+    "updatedAtTs": 1792543564,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792543272,
-        80
+        1792543564,
+        78
       ],
       "peak24h": [
         1792461355,
         106
       ],
       "peak48h": [
-        1792370758,
-        141
+        1792371066,
+        135
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792370758,
-          141
-        ],
         [
           1792371066,
           135
@@ -2328,6 +2324,10 @@
         [
           1792543272,
           80
+        ],
+        [
+          1792543564,
+          78
         ]
       ],
       "hourlyPeak": [
@@ -5017,7 +5017,7 @@
         ],
         [
           1792368000,
-          136
+          141
         ]
       ],
       "dailyPeak": [
@@ -5942,6 +5942,6 @@
       ]
     }
   },
-  "peak48h": 141,
-  "peak48hAt": "2026-10-19T00:45:58.000Z"
+  "peak48h": 135,
+  "peak48hAt": "2026-10-19T00:51:06.000Z"
 }
