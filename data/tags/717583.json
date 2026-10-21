@@ -3,16 +3,16 @@
   "appid": "2142790",
   "steamAppid": 2142790,
   "name": "Fields of Mistria",
-  "players": 5434,
+  "players": 5432,
   "allTimePeak": 39233,
   "peak24h": 5786,
   "peak24hAt": "2026-10-20T02:21:10.000Z",
-  "updatedAt": "2026-10-21T02:16:11.243Z",
+  "updatedAt": "2026-10-21T02:21:06.780Z",
   "img_url": "2024/08/fields-of-mistria-tag-page-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-21T02:16:11.243Z",
-    "updatedAtTs": 1792548971,
+    "updatedAt": "2026-10-21T02:21:06.780Z",
+    "updatedAtTs": 1792549266,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792548971,
-        5434
+        1792549266,
+        5432
       ],
       "peak24h": [
         1792462870,
         5786
       ],
       "peak48h": [
-        1792376460,
-        6703
+        1792376766,
+        6559
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792376460,
-          6703
-        ],
         [
           1792376766,
           6559
@@ -2340,6 +2336,10 @@
         [
           1792548971,
           5434
+        ],
+        [
+          1792549266,
+          5432
         ]
       ],
       "hourlyPeak": [
@@ -5462,6 +5462,6 @@
       ]
     }
   },
-  "peak48h": 6703,
-  "peak48hAt": "2026-10-19T02:21:00.000Z"
+  "peak48h": 6559,
+  "peak48hAt": "2026-10-19T02:26:06.000Z"
 }
