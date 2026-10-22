@@ -3,16 +3,16 @@
   "appid": "22350",
   "steamAppid": 22350,
   "name": "BRINK",
-  "players": 9,
+  "players": 12,
   "allTimePeak": 16824,
-  "peak24h": 10,
-  "peak24hAt": "2026-10-22T22:01:21.000Z",
-  "updatedAt": "2026-10-22T23:36:01.026Z",
+  "peak24h": 12,
+  "peak24hAt": "2026-10-22T23:41:08.000Z",
+  "updatedAt": "2026-10-22T23:41:08.397Z",
   "img_url": "2024/12/mixcollage-14-dec-2024-02-31-am-8916.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-22T23:36:01.026Z",
-    "updatedAtTs": 1792712161,
+    "updatedAt": "2026-10-22T23:41:08.397Z",
+    "updatedAtTs": 1792712468,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1792712161,
-        9
+        1792712468,
+        12
       ],
       "peak24h": [
-        1792706481,
-        10
+        1792712468,
+        12
       ],
       "peak48h": [
-        1792706481,
-        10
+        1792712468,
+        12
       ],
       "allTimePeak": [
         null,
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792539379,
-          7
-        ],
-        [
-          1792539662,
-          5
-        ],
         [
           1792539970,
           5
@@ -2264,6 +2256,10 @@
         [
           1792712161,
           9
+        ],
+        [
+          1792712468,
+          12
         ]
       ],
       "hourlyPeak": [
@@ -5970,6 +5966,6 @@
       ]
     }
   },
-  "peak48h": 10,
-  "peak48hAt": "2026-10-22T22:01:21.000Z"
+  "peak48h": 12,
+  "peak48hAt": "2026-10-22T23:41:08.000Z"
 }
