@@ -3,16 +3,16 @@
   "appid": "500",
   "steamAppid": 500,
   "name": "Left 4 Dead",
-  "players": 518,
+  "players": 509,
   "allTimePeak": 30616,
   "peak24h": 544,
   "peak24hAt": "2026-10-21T18:56:01.000Z",
-  "updatedAt": "2026-10-22T02:41:11.402Z",
+  "updatedAt": "2026-10-22T02:51:30.779Z",
   "img_url": "2024/12/mixcollage-11-dec-2024-10-25-am-8056.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-22T02:41:11.402Z",
-    "updatedAtTs": 1792636871,
+    "updatedAt": "2026-10-22T02:51:30.779Z",
+    "updatedAtTs": 1792637490,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,15 +23,15 @@
     },
     "summary": {
       "current": [
-        1792636871,
-        518
+        1792637490,
+        509
       ],
       "peak24h": [
         1792608961,
         544
       ],
       "peak48h": [
-        1792464654,
+        1792608961,
         544
       ],
       "allTimePeak": [
@@ -41,14 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792464369,
-          530
-        ],
-        [
-          1792464654,
-          544
-        ],
         [
           1792464958,
           530
@@ -2308,6 +2300,10 @@
         [
           1792636871,
           518
+        ],
+        [
+          1792637490,
+          509
         ]
       ],
       "hourlyPeak": [
@@ -6015,5 +6011,5 @@
     }
   },
   "peak48h": 544,
-  "peak48hAt": "2026-10-20T02:50:54.000Z"
+  "peak48hAt": "2026-10-21T18:56:01.000Z"
 }
