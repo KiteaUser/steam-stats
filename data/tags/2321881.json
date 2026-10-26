@@ -3,16 +3,16 @@
   "appid": "2001120",
   "steamAppid": 2001120,
   "name": "Split Fiction",
-  "players": 6709,
+  "players": 6536,
   "allTimePeak": 259003,
-  "peak24h": 9226,
-  "peak24hAt": "2026-10-25T14:46:01.000Z",
-  "updatedAt": "2026-10-26T14:41:12.180Z",
+  "peak24h": 9061,
+  "peak24hAt": "2026-10-25T14:51:04.000Z",
+  "updatedAt": "2026-10-26T14:46:04.875Z",
   "img_url": "2024/12/split-fiction-cover-art.jpg",
   "chartData": {
     "schemaVersion": 1,
-    "updatedAt": "2026-10-26T14:41:12.180Z",
-    "updatedAtTs": 1793025672,
+    "updatedAt": "2026-10-26T14:46:04.875Z",
+    "updatedAtTs": 1793025964,
     "source": "steam",
     "sourceIntervalSeconds": 300,
     "retention": {
@@ -23,16 +23,16 @@
     },
     "summary": {
       "current": [
-        1793025672,
-        6709
+        1793025964,
+        6536
       ],
       "peak24h": [
-        1792939561,
-        9226
+        1792939864,
+        9061
       ],
       "peak48h": [
-        1792852994,
-        10680
+        1792853464,
+        10607
       ],
       "allTimePeak": [
         null,
@@ -41,10 +41,6 @@
     },
     "series": {
       "raw5m": [
-        [
-          1792852994,
-          10680
-        ],
         [
           1792853166,
           10398
@@ -2336,6 +2332,10 @@
         [
           1793025672,
           6709
+        ],
+        [
+          1793025964,
+          6536
         ]
       ],
       "hourlyPeak": [
@@ -5450,6 +5450,6 @@
       ]
     }
   },
-  "peak48h": 10680,
-  "peak48hAt": "2026-10-24T14:43:14.000Z"
+  "peak48h": 10607,
+  "peak48hAt": "2026-10-24T14:51:04.000Z"
 }
